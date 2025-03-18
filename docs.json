@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Umpi Checkout",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,68 +11,40 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Webhook reference",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
+            "group": "Webhook Documentation",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Checkout",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoint/CHECKOUT_ABANDONED"
+            ]
+          },
+          {
+            "group": "Pagamentos",
+            "pages": [
+              "api-reference/endpoint/PAYMENT_PAID",
+              "api-reference/endpoint/PAYMENT_REFUSED",
+              "api-reference/endpoint/PAYMENT_PENDING",
+              "api-reference/endpoint/CHARGEBACK"
+            ]
+          },
+          {
+            "group": "Rastreio",
+            "pages": [
+              "api-reference/endpoint/TRACKING_FOUND"
             ]
           }
         ]
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+      "anchors": []
     }
   },
   "logo": {

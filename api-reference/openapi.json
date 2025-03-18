@@ -131,6 +131,184 @@
     }
   },
   "webhooks": {
+    "/CHECKOUT_ABANDONED": {
+      "get": {
+        "description": "Este evento do Webhook é acionado quando um cliente preenche pelo menos o campo de email em um formulário e aguarda um período mínimo de 5 minutos antes de uma ação subsequente ser realizada.",
+        "responses": {
+          "204": {
+            "description": "retorno do webhook",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/webhook_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/PAYMENT_PAID": {
+      "get": {
+        "description": "Este evento do webhook é acionado após a confirmação do pagamento. Ele aguarda o retorno da operadora do cartão e é disparado quando o pagamento é aceito com sucesso.",
+        "requestBody": {
+          "description": "Plant added to the store",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "retorno do webhook",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/webhook_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/PAYMENT_PENDING": {
+      "get": {
+        "description": "Este evento do webhook é acionado quando o pagamento ainda está pendente, aguardando confirmação da operadora do cartão ou outro método de pagamento.",
+        "requestBody": {
+          "description": "Plant added to the store",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "retorno do webhook",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/webhook_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/PAYMENT_REFUSED": {
+      "get": {
+        "description": "Este evento do webhook é acionado quando o pagamento é recusado pela operadora do cartão ou outro método de pagamento.",
+        "requestBody": {
+          "description": "Plant added to the store",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "retorno do webhook",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/webhook_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CHARGEBACK": {
+      "get": {
+        "description": "Este evento do webhook é acionado quando o pagamento é extornado pela operadora do cartão ou outro método de pagamento.",
+        "requestBody": {
+          "description": "Plant added to the store",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "retorno do webhook",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/webhook_response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/TRACKING_FOUND": {
+      "description": "Returns all plants from the system that the user has access to"
+    },
     "/plant/webhook": {
       "post": {
         "description": "Information about a new plant added to the store",
@@ -155,9 +333,7 @@
   "components": {
     "schemas": {
       "Plant": {
-        "required": [
-          "name"
-        ],
+        "required": ["transactionId"],
         "type": "object",
         "properties": {
           "name": {
@@ -170,18 +346,283 @@
           }
         }
       },
-      "NewPlant": {
-        "allOf": [
-          {
-            "$ref": "#/components/schemas/Plant"
+      "webhook_response": {
+        "required": ["transactionId"],
+        "type": "object",
+        "properties": {
+          "event": {
+            "description": "Tipo de evento",
+            "type": "string"
           },
-          {
-            "required": [
-              "id"
-            ],
+          "transaction": {
+            "description": "Informações da transação",
             "type": "object",
             "properties": {
               "id": {
+                "description": "ID único da transação",
+                "type": "string"
+              },
+              "shopId": {
+                "description": "ID da loja associada",
+                "type": "string"
+              },
+              "status": {
+                "description": "Status da transação",
+                "type": "string"
+              },
+              "paidAt": {
+                "description": "Data do pagamento (se realizado)",
+                "type": "string",
+                "nullable": true
+              },
+              "ip": {
+                "description": "IP do cliente",
+                "type": "string",
+                "nullable": true
+              },
+              "TransactionItem": {
+                "description": "Itens da transação",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "description": "ID do item",
+                      "type": "string"
+                    },
+                    "name": {
+                      "description": "Nome do item",
+                      "type": "string"
+                    },
+                    "quantity": {
+                      "description": "Quantidade do item",
+                      "type": "number"
+                    },
+                    "price": {
+                      "description": "Preço unitário do item",
+                      "type": "number"
+                    },
+                    "total": {
+                      "description": "Total do item (quantidade * preço)",
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "TransactionShipping": {
+                "description": "Informações de envio da transação",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "ID do envio",
+                    "type": "string"
+                  },
+                  "street": {
+                    "description": "Rua de envio",
+                    "type": "string"
+                  },
+                  "streetNumber": {
+                    "description": "Número da rua",
+                    "type": "string"
+                  },
+                  "complement": {
+                    "description": "Complemento do endereço",
+                    "type": "string"
+                  },
+                  "neighborhood": {
+                    "description": "Bairro de envio",
+                    "type": "string"
+                  },
+                  "city": {
+                    "description": "Cidade de envio",
+                    "type": "string"
+                  },
+                  "state": {
+                    "description": "Estado de envio",
+                    "type": "string"
+                  },
+                  "country": {
+                    "description": "País de envio",
+                    "type": "string"
+                  },
+                  "zipCode": {
+                    "description": "CEP de envio",
+                    "type": "string"
+                  }
+                }
+              },
+              "TransactionCard": {
+                "description": "Informações do cartão de crédito",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "ID do cartão",
+                    "type": "string"
+                  },
+                  "holderName": {
+                    "description": "Nome do titular do cartão",
+                    "type": "string"
+                  },
+                  "lastDigits": {
+                    "description": "Últimos 4 dígitos do cartão",
+                    "type": "string"
+                  },
+                  "brand": {
+                    "description": "Marca do cartão",
+                    "type": "string"
+                  },
+                  "expirationMonth": {
+                    "description": "Mês de expiração do cartão",
+                    "type": "number"
+                  },
+                  "expirationYear": {
+                    "description": "Ano de expiração do cartão",
+                    "type": "number"
+                  }
+                }
+              },
+              "TransactionPix": {
+                "description": "Informações do pagamento via PIX",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "ID do pagamento via PIX",
+                    "type": "string"
+                  },
+                  "qrCode": {
+                    "description": "Código QR do pagamento via PIX",
+                    "type": "string"
+                  },
+                  "paymentStatus": {
+                    "description": "Status do pagamento via PIX",
+                    "type": "string"
+                  }
+                }
+              },
+              "Shop": {
+                "description": "Informações da loja",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "ID da loja",
+                    "type": "string"
+                  },
+                  "name": {
+                    "description": "Nome da loja",
+                    "type": "string"
+                  },
+                  "email": {
+                    "description": "Email da loja",
+                    "type": "string"
+                  },
+                  "domain": {
+                    "description": "Domínio da loja",
+                    "type": "string"
+                  },
+                  "state": {
+                    "description": "Estado da loja",
+                    "type": "string"
+                  },
+                  "country": {
+                    "description": "País da loja",
+                    "type": "string"
+                  },
+                  "countryCode": {
+                    "description": "Código do país da loja",
+                    "type": "string"
+                  },
+                  "address1": {
+                    "description": "Endereço 1 da loja",
+                    "type": "string"
+                  },
+                  "address2": {
+                    "description": "Endereço 2 da loja",
+                    "type": "string"
+                  },
+                  "zip": {
+                    "description": "CEP da loja",
+                    "type": "string"
+                  },
+                  "city": {
+                    "description": "Cidade da loja",
+                    "type": "string"
+                  },
+                  "phone": {
+                    "description": "Telefone da loja",
+                    "type": "string"
+                  },
+                  "documentNumber": {
+                    "description": "Número do documento da loja",
+                    "type": "string"
+                  },
+                  "companyName": {
+                    "description": "Razão social da loja",
+                    "type": "string"
+                  },
+                  "logoUrl": {
+                    "description": "URL do logo da loja",
+                    "type": "string"
+                  },
+                  "neighborhood": {
+                    "description": "Bairro da loja",
+                    "type": "string"
+                  },
+                  "addressNumber": {
+                    "description": "Número do endereço da loja",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "status": {
+            "description": "Status da transação",
+            "type": "string"
+          },
+          "paidAt": {
+            "description": "Data do pagamento, caso tenha ocorrido",
+            "type": "string",
+            "nullable": true
+          },
+          "ip": {
+            "description": "IP do cliente",
+            "type": "string"
+          },
+          "tracking": {
+            "description": "Dados de rastreamento de marketing",
+            "type": "object",
+            "properties": {
+              "utmSource": {
+                "description": "Fonte do tráfego",
+                "type": "string"
+              },
+              "utmMedium": {
+                "description": "Meio do tráfego",
+                "type": "string"
+              },
+              "utmCampaign": {
+                "description": "Campanha de marketing",
+                "type": "string"
+              },
+              "utmContent": {
+                "description": "Conteúdo da campanha",
+                "type": "string"
+              },
+              "utmTerm": {
+                "description": "Termo da campanha",
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "CHECKOUT_ABANDONED": {
+        "allOf": [
+          {
+            "required": ["transactionId"],
+            "type": "object",
+            "properties": {
+              "transactionId": {
                 "description": "Identification number of the plant",
                 "type": "integer",
                 "format": "int64"
@@ -191,10 +632,7 @@
         ]
       },
       "Error": {
-        "required": [
-          "error",
-          "message"
-        ],
+        "required": ["error", "message"],
         "type": "object",
         "properties": {
           "error": {
