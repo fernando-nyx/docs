@@ -180,261 +180,265 @@
         "properties": {
           "transaction": {
             "properties": {
-              "transaction": {
-                "description": "Informações da transação",
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "description": "ID único da transação",
-                    "type": "string",
-                    "example": "12345"
-                  },
-                  "shopId": {
-                    "description": "ID da loja associada",
-                    "type": "string",
-                    "example": "shop_001"
-                  },
-                  "status": {
-                    "description": "Status da transação",
-                    "type": "string",
-                    "example": "PENDING"
-                  },
-                  "paidAt": {
-                    "description": "Data do pagamento (se realizado)",
-                    "type": "string",
-                    "nullable": true,
-                    "example": null
-                  },
-                  "ip": {
-                    "description": "IP do cliente",
-                    "type": "string",
-                    "nullable": true,
-                    "example": "192.168.0.1"
-                  },
-                  "TransactionItem": {
-                    "description": "Itens da transação",
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "id": {
-                          "description": "ID do item",
-                          "type": "string",
-                          "example": "item_001"
-                        },
-                        "name": {
-                          "description": "Nome do item",
-                          "type": "string",
-                          "example": "Produto 1"
-                        },
-                        "quantity": {
-                          "description": "Quantidade do item",
-                          "type": "number",
-                          "example": 2
-                        },
-                        "price": {
-                          "description": "Preço unitário do item",
-                          "type": "number",
-                          "example": 50.0
-                        },
-                        "total": {
-                          "description": "Total do item (quantidade * preço)",
-                          "type": "number",
-                          "example": 100.0
-                        }
-                      }
-                    }
-                  },
-                  "TransactionShipping": {
-                    "description": "Informações de envio da transação",
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "description": "ID do envio",
-                        "type": "string",
-                        "example": "shipping_001"
-                      },
-                      "street": {
-                        "description": "Rua de envio",
-                        "type": "string",
-                        "example": "Rua Exemplo"
-                      },
-                      "streetNumber": {
-                        "description": "Número da rua",
-                        "type": "string",
-                        "example": "123"
-                      },
-                      "complement": {
-                        "description": "Complemento do endereço",
-                        "type": "string",
-                        "example": "Apto 101"
-                      },
-                      "neighborhood": {
-                        "description": "Bairro de envio",
-                        "type": "string",
-                        "example": "Centro"
-                      },
-                      "city": {
-                        "description": "Cidade de envio",
-                        "type": "string",
-                        "example": "Belo Horizonte"
-                      },
-                      "state": {
-                        "description": "Estado de envio",
-                        "type": "string",
-                        "example": "MG"
-                      },
-                      "country": {
-                        "description": "País de envio",
-                        "type": "string",
-                        "example": "Brasil"
-                      },
-                      "zipCode": {
-                        "description": "CEP de envio",
-                        "type": "string",
-                        "example": "30130000"
-                      }
-                    }
-                  },
-                  "TransactionCard": {
-                    "description": "Informações do cartão de crédito",
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "description": "ID do cartão",
-                        "type": "string",
-                        "example": "card_001"
-                      },
-                      "holderName": {
-                        "description": "Nome do titular do cartão",
-                        "type": "string",
-                        "example": "João Silva"
-                      },
-                      "lastDigits": {
-                        "description": "Últimos 4 dígitos do cartão",
-                        "type": "string",
-                        "example": "1234"
-                      },
-                      "brand": {
-                        "description": "Marca do cartão",
-                        "type": "string",
-                        "example": "Visa"
-                      },
-                      "expirationMonth": {
-                        "description": "Mês de expiração do cartão",
-                        "type": "number",
-                        "example": 12
-                      },
-                      "expirationYear": {
-                        "description": "Ano de expiração do cartão",
-                        "type": "number",
-                        "example": 2025
-                      }
-                    }
-                  },
-                  "TransactionPix": {
-                    "description": "Informações do pagamento via PIX",
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "description": "ID do pagamento via PIX",
-                        "type": "string",
-                        "example": "pix_001"
-                      },
-                      "qrCode": {
-                        "description": "Código QR do pagamento via PIX",
-                        "type": "string",
-                        "example": "abcd1234efgh5678"
-                      },
-                      "paymentStatus": {
-                        "description": "Status do pagamento via PIX",
-                        "type": "string",
-                        "example": "PENDING"
-                      }
-                    }
-                  },
-                  "Shop": {
-                    "description": "Informações da loja",
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "description": "ID da loja",
-                        "type": "string",
-                        "example": "shop_001"
-                      },
-                      "name": {
-                        "description": "Nome da loja",
-                        "type": "string",
-                        "example": "Loja Exemplo"
-                      },
-                      "email": {
-                        "description": "Email da loja",
-                        "type": "string",
-                        "example": "loja@exemplo.com"
-                      },
-                      "domain": {
-                        "description": "Domínio da loja",
-                        "type": "string",
-                        "example": "lojaexemplo.com"
-                      },
-                      "state": {
-                        "description": "Estado da loja",
-                        "type": "string",
-                        "example": "MG"
-                      },
-                      "country": {
-                        "description": "País da loja",
-                        "type": "string",
-                        "example": "Brasil"
-                      },
-                      "countryCode": {
-                        "description": "Código do país",
-                        "type": "string",
-                        "example": "BR"
-                      },
-                      "address1": {
-                        "description": "Endereço principal",
-                        "type": "string",
-                        "example": "Rua Principal, 100"
-                      },
-                      "address2": {
-                        "description": "Endereço complementar",
-                        "type": "string",
-                        "example": "Andar 2"
-                      },
-                      "zip": {
-                        "description": "CEP da loja",
-                        "type": "string",
-                        "example": "30130000"
-                      },
-                      "city": {
-                        "description": "Cidade da loja",
-                        "type": "string",
-                        "example": "Belo Horizonte"
-                      },
-                      "phone": {
-                        "description": "Telefone da loja",
-                        "type": "string",
-                        "example": "+55 31 98765-4321"
-                      },
-                      "documentNumber": {
-                        "description": "Número do documento da loja",
-                        "type": "string",
-                        "example": "12345678901"
-                      },
-                      "companyName": {
-                        "description": "Razão social da empresa",
-                        "type": "string",
-                        "example": "Loja Exemplo Ltda"
-                      },
-                      "logoUrl": {
-                        "description": "URL do logotipo da loja",
-                        "type": "string",
-                        "example": "https://lojaexemplo.com/logo.png"
-                      }
+              "id": {
+                "description": "ID único da transação",
+                "type": "string",
+                "example": "12345"
+              },
+              "shopId": {
+                "description": "ID da loja associada",
+                "type": "string",
+                "example": "shop_001"
+              },
+              "status": {
+                "description": "Status da transação",
+                "type": "string",
+                "example": "PENDING"
+              },
+              "paidAt": {
+                "description": "Data do pagamento (se realizado)",
+                "type": "string",
+                "nullable": true,
+                "example": null
+              },
+              "ip": {
+                "description": "IP do cliente",
+                "type": "string",
+                "nullable": true,
+                "example": "192.168.0.1"
+              },
+              "TransactionItem": {
+                "description": "Lista de itens da transação",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "description": "ID do item",
+                      "type": "string",
+                      "example": "item_001"
+                    },
+                    "name": {
+                      "description": "Nome do item",
+                      "type": "string",
+                      "example": "Tênis Nike"
+                    },
+                    "quantity": {
+                      "description": "Quantidade do item",
+                      "type": "integer",
+                      "example": 123
+                    },
+                    "price": {
+                      "description": "Preço unitário do item",
+                      "type": "integer",
+                      "example": 123
+                    },
+                    "total": {
+                      "description": "Total do item (quantidade * preço)",
+                      "type": "integer",
+                      "example": 123
                     }
                   }
                 }
+              },
+              "TransactionShipping": {
+                "description": "Informações de envio",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "ID do envio",
+                    "type": "string",
+                    "example": "shipping_001"
+                  },
+                  "street": {
+                    "description": "Rua",
+                    "type": "string",
+                    "example": "Av. Brasil"
+                  },
+                  "streetNumber": {
+                    "description": "Número da rua",
+                    "type": "string",
+                    "example": "123"
+                  },
+                  "complement": {
+                    "description": "Complemento de endereço",
+                    "type": "string",
+                    "example": "Apto. 301"
+                  },
+                  "neighborhood": {
+                    "description": "Bairro",
+                    "type": "string",
+                    "example": "Centro"
+                  },
+                  "city": {
+                    "description": "Cidade",
+                    "type": "string",
+                    "example": "Belo Horizonte"
+                  },
+                  "state": {
+                    "description": "Estado",
+                    "type": "string",
+                    "example": "MG"
+                  },
+                  "country": {
+                    "description": "País",
+                    "type": "string",
+                    "example": "Brasil"
+                  },
+                  "zipCode": {
+                    "description": "CEP",
+                    "type": "string",
+                    "example": "30130145"
+                  }
+                }
+              },
+              "TransactionCard": {
+                "description": "Informações do cartão",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "ID do cartão",
+                    "type": "string",
+                    "example": "card_001"
+                  },
+                  "holderName": {
+                    "description": "Nome do titular do cartão",
+                    "type": "string",
+                    "example": "João Silva"
+                  },
+                  "lastDigits": {
+                    "description": "Últimos dígitos do cartão",
+                    "type": "string",
+                    "example": "1234"
+                  },
+                  "brand": {
+                    "description": "Bandeira do cartão",
+                    "type": "string",
+                    "example": "Visa"
+                  },
+                  "expirationMonth": {
+                    "description": "Mês de expiração",
+                    "type": "integer",
+                    "example": 12
+                  },
+                  "expirationYear": {
+                    "description": "Ano de expiração",
+                    "type": "integer",
+                    "example": 2025
+                  }
+                }
+              },
+              "TransactionPix": {
+                "description": "Informações do pagamento via Pix",
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "description": "ID do pagamento Pix",
+                    "type": "string",
+                    "example": "pix_001"
+                  },
+                  "qrCode": {
+                    "description": "Código QR do Pix",
+                    "type": "string",
+                    "example": "qr_code_example"
+                  },
+                  "paymentStatus": {
+                    "description": "Status do pagamento Pix",
+                    "type": "string",
+                    "example": "PAID"
+                  }
+                }
+              }
+            }
+          },
+          "Shop": {
+            "description": "Informações da loja",
+            "type": "object",
+            "properties": {
+              "id": {
+                "description": "ID da loja",
+                "type": "string",
+                "example": "shop_001"
+              },
+              "name": {
+                "description": "Nome da loja",
+                "type": "string",
+                "example": "Loja Exemplo"
+              },
+              "email": {
+                "description": "E-mail da loja",
+                "type": "string",
+                "example": "loja@exemplo.com"
+              },
+              "domain": {
+                "description": "Domínio da loja",
+                "type": "string",
+                "example": "lojaexemplo.com"
+              },
+              "state": {
+                "description": "Estado da loja",
+                "type": "string",
+                "example": "MG"
+              },
+              "country": {
+                "description": "País da loja",
+                "type": "string",
+                "example": "Brasil"
+              },
+              "countryCode": {
+                "description": "Código do país",
+                "type": "string",
+                "example": "BR"
+              },
+              "address1": {
+                "description": "Endereço da loja",
+                "type": "string",
+                "example": "Rua Exemplo"
+              },
+              "address2": {
+                "description": "Complemento do endereço",
+                "type": "string",
+                "example": "Apto 101"
+              },
+              "zip": {
+                "description": "CEP da loja",
+                "type": "string",
+                "example": "30130145"
+              },
+              "city": {
+                "description": "Cidade da loja",
+                "type": "string",
+                "example": "Belo Horizonte"
+              },
+              "phone": {
+                "description": "Telefone da loja",
+                "type": "string",
+                "example": "+55 31 98834-1222"
+              },
+              "documentNumber": {
+                "description": "CNPJ ou CPF da loja",
+                "type": "string",
+                "example": "12345678000199"
+              },
+              "companyName": {
+                "description": "Razão social da loja",
+                "type": "string",
+                "example": "Loja Exemplo Ltda"
+              },
+              "logoUrl": {
+                "description": "URL do logo da loja",
+                "type": "string",
+                "example": "https://example.com/logo.png"
+              },
+              "neighborhood": {
+                "description": "Bairro da loja",
+                "type": "string",
+                "example": "Centro"
+              },
+              "addressNumber": {
+                "description": "Número do endereço",
+                "type": "string",
+                "example": "123"
               }
             }
           },
@@ -449,48 +453,47 @@
             "nullable": true,
             "example": null
           },
-         "ip": {
+          "ip": {
             "description": "IP do cliente",
             "type": "string",
             "nullable": true,
             "example": "192.168.0.1"
           },
           "tracking": {
-            "description": "Dados de rastreamento de marketing",
+            "description": "Informações de rastreamento",
             "type": "object",
             "properties": {
-             "utmSource": {
-              "description": "Origem da campanha",
-              "type": "string",
-              "example": "google"
-            },
-            "utmMedium": {
-              "description": "Meio da campanha",
-              "type": "string",
-              "example": "cpc"
-            },
-            "utmCampaign": {
-              "description": "Nome da campanha",
-              "type": "string",
-              "example": "promo_summer"
-            },
-            "utmContent": {
-              "description": "Conteúdo da campanha",
-              "type": "string",
-              "example": "banner_azul"
-            },
-            "utmTerm": {
-              "description": "Palavra-chave da campanha",
-              "type": "string",
-              "example": "desconto_50"
-            }
+              "utmSource": {
+                "description": "Fonte da campanha (utm_source)",
+                "type": "string",
+                "example": "google"
+              },
+              "utmMedium": {
+                "description": "Meio da campanha (utm_medium)",
+                "type": "string",
+                "example": "cpc"
+              },
+              "utmCampaign": {
+                "description": "Nome da campanha (utm_campaign)",
+                "type": "string",
+                "example": "promo_summer_sale"
+              },
+              "utmContent": {
+                "description": "Conteúdo da campanha (utm_content)",
+                "type": "string",
+                "example": "banner_ad"
+              },
+              "utmTerm": {
+                "description": "Termo da campanha (utm_term)",
+                "type": "string",
+                "example": "sneakers"
+              }
             }
           }
         }
       },
       "webhook_chargeback": {
         "allOf": [
-            
           {
             "required": ["transactionId"],
             "type": "object",
@@ -509,7 +512,6 @@
       },
       "webhook_checkout_abandoned": {
         "allOf": [
-            
           {
             "required": ["transactionId"],
             "type": "object",
@@ -528,7 +530,6 @@
       },
       "webhook_payment_paid": {
         "allOf": [
-            
           {
             "required": ["transactionId"],
             "type": "object",
@@ -547,7 +548,6 @@
       },
       "webhook_payment_refused": {
         "allOf": [
-            
           {
             "required": ["transactionId"],
             "type": "object",
