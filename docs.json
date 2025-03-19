@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "Umpi Checkout",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF907C",
+    "light": "#f84c2c",
+    "dark": "#f44c2c"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/fav.png",
   "navigation": {
     "tabs": [
       {
@@ -48,7 +48,7 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/umpi_logo_light.png",
+    "dark": "/logo/umpi_logo.png"
   }
 }
