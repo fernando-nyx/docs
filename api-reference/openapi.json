@@ -147,16 +147,6 @@
     "/TRACKING_FOUND": {
       "get": {
         "description": "Este evento do webhook é acionado quando o rastreio é encontrado.",
-        "requestBody": {
-          "description": "Plant added to the store",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
-              }
-            }
-          }
-        },
         "responses": {
           "204": {
             "description": "retorno do webhook",
