@@ -522,9 +522,9 @@
                 "example": "CHECKOUT_ABANDONED"
               },
               "transaction": {
-                "description": "Tipo de evento",
+                "description": "Informações da transação",
                 "type": "object",
-                "example": null
+                "properties": {}
               },
               "Shop": {
                 "description": "Informações da loja",
@@ -617,7 +617,11 @@
                   }
                 }
               },
-              "status": null,
+              "status": {
+                "type": "string",
+                "nullable": true,
+                "example": null
+              },
               "paidAt": {
                 "description": "Data do pagamento (se realizado)",
                 "type": "string",
