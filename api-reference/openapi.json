@@ -521,6 +521,11 @@
                 "type": "string",
                 "example": "CHECKOUT_ABANDONED"
               },
+              "transaction": {
+                "description": "Informações da transação",
+                "type": "object",
+                "properties": {}
+              },
               "Shop": {
                 "description": "Informações da loja",
                 "type": "object",
