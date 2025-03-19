@@ -1,134 +1,12 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "OpenAPI Plant Store",
-    "description": "A sample API that uses a plant store as an example to demonstrate features in the OpenAPI specification",
+    "title": "Webhook Umpi Checkout",
+    "description": "Esta documentação serve como um guia para a integração e uso dos Webhooks, detalhando seus eventos e funcionamento.",
     "license": {
       "name": "MIT"
     },
     "version": "1.0.0"
-  },
-  "servers": [
-    {
-      "url": "http://sandbox.mintlify.com"
-    }
-  ],
-  "security": [
-    {
-      "bearerAuth": []
-    }
-  ],
-  "paths": {
-    "/plants": {
-      "get": {
-        "description": "Returns all plants from the system that the user has access to",
-        "parameters": [
-          {
-            "name": "limit",
-            "in": "query",
-            "description": "The maximum number of results to return",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Plant response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Plant"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "description": "Creates a new plant in the store",
-        "requestBody": {
-          "description": "Plant to add to the store",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/NewPlant"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "plant response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Plant"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/plants/{id}": {
-      "delete": {
-        "description": "Deletes a single plant based on the ID supplied",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "ID of plant to delete",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int64"
-            }
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "Plant deleted",
-            "content": {}
-          },
-          "400": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        }
-      }
-    }
   },
   "webhooks": {
     "/CHECKOUT_ABANDONED": {
@@ -161,16 +39,6 @@
     "/PAYMENT_PAID": {
       "get": {
         "description": "Este evento do webhook é acionado após a confirmação do pagamento. Ele aguarda o retorno da operadora do cartão e é disparado quando o pagamento é aceito com sucesso.",
-        "requestBody": {
-          "description": "Plant added to the store",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
-              }
-            }
-          }
-        },
         "responses": {
           "204": {
             "description": "retorno do webhook",
@@ -198,16 +66,6 @@
     "/PAYMENT_PENDING": {
       "get": {
         "description": "Este evento do webhook é acionado quando o pagamento ainda está pendente, aguardando confirmação da operadora do cartão ou outro método de pagamento.",
-        "requestBody": {
-          "description": "Plant added to the store",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
-              }
-            }
-          }
-        },
         "responses": {
           "204": {
             "description": "retorno do webhook",
@@ -235,16 +93,6 @@
     "/PAYMENT_REFUSED": {
       "get": {
         "description": "Este evento do webhook é acionado quando o pagamento é recusado pela operadora do cartão ou outro método de pagamento.",
-        "requestBody": {
-          "description": "Plant added to the store",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
-              }
-            }
-          }
-        },
         "responses": {
           "204": {
             "description": "retorno do webhook",
@@ -272,16 +120,6 @@
     "/CHARGEBACK": {
       "get": {
         "description": "Este evento do webhook é acionado quando o pagamento é extornado pela operadora do cartão ou outro método de pagamento.",
-        "requestBody": {
-          "description": "Plant added to the store",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CHECKOUT_ABANDONED"
-              }
-            }
-          }
-        },
         "responses": {
           "204": {
             "description": "retorno do webhook",
@@ -342,44 +180,10 @@
           }
         }
       }
-    },
-    "/plant/webhook": {
-      "post": {
-        "description": "Information about a new plant added to the store",
-        "requestBody": {
-          "description": "Plant added to the store",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/NewPlant"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Return a 200 status to indicate that the data was received successfully"
-          }
-        }
-      }
     }
   },
   "components": {
     "schemas": {
-      "Plant": {
-        "required": ["transactionId"],
-        "type": "object",
-        "properties": {
-          "name": {
-            "description": "The name of the plant",
-            "type": "string"
-          },
-          "tag": {
-            "description": "Tag to specify the type",
-            "type": "string"
-          }
-        }
-      },
       "webhook_response": {
         "required": ["transactionId"],
         "type": "object",
