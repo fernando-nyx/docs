@@ -16,28 +16,28 @@
           {
             "group": "Webhook Documentation",
             "pages": [
-              "api-reference/introduction"
+              "webhook-reference/introduction"
             ]
           },
           {
             "group": "Checkout",
             "pages": [
-              "api-reference/endpoint/CHECKOUT_ABANDONED"
+              "webhook-reference/endpoint/CHECKOUT_ABANDONED"
             ]
           },
           {
             "group": "Pagamentos",
             "pages": [
-              "api-reference/endpoint/PAYMENT_PAID",
-              "api-reference/endpoint/PAYMENT_REFUSED",
-              "api-reference/endpoint/PAYMENT_PENDING",
-              "api-reference/endpoint/CHARGEBACK"
+              "webhook-reference/endpoint/PAYMENT_PAID",
+              "webhook-reference/endpoint/PAYMENT_REFUSED",
+              "webhook-reference/endpoint/PAYMENT_PENDING",
+              "webhook-reference/endpoint/CHARGEBACK"
             ]
           },
           {
             "group": "Rastreio",
             "pages": [
-              "api-reference/endpoint/TRACKING_FOUND"
+              "webhook-reference/endpoint/TRACKING_FOUND"
             ]
           }
         ]
