@@ -136,7 +136,10 @@ const imgUrl = (slug, file) => {
 for (const m of missions) {
   m.id = 'missoes-' + m.slug;
   for (const p of m.passos || []) p.imagens = (p.imagens || []).map((f) => imgUrl(m.slug, f)).filter(Boolean);
-  m.capa = (m.passos || []).flatMap((p) => p.imagens)[0] || null;
+  m.capa = (m.passos || []).flatMap((p) => p.imagens)[0] || (m.capa_arquivo && imgUrl(m.slug, m.capa_arquivo)) || null;
+  delete m.capa_arquivo;
+  // "Conta pro 100%" só nas principais: nas opcionais a informação varia e confunde.
+  if (m.tipo !== 'principal') delete m.conta_100;
 }
 fs.writeFileSync(path.join(dir, 'missoes-pt.json'), JSON.stringify({
   index: missions.map((m) => ({ slug: m.slug, id: m.id, ordem: m.ordem, nome: m.nome, capitulo: m.capitulo, tipo: m.tipo, personagem: m.personagem, capa: m.capa })),

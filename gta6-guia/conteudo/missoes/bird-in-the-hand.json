@@ -1,124 +1,125 @@
 {
-  "slug": "bird-in-the-hand",
-  "ordem": 127,
-  "nome": "Bird in the Hand",
-  "capitulo": 5,
-  "tipo": "principal",
-  "quem_passa": "Giorgio Gallo",
-  "personagem": "Jason e Lucia",
-  "conta_100": "Sim",
-  "recompensa": "",
-  "resumo": "A serviço de Giorgio, Jason e Lucia se infiltram de noite numa base militar com a equipe de Vinny para roubar um helicóptero do hangar e fugir com ele.",
-  "objetivos": [
-    "Troque de roupa e encontre Giorgio",
-    "Observe a base da guarda costeira",
-    "Voe até a ponte e encontre Kevin",
-    "Suba no barco",
-    "Entre escondido na base",
-    "Vá até o hangar",
-    "Chegue ao alçapão do telhado",
-    "Abra as portas do hangar",
-    "Segure os militares",
-    "Defenda o helicóptero"
-  ],
-  "passos": [
-    {
-      "titulo": "Troque de roupa e encontre Giorgio",
-      "texto": [
-        "Giorgio acorda vocês. Troque de roupa no guarda-roupa e dê uma boa olhada na cobertura, que será sua base pelo resto da história. Desça e passe pela porta ao lado dos elevadores para encontrar Giorgio na academia."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Observe a base da guarda costeira",
-      "texto": [
-        "Com todos no helicóptero, voe até a base da guarda costeira. O jogo passa para Lucia, que precisa estudar a base do alto. Observe os pontos abaixo. Depois o helicóptero vai para o outro lado da base: olhe a ponte levadiça à direita e o barco no canto do píer com mais pacotes em paletes."
-      ],
-      "dicas": [],
-      "lista": [
-        "os guardas perto do portão de garagem aberto;",
-        "os guardas perto da água posando ao lado de um palete de mercadorias, à direita;",
-        "os guardas sentados ao lado do cachorro, à esquerda."
-      ],
-      "imagens": []
-    },
-    {
-      "titulo": "Voe até a ponte e encontre Kevin",
-      "texto": [
-        "De volta aos controles com Jason, voe até a ponte no extremo oeste de Vice City e depois siga para o sul até o marcador perto de Key Lento. Não precisa voar o caminho todo: quando a conversa termina, o jogo avança."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Suba no barco",
-      "texto": [
-        "A equipe salta sobre a base aérea. Salte, abra o paraquedas e pouse no barco; depois pilote-o até o ponto marcado ao sul da base militar."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Entre escondido na base",
-      "texto": [
-        "Anoitece e a equipe avança, liderada por Vinny. Você pode ligar e desligar o óculos de visão noturna para enxergar melhor. Ao chegar à grade, interaja com ela e corte as barras; depois siga Vinny pelo esgoto até Jason sair dentro da base."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Vá até o hangar",
-      "texto": [
-        "Suba à superfície e vá até o hangar. Há soldados por toda parte, mas eles não te veem enquanto você estiver na sombra, então dá para evitar a maioria das lutas. Marque os inimigos para acompanhá-los ou assobie para atrair um e nocauteá-lo. O meio das ruas é bem tranquilo, então dá para cortar quase em linha reta. Quando Vinny apontar o caminhão à esquerda, nocauteie o soldado agachado na traseira e suba: ele te leva mais perto do hangar. Ao descer, espere os caminhões passarem e corra até o prédio."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Chegue ao alçapão do telhado",
-      "texto": [
-        "Suba as escadas na lateral do hangar até o telhado e entre pelo alçapão."
-      ],
-      "dicas": [
-        "Chegue ao alçapão sem ser detectado para ganhar o bônus Professional."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Abra as portas do hangar",
-      "texto": [
-        "Com todos lá dentro, você passa para Lucia. Vá até o fim da passarela e use o console para abrir as portas do hangar."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Segure os militares",
-      "texto": [
-        "Soldados entram assim que as portas abrem. Mantenha-os longe enquanto o helicóptero é tirado de ré e derrube-os rápido quando passarem pelas portas, para não danificarem o helicóptero. Quando pedir, pule no helicóptero."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Defenda o helicóptero",
-      "texto": [
-        "Na volta, helicópteros inimigos chegam pelos lados: atire nos soldados que estão neles. Depois troque para Jason quando pedir e use o lança-foguetes nos caças que perseguem vocês. Mantenha cada caça na mira até o quadrado ficar vermelho e dispare para os foguetes travarem. Destrua os dois caças para concluir a missão. A história continua com Taking Liberties."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [],
-  "trofeus": []
+ "slug": "bird-in-the-hand",
+ "ordem": 127,
+ "nome": "Bird in the Hand",
+ "capitulo": 5,
+ "tipo": "principal",
+ "quem_passa": "Giorgio Gallo",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "A serviço de Giorgio, Jason e Lucia se infiltram de noite numa base militar com a equipe de Vinny para roubar um helicóptero do hangar e fugir com ele.",
+ "objetivos": [
+  "Troque de roupa e encontre Giorgio",
+  "Observe a base da guarda costeira",
+  "Voe até a ponte e encontre Kevin",
+  "Suba no barco",
+  "Entre escondido na base",
+  "Vá até o hangar",
+  "Chegue ao alçapão do telhado",
+  "Abra as portas do hangar",
+  "Segure os militares",
+  "Defenda o helicóptero"
+ ],
+ "passos": [
+  {
+   "titulo": "Troque de roupa e encontre Giorgio",
+   "texto": [
+    "Giorgio acorda vocês. Troque de roupa no guarda-roupa e dê uma boa olhada na cobertura, que será sua base pelo resto da história. Desça e passe pela porta ao lado dos elevadores para encontrar Giorgio na academia."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Observe a base da guarda costeira",
+   "texto": [
+    "Com todos no helicóptero, voe até a base da guarda costeira. O jogo passa para Lucia, que precisa estudar a base do alto. Observe os pontos abaixo. Depois o helicóptero vai para o outro lado da base: olhe a ponte levadiça à direita e o barco no canto do píer com mais pacotes em paletes."
+   ],
+   "dicas": [],
+   "lista": [
+    "os guardas perto do portão de garagem aberto;",
+    "os guardas perto da água posando ao lado de um palete de mercadorias, à direita;",
+    "os guardas sentados ao lado do cachorro, à esquerda."
+   ],
+   "imagens": []
+  },
+  {
+   "titulo": "Voe até a ponte e encontre Kevin",
+   "texto": [
+    "De volta aos controles com Jason, voe até a ponte no extremo oeste de Vice City e depois siga para o sul até o marcador perto de Key Lento. Não precisa voar o caminho todo: quando a conversa termina, o jogo avança."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Suba no barco",
+   "texto": [
+    "A equipe salta sobre a base aérea. Salte, abra o paraquedas e pouse no barco; depois pilote-o até o ponto marcado ao sul da base militar."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Entre escondido na base",
+   "texto": [
+    "Anoitece e a equipe avança, liderada por Vinny. Você pode ligar e desligar o óculos de visão noturna para enxergar melhor. Ao chegar à grade, interaja com ela e corte as barras; depois siga Vinny pelo esgoto até Jason sair dentro da base."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Vá até o hangar",
+   "texto": [
+    "Suba à superfície e vá até o hangar. Há soldados por toda parte, mas eles não te veem enquanto você estiver na sombra, então dá para evitar a maioria das lutas. Marque os inimigos para acompanhá-los ou assobie para atrair um e nocauteá-lo. O meio das ruas é bem tranquilo, então dá para cortar quase em linha reta. Quando Vinny apontar o caminhão à esquerda, nocauteie o soldado agachado na traseira e suba: ele te leva mais perto do hangar. Ao descer, espere os caminhões passarem e corra até o prédio."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Chegue ao alçapão do telhado",
+   "texto": [
+    "Suba as escadas na lateral do hangar até o telhado e entre pelo alçapão."
+   ],
+   "dicas": [
+    "Chegue ao alçapão sem ser detectado para ganhar o bônus Professional."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Abra as portas do hangar",
+   "texto": [
+    "Com todos lá dentro, você passa para Lucia. Vá até o fim da passarela e use o console para abrir as portas do hangar."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Segure os militares",
+   "texto": [
+    "Soldados entram assim que as portas abrem. Mantenha-os longe enquanto o helicóptero é tirado de ré e derrube-os rápido quando passarem pelas portas, para não danificarem o helicóptero. Quando pedir, pule no helicóptero."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Defenda o helicóptero",
+   "texto": [
+    "Na volta, helicópteros inimigos chegam pelos lados: atire nos soldados que estão neles. Depois troque para Jason quando pedir e use o lança-foguetes nos caças que perseguem vocês. Mantenha cada caça na mira até o quadrado ficar vermelho e dispare para os foguetes travarem. Destrua os dois caças para concluir a missão. A história continua com Taking Liberties."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "bird-in-the-hand__bird-in-the-hand.jpg"
 }

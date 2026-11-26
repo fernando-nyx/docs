@@ -1,0 +1,64 @@
+{
+ "slug": "unfinished-business",
+ "ordem": 133,
+ "nome": "Unfinished Business",
+ "capitulo": 5,
+ "tipo": "principal",
+ "quem_passa": "Abe Gonzalez",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Etapa curta da história: você termina o que quiser no mundo aberto e, quando estiver pronto, fecha o acordo jurídico com Abe, o que leva ao final do jogo.",
+ "aviso": "Ao assinar o acordo de Abe você entra no final do jogo sem volta: faça um save manual e termine o que quiser antes.",
+ "objetivos": [
+  "Resolva pendências ou aceite a proposta de Abe",
+  "Encontre Abe",
+  "Volte para a cobertura",
+  "Assista à cena com Giorgio"
+ ],
+ "passos": [
+  {
+   "titulo": "Resolva pendências ou aceite a proposta de Abe",
+   "texto": [
+    "Unfinished Business é mais uma etapa curta da história do que uma missão completa, e começa logo depois de Honest Abe. O negócio do HD está sendo fechado em segundo plano, então você escolhe o ritmo: use o tempo livre para terminar atividades paralelas pendentes ou avance a história seguindo com a proposta de Abe."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Encontre Abe",
+   "texto": [
+    "Quando estiver pronto, siga o objetivo Meet with Abe até o escritório dele. Nesse segundo encontro você fecha o acordo jurídico. O honorário é de US$ 150.000, pago ao escritório de Abe pelo BuckMe, então tenha o dinheiro antes de ir."
+   ],
+   "dicas": [
+    "Ponto sem volta: depois de assinar o acordo de Abe não tem retorno, e a história vai para o final. Termine o conteúdo paralelo que importa para você e faça um save manual num slot livre antes de ir ao escritório."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Volte para a cobertura",
+   "texto": [
+    "Assim que você sai do escritório de Abe, o jogo te leva automaticamente para a cobertura de Giorgio."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Assista à cena com Giorgio",
+   "texto": [
+    "De volta à cobertura, começa uma nova cena com Giorgio. Ela conclui Unfinished Business e leva direto à próxima missão, Protective Custody."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [
+  "Custo: US$ 150.000 de honorário para Abe"
+ ],
+ "trofeus": [],
+ "capa_arquivo": "unfinished-business__unfinished-business-2.jpg"
+}

@@ -1,0 +1,96 @@
+{
+ "slug": "vc-baby",
+ "ordem": 130,
+ "nome": "VC Baby",
+ "capitulo": 5,
+ "tipo": "principal",
+ "quem_passa": "Mattia Tauro",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Mattia está para ser pai e pede ajuda para fugir da cobertura de Giorgio: se você aceitar, rouba a chave de um carro e o leva correndo ao hospital.",
+ "objetivos": [
+  "Siga Mattia",
+  "Roube a chave do carro",
+  "Escolha um carro",
+  "Leve Mattia ao hospital",
+  "Siga Mattia"
+ ],
+ "passos": [
+  {
+   "titulo": "Siga Mattia",
+   "texto": [
+    "Siga Kat e Mattia até o elevador, onde Mattia pede ajuda a Jason e Lucia. Você decide se vai ajudá-lo a chegar ao hospital; a escolha afeta a cena final da missão."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Escolha: ajudar",
+   "texto": [
+    "Você joga o resto da missão e leva Mattia ao hospital."
+   ],
+   "dicas": [],
+   "lista": [
+    "Recompensa: nenhuma",
+    "Mattia chega a tempo do nascimento do filho",
+    "Jason e Mattia podem apertar as mãos e fazer as pazes"
+   ],
+   "imagens": []
+  },
+  {
+   "titulo": "Escolha: recusar",
+   "texto": [
+    "A missão termina na hora. Mattia dá o próprio jeito: pula da sacada e quebra a perna de propósito, e Giorgio manda Dardan levá-lo ao hospital."
+   ],
+   "dicas": [],
+   "lista": [
+    "Recompensa: nenhuma",
+    "Sem cena de reconciliação com Mattia"
+   ],
+   "imagens": []
+  },
+  {
+   "titulo": "Roube a chave do carro",
+   "texto": [
+    "Se aceitar ajudar, Lucia vai à sala de estar distrair Dardan. Quando ela jogar o celular dele na piscina, corra e pegue a chave no sofá onde ele estava sentado."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Escolha um carro",
+   "texto": [
+    "Volte até Mattia no elevador de carros e desça até a garagem, onde estão todos os carros de Giorgio. Escolha o que quiser."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Leve Mattia ao hospital",
+   "texto": [
+    "Atravesse a cidade com Mattia até o hospital no nordeste. Você tem pouco menos de 4 minutos, o que sobra se dirigir com cuidado e não destruir o carro."
+   ],
+   "dicas": [
+    "Chegue ao hospital a tempo do parto para ganhar o bônus máximo da missão."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Siga Mattia",
+   "texto": [
+    "Siga Mattia para dentro do hospital. Depois você volta automaticamente para a cobertura e a missão termina."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "vc-baby__vc-baby.jpg"
+}

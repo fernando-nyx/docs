@@ -1,0 +1,238 @@
+{
+  "slug": "the-end-of-the-road",
+  "ordem": 135,
+  "nome": "The End of the Road",
+  "capitulo": 5,
+  "tipo": "principal",
+  "quem_passa": "",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "A missão final: Jason e Lucia invadem a cobertura de Giorgio para recuperar o HD, fogem da torre e seguem para o campo de pouso até a escolha final na ponte, que define o desfecho.",
+  "objetivos": [
+    "Equipe-se na Brian's Marina",
+    "Ataque o arranha-céu",
+    "Ataque a cobertura",
+    "Chegue ao escritório de Giorgio",
+    "Dê cobertura a Jason",
+    "Recupere o HD",
+    "Pule do guindaste",
+    "Resgate Lucia",
+    "Ache uma saída",
+    "Fuja do helicóptero",
+    "Vá para o campo de pouso",
+    "A ponte",
+    "Os 8 finais",
+    "Depois dos créditos"
+  ],
+  "passos": [
+    {
+      "titulo": "Equipe-se na Brian's Marina",
+      "texto": [
+        "A missão final começa no hangar da Brian's Marina, nas Keys, enquanto o notebook de Cal trabalha para descriptografar o HD. Abasteça antes de sair: todas as armas separadas para o ataque são suas, então pegue as favoritas, colete e explosivos, e saia da área marcada em rosa no minimapa para partir."
+      ],
+      "dicas": [
+        "É uma missão longa, cerca de 25 minutos até a escolha final, então leve colete e granadas."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Ataque o arranha-céu",
+      "texto": [
+        "Vá até um arranha-céu à beira d'água com cobertura de um helicóptero e depois abra caminho de volta por um canteiro de obras. O alvo é a cobertura de Giorgio, onde está o HD."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Ataque a cobertura",
+      "texto": [
+        "Você voa até a torre automaticamente e assume Lucia na metralhadora montada do helicóptero. Derrube os inimigos que aparecem nas sacadas."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Chegue ao escritório de Giorgio",
+      "texto": [
+        "Depois de uma volta em torno do prédio, Jason desce. Abra caminho até o escritório no fundo do andar, com mais inimigos chegando pelo caminho. Vá para trás da mesa e Jason conecta o equipamento de Cal ao computador automaticamente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Dê cobertura a Jason",
+      "texto": [
+        "De volta a Lucia no helicóptero, atire no helicóptero inimigo para mantê-lo ocupado e depois mire nos inimigos que cercam Jason dentro da cobertura."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Recupere o HD",
+      "texto": [
+        "Com Jason, volte ao escritório para pegar o HD. Atravesse para o lado oposto do andar e escale a parte desabada até o andar de cima. O caminho anterior está bloqueado, então dê a volta pelos elevadores até o escritório e pegue o HD do chão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Pule do guindaste",
+      "texto": [
+        "O jogo passa para Lucia, presa num guindaste. Corra até a ponta e pule bem quando ele começar a cair para entrar na cobertura."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Resgate Lucia",
+      "texto": [
+        "Jason desce pelo poço do elevador até a garagem, onde inimigos já atiram em Lucia. Elimine todos, vá até Lucia e tire-a de baixo dos escombros."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Ache uma saída",
+      "texto": [
+        "Agora você controla os dois e pode alternar entre Jason e Lucia a qualquer momento. Continue lutando até o lado oposto do andar da garagem, pegue o colete que está lá se o seu tiver acabado e suba ao lado do carro azul."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Fuja do helicóptero",
+      "texto": [
+        "Entre no carro e segure o acelerador enquanto corre pelo lado de fora do prédio para escapar dos tiros do helicóptero. Quando o carro saltar, atire nos dois atiradores do helicóptero para derrubá-lo. Depois entre no elevador do canteiro de obras."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Vá para o campo de pouso",
+      "texto": [
+        "A polícia recebe uma denúncia, então fugir no barco de Cal não é mais opção: vocês precisam chegar a um avião que espera no campo de pouso de South Point.",
+        "Depois das cenas você já está num carro: siga o objetivo primeiro até a casa de Cal e depois continue para o sul pela estrada rumo a Fleming Key."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "A ponte",
+      "texto": [
+        "No caminho, viaturas do xerife e um helicóptero bloqueiam a estrada numa ponte. Jason e Lucia conversam no carro, a cor some da tela e vem a escolha final: Swim for It ou No Surrender. Preste atenção na primeira fala de Jason: se ele disser a Lucia para não sacar a arma (\"Don't draw your weapon\"), seu save se qualifica para um dos finais bons."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: Swim for It (fugir a nado)",
+      "texto": [
+        "Seu perfil decide como termina, junto com o comando Exit que aparece em seguida."
+      ],
+      "dicas": [],
+      "lista": [
+        "Perfil Violent ou pior, deixando o comando Exit acabar: Failed Escape (ruim)",
+        "Relação em Hot Together, perfil limpo e menos de US$ 2.000.000 guardados: Jason Takes the Fall (bom)",
+        "Hot Together, perfil limpo e US$ 2.000.000 guardados: Two Years Later (o melhor)"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: No Surrender (não se render)",
+      "texto": [
+        "Seu save só muda o que aparece depois dos créditos."
+      ],
+      "dicas": [],
+      "lista": [
+        "Leva ao final ruim No Surrender"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Os 8 finais",
+      "texto": [
+        "GTA 6 tem oito finais, numerados do pior para o melhor. Os finais 1 a 4 terminam na torre de Giorgio e nunca chegam à ponte. Os finais 5 a 8 vêm todos da ponte desta missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Finais 1 a 4: a torre",
+      "texto": [
+        "Nem toda partida chega à ponte. Se você aceitou o acordo de Méndez no fim de Protective Custody com Jason e Lucia ainda juntos, ele trai os dois (Final 1). Se a relação estiver ruim, a história termina na base da torre: atirando em Méndez antes, você tem Defend Jason (Final 2) ou The Sacrifice (Final 3); terminando o relacionamento, aceitando o acordo e tendo perfis Professional e pelo menos US$ 500.000 guardados, você tem Jason Escapes with Rocco (Final 4)."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Final 5: Failed Escape (ruim)",
+      "texto": [
+        "Como conseguir: escolha Swim for It com Criminal Profile Violent, Psycho ou Irredeemable e deixe o comando Exit acabar. Dá para perceber na hora, porque Jason começa explicando o plano de entrar na água em vez de pedir a Lucia que abaixe a arma.",
+        "O que acontece: o plano é seguir a correnteza até um banco de areia, roubar um barco e ir para Cuba. Quando os policiais mandam sair, Jason desce do carro com uma mão para cima, mas a pistola ainda na outra. Os policiais abrem fogo: Jason cai na pista e Lucia é baleada antes mesmo de sair do carro. O filho deles, Tomás, fica com a família de Lucia. Se você tinha US$ 2.000.000 em Family Savings, uma cena \"Dois anos depois\" após os créditos mostra Abe levando o dinheiro à família e Tomás crescendo numa casa bem maior."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Final 6: No Surrender (ruim)",
+      "texto": [
+        "Como conseguir: escolha No Surrender no bloqueio. Relação e perfil não fazem diferença.",
+        "O que acontece: no caminho para o campo de pouso, revela-se que Lucia recebeu um acordo para ir embora sozinha e recusou para ficar com Jason. No bloqueio eles se beijam uma última vez e Jason acelera contra as viaturas do xerife, enquanto você controla Lucia e atira de volta. Termina sempre igual: eles atravessam a barricada e são fuzilados nos bancos, ainda de mãos dadas. Tomás é criado pela família de Lucia e só conhece os pais por uma foto no porta-retrato. Com US$ 2.000.000 guardados, há uma cena extra \"Dois anos depois\" em que Abe leva o dinheiro à família."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Final 7: Jason Takes the Fall (bom)",
+      "texto": [
+        "Como conseguir: escolha Swim for It com a relação de Jason e Lucia em Hot Together, Criminal Profile limpo e menos de US$ 2.000.000 em Family Savings. Jason abre com \"Don't draw your weapon\", e o único comando depois disso é Exit.",
+        "O que acontece: os dois saem desarmados com as mãos para cima e sobem no muro da ponte, onde Jason passa discretamente um celular para Lucia e diz que vão pular no três. No último segundo ele solta a mão dela e fica: Lucia cai na água e escapa, enquanto os policiais imobilizam Jason no asfalto. Os créditos abrem com a foto de fichamento dele, e a cena final mostra Lucia levando o filho ao parlatório da prisão, com a mãozinha dele encostada no vidro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Final 8: Two Years Later (o melhor)",
+      "texto": [
+        "Como conseguir: escolha Swim for It com a relação em Hot Together, os US$ 2.000.000 completos em Family Savings e perfis limpos para Jason e Lucia.",
+        "O que acontece: a ponte se desenrola igual ao Final 7, mas então a tela pula para \"Dois anos depois\", numa lanchonete de beira de estrada. Lucia marca um encontro com Abe, que depois manda a mensagem \"Está feito\", e o app do banco dela mostra a saída de US$ 2.500.000. Jason sai da prisão, conhece o filho e os três vão embora juntos de carro. É o único final em que Jason e Lucia saem livres e juntos."
+      ],
+      "dicas": [
+        "Não precisa rejogar o jogo inteiro para ver todos os finais. Depois dos créditos você volta para logo antes do final: escolha Take Deal para o Final 1, No Surrender para o Final 6, ou complete o Family Savings até US$ 2.000.000 no modo livre e rejogue o final para transformar o Final 7 no Final 8."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Depois dos créditos",
+      "texto": [
+        "Nos finais da ponte, espere até o fim dos créditos para ver uma cena curta com Cal esperando os arquivos do HD terminarem de descriptografar. Depois o jogo te leva de volta a logo antes do final, com Jason e Lucia jogáveis, para você rejogá-lo e ver outro desfecho."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": [
+    "Troféu oculto (Ouro, 50G)"
+  ]
+}

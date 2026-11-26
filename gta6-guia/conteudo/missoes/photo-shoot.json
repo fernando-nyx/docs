@@ -1,60 +1,61 @@
 {
-  "slug": "photo-shoot",
-  "ordem": 105,
-  "nome": "Photo/Shoot",
-  "capitulo": 4,
-  "tipo": "principal",
-  "quem_passa": "Dre'Quan Priest",
-  "personagem": "Jason e Lucia",
-  "conta_100": "Sim",
-  "recompensa": "",
-  "resumo": "Lucia fotografa as Dimez num helicóptero para Dre'Quan, mas ele é sequestrado pela Cash City e Jason e Lucia precisam persegui-los e resgatá-lo.",
-  "objetivos": [
-    "Encontre Dre'Quan em Tequesta",
-    "Fotografe as Dimez",
-    "Persiga o carro com Dre'Quan",
-    "Resgate Dre'Quan"
-  ],
-  "passos": [
-    {
-      "titulo": "Encontre Dre'Quan em Tequesta",
-      "texto": [
-        "Depois de Party Hard, Dre'Quan pede ajuda numa sessão de fotos de divulgação das Dimez. Vá ao prédio marcado em Tequesta e siga-o pelo elevador até o terraço."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Fotografe as Dimez",
-      "texto": [
-        "Quando o helicóptero decola, você assume Lucia. Abra a câmera do celular e tire fotos das Dimez fazendo poses dentro do helicóptero."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Persiga o carro com Dre'Quan",
-      "texto": [
-        "No saguão dá tudo errado: Dre'Quan é levado pela Cash City. Com Jason, pilote o helicóptero atrás do carro. Quando ele some dentro de um prédio, troque para Lucia, que segue de moto pelo chão. Não dá para atirar no carro dos sequestradores, então só não o perca de vista."
-      ],
-      "dicas": [
-        "Depois do segundo salto, mais carros entram na perseguição: nesses você pode atirar, então derrube-os antes que batam em você ou abram fogo."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Resgate Dre'Quan",
-      "texto": [
-        "Avance até a gangue e abra caminho até Dre'Quan. Embaixo do viaduto, fique de olho nos reforços chegando de carro pela direita e nos que saem dos portões de garagem à esquerda. Limpe o beco e chegue ao carro no final para concluir a missão."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [],
-  "trofeus": []
+ "slug": "photo-shoot",
+ "ordem": 105,
+ "nome": "Photo/Shoot",
+ "capitulo": 4,
+ "tipo": "principal",
+ "quem_passa": "Dre'Quan Priest",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Lucia fotografa as Dimez num helicóptero para Dre'Quan, mas ele é sequestrado pela Cash City e Jason e Lucia precisam persegui-los e resgatá-lo.",
+ "objetivos": [
+  "Encontre Dre'Quan em Tequesta",
+  "Fotografe as Dimez",
+  "Persiga o carro com Dre'Quan",
+  "Resgate Dre'Quan"
+ ],
+ "passos": [
+  {
+   "titulo": "Encontre Dre'Quan em Tequesta",
+   "texto": [
+    "Depois de Party Hard, Dre'Quan pede ajuda numa sessão de fotos de divulgação das Dimez. Vá ao prédio marcado em Tequesta e siga-o pelo elevador até o terraço."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Fotografe as Dimez",
+   "texto": [
+    "Quando o helicóptero decola, você assume Lucia. Abra a câmera do celular e tire fotos das Dimez fazendo poses dentro do helicóptero."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Persiga o carro com Dre'Quan",
+   "texto": [
+    "No saguão dá tudo errado: Dre'Quan é levado pela Cash City. Com Jason, pilote o helicóptero atrás do carro. Quando ele some dentro de um prédio, troque para Lucia, que segue de moto pelo chão. Não dá para atirar no carro dos sequestradores, então só não o perca de vista."
+   ],
+   "dicas": [
+    "Depois do segundo salto, mais carros entram na perseguição: nesses você pode atirar, então derrube-os antes que batam em você ou abram fogo."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Resgate Dre'Quan",
+   "texto": [
+    "Avance até a gangue e abra caminho até Dre'Quan. Embaixo do viaduto, fique de olho nos reforços chegando de carro pela direita e nos que saem dos portões de garagem à esquerda. Limpe o beco e chegue ao carro no final para concluir a missão."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "photo-shoot__photo-shoot.jpg"
 }

@@ -1,109 +1,110 @@
 {
-  "slug": "heavy-lifting",
-  "ordem": 103,
-  "nome": "Heavy Lifting",
-  "capitulo": 4,
-  "tipo": "principal",
-  "quem_passa": "Raul Bautista",
-  "personagem": "Jason e Lucia",
-  "conta_100": "Sim",
-  "recompensa": "",
-  "resumo": "Jason e Lucia levam o HD para Raul e se infiltram na Ajax Gym para espionar a equipe de fisiculturistas de Kordell Grant e descobrir o próximo golpe deles.",
-  "objetivos": [
-    "Pegue o HD",
-    "Encontre Raul na casa-barco",
-    "Vá até a Ajax Gym",
-    "Revire a mochila de Raina",
-    "Treine disfarçado",
-    "Prenda Nate",
-    "Siga os fisiculturistas",
-    "Suba até o terraço"
-  ],
-  "passos": [
-    {
-      "titulo": "Pegue o HD",
-      "texto": [
-        "Pouco depois de Lawyer Up, Raul pede o HD a Jason e Lucia. Vá até o prédio do guarda-volumes, suba de elevador e pegue o HD no armário."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Encontre Raul na casa-barco",
-      "texto": [
-        "Dirija até Leonard County, onde fica a casa-barco de Raul, e suba pela escada da direita até o deque superior, onde Karim espera. Raul quer roubar uma equipe rival liderada por Kordell Grant, um fisiculturista com quem já trabalhou, e precisa de informações sobre o próximo serviço deles."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Vá até a Ajax Gym",
-      "texto": [
-        "Você sai de barco: navegue para o sul até a Ajax Gym e atraque no píer ao lado. Lucia entra primeiro; com Jason, fale com a recepcionista de regata azul e acompanhe J-Wang no tour pela academia."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Revire a mochila de Raina",
-      "texto": [
-        "De volta à recepção, o controle passa para Lucia. Troque de roupa no armário marcado e, rápido, vasculhe a mochila de Raina no armário à esquerda."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Treine disfarçado",
-      "texto": [
-        "Suba para a área principal. Com Jason na esteira, fique apertando o botão para manter o ritmo; com Lucia, use a cadeira extensora. Quando a equipe de Kordell sair, vá com Jason até o espaço de bronzeamento."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Prenda Nate",
-      "texto": [
-        "Enquanto Jason distrai o funcionário, entre nas salas de bronzeamento: Nate está na segunda sala à direita. Pegue a fita de levantamento no chão e use-a na cama de bronzeamento para trancar Nate lá dentro. Vasculhe a bolsa dele, abra o app WhatUp no celular e leia as mensagens; depois guarde o celular e solte Nate."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Siga os fisiculturistas",
-      "texto": [
-        "Saia da academia (dá para trocar de roupa antes) e encontre Jason perto da água. À noite, siga os fisiculturistas de carro mantendo distância: o marcador acima deles deve ficar branco, pois ele vai enchendo de amarelo quando você chega perto demais. É um trajeto longo que termina no Grand Majestic Aparthotel."
-      ],
-      "dicas": [
-        "Se o marcador começar a ficar amarelo, tire o pé do acelerador e deixe outro carro entrar entre você e eles."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Suba até o terraço",
-      "texto": [
-        "Siga-os para dentro do hotel e veja-os pegar um elevador. Vá até os elevadores, onde Jason chama outro, suba até o último andar e siga o corredor até o terraço para concluir a missão. Enquanto isso, Karim descobre que o HD pertencia a Giorgio Gallo, herdeiro da empresa de navegação Bilgeco."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Como liberar",
-      "texto": [
-        "Conclua Lawyer Up, espere Raul pedir o HD e vá até o guarda-volumes."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [],
-  "trofeus": []
+ "slug": "heavy-lifting",
+ "ordem": 103,
+ "nome": "Heavy Lifting",
+ "capitulo": 4,
+ "tipo": "principal",
+ "quem_passa": "Raul Bautista",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Jason e Lucia levam o HD para Raul e se infiltram na Ajax Gym para espionar a equipe de fisiculturistas de Kordell Grant e descobrir o próximo golpe deles.",
+ "objetivos": [
+  "Pegue o HD",
+  "Encontre Raul na casa-barco",
+  "Vá até a Ajax Gym",
+  "Revire a mochila de Raina",
+  "Treine disfarçado",
+  "Prenda Nate",
+  "Siga os fisiculturistas",
+  "Suba até o terraço"
+ ],
+ "passos": [
+  {
+   "titulo": "Pegue o HD",
+   "texto": [
+    "Pouco depois de Lawyer Up, Raul pede o HD a Jason e Lucia. Vá até o prédio do guarda-volumes, suba de elevador e pegue o HD no armário."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Encontre Raul na casa-barco",
+   "texto": [
+    "Dirija até Leonard County, onde fica a casa-barco de Raul, e suba pela escada da direita até o deque superior, onde Karim espera. Raul quer roubar uma equipe rival liderada por Kordell Grant, um fisiculturista com quem já trabalhou, e precisa de informações sobre o próximo serviço deles."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Vá até a Ajax Gym",
+   "texto": [
+    "Você sai de barco: navegue para o sul até a Ajax Gym e atraque no píer ao lado. Lucia entra primeiro; com Jason, fale com a recepcionista de regata azul e acompanhe J-Wang no tour pela academia."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Revire a mochila de Raina",
+   "texto": [
+    "De volta à recepção, o controle passa para Lucia. Troque de roupa no armário marcado e, rápido, vasculhe a mochila de Raina no armário à esquerda."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Treine disfarçado",
+   "texto": [
+    "Suba para a área principal. Com Jason na esteira, fique apertando o botão para manter o ritmo; com Lucia, use a cadeira extensora. Quando a equipe de Kordell sair, vá com Jason até o espaço de bronzeamento."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Prenda Nate",
+   "texto": [
+    "Enquanto Jason distrai o funcionário, entre nas salas de bronzeamento: Nate está na segunda sala à direita. Pegue a fita de levantamento no chão e use-a na cama de bronzeamento para trancar Nate lá dentro. Vasculhe a bolsa dele, abra o app WhatUp no celular e leia as mensagens; depois guarde o celular e solte Nate."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Siga os fisiculturistas",
+   "texto": [
+    "Saia da academia (dá para trocar de roupa antes) e encontre Jason perto da água. À noite, siga os fisiculturistas de carro mantendo distância: o marcador acima deles deve ficar branco, pois ele vai enchendo de amarelo quando você chega perto demais. É um trajeto longo que termina no Grand Majestic Aparthotel."
+   ],
+   "dicas": [
+    "Se o marcador começar a ficar amarelo, tire o pé do acelerador e deixe outro carro entrar entre você e eles."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Suba até o terraço",
+   "texto": [
+    "Siga-os para dentro do hotel e veja-os pegar um elevador. Vá até os elevadores, onde Jason chama outro, suba até o último andar e siga o corredor até o terraço para concluir a missão. Enquanto isso, Karim descobre que o HD pertencia a Giorgio Gallo, herdeiro da empresa de navegação Bilgeco."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Como liberar",
+   "texto": [
+    "Conclua Lawyer Up, espere Raul pedir o HD e vá até o guarda-volumes."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "heavy-lifting__heavy-lifting.jpg"
 }

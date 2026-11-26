@@ -1,142 +1,143 @@
 {
-  "slug": "headliners",
-  "ordem": 117,
-  "nome": "Headliners",
-  "capitulo": 4,
-  "tipo": "principal",
-  "quem_passa": "Dre'Quan Priest",
-  "personagem": "Jason e Lucia",
-  "conta_100": "Sim",
-  "recompensa": "",
-  "resumo": "Jason e Lucia ajudam Dre'Quan a comandar a noite de estreia na boate: escolher os VIPs, cuidar dos convidados e resolver a confusão armada por DWNPLY e sua turma.",
-  "objetivos": [
-    "Encontre Dre'Quan",
-    "Teste as luzes",
-    "Distribua as mesas VIP",
-    "Dê atenção a Maleek Rivers",
-    "Dê atenção a KD",
-    "Encontre Dre'Quan",
-    "Acompanhe Sexxy Red",
-    "Libere uma mesa",
-    "Derrube DWNPLY",
-    "Enfrente o grandalhão",
-    "Desarme DWNPLY",
-    "Curta o show"
-  ],
-  "passos": [
-    {
-      "titulo": "Encontre Dre'Quan",
-      "texto": [
-        "Encontre Dre'Quan perto da entrada da boate e siga-o enquanto ele mostra o lugar a Jason e Lucia."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Teste as luzes",
-      "texto": [
-        "Lucia assume a cabine do DJ. Brinque com as luzes e efeitos à vontade e depois use o comando de saída para seguir."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Distribua as mesas VIP",
-      "texto": [
-        "Agora com Jason, você decide quem fica com as três mesas VIP. Cada convidado mostra dois números: a OFERTA é o que ele paga na hora para entrar, e os SEGUIDORES podem trazer dinheiro extra ao longo da noite. Escolha quem quiser e segure o comando de confirmar."
-      ],
-      "dicas": [
-        "Uma boa escalação: Donatello Lambrini (você negocia com o assistente dele), de longe o que tem mais seguidores; o Game Developer, que faz a maior oferta na hora; e KD, o segundo em seguidores e com história com Dre'Quan."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Dê atenção a Maleek Rivers",
-      "texto": [
-        "Troque para Lucia e passe pelas mesas, começando por Maleek Rivers no camarote marcado. Ele quer que as luzes mudem para mostrar que está na boate: faça a vontade dele, já que ele tem muitos seguidores."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Dê atenção a KD",
-      "texto": [
-        "Se você deixou KD entrar, Dre'Quan manda você até a mesa dele. KD pede uma foto: aceite e fotografe-o com as mulheres da mesa."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Encontre Dre'Quan",
-      "texto": [
-        "De volta a Jason, vá até Dre'Quan. No saguão, um cara diz que já tinha entrado: expulse ou deixe ficar, você escolhe. Quando os carros pararem na frente, abra a porta do que está à direita de Dre'Quan."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Acompanhe Sexxy Red",
-      "texto": [
-        "Siga Dre'Quan de volta para dentro com os convidados VIP. Quando ele sair, leve o grupo pela escada até a pista e para a área VIP."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Libere uma mesa",
-      "texto": [
-        "Dre'Quan quer uma mesa para o grupo de Sexxy Red, então você precisa tirar um dos três grupos que deixou entrar."
-      ],
-      "dicas": [
-        "Se o Game Developer estiver entre seus convidados, tire ele: você fica com os US$ 50.000 que ele pagou na entrada, ele não traria muitos seguidores e é quem aceita melhor a \"promoção\"."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Derrube DWNPLY",
-      "texto": [
-        "Lucia está no camarim. Siga Jason até a sacada acima da pista, desça para o nível de baixo, vá à frente pela direita, logo abaixo de DWNPLY, e puxe-o do palco. Quando a turma dele agarrar Lucia, martele o comando para se soltar e espanque quem vier para cima."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Enfrente o grandalhão",
-      "texto": [
-        "No andar de cima, Jason encara o brigão mais duro do jogo. Ele usa soco-inglês e bate muito forte: desvie dos golpes e tenha paciência, porque ele demora a cair. Mais para o fim da luta dá para esfaqueá-lo com uma faca do balcão do bar, e Jason termina a briga depois de tomar um dos Brass Knuckles dele."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Desarme DWNPLY",
-      "texto": [
-        "De volta a Lucia no camarim, bata em DWNPLY logo depois da cena para tomar a arma dele e nocauteá-lo."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Curta o show",
-      "texto": [
-        "Jason e Lucia vão para a pista enquanto as Dimez se apresentam: dance com ela ou só curta o show. Quando Dre'Quan perguntar se vocês querem ficar ou ir embora, escolha qualquer resposta para ver a cena final e concluir a missão."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [],
-  "trofeus": []
+ "slug": "headliners",
+ "ordem": 117,
+ "nome": "Headliners",
+ "capitulo": 4,
+ "tipo": "principal",
+ "quem_passa": "Dre'Quan Priest",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Jason e Lucia ajudam Dre'Quan a comandar a noite de estreia na boate: escolher os VIPs, cuidar dos convidados e resolver a confusão armada por DWNPLY e sua turma.",
+ "objetivos": [
+  "Encontre Dre'Quan",
+  "Teste as luzes",
+  "Distribua as mesas VIP",
+  "Dê atenção a Maleek Rivers",
+  "Dê atenção a KD",
+  "Encontre Dre'Quan",
+  "Acompanhe Sexxy Red",
+  "Libere uma mesa",
+  "Derrube DWNPLY",
+  "Enfrente o grandalhão",
+  "Desarme DWNPLY",
+  "Curta o show"
+ ],
+ "passos": [
+  {
+   "titulo": "Encontre Dre'Quan",
+   "texto": [
+    "Encontre Dre'Quan perto da entrada da boate e siga-o enquanto ele mostra o lugar a Jason e Lucia."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Teste as luzes",
+   "texto": [
+    "Lucia assume a cabine do DJ. Brinque com as luzes e efeitos à vontade e depois use o comando de saída para seguir."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Distribua as mesas VIP",
+   "texto": [
+    "Agora com Jason, você decide quem fica com as três mesas VIP. Cada convidado mostra dois números: a OFERTA é o que ele paga na hora para entrar, e os SEGUIDORES podem trazer dinheiro extra ao longo da noite. Escolha quem quiser e segure o comando de confirmar."
+   ],
+   "dicas": [
+    "Uma boa escalação: Donatello Lambrini (você negocia com o assistente dele), de longe o que tem mais seguidores; o Game Developer, que faz a maior oferta na hora; e KD, o segundo em seguidores e com história com Dre'Quan."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Dê atenção a Maleek Rivers",
+   "texto": [
+    "Troque para Lucia e passe pelas mesas, começando por Maleek Rivers no camarote marcado. Ele quer que as luzes mudem para mostrar que está na boate: faça a vontade dele, já que ele tem muitos seguidores."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Dê atenção a KD",
+   "texto": [
+    "Se você deixou KD entrar, Dre'Quan manda você até a mesa dele. KD pede uma foto: aceite e fotografe-o com as mulheres da mesa."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Encontre Dre'Quan",
+   "texto": [
+    "De volta a Jason, vá até Dre'Quan. No saguão, um cara diz que já tinha entrado: expulse ou deixe ficar, você escolhe. Quando os carros pararem na frente, abra a porta do que está à direita de Dre'Quan."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Acompanhe Sexxy Red",
+   "texto": [
+    "Siga Dre'Quan de volta para dentro com os convidados VIP. Quando ele sair, leve o grupo pela escada até a pista e para a área VIP."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Libere uma mesa",
+   "texto": [
+    "Dre'Quan quer uma mesa para o grupo de Sexxy Red, então você precisa tirar um dos três grupos que deixou entrar."
+   ],
+   "dicas": [
+    "Se o Game Developer estiver entre seus convidados, tire ele: você fica com os US$ 50.000 que ele pagou na entrada, ele não traria muitos seguidores e é quem aceita melhor a \"promoção\"."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Derrube DWNPLY",
+   "texto": [
+    "Lucia está no camarim. Siga Jason até a sacada acima da pista, desça para o nível de baixo, vá à frente pela direita, logo abaixo de DWNPLY, e puxe-o do palco. Quando a turma dele agarrar Lucia, martele o comando para se soltar e espanque quem vier para cima."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Enfrente o grandalhão",
+   "texto": [
+    "No andar de cima, Jason encara o brigão mais duro do jogo. Ele usa soco-inglês e bate muito forte: desvie dos golpes e tenha paciência, porque ele demora a cair. Mais para o fim da luta dá para esfaqueá-lo com uma faca do balcão do bar, e Jason termina a briga depois de tomar um dos Brass Knuckles dele."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Desarme DWNPLY",
+   "texto": [
+    "De volta a Lucia no camarim, bata em DWNPLY logo depois da cena para tomar a arma dele e nocauteá-lo."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Curta o show",
+   "texto": [
+    "Jason e Lucia vão para a pista enquanto as Dimez se apresentam: dance com ela ou só curta o show. Quando Dre'Quan perguntar se vocês querem ficar ou ir embora, escolha qualquer resposta para ver a cena final e concluir a missão."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "headliners__headliners.jpg"
 }

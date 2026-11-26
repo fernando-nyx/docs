@@ -1,0 +1,178 @@
+{
+  "slug": "protective-custody",
+  "ordem": 134,
+  "nome": "Protective Custody",
+  "capitulo": 5,
+  "tipo": "principal",
+  "quem_passa": "Giorgio Gallo",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Começa o final do jogo: uma entrega vira armadilha, Jason e Lucia são separados e precisam lutar para se reencontrar e enfrentar a força-tarefa de Méndez.",
+  "aviso": "É o início do final do jogo: sem volta e sem rejogar missões, então faça um save manual antes de começar.",
+  "objetivos": [
+    "Antes de começar",
+    "Encaçape a bola 8",
+    "Faça a entrega",
+    "Escape da emboscada",
+    "Vá até a delegacia",
+    "Escape da delegacia",
+    "Defenda a delegacia",
+    "Chegue ao galpão",
+    "Chegue até Jason",
+    "Elimine a força-tarefa de Méndez",
+    "Resolva a situação com Méndez",
+    "Final 1: Méndez's Deal (ruim)",
+    "Finais 2, 3 e 4: a torre"
+  ],
+  "passos": [
+    {
+      "titulo": "Antes de começar",
+      "texto": [
+        "Protective Custody abre o final do jogo. Logo antes de entrar no escritório de Abe em Unfinished Business, o jogo pergunta se você está pronto para encerrar a história: escolha Postpone se ainda quiser jogar livre. Depois que você segue, esta missão e The End of the Road rolam em sequência até os créditos. Depois dos créditos, o jogo te devolve ao ponto logo antes desta missão, para continuar no modo livre."
+      ],
+      "dicas": [
+        "Faça um save manual num slot livre antes de começar o final: as missões não podem ser rejogadas e o único autosave é sobrescrito a cada missão. Para o melhor final você também precisa da relação de Jason e Lucia em Hot Together, US$ 2.000.000 em Family Savings e Criminal Profiles limpos."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encaçape a bola 8",
+      "texto": [
+        "De volta à cobertura, Jason sai para uma entrega enquanto você fica com Lucia. Giorgio a desafia a acertar a tacada que Dardan deixou na mesa de sinuca: faça a bola branca bater três vezes nas tabelas para encaçapar a bola 8."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Faça a entrega",
+      "texto": [
+        "O jogo passa para Jason. Vá a pé até o canto sudeste da Panos Plaza e sente no banco marcado. Quando a entrega for retirada, volte andando até Dardan. O que vem a seguir é uma das maiores reviravoltas da história."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Escape da emboscada",
+      "texto": [
+        "Jason é levado a uma cela da delegacia pela Deputy Fitzroy, e o jogo passa para Lucia, trancada num camburão. Siga os comandos para se soltar e abrir as algemas, depois atire nos membros da gangue assim que abrirem a porta. Pegue uma das armas que eles largarem, enfrente o resto da gangue que se aproxima e corra até despistá-los."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Vá até a delegacia",
+      "texto": [
+        "Depois de uma cena curta, Lucia sobe numa moto. Siga para o sul pela rodovia em direção a Jason."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Escape da delegacia",
+      "texto": [
+        "De volta a Jason, Fitzroy o tira da cela. Siga-a pelo corredor à esquerda, feche a porta da sala à esquerda e empurre um armário na frente dela. Suba: Jason empurra um membro da gangue escada abaixo e pega a arma dele. Vá para o lado leste do prédio, atento a inimigos nas salas laterais e subindo a escada. Você começa com um único pente, então passe por cima dos inimigos caídos para pegar munição. Na última sala, corra até o parapeito para continuar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Defenda a delegacia",
+      "texto": [
+        "Volte e siga Fitzroy um pouco pelo corredor até o arsenal à direita. Ela tira as algemas de Jason, e ali você pode pegar armas longas para atirar nos inimigos na rua e nos prédios em frente. Volte ao armário onde Jason pegou as armas na cena para pegar colete e armas extras."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Chegue ao galpão",
+      "texto": [
+        "Abra caminho pelo beco até a porta aberta do galpão, atento a mais inimigos no nível do chão. Fitzroy é baleada ao abrir a porta, então cuide rápido dos inimigos que entram correndo. Depois avance até a porta e segure o ataque da NOOSE: mais unidades chegam em veículos até o trecho acabar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Chegue até Jason",
+      "texto": [
+        "Lucia aparece na borda de Hamlet e precisa chegar ao galpão onde Jason está encurralado. Viaturas rodam procurando por ela, e inimigos podem surgir de trás das casas enquanto você atravessa os quintais. Ser visto não é falha, mas entrega sua posição; você também pode simplesmente correr pelos quintais e deixar os perseguidores para trás."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Elimine a força-tarefa de Méndez",
+      "texto": [
+        "Do lado de fora do galpão, elimine todos os inimigos marcados. Méndez então surge pelo teto de um veículo numa metralhadora montada. Fique na cobertura enquanto ele atira e acerte a cabeça dele por cima da arma quando tiver uma brecha. Depois de dano suficiente ele volta para dentro do veículo e chegam mais inimigos: elimine-os e ele volta. Confira os porta-malas dos veículos da área para achar armas, coletes e itens de cura. Cause dano suficiente para ativar a cena final."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Resolva a situação com Méndez",
+      "texto": [
+        "A missão termina com o oficial da STF Méndez encostado no pneu de um caminhão e as armas de Jason e Lucia apontadas para ele. No início o único comando é Shoot; se você deixar ele falar por cerca de um minuto, aparece um segundo comando, Take Deal."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: Shoot (atirar)",
+      "texto": [
+        "Aperte Shoot assim que aparecer."
+      ],
+      "dicas": [],
+      "lista": [
+        "A história segue para a missão final, The End of the Road",
+        "Necessário para todos os finais da ponte, incluindo os dois bons",
+        "Se a relação de Jason e Lucia estiver ruim, a história termina na torre: Defend Jason ou The Sacrifice"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: Take Deal (aceitar o acordo)",
+      "texto": [
+        "Espere cerca de um minuto pelo comando e aceite."
+      ],
+      "dicas": [],
+      "lista": [
+        "Méndez propõe uma parceria e manda Jason e Lucia atrás dos arquivos de Giorgio Gallo",
+        "Se Jason e Lucia ainda estiverem juntos, leva direto ao final ruim Méndez's Deal, pulando a ponte e a cena pós-créditos de Cal",
+        "Se tiverem terminado, leva a Jason Escapes with Rocco (com perfis Professional e pelo menos US$ 500.000 guardados)"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Final 1: Méndez's Deal (ruim)",
+      "texto": [
+        "Como conseguir: no fim de Protective Custody, não atire em Méndez. Deixe ele falar por cerca de um minuto até Take Deal aparecer ao lado de Shoot e aceite, com Jason e Lucia ainda juntos.",
+        "O que acontece: Méndez propõe que, se pegarem os arquivos para ele, os três vão mandar na cidade sem polícia nem federais no caminho. Ele dispensa os homens e manda os dois ao escritório de Giorgio Gallo, no 40º andar de um arranha-céu, para tirar os arquivos do computador. Eles pegam o HD, mas, com mais policiais chegando, Méndez os algema \"só para manter as aparências\" e os leva embora. Os créditos rolam sobre um jacaré num pântano enevoado, ao lado de duas caveiras. Você não chega à ponte nem vê a cena pós-créditos de Cal."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Finais 2, 3 e 4: a torre",
+      "texto": [
+        "Se a relação estiver ruim, Jason e Lucia podem terminar na conversa do início desta missão e não chegam à ponte: a história acaba na base da torre de Giorgio. Atirando em Méndez, Jason sai com a arma ainda na mão e leva um tiro, e Lucia escolhe entre Defend Jason e Stay Down (The Sacrifice). Se eles tiverem terminado e você aceitar o acordo, com perfis Professional e pelo menos US$ 500.000 guardados, Jason tenta fugir (Jason Escapes with Rocco)."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

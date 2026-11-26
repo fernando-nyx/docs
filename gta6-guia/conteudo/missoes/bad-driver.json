@@ -1,85 +1,86 @@
 {
-  "slug": "bad-driver",
-  "ordem": 106,
-  "nome": "Bad Driver!",
-  "capitulo": 4,
-  "tipo": "secundaria",
-  "quem_passa": "Andrea",
-  "personagem": "",
-  "conta_100": "Sim",
-  "recompensa": "US$ 20.000 (se matar Felipe) + 1 desbloqueio",
-  "resumo": "Andrea manda você atrás de Felipe, que fugiu do assalto ao Cartel e foi visto em Millport; você o persegue e decide se ele vive ou morre.",
-  "aviso": "É perdível: se você começar Power Play antes, a missão some para sempre.",
-  "objetivos": [
-    "Encontre Felipe",
-    "Persiga Felipe",
-    "Resolva a situação com Felipe"
-  ],
-  "passos": [
-    {
-      "titulo": "Encontre Felipe",
-      "texto": [
-        "Depois de Party Hard, Andrea avisa que Felipe, que abandonou o assalto ao Cartel, foi visto em Millport. Dirija até o bar marcado e vá para os fundos: Felipe sai do banheiro e foge."
-      ],
-      "dicas": [
-        "Bad Driver! é perdível: se você começar Power Play antes de fazê-la, a missão some de vez."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Persiga Felipe",
-      "texto": [
-        "Ele sai pelos fundos em direção ao mato. Você pode atirar nas pernas ou nas costas dele para atrasá-lo; depois alcance e bata nele até ele se render."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Resolva a situação com Felipe",
-      "texto": [
-        "Foque em Felipe para interrogá-lo sobre por que ele fugiu. Você decide o destino dele: matar ou deixar ir."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Opção: matar Felipe",
-      "texto": [
-        "Atire nele em qualquer momento da conversa."
-      ],
-      "dicas": [],
-      "lista": [
-        "Recompensa: US$ 20.000 de Andrea"
-      ],
-      "imagens": []
-    },
-    {
-      "titulo": "Opção: poupar Felipe",
-      "texto": [
-        "Escolha deixá-lo ir nas opções de diálogo."
-      ],
-      "dicas": [],
-      "lista": [
-        "Felipe entra em contato depois e libera a missão opcional Collect Felipe's Gift, em que você busca o veículo que ele deixou para você"
-      ],
-      "imagens": []
-    },
-    {
-      "titulo": "Como liberar",
-      "texto": [
-        "Conclua Party Hard; Andrea então pede para você lidar com Felipe em Millport. Fica indisponível quando você começa Power Play."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [
-    "US$ 20.000 (se matar Felipe)",
-    "1 desbloqueio"
-  ],
-  "trofeus": []
+ "slug": "bad-driver",
+ "ordem": 106,
+ "nome": "Bad Driver!",
+ "capitulo": 4,
+ "tipo": "secundaria",
+ "quem_passa": "Andrea",
+ "personagem": "",
+ "conta_100": "Sim",
+ "recompensa": "US$ 20.000 (se matar Felipe) + 1 desbloqueio",
+ "resumo": "Andrea manda você atrás de Felipe, que fugiu do assalto ao Cartel e foi visto em Millport; você o persegue e decide se ele vive ou morre.",
+ "aviso": "É perdível: se você começar Power Play antes, a missão some para sempre.",
+ "objetivos": [
+  "Encontre Felipe",
+  "Persiga Felipe",
+  "Resolva a situação com Felipe"
+ ],
+ "passos": [
+  {
+   "titulo": "Encontre Felipe",
+   "texto": [
+    "Depois de Party Hard, Andrea avisa que Felipe, que abandonou o assalto ao Cartel, foi visto em Millport. Dirija até o bar marcado e vá para os fundos: Felipe sai do banheiro e foge."
+   ],
+   "dicas": [
+    "Bad Driver! é perdível: se você começar Power Play antes de fazê-la, a missão some de vez."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Persiga Felipe",
+   "texto": [
+    "Ele sai pelos fundos em direção ao mato. Você pode atirar nas pernas ou nas costas dele para atrasá-lo; depois alcance e bata nele até ele se render."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Resolva a situação com Felipe",
+   "texto": [
+    "Foque em Felipe para interrogá-lo sobre por que ele fugiu. Você decide o destino dele: matar ou deixar ir."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Opção: matar Felipe",
+   "texto": [
+    "Atire nele em qualquer momento da conversa."
+   ],
+   "dicas": [],
+   "lista": [
+    "Recompensa: US$ 20.000 de Andrea"
+   ],
+   "imagens": []
+  },
+  {
+   "titulo": "Opção: poupar Felipe",
+   "texto": [
+    "Escolha deixá-lo ir nas opções de diálogo."
+   ],
+   "dicas": [],
+   "lista": [
+    "Felipe entra em contato depois e libera a missão opcional Collect Felipe's Gift, em que você busca o veículo que ele deixou para você"
+   ],
+   "imagens": []
+  },
+  {
+   "titulo": "Como liberar",
+   "texto": [
+    "Conclua Party Hard; Andrea então pede para você lidar com Felipe em Millport. Fica indisponível quando você começa Power Play."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [
+  "US$ 20.000 (se matar Felipe)",
+  "1 desbloqueio"
+ ],
+ "trofeus": [],
+ "capa_arquivo": "bad-driver__bad-driver.jpg"
 }

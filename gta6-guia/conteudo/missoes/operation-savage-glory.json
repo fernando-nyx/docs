@@ -1,0 +1,163 @@
+{
+ "slug": "operation-savage-glory",
+ "ordem": 131,
+ "nome": "Operation Savage Glory",
+ "capitulo": 5,
+ "tipo": "principal",
+ "quem_passa": "Vinny Capsik",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Operação em várias frentes: Jason explode um navio de cocaína rival enquanto Lucia sabota uma ponte e invade a guarda costeira para roubar uma carga levada de helicóptero.",
+ "objetivos": [
+  "Encontre Vinny",
+  "Instale cargas no pilar da ponte",
+  "Limpe o navio cargueiro",
+  "Siga Rocco",
+  "Plante o resto dos explosivos",
+  "Saia do navio",
+  "Levante a ponte",
+  "Mergulhe até a guarda costeira",
+  "Entre escondido nos escritórios da guarda costeira",
+  "Dê cobertura à equipe do ar",
+  "Defenda a carga",
+  "Prenda o guincho",
+  "Defenda o helicóptero",
+  "Saia da cobertura"
+ ],
+ "passos": [
+  {
+   "titulo": "Encontre Vinny",
+   "texto": [
+    "Suba na cobertura, onde Vinny espera para repassar o plano."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Instale cargas no pilar da ponte",
+   "texto": [
+    "A operação começa com Lucia. Leve o barco até a ponte, encoste no pilar e suba nele. Interaja com a lateral do pilar e deslize o aparelho pela parede até a luz atrás ficar verde forte; então coloque a carga. Faça o mesmo do outro lado do pilar."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Limpe o navio cargueiro",
+   "texto": [
+    "Troque para Jason no helicóptero rumo ao cargueiro com o carregamento de cocaína rival. Você recebe um fuzil de precisão com munição infinita e precisa limpar o deque antes de pousar. Procure as luzes nas armas dos inimigos para achá-los; conforme você se aproxima, Kevin aponta o holofote do helicóptero para os alvos."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Siga Rocco",
+   "texto": [
+    "No deque, siga Rocco e proteja-o de todo inimigo que aparecer; Kevin também avisa posições quando vê primeiro. Rocco para num contêiner no nível de cima: abra-o com a Cut-off Tool, entre e abra a caixa do fundo para plantar explosivos."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Plante o resto dos explosivos",
+   "texto": [
+    "Continue seguindo Rocco. Um helicóptero inimigo surge do lado esquerdo do navio: derrube-o assim que aparecer. Rocco leva você a mais dois contêineres no meio do navio, onde você planta cargas nas laterais, e a um último: abra-o e jogue o último lote de explosivos dentro."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Saia do navio",
+   "texto": [
+    "Aguente até o helicóptero voltar, enfrentando os inimigos no deque e nas janelas do navio à frente com a ajuda de Rocco. Quando ele chegar pela esquerda, pule dentro e detone os explosivos para explodir o navio."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Levante a ponte",
+   "texto": [
+    "Lucia assume o resto da operação. Entre no prédio de controle da ponte à direita, nocauteie o operador no andar de cima e use os controles para levantar a ponte. Depois plante uma carga nos controles e exploda-os."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Mergulhe até a guarda costeira",
+   "texto": [
+    "Coloque a máscara de mergulho, pule da lateral da ponte e siga Vinny debaixo d'água. Ao chegar ao barco, pegue os explosivos com Vinny e coloque-os no casco. Continue atrás dele até a grade, use a furadeira para soltar todos os parafusos e entre no túnel."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Entre escondido nos escritórios da guarda costeira",
+   "texto": [
+    "De volta à terra, contorne o prédio pela direita rumo aos escritórios, ficando do lado direito, longe dos prédios, e seguindo a rua até o fim. Lá os guardas ficam em duplas: atire em um e Vinny derruba o outro no mesmo instante. Entre pelas portas, cuide dos guardas no caminho até a garagem grande, incluindo os dois lá dentro, e abra o portão de enrolar."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Dê cobertura à equipe do ar",
+   "texto": [
+    "Com Jason, voe com o helicóptero para dentro do continente rumo à base e volte a atirar de precisão pela porta lateral, com Kevin iluminando os alvos."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Defenda a carga",
+   "texto": [
+    "De volta ao chão com Lucia, fique com o caminhão enquanto ele arrasta a carga para fora e enfrente os inimigos ao redor. Quando pedir, troque para Jason e atire no soldado do telhado que vai disparar um RPG no helicóptero. Dá também para derrubar os helicópteros que trazem reforços e os soldados nas passarelas e telhados."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Prenda o guincho",
+   "texto": [
+    "Volte para Lucia quando pedir, mantenha os inimigos longe, corra até a carga e engate o guincho."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Defenda o helicóptero",
+   "texto": [
+    "Lucia sai pendurada na rede de carga enquanto o helicóptero decola. Mova-se para a esquerda e para a direita em volta da carga para se proteger e ganhar ângulo, e detone os explosivos nos barcos quando pedir. Jason então joga um lança-granadas com munição infinita: use à vontade nos veículos que perseguem vocês e nos helicópteros que vêm atrás pela cidade, que ficam numa posição bem estável e são alvos fáceis."
+   ],
+   "dicas": [
+    "Quando Kevin avisar que a rede vai bater numa torre, vá para o lado direito da rede. Faça o mesmo quando ele avisar do trem, senão a carga bate nele com você do lado errado."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Saia da cobertura",
+   "texto": [
+    "A operação dá certo, mas nem toda a equipe volta. Você acorda na cobertura com tudo o que tinha antes do Capítulo 5 devolvido. Pegue um dos elevadores para sair da cobertura e concluir a missão; Honest Abe começa em seguida."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [
+  "Troféu oculto (Bronze, 25G)"
+ ],
+ "capa_arquivo": "operation-savage-glory__operation-savage-glory.jpg"
+}

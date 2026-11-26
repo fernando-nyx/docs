@@ -1,0 +1,29 @@
+{
+ "slug": "honest-abe",
+ "ordem": 132,
+ "nome": "Honest Abe",
+ "capitulo": 5,
+ "tipo": "principal",
+ "quem_passa": "Abe Gonzalez",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Jason e Lucia vão ao escritório de Abe em Downtown Vice City para uma conversa; é só uma cena, e depois o mundo aberto volta a ficar livre.",
+ "objetivos": [
+  "Encontre Abe no escritório"
+ ],
+ "passos": [
+  {
+   "titulo": "Encontre Abe no escritório",
+   "texto": [
+    "Vá até o escritório de Abe em Downtown Vice City. A missão é uma única cena: quando ela termina e você sai do escritório, o mundo aberto fica totalmente liberado de novo. A história continua com Unfinished Business."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "honest-abe__honest-abe.jpg"
+}

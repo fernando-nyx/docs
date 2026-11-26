@@ -1,105 +1,106 @@
 {
-  "slug": "thats-where-the-money-is",
-  "ordem": 124,
-  "nome": "That's Where the Money Is…",
-  "capitulo": 4,
-  "tipo": "secundaria",
-  "quem_passa": "Yasmani",
-  "personagem": "Jason e Lucia",
-  "conta_100": "Sim",
-  "recompensa": "Cerca de US$ 80.000 em notas marcadas + 1 desbloqueio",
-  "resumo": "Com uma dica de Yasmani, você segue um carro-forte até um banco, explode o cofre, foge da polícia e vende o dinheiro marcado.",
-  "objetivos": [
-    "Espere no café",
-    "Siga o carro-forte",
-    "Siga o segurança até o banco",
-    "Roube o cofre",
-    "Pegue as notas marcadas",
-    "Despiste a polícia",
-    "Venda o dinheiro para Yasmani"
-  ],
-  "passos": [
-    {
-      "titulo": "Espere no café",
-      "texto": [
-        "Depois de VCIA Takedown, Yasmani entra em contato com uma dica: é sua primeira chance de roubar um cofre de banco por conta própria. Vá ao Café Orquídea, em Ocean Beach, entre e sente perto da janela para esperar o carro-forte."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Siga o carro-forte",
-      "texto": [
-        "Assim que o carro-forte passar, corra de volta ao seu carro e siga-o. Mantenha distância, senão o motorista percebe."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Siga o segurança até o banco",
-      "texto": [
-        "O carro-forte para na frente de um banco. Estacione perto e siga o segurança a pé para dentro."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Roube o cofre",
-      "texto": [
-        "Lá dentro, coloque um disfarce e saque a arma para começar o assalto. Plante explosivos na porta do fundo da sala para abri-la e depois elimine os guardas que esperam no cofre."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Pegue as notas marcadas",
-      "texto": [
-        "As notas marcadas ficam empilhadas num carrinho no canto do cofre. Normalmente tem mais do que cabe em duas bolsas: passe uma bolsa cheia para seu parceiro para liberar espaço, ou troque para ele e continue pegando o dinheiro."
-      ],
-      "dicas": [
-        "Pegue todas as notas que puder: o butim completo vale cerca de US$ 80.000."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Despiste a polícia",
-      "texto": [
-        "O assalto dá quatro estrelas de procurado na hora, e a polícia já chega atirando. O banco não tem saída pelos fundos, então abra caminho pela frente. Deixe o parceiro dirigir enquanto você atira nos carros que perseguem vocês."
-      ],
-      "dicas": [
-        "A rodovia ajuda se o carro for rápido, mas espere muitos bloqueios. Quando sair do campo de visão da polícia, entre num estacionamento longe da via principal, troque de carro, tire o disfarce e coloque boné e óculos do inventário."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Venda o dinheiro para Yasmani",
-      "texto": [
-        "Quando estiver limpo, leve o dinheiro roubado até Yasmani para vender. A partir daqui ele também vende dicas de Security Van, e você pode roubar cofres de banco quando quiser."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Como liberar",
-      "texto": [
-        "Conclua VCIA Takedown; Yasmani então entra em contato com uma dica sobre um carro-forte."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [
-    "Cerca de US$ 80.000 em notas marcadas (se pegar tudo)",
-    "1 desbloqueio",
-    "Dicas de Security Van à venda com Yasmani"
-  ],
-  "trofeus": []
+ "slug": "thats-where-the-money-is",
+ "ordem": 124,
+ "nome": "That's Where the Money Is…",
+ "capitulo": 4,
+ "tipo": "secundaria",
+ "quem_passa": "Yasmani",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "Cerca de US$ 80.000 em notas marcadas + 1 desbloqueio",
+ "resumo": "Com uma dica de Yasmani, você segue um carro-forte até um banco, explode o cofre, foge da polícia e vende o dinheiro marcado.",
+ "objetivos": [
+  "Espere no café",
+  "Siga o carro-forte",
+  "Siga o segurança até o banco",
+  "Roube o cofre",
+  "Pegue as notas marcadas",
+  "Despiste a polícia",
+  "Venda o dinheiro para Yasmani"
+ ],
+ "passos": [
+  {
+   "titulo": "Espere no café",
+   "texto": [
+    "Depois de VCIA Takedown, Yasmani entra em contato com uma dica: é sua primeira chance de roubar um cofre de banco por conta própria. Vá ao Café Orquídea, em Ocean Beach, entre e sente perto da janela para esperar o carro-forte."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Siga o carro-forte",
+   "texto": [
+    "Assim que o carro-forte passar, corra de volta ao seu carro e siga-o. Mantenha distância, senão o motorista percebe."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Siga o segurança até o banco",
+   "texto": [
+    "O carro-forte para na frente de um banco. Estacione perto e siga o segurança a pé para dentro."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Roube o cofre",
+   "texto": [
+    "Lá dentro, coloque um disfarce e saque a arma para começar o assalto. Plante explosivos na porta do fundo da sala para abri-la e depois elimine os guardas que esperam no cofre."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Pegue as notas marcadas",
+   "texto": [
+    "As notas marcadas ficam empilhadas num carrinho no canto do cofre. Normalmente tem mais do que cabe em duas bolsas: passe uma bolsa cheia para seu parceiro para liberar espaço, ou troque para ele e continue pegando o dinheiro."
+   ],
+   "dicas": [
+    "Pegue todas as notas que puder: o butim completo vale cerca de US$ 80.000."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Despiste a polícia",
+   "texto": [
+    "O assalto dá quatro estrelas de procurado na hora, e a polícia já chega atirando. O banco não tem saída pelos fundos, então abra caminho pela frente. Deixe o parceiro dirigir enquanto você atira nos carros que perseguem vocês."
+   ],
+   "dicas": [
+    "A rodovia ajuda se o carro for rápido, mas espere muitos bloqueios. Quando sair do campo de visão da polícia, entre num estacionamento longe da via principal, troque de carro, tire o disfarce e coloque boné e óculos do inventário."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Venda o dinheiro para Yasmani",
+   "texto": [
+    "Quando estiver limpo, leve o dinheiro roubado até Yasmani para vender. A partir daqui ele também vende dicas de Security Van, e você pode roubar cofres de banco quando quiser."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Como liberar",
+   "texto": [
+    "Conclua VCIA Takedown; Yasmani então entra em contato com uma dica sobre um carro-forte."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [
+  "Cerca de US$ 80.000 em notas marcadas (se pegar tudo)",
+  "1 desbloqueio",
+  "Dicas de Security Van à venda com Yasmani"
+ ],
+ "trofeus": [],
+ "capa_arquivo": "thats-where-the-money-is__thats-where-the-money-is.jpg"
 }

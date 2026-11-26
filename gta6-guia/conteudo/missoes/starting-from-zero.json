@@ -1,80 +1,81 @@
 {
-  "slug": "starting-from-zero",
-  "ordem": 126,
-  "nome": "Starting From Zero",
-  "capitulo": 4,
-  "tipo": "principal",
-  "quem_passa": "Jason e Lucia",
-  "personagem": "Jason e Lucia",
-  "conta_100": "Sim",
-  "recompensa": "",
-  "resumo": "Fugindo da polícia, Jason e Lucia recuperam o HD com Andrea, buscam a estátua no guarda-volumes e acabam na cobertura de Giorgio Gallo.",
-  "objetivos": [
-    "Vá até o Aqua Stadium",
-    "Encontre Andrea",
-    "Vá até a Big House Storage Inc",
-    "Encontre o contato de Mattia",
-    "O teste na cobertura",
-    "Siga Giorgio e Dardan"
-  ],
-  "passos": [
-    {
-      "titulo": "Vá até o Aqua Stadium",
-      "texto": [
-        "Saia do ferro-velho, pegue o carro estacionado ali perto e dirija até o Aqua Stadium para encontrar Andrea. A polícia está vasculhando a cidade inteira, então dirija com cuidado e fique fora da vista dela. Se os policiais te virem em algum momento, Andrea vai embora e deixa o HD para você buscar."
-      ],
-      "dicas": [
-        "Se tiver dinheiro, uma parada rápida numa loja de roupas próxima deixa Jason e Lucia mais difíceis de reconhecer. Ajuda, mas não é obrigatório."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Encontre Andrea",
-      "texto": [
-        "Chegando lá, suba para as arquibancadas. Andrea está sentada no lado sudoeste do estádio."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Vá até a Big House Storage Inc",
-      "texto": [
-        "Depois da conversa com Andrea, você precisa da estátua que está no guarda-volumes. A polícia chega à frente do estádio, então largue seu carro: vá para o sul, até a área de guarda de barcos, e roube o carro estacionado do lado de fora do prédio. Dirija com cuidado até o guarda-volumes em Crosstown e entre; os dois pegam o que vieram buscar automaticamente."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Encontre o contato de Mattia",
-      "texto": [
-        "Uma mensagem de Mattia manda você para um hotel. Com Lucia, entre, pegue o elevador e siga a recepcionista quando ela te parar lá em cima. Quando o jogo passar para Jason, entre e suba de elevador até o terraço também."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "O teste na cobertura",
-      "texto": [
-        "As cenas continuam na cobertura de Giorgio Gallo, onde você tem a chance de atirar em Mattia. Faça o que quiser: a arma está descarregada, é só um teste de Giorgio, então Mattia sai ileso puxando o gatilho ou deixando o tempo acabar."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Siga Giorgio e Dardan",
-      "texto": [
-        "Siga Giorgio enquanto ele mostra a cobertura onde vocês vão ficar e depois siga Dardan até o quarto. Jason e Lucia vão dormir, a missão termina e Bird in the Hand começa em seguida."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [],
-  "trofeus": []
+ "slug": "starting-from-zero",
+ "ordem": 126,
+ "nome": "Starting From Zero",
+ "capitulo": 4,
+ "tipo": "principal",
+ "quem_passa": "Jason e Lucia",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Fugindo da polícia, Jason e Lucia recuperam o HD com Andrea, buscam a estátua no guarda-volumes e acabam na cobertura de Giorgio Gallo.",
+ "objetivos": [
+  "Vá até o Aqua Stadium",
+  "Encontre Andrea",
+  "Vá até a Big House Storage Inc",
+  "Encontre o contato de Mattia",
+  "O teste na cobertura",
+  "Siga Giorgio e Dardan"
+ ],
+ "passos": [
+  {
+   "titulo": "Vá até o Aqua Stadium",
+   "texto": [
+    "Saia do ferro-velho, pegue o carro estacionado ali perto e dirija até o Aqua Stadium para encontrar Andrea. A polícia está vasculhando a cidade inteira, então dirija com cuidado e fique fora da vista dela. Se os policiais te virem em algum momento, Andrea vai embora e deixa o HD para você buscar."
+   ],
+   "dicas": [
+    "Se tiver dinheiro, uma parada rápida numa loja de roupas próxima deixa Jason e Lucia mais difíceis de reconhecer. Ajuda, mas não é obrigatório."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Encontre Andrea",
+   "texto": [
+    "Chegando lá, suba para as arquibancadas. Andrea está sentada no lado sudoeste do estádio."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Vá até a Big House Storage Inc",
+   "texto": [
+    "Depois da conversa com Andrea, você precisa da estátua que está no guarda-volumes. A polícia chega à frente do estádio, então largue seu carro: vá para o sul, até a área de guarda de barcos, e roube o carro estacionado do lado de fora do prédio. Dirija com cuidado até o guarda-volumes em Crosstown e entre; os dois pegam o que vieram buscar automaticamente."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Encontre o contato de Mattia",
+   "texto": [
+    "Uma mensagem de Mattia manda você para um hotel. Com Lucia, entre, pegue o elevador e siga a recepcionista quando ela te parar lá em cima. Quando o jogo passar para Jason, entre e suba de elevador até o terraço também."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "O teste na cobertura",
+   "texto": [
+    "As cenas continuam na cobertura de Giorgio Gallo, onde você tem a chance de atirar em Mattia. Faça o que quiser: a arma está descarregada, é só um teste de Giorgio, então Mattia sai ileso puxando o gatilho ou deixando o tempo acabar."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Siga Giorgio e Dardan",
+   "texto": [
+    "Siga Giorgio enquanto ele mostra a cobertura onde vocês vão ficar e depois siga Dardan até o quarto. Jason e Lucia vão dormir, a missão termina e Bird in the Hand começa em seguida."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "starting-from-zero__starting-from-zero.jpg"
 }

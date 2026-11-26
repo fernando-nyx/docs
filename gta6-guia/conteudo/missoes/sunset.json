@@ -1,110 +1,111 @@
 {
-  "slug": "sunset",
-  "ordem": 125,
-  "nome": "Sunset",
-  "capitulo": 4,
-  "tipo": "principal",
-  "quem_passa": "Jason e Lucia",
-  "personagem": "Jason e Lucia",
-  "conta_100": "Sim",
-  "recompensa": "",
-  "resumo": "Um bilhete leva Jason e Lucia à casa-barco de Raul na Ocean Beach Marina, onde a polícia arma uma emboscada e os dois precisam fugir por terra e por mar.",
-  "objetivos": [
-    "Fale com Valentina",
-    "Retorne a ligação de Valentina",
-    "Pegue o bilhete",
-    "Dirija até a marina",
-    "Procure Raul",
-    "Últimas palavras de Raul",
-    "Fuja com Lucia",
-    "Defenda o barco",
-    "Despiste a polícia"
-  ],
-  "passos": [
-    {
-      "titulo": "Fale com Valentina",
-      "texto": [
-        "A missão começa no Y Hotel com Valentina ligando para Lucia: ela sabe do HD e está negociando com os possíveis compradores, Camila Fuentes e Giorgio Gallo. Ela desaconselha pressionar gente tão poderosa e prefere um bom negócio a um negócio rápido, mas diz para Lucia ligar de volta se quiserem acelerar."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Retorne a ligação de Valentina",
-      "texto": [
-        "Ligue de volta para Valentina com Lucia e diga que quer apressar o negócio. Ela aceita pressionar os compradores."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Pegue o bilhete",
-      "texto": [
-        "Santino, do atendimento ao hóspede, liga avisando que há um bilhete esperando na recepção. Desça até o saguão do Y Hotel e pegue-o: ele diz que o barco de Raul está na Ocean Beach Marina. Dá para trocar de roupa antes de sair, se quiser."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Dirija até a marina",
-      "texto": [
-        "No caminho, Jason liga para Abe perguntando sobre Raul, mas Abe diz que não o conhece e que Valentina é seu único contato. Dirija até a marina na baía enquanto o sol se põe."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Procure Raul",
-      "texto": [
-        "Siga pelo píer até a casa-barco de Raul. O lugar foi claramente revirado: entre e vasculhe o barco até Jason achar Raul, espancado e quase morto, no banheirinho atrás da segunda porta à esquerda."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Últimas palavras de Raul",
-      "texto": [
-        "Raul conta que foi a polícia que fez isso com ele e que Valentina o entregou, mas que Andrea ainda está com o HD. Ele sabe que não vai sobreviver e implora a Jason que acabe com aquilo antes de a polícia chegar."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Fuja com Lucia",
-      "texto": [
-        "O barco está cercado por uma força-tarefa da polícia e da NOOSE. Abra caminho pelos píeres da marina com Lucia, indo de cobertura em cobertura enquanto mais unidades avançam. Você pode alternar entre Jason e Lucia a qualquer momento para um cobrir o outro. Um helicóptero da polícia entra na luta: derrube-o cedo e o resto dos píeres fica bem mais fácil. Avance até o fim do píer."
-      ],
-      "dicas": [
-        "Você começa o tiroteio com nível de procurado alto e inimigos flanqueando por vários lados, então nunca fique muito tempo exposto."
-      ],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Defenda o barco",
-      "texto": [
-        "Chegue a um barco e fuja pelo mar, revezando o timão e atirando nas lanchas da polícia que perseguem vocês. Quando a munição estiver acabando, pegue mais armas no armário de armas a bordo. A munição é limitada: quando o fuzil de assalto secar, o jogo troca você para o outro personagem e o parceiro assume o timão. Mais policiais aparecem em lanchas e helicópteros depois que você sai da marina."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Despiste a polícia",
-      "texto": [
-        "Lucia tem um plano: ligue o piloto automático, passe entre as barcaças à frente e pule do barco, para a polícia continuar perseguindo o barco vazio. Acerte o momento e fique escondido para concluir a missão. A história segue direto em Starting From Zero."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [],
-  "trofeus": []
+ "slug": "sunset",
+ "ordem": 125,
+ "nome": "Sunset",
+ "capitulo": 4,
+ "tipo": "principal",
+ "quem_passa": "Jason e Lucia",
+ "personagem": "Jason e Lucia",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Um bilhete leva Jason e Lucia à casa-barco de Raul na Ocean Beach Marina, onde a polícia arma uma emboscada e os dois precisam fugir por terra e por mar.",
+ "objetivos": [
+  "Fale com Valentina",
+  "Retorne a ligação de Valentina",
+  "Pegue o bilhete",
+  "Dirija até a marina",
+  "Procure Raul",
+  "Últimas palavras de Raul",
+  "Fuja com Lucia",
+  "Defenda o barco",
+  "Despiste a polícia"
+ ],
+ "passos": [
+  {
+   "titulo": "Fale com Valentina",
+   "texto": [
+    "A missão começa no Y Hotel com Valentina ligando para Lucia: ela sabe do HD e está negociando com os possíveis compradores, Camila Fuentes e Giorgio Gallo. Ela desaconselha pressionar gente tão poderosa e prefere um bom negócio a um negócio rápido, mas diz para Lucia ligar de volta se quiserem acelerar."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Retorne a ligação de Valentina",
+   "texto": [
+    "Ligue de volta para Valentina com Lucia e diga que quer apressar o negócio. Ela aceita pressionar os compradores."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Pegue o bilhete",
+   "texto": [
+    "Santino, do atendimento ao hóspede, liga avisando que há um bilhete esperando na recepção. Desça até o saguão do Y Hotel e pegue-o: ele diz que o barco de Raul está na Ocean Beach Marina. Dá para trocar de roupa antes de sair, se quiser."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Dirija até a marina",
+   "texto": [
+    "No caminho, Jason liga para Abe perguntando sobre Raul, mas Abe diz que não o conhece e que Valentina é seu único contato. Dirija até a marina na baía enquanto o sol se põe."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Procure Raul",
+   "texto": [
+    "Siga pelo píer até a casa-barco de Raul. O lugar foi claramente revirado: entre e vasculhe o barco até Jason achar Raul, espancado e quase morto, no banheirinho atrás da segunda porta à esquerda."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Últimas palavras de Raul",
+   "texto": [
+    "Raul conta que foi a polícia que fez isso com ele e que Valentina o entregou, mas que Andrea ainda está com o HD. Ele sabe que não vai sobreviver e implora a Jason que acabe com aquilo antes de a polícia chegar."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Fuja com Lucia",
+   "texto": [
+    "O barco está cercado por uma força-tarefa da polícia e da NOOSE. Abra caminho pelos píeres da marina com Lucia, indo de cobertura em cobertura enquanto mais unidades avançam. Você pode alternar entre Jason e Lucia a qualquer momento para um cobrir o outro. Um helicóptero da polícia entra na luta: derrube-o cedo e o resto dos píeres fica bem mais fácil. Avance até o fim do píer."
+   ],
+   "dicas": [
+    "Você começa o tiroteio com nível de procurado alto e inimigos flanqueando por vários lados, então nunca fique muito tempo exposto."
+   ],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Defenda o barco",
+   "texto": [
+    "Chegue a um barco e fuja pelo mar, revezando o timão e atirando nas lanchas da polícia que perseguem vocês. Quando a munição estiver acabando, pegue mais armas no armário de armas a bordo. A munição é limitada: quando o fuzil de assalto secar, o jogo troca você para o outro personagem e o parceiro assume o timão. Mais policiais aparecem em lanchas e helicópteros depois que você sai da marina."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Despiste a polícia",
+   "texto": [
+    "Lucia tem um plano: ligue o piloto automático, passe entre as barcaças à frente e pule do barco, para a polícia continuar perseguindo o barco vazio. Acerte o momento e fique escondido para concluir a missão. A história segue direto em Starting From Zero."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "sunset__sunset.jpg"
 }

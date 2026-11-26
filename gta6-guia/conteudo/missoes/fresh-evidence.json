@@ -1,98 +1,99 @@
 {
-  "slug": "fresh-evidence",
-  "ordem": 114,
-  "nome": "Fresh Evidence",
-  "capitulo": 4,
-  "tipo": "principal",
-  "quem_passa": "Dre'Quan Priest",
-  "personagem": "Jason",
-  "conta_100": "Sim",
-  "recompensa": "",
-  "resumo": "Jason e Dre'Quan invadem a mansão de Dante em Starfish Island à noite para copiar provas de uma sala secreta e depois fogem de lancha.",
-  "objetivos": [
-    "Encontre Dre'Quan no Jack of Hearts",
-    "Entre escondido na mansão de Dante",
-    "Pegue o cartão de acesso",
-    "Chegue ao elevador",
-    "Abra a sala secreta",
-    "Copie as provas",
-    "Abra caminho para fora",
-    "Fuja de barco"
-  ],
-  "passos": [
-    {
-      "titulo": "Encontre Dre'Quan no Jack of Hearts",
-      "texto": [
-        "Com Watch It e Adventures in Babysitting concluídas, Dre'Quan liga para Jason cumprir a promessa feita ao dono da boate. Vá ao escritório dele no Jack of Hearts, foque nele e diga que está pronto; depois siga-o até o carro no beco."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Entre escondido na mansão de Dante",
-      "texto": [
-        "Dirija até Starfish Island e espere anoitecer. Escale o muro onde Dre'Quan para, suba pelas caixas até o andar seguinte e entre na sala de musculação. Chegue por trás do segurança do outro lado e nocauteie-o, depois carregue o corpo até o armário que Dre'Quan abre. Siga a passarela até a porta e abra-a com a Snap Gun."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Pegue o cartão de acesso",
-      "texto": [
-        "Lá dentro, siga os corredores até o quarto evitando o tigre que passeia pela varanda. Pegue o cartão na mesa de cabeceira à esquerda da cama."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Chegue ao elevador",
-      "texto": [
-        "Agora o tigre bloqueia o corredor: siga Dre'Quan pela varanda e pule em cima das cabanas. Dois seguranças ficam entre você e o elevador: vá pela parede à direita da piscina até o bar, pegue uma garrafa e jogue à esquerda deles para distraí-los. Na sala de estar, pegue a carne crua na geladeira à direita e jogue do outro lado da sala para atrair o tigre; depois siga Dre'Quan até o elevador."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Abra a sala secreta",
-      "texto": [
-        "No subsolo, entre na sala redonda com o grande mural dourado. Dre'Quan quer decidir no pedra, papel e tesoura quem abre a porta. Se perder, compare os símbolos dos murais com o encaixe vazio na parede: você precisa do boneco com a mão segurando um microfone, o azul no meio, bem à direita. Tire-o da parede, coloque no encaixe e segure o comando para abrir a porta."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Copie as provas",
-      "texto": [
-        "Entre apertado na sala de vigilância atrás de Dre'Quan. Enquanto ele copia os arquivos, interaja com ele para ver os vídeos juntos."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Abra caminho para fora",
-      "texto": [
-        "Pegue uma ou duas armas da parede e saia da sala. Elimine os seguranças que entram no subsolo, suba de elevador e lute pelo andar de cima, atento aos cantos. Pule da varanda do fundo como antes e vá para o píer."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    },
-    {
-      "titulo": "Fuja de barco",
-      "texto": [
-        "Entre na lancha de Dante e navegue até despistar a polícia para concluir a missão."
-      ],
-      "dicas": [],
-      "lista": [],
-      "imagens": []
-    }
-  ],
-  "recompensas": [],
-  "trofeus": []
+ "slug": "fresh-evidence",
+ "ordem": 114,
+ "nome": "Fresh Evidence",
+ "capitulo": 4,
+ "tipo": "principal",
+ "quem_passa": "Dre'Quan Priest",
+ "personagem": "Jason",
+ "conta_100": "Sim",
+ "recompensa": "",
+ "resumo": "Jason e Dre'Quan invadem a mansão de Dante em Starfish Island à noite para copiar provas de uma sala secreta e depois fogem de lancha.",
+ "objetivos": [
+  "Encontre Dre'Quan no Jack of Hearts",
+  "Entre escondido na mansão de Dante",
+  "Pegue o cartão de acesso",
+  "Chegue ao elevador",
+  "Abra a sala secreta",
+  "Copie as provas",
+  "Abra caminho para fora",
+  "Fuja de barco"
+ ],
+ "passos": [
+  {
+   "titulo": "Encontre Dre'Quan no Jack of Hearts",
+   "texto": [
+    "Com Watch It e Adventures in Babysitting concluídas, Dre'Quan liga para Jason cumprir a promessa feita ao dono da boate. Vá ao escritório dele no Jack of Hearts, foque nele e diga que está pronto; depois siga-o até o carro no beco."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Entre escondido na mansão de Dante",
+   "texto": [
+    "Dirija até Starfish Island e espere anoitecer. Escale o muro onde Dre'Quan para, suba pelas caixas até o andar seguinte e entre na sala de musculação. Chegue por trás do segurança do outro lado e nocauteie-o, depois carregue o corpo até o armário que Dre'Quan abre. Siga a passarela até a porta e abra-a com a Snap Gun."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Pegue o cartão de acesso",
+   "texto": [
+    "Lá dentro, siga os corredores até o quarto evitando o tigre que passeia pela varanda. Pegue o cartão na mesa de cabeceira à esquerda da cama."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Chegue ao elevador",
+   "texto": [
+    "Agora o tigre bloqueia o corredor: siga Dre'Quan pela varanda e pule em cima das cabanas. Dois seguranças ficam entre você e o elevador: vá pela parede à direita da piscina até o bar, pegue uma garrafa e jogue à esquerda deles para distraí-los. Na sala de estar, pegue a carne crua na geladeira à direita e jogue do outro lado da sala para atrair o tigre; depois siga Dre'Quan até o elevador."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Abra a sala secreta",
+   "texto": [
+    "No subsolo, entre na sala redonda com o grande mural dourado. Dre'Quan quer decidir no pedra, papel e tesoura quem abre a porta. Se perder, compare os símbolos dos murais com o encaixe vazio na parede: você precisa do boneco com a mão segurando um microfone, o azul no meio, bem à direita. Tire-o da parede, coloque no encaixe e segure o comando para abrir a porta."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Copie as provas",
+   "texto": [
+    "Entre apertado na sala de vigilância atrás de Dre'Quan. Enquanto ele copia os arquivos, interaja com ele para ver os vídeos juntos."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Abra caminho para fora",
+   "texto": [
+    "Pegue uma ou duas armas da parede e saia da sala. Elimine os seguranças que entram no subsolo, suba de elevador e lute pelo andar de cima, atento aos cantos. Pule da varanda do fundo como antes e vá para o píer."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  },
+  {
+   "titulo": "Fuja de barco",
+   "texto": [
+    "Entre na lancha de Dante e navegue até despistar a polícia para concluir a missão."
+   ],
+   "dicas": [],
+   "lista": [],
+   "imagens": []
+  }
+ ],
+ "recompensas": [],
+ "trofeus": [],
+ "capa_arquivo": "fresh-evidence__fresh-evidence.jpg"
 }
