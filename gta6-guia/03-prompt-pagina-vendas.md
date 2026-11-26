@@ -8,8 +8,8 @@ Você vai construir a **página de vendas do Vice Detonado**, um produto digital
 
 ## 1. O produto (concepção)
 
-- **O que é:** um app de bolso (PWA no celular) com o detonado completo do GTA 6: as 135 missões passo a passo com 556 imagens do jogo, a checklist dos 100% e os colecionáveis item por item (mais de 700 itens marcáveis), o que se perde em cada capítulo, busca instantânea e progresso salvo.
-- **Para quem:** jogador brasileiro de 18 a 35 anos, jogando GTA 6 no PS5 ou Xbox Series. Joga à noite e no fim de semana, quer zerar e fechar os 100% sem perder nada e não lê guia em inglês.
+- **O que é:** um app de bolso (PWA no celular) com o detonado completo do GTA VI: as 135 missões passo a passo com 556 imagens do jogo, a checklist dos 100% e os colecionáveis item por item (mais de 700 itens marcáveis), o que se perde em cada capítulo, busca instantânea e progresso salvo.
+- **Para quem:** jogador brasileiro de 18 a 35 anos, jogando GTA VI no PS5 ou Xbox Series. Joga à noite e no fim de semana, quer zerar e fechar os 100% sem perder nada e não lê guia em inglês.
 - **A dor que a página explora:** perder tempo no YouTube (vídeo de 40 minutos, intro, patrocinador, "se inscreva", conteúdo em inglês, 15 abas abertas, e no final não acha o que procurava). Também: perder missão que some pra sempre, ter o dinheiro zerado no fim do Capítulo 1, travar o 100% por um colecionável esquecido, 200 horas de platina no escuro.
 - **A virada:** o problema não é o jogador, é a bagunça. A informação existe, mas está espalhada. Quem fecha rápido joga organizado.
 - **Mecanismo:** celular do lado da TV. Chegou numa missão? Abre, vê o passo a passo com imagem e resolve. Pegou um colecionável? Toca e marca. O app mostra exatamente o que falta.
@@ -48,7 +48,7 @@ O **bloco 9 (order bumps) não vai na página**: é o texto do checkout. Deixe d
   - grandes, largura total no celular, gradiente rosa→ciano, texto escuro em Bungee
   - repita o CTA onde a copy indica
   - leve animação de pulso no botão do preço
-- **É proibido:** logo do GTA ou da Rockstar, a fonte/estilo oficial do logo do GTA, capa, artes oficiais, os personagens Jason e Lucia como identidade, prints com a logo do jogo. "GTA 6" aparece só no texto, pra dizer de que jogo é o guia.
+- **É proibido:** logo do GTA ou da Rockstar, a fonte/estilo oficial do logo do GTA, capa, artes oficiais, os personagens Jason e Lucia como identidade, prints com a logo do jogo. "GTA VI" aparece só no texto, pra dizer de que jogo é o guia.
 
 ## 4. Imagens (mockups)
 
@@ -64,7 +64,7 @@ Lugares: topo (celular + TV), "O que tem dentro" (uma tela do app por módulo) e
   - todos os botões levam para o mesmo link, numa constante única (`CHECKOUT_URL = '#checkout'`) que eu troco depois
   - os parâmetros da URL (UTMs, fbclid) passam junto pro link do checkout
 - **Pixel:** deixe o ponto pronto para o Meta Pixel no `<head>`, comentado, e dispare `InitiateCheckout` no clique dos botões.
-- **SEO básico:** título "Vice Detonado: o detonado completo do GTA 6", descrição curta, imagem de compartilhamento (placeholder).
+- **SEO básico:** título "Vice Detonado: o detonado completo do GTA VI", descrição curta, imagem de compartilhamento (placeholder).
 - **Âncora de preço:** a copy tem um "De R$ 19,90". Deixe isso numa variável fácil de remover, porque só vou usar se o preço for real.
 - **Depoimentos:** não invente nenhum. Se quiser reservar espaço, deixe vazio e comentado.
 - **Rodapé:** o aviso de guia independente e não oficial é obrigatório, exatamente como está na copy.
@@ -82,9 +82,9 @@ Lugares: topo (celular + TV), "O que tem dentro" (uma tela do app por módulo) e
 
 ## 1. Topo (primeira dobra)
 
-**Pré-título:** PARA QUEM JÁ ESTÁ JOGANDO GTA 6 (PS5 E XBOX)
+**Pré-título:** PARA QUEM JÁ ESTÁ JOGANDO GTA VI (PS5 E XBOX)
 
-# Para de perder sua noite no YouTube procurando o que fazer no GTA 6.
+# Para de perder sua noite no YouTube procurando o que fazer no GTA VI.
 
 **Subtítulo:** Todas as 135 missões passo a passo com imagem, a checklist dos 100% e cada colecionável marcado no seu celular. Você joga, olha do lado, marca e segue. Sem vídeo de 40 minutos, sem 15 abas abertas, sem "se inscreva no canal".
 
@@ -127,13 +127,13 @@ Você comprou o jogo mais esperado da década pra **jogar**, não pra virar pesq
 
 A informação existe. Só que ela está **espalhada em 50 sites, 300 vídeos e 3 idiomas.** Cada um com um pedaço. Nenhum com tudo. Nenhum que lembre o que **você** já fez.
 
-Quem fecha o GTA 6 rápido não joga melhor que você. **Joga organizado.**
+Quem fecha o GTA VI rápido não joga melhor que você. **Joga organizado.**
 
 ---
 
 ## 4. Apresentação do produto
 
-# Vice Detonado: o guia de bolso do GTA 6
+# Vice Detonado: o guia de bolso do GTA VI
 
 Tudo o que você precisa pra zerar, fechar os 100% e platinar, **num app só, em português, no seu celular.**
 
@@ -186,7 +186,7 @@ Marca no celular e continua de onde parou. Trocou de aparelho? Seu progresso vai
 ## 8. Para quem é
 
 **É pra você se:**
-- ✅ Está jogando GTA 6 no PS5 ou Xbox Series.
+- ✅ Está jogando GTA VI no PS5 ou Xbox Series.
 - ✅ Quer zerar sem travar e sem perder missão.
 - ✅ Quer fechar os 100% ou platinar sem passar 200 horas no escuro.
 - ✅ Tem pouco tempo pra jogar e não quer desperdiçar ele no YouTube.
@@ -266,7 +266,7 @@ Pode. Funciona em qualquer navegador.
 
 Ou pode ter **tudo na palma da mão** e usar seu tempo pra fazer o que você comprou o jogo pra fazer: **jogar.**
 
-**Botão:** QUERO ZERAR O GTA 6 SEM PERDER TEMPO
+**Botão:** QUERO ZERAR O GTA VI SEM PERDER TEMPO
 
 ---
 

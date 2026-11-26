@@ -1,4 +1,4 @@
-# Concepção — Vice Detonado (guia de GTA 6)
+# Concepção — Vice Detonado (guia de GTA VI)
 
 > Etapa 5 do método (modelagem por adjacência). Base de conteúdo em `base/`.
 
@@ -29,7 +29,7 @@
 ## Nova concepção (12 campos)
 
 1. **Nicho:** games.
-2. **Subnicho:** jogadores de GTA 6 (PS5/Xbox) no Brasil, nas primeiras semanas após o lançamento.
+2. **Subnicho:** jogadores de GTA VI (PS5/Xbox) no Brasil, nas primeiras semanas após o lançamento.
 3. **Persona:** jogador de 18 a 35 anos que joga à noite e no fim de semana, quer "zerar direito" sem perder nada e não lê guia em inglês.
 4. **Situação:** está jogando, trava ("cadê o que falta?", "vou perder isso se avançar?") e precisa pausar para procurar.
 5. **Dor:** pausar o jogo, assistir vídeo de 30 minutos para achar uma informação e descobrir tarde demais que perdeu algo ou ficou sem dinheiro na virada do capítulo.
@@ -43,7 +43,7 @@
 
 ## Fórmula de compra
 
-Reconhece: **quer fechar o GTA 6 sem perder nada** → entende: **app com checklist dos 100% e todos os colecionáveis** → usa em: **cada sessão de jogo, com o celular do lado** → percebe: **horas poupadas e nada perdido**.
+Reconhece: **quer fechar o GTA VI sem perder nada** → entende: **app com checklist dos 100% e todos os colecionáveis** → usa em: **cada sessão de jogo, com o celular do lado** → percebe: **horas poupadas e nada perdido**.
 
 ## Oferta
 
@@ -64,7 +64,7 @@ Os bumps são liberados dentro do mesmo app (um código de acesso por bump). Ass
 2. **Leonida 100%**
 3. **Checklist Vice: o guia não oficial**
 
-Na descrição: "guia não oficial para GTA 6". Nunca usar logo, arte oficial ou personagens.
+Na descrição: "guia não oficial para GTA VI". Nunca usar logo, arte oficial ou personagens.
 
 ## Checagem final
 

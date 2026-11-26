@@ -1,10 +1,10 @@
 const { chromium } = require('playwright');
 const OUT = '/home/user/docs/gta6-guia/criativos/capa/';
 const B = [
-  { f: 'bump-rota-do-dinheiro-800.png', t1: 'ROTA DO', t2: 'DINHEIRO', sub: 'O jeito mais rápido de ficar rico no GTA 6',
+  { f: 'bump-rota-do-dinheiro-800.png', t1: 'ROTA DO', t2: 'DINHEIRO', sub: 'O jeito mais rápido de ficar rico no GTA VI',
     b1: '<b>22</b>bancos com valores', b2: '<b>$205 MIL</b>no maior cofre', b3: '✓ Códigos dos cofres', i1: 'din1.png', i2: 'din2.png',
     grad: 'linear-gradient(90deg,#ffd24a,#ffe58a 45%,#3df5a6)', glow: 'rgba(255,210,74,.6)' },
-  { f: 'bump-guia-da-platina-800.png', t1: 'GUIA DA', t2: 'PLATINA', sub: 'Os 55 troféus do GTA 6, um por um',
+  { f: 'bump-guia-da-platina-800.png', t1: 'GUIA DA', t2: 'PLATINA', sub: 'Os 55 troféus do GTA VI, um por um',
     b1: '<b>55</b>troféus explicados', b2: '<b>3 ETAPAS</b>até a platina', b3: '✓ Todos os cheats', i1: 'plat2.png', i2: 'plat1.png',
     grad: 'linear-gradient(90deg,#19e3ff,#e8f6ff 50%,#c9a8ff)', glow: 'rgba(25,227,255,.6)' },
   { f: 'bump-garagem-e-arsenal-800.png', t1: 'GARAGEM &', t2: 'ARSENAL', sub: 'Carros raros, garagens e armas lendárias',

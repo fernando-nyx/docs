@@ -1,4 +1,4 @@
-# 01 · História e Início — Guia 100% do GTA 6
+# 01 · História e Início — Guia 100% do GTA VI
 
 > Nomes de missões, lugares, itens e troféus ficam no original em inglês.
 

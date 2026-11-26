@@ -3,7 +3,7 @@
 window.I18N = {
   pt: {
     brand: 'VICE DETONADO',
-    tagline: 'O detonado completo do GTA 6',
+    tagline: 'O detonado completo do GTA VI',
     overall: 'do seu guia concluído',
     items: 'itens',
     done: 'feitos',

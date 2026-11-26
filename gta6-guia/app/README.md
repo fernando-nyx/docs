@@ -1,6 +1,6 @@
 # App Vice Detonado
 
-Guia de bolso para GTA 6. Cloudflare Worker + D1 (o mesmo modelo do Prato Tranquilo).
+Guia de bolso para GTA VI. Cloudflare Worker + D1 (o mesmo modelo do Prato Tranquilo).
 O app (HTML/CSS/JS puro em `public/`) instala na tela inicial e abre offline depois do primeiro acesso.
 
 ## Como funciona

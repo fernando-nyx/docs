@@ -6,15 +6,15 @@
 
 ## Antes de gravar
 
-**Quem é a pessoa:** jogador de 18 a 35 anos, no sofá, à noite, com GTA 6 aberto e o celular na mão. Acabou de pausar o jogo pra procurar alguma coisa no YouTube.
+**Quem é a pessoa:** jogador de 18 a 35 anos, no sofá, à noite, com GTA VI aberto e o celular na mão. Acabou de pausar o jogo pra procurar alguma coisa no YouTube.
 
 **O que faz ela parar de rolar:** se reconhecer na cena. A barra do YouTube sendo arrastada, o "deixa o like", o vídeo em inglês: ela viveu isso ontem.
 
 **Narração no ElevenLabs:**
 - Voz masculina, jovem, rápida e debochada (tom de amigo zoando).
-- As grafias entre colchetes são **só para o áudio**; nas legendas, escreva normal ("GTA 6", "R$ 5,90").
+- As grafias entre colchetes são **só para o áudio**; nas legendas, escreva normal ("GTA VI", "R$ 5,90").
 - `...` = pausa curta · `<break time="0.6s" />` = pausa marcada.
-- Confira no áudio: "GTA 6" (gê tê á seis), "Vice" (váice), "PS5" (pê éssi cinco), "R$ 5,90" (cinco e noventa), "Xbox" (équis bóx).
+- Confira no áudio: "GTA VI" (gê tê á seis), "Vice" (váice), "PS5" (pê éssi cinco), "R$ 5,90" (cinco e noventa), "Xbox" (équis bóx).
 - Depois de gerar: tire os silêncios longos e acelere 1.1x a 1.2x.
 
 **Imagem: o que usar e o que evitar**
@@ -22,7 +22,7 @@
 - ✅ **Cena de mão segurando o celular** com o app, na frente de uma TV ligada (a TV pode ficar desfocada).
 - ✅ **Gravação de tela do YouTube genérico** (barra arrastando, aba de anúncio, aba em inglês) com o rosto/canal de terceiros **desfocado**.
 - ✅ Banco de imagens licenciado: sofá, controle, noite, tédio.
-- ⚠️ **Gameplay do GTA 6 em anúncio pago** é conteúdo da Rockstar. Pode gerar reprovação ou denúncia de propriedade intelectual. Se usar, que seja pouco, de fundo, e sempre com o app em primeiro plano. Nunca logo ou arte oficial.
+- ⚠️ **Gameplay do GTA VI em anúncio pago** é conteúdo da Rockstar. Pode gerar reprovação ou denúncia de propriedade intelectual. Se usar, que seja pouco, de fundo, e sempre com o app em primeiro plano. Nunca logo ou arte oficial.
 - ⚠️ Nada de print de vídeo de youtuber identificável: desfoque.
 
 ---
@@ -32,11 +32,11 @@
 **Ideia:** a pessoa se vê na cena de perder 30 minutos no YouTube e não achar nada.
 
 ### Gancho (0–3s)
-**Principal:** "Você não tá jogando GTA 6. Você tá assistindo YouTube."
+**Principal:** "Você não tá jogando GTA VI. Você tá assistindo YouTube."
 
 Alternativos para teste:
 - "Quanto tempo você perdeu hoje procurando missão no YouTube?"
-- "Pausou o GTA 6 pra ver um vídeo... e já faz 20 minutos."
+- "Pausou o GTA VI pra ver um vídeo... e já faz 20 minutos."
 
 ### Roteiro completo (narração para ElevenLabs)
 
@@ -56,7 +56,7 @@ Por cinco e noventa. Toca no botão e para de perder sua noite.
 
 | Trecho da narração | O que aparece na tela | Texto na tela |
 |---|---|---|
-| "Você não tá jogando... assistindo YouTube" | Close de alguém no sofá olhando o celular, TV pausada no fundo | VOCÊ NÃO TÁ JOGANDO GTA 6 |
+| "Você não tá jogando... assistindo YouTube" | Close de alguém no sofá olhando o celular, TV pausada no fundo | VOCÊ NÃO TÁ JOGANDO GTA VI |
 | "Travou numa missão... trinta e oito minutos" | Gravação de tela: YouTube com um vídeo de 38:12 (canal desfocado) | 38 MINUTOS 🤡 |
 | "Pula a intro... Pula o patrocinador" | Dedo arrastando a barra do vídeo, cortes rápidos | PULA. PULA. PULA. |
 | "Não é esse. Abre outro... em inglês" | Troca de aba, vídeo em inglês | AGORA EM INGLÊS 💀 |
@@ -73,11 +73,11 @@ Por cinco e noventa. Toca no botão e para de perder sua noite.
 **Ideia:** fechar os 100% e platinar sem perder nada, com a pessoa enxergando que é possível.
 
 ### Gancho (0–3s)
-**Principal:** "Tem missão no GTA 6 que some pra sempre se você avançar."
+**Principal:** "Tem missão no GTA VI que some pra sempre se você avançar."
 
 Alternativos para teste:
-- "O GTA 6 zera o seu dinheiro no fim do Capítulo 1. Você sabia?"
-- "Quer platinar o GTA 6 sem passar 200 horas no escuro?"
+- "O GTA VI zera o seu dinheiro no fim do Capítulo 1. Você sabia?"
+- "Quer platinar o GTA VI sem passar 200 horas no escuro?"
 
 ### Roteiro completo (narração para ElevenLabs)
 
@@ -106,7 +106,7 @@ Cinco e noventa. Toca no botão e fecha esse jogo do jeito certo.
 | "O que fazer em cada capítulo..." | App: seção "o que você perde em cada capítulo" | ANTES DE AVANÇAR ✅ |
 | "A checklist dos 100%, item por item" | App: checklist rolando, dedo marcando 3 itens | CHECKLIST 100% |
 | "Mais de 700 itens... vê na hora o que falta" | App: barra de progresso subindo, filtro "Só pendentes" | +700 ITENS · VÊ O QUE FALTA |
-| "É o detonado completo..." | Mão com o celular na frente da TV | O DETONADO COMPLETO DO GTA 6 |
+| "É o detonado completo..." | Mão com o celular na frente da TV | O DETONADO COMPLETO DO GTA VI |
 | "Cinco e noventa..." | Tela final com preço | R$ 5,90 · TOCA EM "SAIBA MAIS" |
 
 ---
@@ -116,11 +116,11 @@ Cinco e noventa. Toca no botão e fecha esse jogo do jeito certo.
 **Ideia:** mostrar o "depois": a noite de jogo fluindo, com o app do lado e a porcentagem subindo.
 
 ### Gancho (0–3s)
-**Principal:** "É assim que eu jogo GTA 6 agora." (mostrando o celular do lado da TV)
+**Principal:** "É assim que eu jogo GTA VI agora." (mostrando o celular do lado da TV)
 
 Alternativos para teste:
-- "Esse app fez eu parar de pausar o GTA 6."
-- "Olha a minha porcentagem do GTA 6 subindo sem eu abrir o YouTube."
+- "Esse app fez eu parar de pausar o GTA VI."
+- "Olha a minha porcentagem do GTA VI subindo sem eu abrir o YouTube."
 
 ### Roteiro completo (narração para ElevenLabs)
 
@@ -140,7 +140,7 @@ Cinco e noventa. Toca no botão e joga do jeito que dá gosto.
 
 | Trecho da narração | O que aparece na tela | Texto na tela |
 |---|---|---|
-| "É assim que eu jogo GTA 6 agora" | Plano aberto: sofá, TV ligada (desfocada), celular apoiado com o app aberto | É ASSIM QUE EU JOGO AGORA |
+| "É assim que eu jogo GTA VI agora" | Plano aberto: sofá, TV ligada (desfocada), celular apoiado com o app aberto | É ASSIM QUE EU JOGO AGORA |
 | "Celular do lado... controle na mão" | Close: mão com controle, celular ao lado | — |
 | "Chegou numa missão? Abro..." | App: tocando numa missão, abre o passo a passo com imagem | MISSÃO? ABRE E SEGUE |
 | "Peguei um colecionável? Toco e marco" | App: tocando na caixinha, fica verde ✓ | ✓ MARCADO |
@@ -158,15 +158,15 @@ Cinco e noventa. Toca no botão e joga do jeito que dá gosto.
 
 **Opção A (dor):**
 Para de perder sua noite no YouTube procurando missão. 🎮
-As 135 missões do GTA 6 passo a passo, com imagem, a checklist dos 100% e todos os colecionáveis, em português, no seu celular.
+As 135 missões do GTA VI passo a passo, com imagem, a checklist dos 100% e todos os colecionáveis, em português, no seu celular.
 👉 R$ 5,90 · acesso na hora
 
 **Opção B (desejo):**
-Tem missão no GTA 6 que some pra sempre se você avançar. ⚠️
+Tem missão no GTA VI que some pra sempre se você avançar. ⚠️
 Saiba antes, marque tudo e feche os 100% sem perder nada.
 👉 Vice Detonado · R$ 5,90
 
-**Título (headline):** O detonado completo do GTA 6 por R$ 5,90
+**Título (headline):** O detonado completo do GTA VI por R$ 5,90
 **Botão:** Saiba mais
 
 ---

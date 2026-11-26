@@ -8,9 +8,9 @@
 
 ## 1. Topo (primeira dobra)
 
-**Pré-título:** PARA QUEM JÁ ESTÁ JOGANDO GTA 6 (PS5 E XBOX)
+**Pré-título:** PARA QUEM JÁ ESTÁ JOGANDO GTA VI (PS5 E XBOX)
 
-# Para de perder sua noite no YouTube procurando o que fazer no GTA 6.
+# Para de perder sua noite no YouTube procurando o que fazer no GTA VI.
 
 **Subtítulo:** Todas as 135 missões passo a passo com imagem, a checklist dos 100% e cada colecionável marcado no seu celular. Você joga, olha do lado, marca e segue. Sem vídeo de 40 minutos, sem 15 abas abertas, sem "se inscreva no canal".
 
@@ -53,13 +53,13 @@ Você comprou o jogo mais esperado da década pra **jogar**, não pra virar pesq
 
 A informação existe. Só que ela está **espalhada em 50 sites, 300 vídeos e 3 idiomas.** Cada um com um pedaço. Nenhum com tudo. Nenhum que lembre o que **você** já fez.
 
-Quem fecha o GTA 6 rápido não joga melhor que você. **Joga organizado.**
+Quem fecha o GTA VI rápido não joga melhor que você. **Joga organizado.**
 
 ---
 
 ## 4. Apresentação do produto
 
-# Vice Detonado: o guia de bolso do GTA 6
+# Vice Detonado: o guia de bolso do GTA VI
 
 Tudo o que você precisa pra zerar, fechar os 100% e platinar, **num app só, em português, no seu celular.**
 
@@ -112,7 +112,7 @@ Marca no celular e continua de onde parou. Trocou de aparelho? Seu progresso vai
 ## 8. Para quem é
 
 **É pra você se:**
-- ✅ Está jogando GTA 6 no PS5 ou Xbox Series.
+- ✅ Está jogando GTA VI no PS5 ou Xbox Series.
 - ✅ Quer zerar sem travar e sem perder missão.
 - ✅ Quer fechar os 100% ou platinar sem passar 200 horas no escuro.
 - ✅ Tem pouco tempo pra jogar e não quer desperdiçar ele no YouTube.
@@ -192,7 +192,7 @@ Pode. Funciona em qualquer navegador.
 
 Ou pode ter **tudo na palma da mão** e usar seu tempo pra fazer o que você comprou o jogo pra fazer: **jogar.**
 
-**Botão:** QUERO ZERAR O GTA 6 SEM PERDER TEMPO
+**Botão:** QUERO ZERAR O GTA VI SEM PERDER TEMPO
 
 ---
 
