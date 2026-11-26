@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}html,body{background:transparent}body{width:600px;height:1000px;display:grid;place-items:center}
+.phone{width:476px;height:820px;border-radius:64px;background:#0a0512;padding:18px;box-shadow:0 0 0 5px #3a2560,0 30px 60px rgba(0,0,0,.55),0 0 60px rgba(255,46,136,.4)}
+.phone img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:48px;display:block}
+</style></head><body><div class="phone"><img id="i"></div>
+<script>document.getElementById('i').src=new URLSearchParams(location.search).get('a')</script></body></html>

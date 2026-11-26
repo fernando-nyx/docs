@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}body{width:432px;height:768px;font-family:Inter,sans-serif;overflow:hidden;color:#fff;
+background:radial-gradient(420px 300px at 50% 75%,rgba(255,46,136,.55),transparent 70%),linear-gradient(180deg,#14072a,#2a0b49 55%,#7a1767)}
+.clock{text-align:center;padding-top:60px;font-size:64px;font-weight:300;letter-spacing:-1px}.date{text-align:center;font-size:16px;opacity:.85;margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px 0;padding:46px 22px 0}
+.app{display:flex;flex-direction:column;align-items:center;gap:7px;font-size:12px;opacity:.9}
+.ic{width:64px;height:64px;border-radius:16px}
+.hl .ic{background:url(icon.svg) center/cover;box-shadow:0 0 0 3px #fff,0 0 28px #ff2e88,0 0 50px #19e3ff;transform:scale(1.12)}
+.hl{opacity:1;font-weight:800}
+.tip{position:absolute;left:50%;transform:translateX(-50%);top:470px;background:#fff;color:#12051f;font-weight:800;font-size:15px;padding:10px 14px;border-radius:12px;white-space:nowrap;box-shadow:0 10px 24px rgba(0,0,0,.4)}
+.tip:before{content:"";position:absolute;left:50%;top:-8px;margin-left:-8px;border:8px solid transparent;border-top:0;border-bottom-color:#fff}
+.dock{position:absolute;left:16px;right:16px;bottom:22px;height:90px;border-radius:30px;background:rgba(255,255,255,.18);display:flex;justify-content:space-around;align-items:center}
+.dock .ic{width:60px;height:60px}
+</style></head><body>
+<div class="clock">21:47</div><div class="date">sexta-feira, 28 de novembro</div>
+<div class="grid">
+<div class="app"><div class="ic" style="background:#3a86ff"></div>Fotos</div>
+<div class="app"><div class="ic" style="background:#ff9f1c"></div>Música</div>
+<div class="app"><div class="ic" style="background:#2ec4b6"></div>Mapas</div>
+<div class="app"><div class="ic" style="background:#8338ec"></div>Câmera</div>
+<div class="app"><div class="ic" style="background:#06d6a0"></div>Chat</div>
+<div class="app"><div class="ic" style="background:#ef476f"></div>Vídeos</div>
+<div class="app hl"><div class="ic"></div>Vice Detonado</div>
+<div class="app"><div class="ic" style="background:#118ab2"></div>Notas</div>
+</div>
+<div class="tip">Abre como um app ✨</div>
+<div class="dock"><div class="ic" style="background:#4cc9f0;border-radius:16px"></div><div class="ic" style="background:#f72585;border-radius:16px"></div><div class="ic" style="background:#b5179e;border-radius:16px"></div><div class="ic" style="background:#7209b7;border-radius:16px"></div></div>
+</body></html>
