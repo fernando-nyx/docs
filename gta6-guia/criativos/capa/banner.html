@@ -1,0 +1,58 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Bungee;src:url(../fonts/Bungee-Regular.ttf)}
+*{box-sizing:border-box;margin:0}
+body{width:2000px;height:680px;overflow:hidden;font-family:Inter,sans-serif;background:#0d0618}
+.card{position:absolute;inset:14px;border-radius:30px;overflow:hidden;background:linear-gradient(120deg,#14072a 0%,#1d0b38 55%,#2a0b49 100%)}
+/* lado direito: cena Vice City */
+.scene{position:absolute;right:0;top:0;bottom:0;width:1060px;border-radius:540px 0 0 540px;overflow:hidden;
+  background:radial-gradient(700px 400px at 50% 0%,#3b0f5c,transparent 70%),linear-gradient(180deg,#24093f 0%,#4a0f5e 50%,#a11f6a 100%)}
+.sun{position:absolute;left:50%;top:70px;width:560px;height:560px;margin-left:-280px;border-radius:50%;
+  background:linear-gradient(180deg,#ffd24a 0%,#ff8a3c 38%,#ff2e88 70%,#b31eff 100%);
+  -webkit-mask:repeating-linear-gradient(180deg,#000 0 24px,transparent 24px 32px);opacity:.9;filter:drop-shadow(0 0 60px rgba(255,90,90,.55))}
+.grid{position:absolute;left:-200px;right:-200px;bottom:-30px;height:220px;transform:perspective(380px) rotateX(58deg);
+  background:repeating-linear-gradient(90deg,rgba(25,227,255,.5) 0 2px,transparent 2px 70px),repeating-linear-gradient(0deg,rgba(25,227,255,.5) 0 2px,transparent 2px 46px);
+  -webkit-mask:linear-gradient(transparent,#000 40%)}
+.palm{position:absolute;bottom:0;color:#0d0418}
+.phone{position:absolute;width:228px;height:452px;border-radius:34px;background:#0a0512;padding:10px;
+  box-shadow:0 0 0 3px #3a2560,0 30px 60px rgba(0,0,0,.6),0 0 40px rgba(255,46,136,.35)}
+.phone img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:26px;display:block}
+.ph1{left:395px;top:60px;z-index:3}
+.ph2{left:180px;top:95px;transform:rotate(-8deg) scale(.92);z-index:2}
+.ph3{left:615px;top:95px;transform:rotate(8deg) scale(.92);z-index:2}
+.tagline{position:absolute;left:0;right:0;bottom:22px;text-align:center;z-index:4}
+.tagline .pk{display:inline-block;background:#19e3ff;color:#12051f;font-weight:900;font-size:34px;padding:8px 28px;border-radius:99px;letter-spacing:1px;
+  box-shadow:0 10px 26px rgba(0,0,0,.45)}
+/* lado esquerdo: texto */
+.txt{position:absolute;left:70px;top:0;bottom:0;width:860px;display:flex;flex-direction:column;justify-content:center}
+.pill{align-self:flex-start;background:#3df5a6;color:#12051f;font-weight:900;font-size:30px;letter-spacing:2px;padding:10px 26px;border-radius:99px;margin-bottom:18px;
+  box-shadow:0 0 24px rgba(61,245,166,.35)}
+.t1{font-family:Bungee;font-size:120px;line-height:1;color:#fff;letter-spacing:4px;text-shadow:0 0 22px rgba(255,46,136,.5)}
+.t2{align-self:flex-start;font-family:Bungee;font-size:104px;line-height:1;margin-top:8px;padding:14px 30px 8px;border-radius:22px;
+  background:linear-gradient(90deg,#ff2e88,#ff7ac0 50%,#19e3ff);color:#12051f}
+.sub{color:#fff;font-weight:800;font-size:40px;line-height:1.18;margin-top:24px}
+.sub b{color:#ffd24a}
+.line{height:6px;width:820px;background:linear-gradient(90deg,#ffd24a,#ffa34a);border-radius:99px;margin:26px 0 20px}
+.foot{color:#e7dcf7;font-weight:800;font-size:34px}
+</style></head><body>
+<div class="card">
+  <div class="scene">
+    <div class="sun"></div><div class="grid"></div>
+    <svg class="palm" style="left:-10px;width:260px;height:380px" viewBox="0 0 240 340" fill="currentColor"><path d="M118 340c4-90 10-160 30-215l6 3c-16 52-22 120-24 212z"/><path d="M150 128c-22-16-58-20-84-4 26-6 54 0 74 12-30-3-56 10-68 33 20-16 48-22 70-16-16 10-26 28-26 48 12-22 30-36 40-38 6 16 6 38-4 58 20-20 22-48 14-70 22 4 44 20 54 42 0-30-22-52-48-62 22-10 52-6 72 6-14-22-46-32-72-22 10-16 30-26 50-30-26-6-52 4-66 22 0-14 6-26 16-36-20 6-32 22-36 42z"/></svg>
+    <svg class="palm" style="right:-20px;width:280px;height:420px;transform:scaleX(-1)" viewBox="0 0 240 340" fill="currentColor"><path d="M118 340c4-90 10-160 30-215l6 3c-16 52-22 120-24 212z"/><path d="M150 128c-22-16-58-20-84-4 26-6 54 0 74 12-30-3-56 10-68 33 20-16 48-22 70-16-16 10-26 28-26 48 12-22 30-36 40-38 6 16 6 38-4 58 20-20 22-48 14-70 22 4 44 20 54 42 0-30-22-52-48-62 22-10 52-6 72 6-14-22-46-32-72-22 10-16 30-26 50-30-26-6-52 4-66 22 0-14 6-26 16-36-20 6-32 22-36 42z"/></svg>
+    <div class="phone ph2"><img src="missoes.png"></div>
+    <div class="phone ph3"><img src="missao.png"></div>
+    <div class="phone ph1"><img src="home-full.png"></div>
+    <div class="tagline"><span class="pk">135 MISSÕES · CHECKLIST 100%</span></div>
+  </div>
+  <div class="txt">
+    <div class="pill">GUIA DE BOLSO PARA GTA 6</div>
+    <div class="t1">VICE</div>
+    <div class="t2">DETONADO</div>
+    <div class="sub">Missões passo a passo, <b>checklist</b><br><b>dos 100%</b> e colecionáveis no celular.</div>
+    <div class="line"></div>
+    <div class="foot">Em português · Funciona offline · Acesso na hora</div>
+  </div>
+</div>
+</body></html>

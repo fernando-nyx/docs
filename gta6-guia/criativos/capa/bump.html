@@ -1,0 +1,48 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Bungee;src:url(../fonts/Bungee-Regular.ttf)}
+*{box-sizing:border-box;margin:0}
+body{width:800px;height:800px;overflow:hidden;font-family:Inter,sans-serif;
+  background:radial-gradient(900px 500px at 50% 0%,#3b0f5c 0%,transparent 70%),linear-gradient(180deg,#14072a 0%,#2a0b49 45%,#5a1166 75%,#b8236f 100%);position:relative}
+.sun{position:absolute;left:50%;top:235px;width:540px;height:540px;margin-left:-270px;border-radius:50%;
+  background:linear-gradient(180deg,#ffd24a 0%,#ff8a3c 38%,#ff2e88 70%,#b31eff 100%);
+  -webkit-mask:repeating-linear-gradient(180deg,#000 0 26px,transparent 26px 34px);opacity:.9;filter:drop-shadow(0 0 60px rgba(255,90,90,.6))}
+.grid{position:absolute;left:-200px;right:-200px;bottom:-40px;height:260px;transform:perspective(380px) rotateX(58deg);
+  background:repeating-linear-gradient(90deg,rgba(25,227,255,.55) 0 2px,transparent 2px 70px),repeating-linear-gradient(0deg,rgba(25,227,255,.55) 0 2px,transparent 2px 46px);
+  -webkit-mask:linear-gradient(transparent,#000 40%)}
+.palm{position:absolute;bottom:0;color:#0d0418}
+.pill{position:absolute;top:30px;left:50%;transform:translateX(-50%);background:#ffd24a;color:#12051f;font-weight:900;font-size:19px;letter-spacing:3px;
+  padding:8px 18px;border-radius:99px;white-space:nowrap;box-shadow:0 0 22px rgba(255,210,74,.5)}
+.title{position:absolute;top:82px;left:0;right:0;text-align:center;font-family:Bungee;line-height:.95}
+.title span{display:block;background:var(--grad);-webkit-background-clip:text;color:transparent;
+  filter:drop-shadow(0 0 18px var(--glow)) drop-shadow(0 4px 0 #12051f)}
+.t1{font-size:64px;letter-spacing:3px}.t2{font-size:92px}
+.sub{position:absolute;top:272px;left:30px;right:30px;text-align:center;color:#fff;font-weight:900;font-size:24px;letter-spacing:1.5px;text-transform:uppercase;
+  text-shadow:0 2px 0 #12051f,0 0 14px rgba(25,227,255,.6)}
+.phone{position:absolute;width:236px;height:420px;border-radius:34px;background:#0a0512;padding:10px;
+  box-shadow:0 0 0 3px #3a2560,0 30px 60px rgba(0,0,0,.6),0 0 40px var(--glow)}
+.phone img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:26px;display:block}
+.p1{left:300px;top:345px;transform:rotate(-4deg);z-index:3}
+.p2{left:470px;top:375px;transform:rotate(7deg) scale(.9);z-index:2}
+.badge{position:absolute;z-index:4;font-weight:900;color:#12051f;border-radius:14px;padding:10px 14px;line-height:1.05;text-align:center;box-shadow:0 10px 24px rgba(0,0,0,.45);max-width:250px}
+.badge b{display:block;font-family:Bungee;font-weight:400}
+.b1{left:50px;top:375px;background:linear-gradient(90deg,#ffd24a,#ffa34a);font-size:21px;transform:rotate(-5deg)}.b1 b{font-size:42px}
+.b2{left:62px;top:515px;background:#19e3ff;font-size:20px;transform:rotate(-3deg)}.b2 b{font-size:34px}
+.b3{left:86px;top:640px;background:#3df5a6;font-size:19px;transform:rotate(-6deg)}
+</style></head><body>
+<div class="sun"></div><div class="grid"></div>
+<svg class="palm" style="left:-30px;width:300px;height:420px" viewBox="0 0 240 340" fill="currentColor"><path d="M118 340c4-90 10-160 30-215l6 3c-16 52-22 120-24 212z"/><path d="M150 128c-22-16-58-20-84-4 26-6 54 0 74 12-30-3-56 10-68 33 20-16 48-22 70-16-16 10-26 28-26 48 12-22 30-36 40-38 6 16 6 38-4 58 20-20 22-48 14-70 22 4 44 20 54 42 0-30-22-52-48-62 22-10 52-6 72 6-14-22-46-32-72-22 10-16 30-26 50-30-26-6-52 4-66 22 0-14 6-26 16-36-20 6-32 22-36 42z"/></svg>
+<div class="pill">BÔNUS · VICE DETONADO</div>
+<div class="title"><span class="t1" id="t1"></span><span class="t2" id="t2"></span></div>
+<div class="sub" id="sub"></div>
+<div class="phone p2"><img id="i2"></div>
+<div class="phone p1"><img id="i1"></div>
+<div class="badge b1" id="b1"></div><div class="badge b2" id="b2"></div><div class="badge b3" id="b3"></div>
+<script>
+const q=new URLSearchParams(location.search);
+for(const k of ['t1','t2','sub','b1','b2','b3'])document.getElementById(k).innerHTML=q.get(k)||'';
+document.getElementById('i1').src=q.get('i1');document.getElementById('i2').src=q.get('i2');
+document.body.style.setProperty('--grad',q.get('grad'));document.body.style.setProperty('--glow',q.get('glow'));
+</script>
+</body></html>
