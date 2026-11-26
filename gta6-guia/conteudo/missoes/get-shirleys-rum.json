@@ -1,0 +1,70 @@
+{
+  "slug": "get-shirleys-rum",
+  "ordem": 8,
+  "nome": "Get Shirley's Rum",
+  "capitulo": 1,
+  "tipo": "perdivel",
+  "quem_passa": "Shirley",
+  "personagem": "Jason",
+  "conta_100": "Não",
+  "recompensa": "2 desbloqueios",
+  "resumo": "Shirley, vizinha de Jason em Key Lento, pede que ele vá buscar o rum dela na loja de bebidas Three Sheets Liquor.",
+  "aviso": "Missão perdível: some de vez quando você começa Tourist Trap, então só dá para fazê-la no Capítulo 1.",
+  "objetivos": [
+    "Fale com Shirley",
+    "Peça o rum de Shirley ao atendente",
+    "Leve o rum para Shirley"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Shirley",
+      "texto": [
+        "Shirley é vizinha de Jason em Key Lento. Com Pipework liberada, ela te chama quando você passa por perto. Fale com ela e aceite comprar o rum para começar a missão."
+      ],
+      "dicas": [
+        "As duas missões de Shirley só podem ser feitas no Capítulo 1 e desaparecem para sempre ao iniciar Tourist Trap. Elas não são necessárias para nenhum troféu nem para os 100%."
+      ],
+      "lista": [],
+      "imagens": [
+        "get-shirleys-rum__rum-mission-start-.jpg"
+      ]
+    },
+    {
+      "titulo": "Peça o rum de Shirley ao atendente",
+      "texto": [
+        "A Three Sheets Liquor, mais ao sul, aparece marcada no mapa. Entre, foque no atendente e peça o rum de Shirley. Você também pode perguntar sobre os barulhos de pássaro vindo dos fundos.",
+        "Isso marca a operação ilegal Exotic Animals Front nos fundos da loja, que você pode visitar depois."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "get-shirleys-rum__rum-location-.jpg",
+        "get-shirleys-rum__rum-clerk.jpg"
+      ]
+    },
+    {
+      "titulo": "Leve o rum para Shirley",
+      "texto": [
+        "Volte até Shirley e entregue o rum para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "get-shirleys-rum__rum-give.jpg"
+      ]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Complete Gear Up, Lab Fees, Just a Scratch e Unwanted Attention. Depois disso, Shirley chama Jason perto da casa dela em Key Lento, no caminho para Pipework."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [
+    "2 desbloqueios"
+  ],
+  "trofeus": []
+}

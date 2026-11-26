@@ -1,0 +1,61 @@
+{
+  "slug": "feng-shui",
+  "ordem": 12,
+  "nome": "Feng Shui",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Cal Hampton",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Cal arrumam a casa para a chegada de Lucia e passam a noite jogando dois minigames no console de Cal.",
+  "objetivos": [
+    "Prepare-se para Lucia",
+    "Mude os móveis de lugar",
+    "Jogue Tenebrae Lux",
+    "Jogue Street Trash III"
+  ],
+  "passos": [
+    {
+      "titulo": "Prepare-se para Lucia",
+      "texto": [
+        "Pouco depois de Hey Arnold!, Cal manda uma mensagem e um marcador de missão aparece na casa de Jason. A missão começa assim que você entra.",
+        "Pegue uma cerveja na geladeira e sente no sofá com Cal, que sugere rearrumar os móveis antes de Lucia voltar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["feng-shui__gta-6-feng-shui-walkthrough-2.jpg", "feng-shui__gta-6-feng-shui-walkthrough-4.jpg"]
+    },
+    {
+      "titulo": "Mude os móveis de lugar",
+      "texto": [
+        "Ajude Cal a reorganizar os móveis da sala. Depois de mover a mesa de centro, você pode dizer que está bom ou mexer de novo. Tanto faz: Cal vai empurrá-la de um lado para o outro até ela parar exatamente onde você colocou da primeira vez."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["feng-shui__gta-6-feng-shui-walkthrough-6.jpg"]
+    },
+    {
+      "titulo": "Jogue Tenebrae Lux",
+      "texto": [
+        "Cal liga o videogame e você experimenta dois minigames. O primeiro é Tenebrae Lux, um jogo de exploração em primeira pessoa em preto e branco. Siga o caminho em direção ao farol.",
+        "No trajeto há um galpão com dois quebra-cabeças à esquerda; você pode interagir ou seguir em frente. O objetivo aqui é só passar um tempo jogando: depois de um tempo, Jason fecha o jogo sozinho."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["feng-shui__gta-6-feng-shui-walkthrough-10.jpg", "feng-shui__gta-6-feng-shui-walkthrough-12.jpg"]
+    },
+    {
+      "titulo": "Jogue Street Trash III",
+      "texto": [
+        "Em seguida vem o shooter com visão de cima Street Trash III. Há um cronômetro, mas também não dá para vencer, então você pode morrer logo ou jogar até acabar.",
+        "Jason e Cal curtem o resto do que pode ser a última noite dele como solteiro. Na manhã seguinte, Hamlet Correctional liga para avisar que Lucia será libertada."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["feng-shui__gta-6-feng-shui-walkthrough-16.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

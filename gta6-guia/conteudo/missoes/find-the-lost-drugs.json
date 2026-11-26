@@ -1,0 +1,70 @@
+{
+  "slug": "find-the-lost-drugs",
+  "ordem": 24,
+  "nome": "Find the Lost Drugs",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Brian Heder, Donnie",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "Até $3.400 pela venda dos pacotes",
+  "resumo": "Jason vasculha quatro áreas do pântano atrás dos pacotes de droga perdidos e os vende a um receptador, Brian ou Donnie.",
+  "objetivos": [
+    "Entenda como funciona",
+    "Vasculhe a Recreation Area",
+    "Vasculhe as casas queimadas",
+    "Vasculhe Pelican Valley",
+    "Vasculhe a Thorpe Adventures"
+  ],
+  "passos": [
+    {
+      "titulo": "Como funciona",
+      "texto": [
+        "Começa com uma ligação depois de Down to Earth. Quatro zonas de busca aparecem no pântano, cada uma com um a três pacotes de droga. Os pacotes apitam e têm uma luz amarela piscando. Recolha todos e venda a um receptador (Brian ou Donnie), tentando não morrer nem perder a bolsa no caminho."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["find-the-lost-drugs__lost-drugs-1.jpg"]
+    },
+    {
+      "titulo": "Vasculhe a Recreation Area",
+      "texto": [
+        "A zona mais ao sul tem dois pacotes: um está preso numa árvore na praia onde três inimigos esperam (elimine-os e derrube o pacote a tiros); o outro está na água, no fim do píer, no sul da zona."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["find-the-lost-drugs__lost-drugs-tree.jpg"]
+    },
+    {
+      "titulo": "Vasculhe as casas queimadas",
+      "texto": [
+        "A segunda zona a partir do sul tem três pacotes: na margem sul, em frente à segunda casa queimada (vindo do leste); dentro da casa queimada isolada na margem norte; e na piscina infantil azul com escorregador de água, no canto sudoeste."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["find-the-lost-drugs__lost-drugs-burned.jpg"]
+    },
+    {
+      "titulo": "Vasculhe Pelican Valley",
+      "texto": [
+        "A terceira zona tem dois pacotes, bem próximos um do outro, onde um grupo de jacarés descansa. Atire nos jacarés para espantá-los e pegue os dois pacotes."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["find-the-lost-drugs__lost-drugs-boar.jpg"]
+    },
+    {
+      "titulo": "Vasculhe a Thorpe Adventures",
+      "texto": [
+        "Na zona norte, os pacotes já foram saqueados. Você acha um vazio do lado de fora do galpão: entre, elimine os dois inimigos e pegue o Half Brick of Cocaine que eles tiraram de lá. Depois, deixe todas as bolsas no trailer de Donnie."
+      ],
+      "dicas": [
+        "Faça isso antes de Clear Skies para lucrar mais: os pacotes valem $3.400 com Donnie ou $2.720 com Brian."
+      ],
+      "lista": [],
+      "imagens": ["find-the-lost-drugs__lost-drugs-area.jpg"]
+    }
+  ],
+  "recompensas": ["$3.400 vendendo para Donnie ou $2.720 vendendo para Brian"],
+  "trofeus": []
+}

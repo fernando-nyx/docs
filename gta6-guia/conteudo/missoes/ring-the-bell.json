@@ -1,0 +1,84 @@
+{
+  "slug": "ring-the-bell",
+  "ordem": 31,
+  "nome": "Ring the Bell!",
+  "capitulo": 1,
+  "tipo": "perdivel",
+  "quem_passa": "Cal Hampton",
+  "personagem": "Jason",
+  "conta_100": "Não",
+  "recompensa": "2 desbloqueios (White Rusty Anchor T-Shirt e Rusty Anchor Cap)",
+  "resumo": "Cal chama Jason para beber no Rusty Anchor e, completamente bêbado, precisa de uma carona para casa.",
+  "aviso": "Missão perdível: só está disponível no Capítulo 1; vá ao Rusty Anchor antes de encontrar Brian em Swamped.",
+  "objetivos": [
+    "Responda a mensagem de Cal",
+    "Tome uma com Cal",
+    "Decida sobre a carona",
+    "Leve Cal até o carro",
+    "Leve Cal para casa"
+  ],
+  "passos": [
+    {
+      "titulo": "Responda a mensagem de Cal",
+      "texto": [
+        "Depois de Day Release, enquanto Jason dirige até a marina para encontrar Brian no começo de Swamped, Cal manda mensagem dizendo que está indo para o Rusty Anchor, o bar na orla de Key Lento. Você pode recusar, mas ele vai mandar de novo. Para jogar esta missão, vá ao Rusty Anchor antes de encontrar Brian."
+      ],
+      "dicas": [
+        "Ring the Bell! é perdível: só existe no Capítulo 1, então passe no Rusty Anchor antes de seguir com Swamped."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Tome uma com Cal",
+      "texto": [
+        "Cal está nos fundos, perto do bar, conversando com Rhonda, a dona da iguana Princess que Jason pode resgatar em Coming Home. Cal oferece uma dose a Jason e a escolha é sua.",
+        "Se aceitar, ele logo serve mais duas: beba também e Jason fica alto, com a tela embaçada e controles mais desajeitados. Se recusar, Cal leva na boa, mas continua bebendo mesmo assim."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["ring-the-bell__ring-bell-1.jpg"]
+    },
+    {
+      "titulo": "Decida sobre a carona",
+      "texto": [
+        "Cal entra no Rusty Anchor e chama Jason. Siga-o e fale com ele: já bem bêbado, ele pede carona para casa. Escolha Give Ride Home para continuar ou Give It a Minute para enrolar.",
+        "Se enrolar, você tem mais uma chance de aceitar; recusar de novo encerra a missão sem recompensa. Mesmo depois de aceitar, dá para ir embora, mas abandonar Cal também significa ficar sem recompensa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Leve Cal até o carro",
+      "texto": [
+        "Siga Cal para fora, onde ele para para se aliviar nas plantas (há uma interação opcional aqui). Ajude-o a levantar quando ele cair e depois abra a porta do passageiro do seu carro para ele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["ring-the-bell__ring-bell-2.jpg"]
+    },
+    {
+      "titulo": "Leve Cal para casa",
+      "texto": [
+        "Leve Cal de volta para casa. Se Jason tomou as doses, agora está dirigindo bêbado e é mais difícil manter o carro reto, então vá devagar. Ao chegar, ajude Cal a subir a escada para concluir a missão."
+      ],
+      "dicas": [
+        "Um tempo depois, Cal manda mensagem para Jason buscar o prêmio do concurso de camiseta molhada do Rusty Anchor. Isso libera a White Rusty Anchor T-Shirt e o Rusty Anchor Cap no bar: se você pular Ring the Bell!, eles nunca poderão ser comprados."
+      ],
+      "lista": [],
+      "imagens": ["ring-the-bell__ring-bell-3.jpg"]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Chega por mensagem de Cal depois de Day Release, enquanto Jason dirige até a marina para encontrar Brian em Swamped: vá ao Rusty Anchor antes de encontrar Brian. Só fica disponível no Capítulo 1."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["2 desbloqueios: White Rusty Anchor T-Shirt e Rusty Anchor Cap à venda no Rusty Anchor"],
+  "trofeus": []
+}

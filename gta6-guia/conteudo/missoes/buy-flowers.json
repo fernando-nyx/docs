@@ -1,0 +1,28 @@
+{
+  "slug": "buy-flowers",
+  "ordem": 14,
+  "nome": "Buy Flowers",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason compra flores para receber Lucia numa banca no sul de Key Lento.",
+  "objetivos": [
+    "Compre flores para Lucia"
+  ],
+  "passos": [
+    {
+      "titulo": "Compre flores para Lucia",
+      "texto": [
+        "Fale com o vendedor na banca de flores marcada no sul de Key Lento. Você pode comprar um Large Bouquet por $10 ou Roses por $25. Lucia gosta de qualquer um, mas o vendedor comenta sua escolha, então vá de rosas. As flores são entregues em casa depois e não há mais nada a fazer."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["buy-flowers__flowers-1.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

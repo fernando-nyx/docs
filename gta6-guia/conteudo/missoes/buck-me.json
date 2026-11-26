@@ -1,0 +1,81 @@
+{
+  "slug": "buck-me",
+  "ordem": 21,
+  "nome": "Buck Me",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "$100 de bônus de boas-vindas",
+  "resumo": "Sem crédito para abrir conta no banco Fleeca, Jason e Lucia acabam no app BuckMe, onde você aprende a guardar dinheiro na poupança da família.",
+  "objetivos": [
+    "Vá até o banco Fleeca",
+    "Pergunte sobre abrir uma conta",
+    "Abra o BuckMe",
+    "Transfira dinheiro para a Family Savings"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até o banco Fleeca",
+      "texto": [
+        "Cerca de meio dia depois de Coming Home, Lucia liga para Jason dizendo que precisa de uma conta bancária para receber os pagamentos do serviço comunitário. Nenhum dos dois tem conta, então Jason combina de encontrá-la na agência Fleeca de Key Lento."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["buck-me__buck-me-reception.jpg"]
+    },
+    {
+      "titulo": "Pergunte sobre abrir uma conta",
+      "texto": [
+        "Fale com o caixa lá dentro, que te manda para o gerente na mesa do canto direito. Siga-o até a sala dele. Seu crédito é tão ruim que não dá para abrir conta, então ele sugere um app de fintech chamado BuckMe."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["buck-me__buck-me-ask.jpg"]
+    },
+    {
+      "titulo": "Abra o BuckMe",
+      "texto": [
+        "Depois de uma cena, você volta para casa com $100 depositados na conta corrente como bônus de boas-vindas. Abra o celular e toque no ícone roxo \"B\" para abrir o BuckMe."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["buck-me__buck-me-open-fix.jpg"]
+    },
+    {
+      "titulo": "Transfira dinheiro para a Family Savings",
+      "texto": [
+        "No BuckMe, abra o menu Checking Account e use \"Buck Yourself\" para mover os $100 para a conta Family Savings.",
+        "Em seguida, você escolhe se conta ou não para Lucia sobre as suas economias."
+      ],
+      "dicas": [
+        "Dinheiro na Family Savings nunca pode ser sacado, mas também nunca é perdido. Cada meta de poupança libera descontos e aumenta o limite da conta corrente. Compras acima de $1.000 são pagas pelo BuckMe, e você perde o dinheiro vivo quando morre, então deposite em caixas eletrônicos com frequência."
+      ],
+      "lista": [],
+      "imagens": ["buck-me__buck-me-100.jpg"]
+    },
+    {
+      "titulo": "Escolha: contar das economias",
+      "texto": [
+        "Jason conta para Lucia sobre o dinheiro que guardou."
+      ],
+      "dicas": [],
+      "lista": ["A relação com Lucia melhora"],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: não dizer nada",
+      "texto": [
+        "Jason guarda as economias para si."
+      ],
+      "dicas": [
+        "Sua primeira meta da Family Savings é de $5.000."
+      ],
+      "lista": ["A relação com Lucia piora"],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["$100 de bônus de boas-vindas na conta corrente do BuckMe"],
+  "trofeus": []
+}

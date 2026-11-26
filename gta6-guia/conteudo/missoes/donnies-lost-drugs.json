@@ -1,0 +1,48 @@
+{
+  "slug": "donnies-lost-drugs",
+  "ordem": 34,
+  "nome": "Donnie's Lost Drugs",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "$1.200 pela venda da droga",
+  "resumo": "Jason mergulha perto de Corsair Key para recuperar a cocaína do barco que Donnie afundou e a vende no depósito de Brian.",
+  "objetivos": [
+    "Arrume um barco",
+    "Procure a cocaína debaixo d'água",
+    "Venda a droga"
+  ],
+  "passos": [
+    {
+      "titulo": "Arrume um barco",
+      "texto": [
+        "Brian comentou que Donnie afundou o barco perto de Corsair Key ainda com droga a bordo. A área de busca fica no Atlântico, na costa norte de Key Lento: roube um dos barcos perto da praia, porque ir nadando demora demais."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["donnies-lost-drugs__donnie-lost-drugs-boat.jpg"]
+    },
+    {
+      "titulo": "Procure a cocaína debaixo d'água",
+      "texto": [
+        "Mergulhe na parte sudeste da área de busca rosa para achar o barco afundado no fundo do mar. Abra o compartimento na traseira do barco e pegue a bolsa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["donnies-lost-drugs__donnies-lost-drugs-boat.jpg"]
+    },
+    {
+      "titulo": "Venda a droga",
+      "texto": [
+        "Leve a bolsa até o Brian's Lockup e venda por $1.200."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["$1.200 vendendo a droga no Brian's Lockup"],
+  "trofeus": []
+}

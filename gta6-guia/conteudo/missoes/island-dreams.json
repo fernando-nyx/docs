@@ -1,0 +1,106 @@
+{
+  "slug": "island-dreams",
+  "ordem": 11,
+  "nome": "Island Dreams",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Kenton",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason ajuda o caçador de tesouros Kenton levando uma despedida de solteiro para mergulhar num naufrágio, onde usa o detector de metais para achar tesouros.",
+  "objetivos": [
+    "Encontre Kenton",
+    "Vá até o ponto de mergulho",
+    "Escolte a despedida de solteiro pela fenda",
+    "Procure tesouros perto do naufrágio",
+    "Resgate Dobbs",
+    "Escolte a despedida de solteiro de volta ao barco"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Kenton",
+      "texto": [
+        "Fale com Kenton na loja Island Dreams, perto da praia. Kenton é caçador de tesouros e usa um passeio de mergulho de despedida de solteiro até um naufrágio como fachada para sua busca. Três caras da festa vão com você no barco."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["island-dreams__island-dreams-1.jpg"]
+    },
+    {
+      "titulo": "Vá até o ponto de mergulho",
+      "texto": [
+        "Pilote o barco até o ponto marcado no Oceano Atlântico. Ao chegar, interaja com o equipamento de mergulho amarelo na traseira do barco e pule na água. A barra verde no canto superior esquerdo mostra seu oxigênio, e há tempo de sobra."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["island-dreams__island-dreams-2.jpg"]
+    },
+    {
+      "titulo": "Escolte a despedida de solteiro pela fenda",
+      "texto": [
+        "Mergulhe na fenda, que funciona como um túnel submarino. Os três rapazes te seguem até o naufrágio, o verdadeiro motivo de você estar ali."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["island-dreams__island-dreams-3.jpg"]
+    },
+    {
+      "titulo": "Procure tesouros perto do naufrágio",
+      "texto": [
+        "Siga as instruções na tela para selecionar o detector de metais na roda de armas, mire e nade pela área de busca rosa fora do naufrágio até a luz passar de vermelho para verde. No ponto certo, um ícone de baú dourado aparece no fundo do mar: interaja e procure os três tesouros."
+      ],
+      "dicas": [
+        "Mergulhando, você estuda peixes e outras criaturas marinhas só de nadar perto delas. Elas contam para os 100 animais exigidos nos 100%."
+      ],
+      "lista": [],
+      "imagens": ["island-dreams__island-dreams-4.jpg"]
+    },
+    {
+      "titulo": "Resgate Dobbs",
+      "texto": [
+        "Com os três tesouros em mãos, Dobbs fica preso sob uma grade no navio. Volte e levante a grade para soltá-lo. Depois, comece a levar o grupo de volta ao barco.",
+        "Equipe o arpão Arras Bullhead (lado esquerdo da roda de armas) e se prepare: um tubarão aparece e vai atrás de Dobbs. Você decide se o salva ou não."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["island-dreams__island-dreams-5.jpg"]
+    },
+    {
+      "titulo": "Escolha: atirar no tubarão",
+      "texto": [
+        "Acerte o tubarão duas vezes com o arpão e ele vai embora. Afeta só a cena final."
+      ],
+      "dicas": [],
+      "lista": [
+        "Dobbs sobrevive",
+        "Diálogo um pouco diferente na cena final"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: deixar o tubarão atacar",
+      "texto": [
+        "Não atire e o tubarão devora Dobbs. Afeta só a cena final."
+      ],
+      "dicas": [],
+      "lista": [
+        "Dobbs morre",
+        "Você não sofre nenhuma consequência por isso"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolte a despedida de solteiro de volta ao barco",
+      "texto": [
+        "Nade de volta ao barco com os sobreviventes. Aconteça o que acontecer, você nunca mais verá esse grupo. Jason entrega o tesouro que encontrou e aceita continuar trabalhando com Kenton.",
+        "Depois desta missão, você pode continuar mergulhando atrás dos tesouros de naufrágios para Kenton."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["island-dreams__island-dreams-6.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "deposit-cash-into-buckme",
+  "ordem": 25,
+  "nome": "Deposit Cash Into BuckMe",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Tarefa rápida: achar um caixa eletrônico pelo app BuckMe e depositar parte do dinheiro vivo de Jason na conta.",
+  "objetivos": [
+    "Ache um caixa eletrônico",
+    "Deposite seu dinheiro"
+  ],
+  "passos": [
+    {
+      "titulo": "Ache um caixa eletrônico",
+      "texto": [
+        "Esta tarefa não tem marcador no mapa: ela fica na lista de missões (abra o mapa e selecione o ícone de livro). Abra o app BuckMe no celular e escolha \"ATM Finder – Set Destination\" para marcar o caixa eletrônico mais próximo. Há um bem ao lado da casa de Jason."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["deposit-cash-into-buckme__deposit-cash-2.jpg"]
+    },
+    {
+      "titulo": "Deposite seu dinheiro",
+      "texto": [
+        "Use o caixa eletrônico e deposite parte do dinheiro que está com você na conta BuckMe para concluir a tarefa."
+      ],
+      "dicas": [
+        "O dinheiro no bolso é perdido quando você morre, enquanto o da conta fica bem mais seguro. Se você não tiver dinheiro vivo, as compras saem direto do BuckMe, então quase não há motivo para andar com grana no bolso."
+      ],
+      "lista": [],
+      "imagens": ["deposit-cash-into-buckme__deposit-cash-3.jpg", "deposit-cash-into-buckme__deposit-cash-1.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

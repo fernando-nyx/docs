@@ -1,0 +1,107 @@
+{
+  "slug": "coming-home",
+  "ordem": 19,
+  "nome": "Coming Home",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason busca Lucia na saída da prisão e os dois comemoram com os amigos no bar Rusty Anchor, até uma briga com os Aviators trazer a polícia.",
+  "objetivos": [
+    "Prepare-se para a soltura de Lucia",
+    "Espere a ligação de Lucia",
+    "Busque Lucia na prisão",
+    "Comemore no Rusty Anchor",
+    "Curta com os amigos",
+    "Dance com Lucia e conheça Mattia",
+    "Resolva a parada com D-Man",
+    "Fuja da polícia"
+  ],
+  "passos": [
+    {
+      "titulo": "Prepare-se para a soltura de Lucia",
+      "texto": [
+        "Na manhã seguinte a Feng Shui, Lucia liga para dizer que vai ser solta em breve. A missão fica marcada em Hamlet Correctional, mas você precisa deixar o tempo passar até ela ligar de novo.",
+        "Aproveite essa janela para as cinco missões opcionais: Pick Up Groceries, Buy Flowers, Buy Lucia a Necklace, Get The Chop e Get Lucia's Clothes. Todas melhoram a relação com Lucia, e o colar é útil mais tarde no Capítulo 2.",
+        "Também vale reformar a casa de Jason: conserte e pinte a parede do quarto, a escada quebrada, o telhado (suba pela escada de mão) e o guarda-corpo da varanda de treino."
+      ],
+      "dicas": [
+        "Se você fizer todas as tarefas opcionais, a relação começa em 3 de 4 corações (veja no menu Jason & Lucia). Tudo o que afeta a relação aparece com um ícone de coração no lado direito da tela."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Espere a ligação de Lucia",
+      "texto": [
+        "Quando terminar, durma na casa de Jason até a manhã seguinte e Lucia deve ligar. Se ela não ligar, durma de novo ou dirija por aí até a ligação chegar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Busque Lucia na prisão",
+      "texto": [
+        "Dirija até a prisão em Hamlet, com as roupas de Lucia (entregues por Andy) no porta-malas, se você as pegou. Fale com o guarda na recepção e um flashback mostra o dia em que Jason e Lucia terminaram. Quando Lucia sair pelo portão, leve-a até o carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["coming-home__coming-home-2_copy.jpg"]
+    },
+    {
+      "titulo": "Comemore no Rusty Anchor",
+      "texto": [
+        "Dirija até o bar Rusty Anchor, no norte de Key Lento, e entre. Se você levou as roupas, Lucia vai ao banheiro se trocar enquanto você encontra Cal no balcão, e Donnie se junta à festa.",
+        "Peça duas cervejas Pindayho ao barman por $6, pegue a segunda garrafa no balcão e leve as duas para Lucia lá fora. Encontre-a atrás do bar para uma cena de conversa franca."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["coming-home__coming-home-anchor.jpg"]
+    },
+    {
+      "titulo": "Curta com os amigos",
+      "texto": [
+        "Depois da cena, beba a dose no balcão e circule. Você pode ajudar Cal a deslizar perfis num app de namoro (ele curte mulheres mais velhas) e Donnie oferece dividir cocaína no banheiro. Nenhuma das escolhas tem consequência.",
+        "Em seguida chega Kat, ex-colega de cela de Lucia, com o namorado rico Mattia, que tem contatos poderosos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["coming-home__coming-home-friends.jpg"]
+    },
+    {
+      "titulo": "Dance com Lucia e conheça Mattia",
+      "texto": [
+        "Vá até Lucia e siga o comando na tela para dançar. Kat, que está grávida, deixa Jason sentir o bebê chutando, e depois vocês voltam a dançar até Andy aparecer.",
+        "Encontre Mattia no telefone atrás do bar, ofereça uma bebida e pegue uma cerveja com o barman. De volta ao balcão, Mattia dá a entender que trabalha para alguém rico e te desafia para uma partida de sinuca."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["coming-home__coming-home-dance.jpg"]
+    },
+    {
+      "titulo": "Resolva a parada com D-Man",
+      "texto": [
+        "Pegue um taco de sinuca na parede e dê algumas tacadas. Antes de terminar, um grupo dos Aviators interrompe e Jason os chama para brigar lá fora. Segure o bloqueio quando vir os ombros deles começarem a girar e depois contra-ataque."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["coming-home__coming-home-d-man.jpg"]
+    },
+    {
+      "titulo": "Fuja da polícia",
+      "texto": [
+        "A polícia chega para acabar com a briga, e Lucia não pode ser pega na noite em que saiu. Depois de fugir com ela, vocês vão parar numa praia e depois em casa, onde Jason e Lucia passam a noite juntos. Se você reformou a casa, Lucia nota e gosta. Na manhã seguinte, Donnie liga com um trabalho novo."
+      ],
+      "dicas": [
+        "No Rusty Anchor, você pode tirar Lucia de perto de Lori para ganhar um pequeno bônus na relação, e lavar as mãos de Jason na pia dá um bônus temporário de Focus."
+      ],
+      "lista": [],
+      "imagens": ["coming-home__coming-home-run-away.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

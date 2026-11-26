@@ -1,0 +1,68 @@
+{
+  "slug": "don-gone",
+  "ordem": 33,
+  "nome": "Don Gone",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason arruma o trailer de Donnie para parecer que ele fez as malas e foi embora, depois sai de Key Lento no carro dele e dá um fim no veículo.",
+  "objetivos": [
+    "Pegue a bolsa de Donnie",
+    "Empacote as coisas de Donnie",
+    "Saia de Key Lento no carro de Donnie",
+    "Destrua o carro de Donnie"
+  ],
+  "passos": [
+    {
+      "titulo": "Pegue a bolsa de Donnie",
+      "texto": [
+        "Brian quer que o trailer de Donnie pareça que ele arrumou as coisas e saiu da cidade, para que nada o ligue à operação. Entre no trailer e pegue a bolsa em cima da cama."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["don-gone__bye-donny.jpg"]
+    },
+    {
+      "titulo": "Empacote as coisas de Donnie",
+      "texto": [
+        "Ache e guarde o resto das coisas de Donnie; a câmera lenta destaca todas elas. Você precisa de:",
+        "Também dá para \"usar uma por Donnie\" com as drogas que encontrar: isso reduz sua vida e aumenta a stamina temporariamente, sem outro efeito."
+      ],
+      "dicas": [],
+      "lista": [
+        "A foto na parede acima da cama, ao lado da TV",
+        "O horário de voos no criado-mudo, sob o letreiro neon da Patriot Beer",
+        "As roupas na prateleira em frente à cama",
+        "A identidade de Donnie na prateleira à direita da porta",
+        "A mensagem no telefone",
+        "O mapa na geladeira"
+      ],
+      "imagens": ["don-gone__bye-donny-2.jpg"]
+    },
+    {
+      "titulo": "Saia de Key Lento no carro de Donnie",
+      "texto": [
+        "Ao sair do trailer, os três Aviators da briga no bar aparecem. Corra para o carro de Donnie e saia dirigindo, ou fique e dê uma surra neles. Depois, saia de Key Lento seguindo a estrada para o norte."
+      ],
+      "dicas": [
+        "Antes de destruir o carro, abra o porta-malas para pegar o H&L .38 de Donnie, uma variante única de arma. Se não pegar, ela some para sempre."
+      ],
+      "lista": [],
+      "imagens": ["don-gone__bye-donny-3.jpg"]
+    },
+    {
+      "titulo": "Destrua o carro de Donnie",
+      "texto": [
+        "Não importa como você se livra dele. O mais fácil é jogar a gasolina do galão do porta-malas no carro e tacar fogo, ou jogá-lo no mar e deixar afundar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["H&L .38 de Donnie (variante única, no porta-malas do carro)"],
+  "trofeus": []
+}

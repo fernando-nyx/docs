@@ -1,0 +1,54 @@
+{
+  "slug": "just-a-scratch",
+  "ordem": 7,
+  "nome": "Just a Scratch",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason leva seu Ganado '70 à Coastal Auto Care para consertar o motor e repintar, numa missão curta que apresenta as oficinas Pay 'n' Spray.",
+  "objetivos": [
+    "Dirija até a Coastal Auto Care",
+    "Fale com Joey",
+    "Conserte o motor e repinte o carro"
+  ],
+  "passos": [
+    {
+      "titulo": "Dirija até a Coastal Auto Care",
+      "texto": [
+        "O carro de Jason precisa de uns reparos. Pegue o veículo pessoal dele, o Ganado '70 estacionado em casa, e leve até o marcador na Coastal Auto Care.",
+        "Se você já destruiu o Ganado, faça um save manual e carregue-o pelo menu de pausa: você volta em casa com o carro estacionado na frente."
+      ],
+      "dicas": [
+        "Isso também é um agrado para Lucia: a nota no mapa diz que ela vai gostar de encontrar o carro arrumado quando sair."
+      ],
+      "lista": [],
+      "imagens": ["just-a-scratch__scratch-drive-.jpg"]
+    },
+    {
+      "titulo": "Fale com Joey",
+      "texto": [
+        "Fale com Joey, que está do lado de fora da oficina, e depois entre com o carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["just-a-scratch__scratch-talk-.jpg"]
+    },
+    {
+      "titulo": "Conserte o motor e repinte o carro",
+      "texto": [
+        "Escolha Full Engine para o conserto gratuito e depois vá em Cosmetics > Respray e escolha qualquer cor.",
+        "Ultimate Edition: ainda na oficina, abra Pro Builds > Full Kits e escolha Retro Build – Ultimate Edition, gratuito para quem tem a Ultimate Edition (o Retro Build normal é pago). É opcional e, como o Ganado será substituído depois, vale só como bônus do Capítulo 1."
+      ],
+      "dicas": [
+        "Você vai usar esse mesmo carro pelo resto do Capítulo 1. Dá para voltar e comprar upgrades, mas o Ganado acaba sendo substituído e os upgrades se perdem. Registrar um novo veículo pessoal só é liberado no Capítulo 2."
+      ],
+      "lista": [],
+      "imagens": ["just-a-scratch__scratch-respray-.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

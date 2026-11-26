@@ -1,0 +1,58 @@
+{
+  "slug": "clean-up-after-donnie",
+  "ordem": 20,
+  "nome": "Clean Up After Donnie",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Donnie",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "$600 (chega pela caixa de correio)",
+  "resumo": "Jason rastreia no pântano um pacote perdido na entrega fracassada de Donnie, recupera a cocaína das mãos dos Kingfishers e a leva até o trailer de Donnie.",
+  "objetivos": [
+    "Procure o pacote na área",
+    "Examine o pacote",
+    "Procure a cocaína no barraco",
+    "Entregue a cocaína no trailer de Donnie"
+  ],
+  "passos": [
+    {
+      "titulo": "Procure o pacote na área",
+      "texto": [
+        "Na manhã seguinte a Coming Home, Donnie liga para Jason. Um dos pacotes da entrega que deu errado está emitindo sinal perto de um ponto de pesca no pântano a sudoeste de Hamlet. Vá até a área de busca e pergunte ao pescador no cais; ele aponta o pacote na margem, debaixo de um telhado."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clean-up-after-donnie__clean-up-after-donnie-search.jpg"]
+    },
+    {
+      "titulo": "Examine o pacote",
+      "texto": [
+        "Inspecione o pacote ao lado do pescador. Ele foi aberto, e o pescador conta que uma gangue levou o conteúdo para um barraco rio abaixo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clean-up-after-donnie__clean-up-after-donnie-examine.jpg"]
+    },
+    {
+      "titulo": "Procure a cocaína no barraco",
+      "texto": [
+        "O barraco está marcado um pouco mais ao sul no mapa. Pegue o barco parado ao lado do pacote e siga o marcador: três Kingfishers guardam o local. Elimine-os, abra a porta do barraco e pegue a cocaína."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clean-up-after-donnie__clean-up-after-donnie-shack.jpg"]
+    },
+    {
+      "titulo": "Entregue a cocaína no trailer de Donnie",
+      "texto": [
+        "O trailer de Donnie aparece com um ícone verde de receptador em Key Lento. Vá de barco até lá e deixe a bolsa no contêiner. A recompensa de $600 chega depois na caixa de correio da casa de Jason."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clean-up-after-donnie__clean-up-after-donnie-deliver.jpg"]
+    }
+  ],
+  "recompensas": ["$600 na caixa de correio da casa de Jason"],
+  "trofeus": []
+}

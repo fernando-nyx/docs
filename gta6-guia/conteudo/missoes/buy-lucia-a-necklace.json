@@ -1,0 +1,40 @@
+{
+  "slug": "buy-lucia-a-necklace",
+  "ordem": 15,
+  "nome": "Buy Lucia a Necklace",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason encomenda na joalheria The Siren's Chest um colar de ouro personalizado com o nome de Tommy, filho de Lucia.",
+  "objetivos": [
+    "Vá até a The Siren's Chest",
+    "Compre um colar"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até a The Siren's Chest",
+      "texto": [
+        "A joalheria The Siren's Chest fica no sul de Key Lento, bem ao lado da barbearia de Get The Chop."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["buy-lucia-a-necklace__necklace-shop.jpg"]
+    },
+    {
+      "titulo": "Compre um colar",
+      "texto": [
+        "Fale com o atendente: Jason encomenda uma corrente de ouro gravada com o nome de Tommy, o filho de Lucia. Custa $475. Se faltar dinheiro, assalte alguns caixas de lojas antes."
+      ],
+      "dicas": [
+        "Vale a pena comprar. No Capítulo 2, Lucia pode oferecer o colar como garantia, o que facilita o desfecho de uma missão mais à frente."
+      ],
+      "lista": [],
+      "imagens": ["buy-lucia-a-necklace__necklace-clerk.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

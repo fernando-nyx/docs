@@ -1,0 +1,50 @@
+{
+  "slug": "get-lucias-clothes",
+  "ordem": 17,
+  "nome": "Get Lucia's Clothes",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Andy, amiga de Lucia, liga para Jason e entrega no Manatee's Rest Bar uma sacola de roupas para Lucia usar quando sair da prisão.",
+  "objetivos": [
+    "Atenda a ligação de Andy",
+    "Fale com Andy",
+    "Siga Andy e pegue as roupas"
+  ],
+  "passos": [
+    {
+      "titulo": "Atenda a ligação de Andy",
+      "texto": [
+        "Algum tempo depois de Feng Shui, um número desconhecido liga para Jason: é Andy, amiga de Lucia. Atenda e vá até o Manatee's Rest Bar, em Key Lento, buscar umas roupas para Lucia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["get-lucias-clothes__lucias-clothes-2.jpg"]
+    },
+    {
+      "titulo": "Fale com Andy",
+      "texto": [
+        "Pergunte ao barman, que aponta para a mulher limpando as mesas. Lucia já tinha dito que veste o mesmo tamanho que ela."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["get-lucias-clothes__lucias-clothes-1.jpg"]
+    },
+    {
+      "titulo": "Siga Andy e pegue as roupas",
+      "texto": [
+        "Acompanhe Andy até o carro dela; ela te entrega uma sacola de roupas. Coloque-a no seu carro para concluir a missão."
+      ],
+      "dicas": [
+        "Deixe a sacola no porta-malas e leve-a quando for buscar Lucia na prisão em Coming Home. Dirija com cuidado para não perdê-la."
+      ],
+      "lista": [],
+      "imagens": ["get-lucias-clothes__lucias-clothes-4.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

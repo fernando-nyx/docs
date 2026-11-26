@@ -1,0 +1,98 @@
+{
+  "slug": "hey-arnold",
+  "ordem": 10,
+  "nome": "Hey Arnold!",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "+$10.000 (só se poupar Arnold, bem mais tarde)",
+  "resumo": "Jason e Cal vão atrás de Arnold, o intermediário de Brian que sumiu depois do confronto com os Kingfishers, perseguem-no por Maroon Key e decidem o destino dele.",
+  "objetivos": [
+    "Encontre Brian",
+    "Pegue Cal",
+    "Ache Arnold",
+    "Persiga Arnold",
+    "Decida o destino de Arnold"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Brian",
+      "texto": [
+        "Depois do confronto com os Kingfishers, Arnold, intermediário de longa data de Brian, parou de atender as ligações. Fale com Brian no bar da piscina ao sul de Key Lento."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["hey-arnold__gta-6-hey-arnold-mission-walkthrough-1.jpg"]
+    },
+    {
+      "titulo": "Pegue Cal",
+      "texto": [
+        "Leve a caminhonete de Brian até a loja de bebidas próxima e espere Cal entrar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["hey-arnold__gta-6-hey-arnold-mission-walkthrough-6.jpg"]
+    },
+    {
+      "titulo": "Ache Arnold",
+      "texto": [
+        "Uma área de busca aparece mais ao sul, em Maroon Key, e vira um marcador exato quando você se aproxima. Pegue a primeira estrada à esquerda e você encontra Arnold na frente de um pequeno prédio perto da estação de radar. O encontro azeda rápido e os capangas de Arnold abrem fogo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["hey-arnold__gta-6-hey-arnold-mission-walkthrough-9.jpg"]
+    },
+    {
+      "titulo": "Persiga Arnold",
+      "texto": [
+        "Arnold foge de carro. Vá atrás dele enquanto os capangas atiram de motos. Você pode sacar a arma e atirar dirigindo, usando a câmera lenta para facilitar. No trajeto há algumas rampas de stunt jump na ponte.",
+        "Quando a perseguição de carro acaba, Arnold continua a pé: corra atrás dele até encurralá-lo no cais."
+      ],
+      "dicas": [
+        "Os stunt jumps continuam marcados no mapa mesmo depois de feitos. Filtre o mapa pelos ícones de Exploração (a lupa) para ver todos."
+      ],
+      "lista": [],
+      "imagens": ["hey-arnold__gta-6-hey-arnold-mission-walkthrough-13.jpg"]
+    },
+    {
+      "titulo": "Decida o destino de Arnold",
+      "texto": [
+        "Arnold se rende no cais e você precisa escolher o que fazer com ele: matar ou deixar ir."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["hey-arnold__gta-6-hey-arnold-mission-walkthrough-17.jpg"]
+    },
+    {
+      "titulo": "Escolha: matar Arnold",
+      "texto": [
+        "Jason atira em Arnold no cais.",
+        "Resultado: reputação criminal Hardened."
+      ],
+      "dicas": [],
+      "lista": [
+        "Arnold sai do jogo de vez",
+        "Nenhuma outra consequência"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: deixar Arnold ir",
+      "texto": [
+        "Arnold foge nadando e nunca mais aparece. Jason diz a Brian que ele não vai causar mais problemas, e Brian aceita.",
+        "Resultado: reputação criminal Restrained."
+      ],
+      "dicas": [],
+      "lista": [
+        "Arnold sai do jogo de vez",
+        "Jason fica com as mãos limpas",
+        "Recompensa: +$10.000, enviados por Brian bem mais tarde, numa mensagem sobre ter feito as pazes com Arnold"
+      ],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["+$10.000 mais tarde no jogo, se você deixar Arnold ir"],
+  "trofeus": []
+}

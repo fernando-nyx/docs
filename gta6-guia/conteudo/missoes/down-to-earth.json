@@ -1,0 +1,79 @@
+{
+  "slug": "down-to-earth",
+  "ordem": 22,
+  "nome": "Down to Earth",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason leva Lucia num voo de contrabando para Brian: recolhem um pacote em Bobcat Bay, enfrentam os contrabandistas, fazem as entregas e correm para casa antes que o oficial de condicional de Lucia chegue.",
+  "objetivos": [
+    "Encontre Brian na marina",
+    "Limpe o barco",
+    "Voe até Bobcat Bay",
+    "Resolva a situação com os contrabandistas",
+    "Faça as entregas",
+    "Corra para casa"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Brian na marina",
+      "texto": [
+        "Com Clean Up After Donnie e Buck Me concluídas, fale com Brian no escritório da marina e siga-o até Cal e um dos barcos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["down-to-earth__down-to-earth-brian.jpg"]
+    },
+    {
+      "titulo": "Limpe o barco",
+      "texto": [
+        "O barco precisa de uma lavagem a jato. Pegue a lavadora de pressão no chão e jateie até toda a sujeira verde sumir. Lucia aparece no meio, curiosa para ver o que o \"trabalho\" de Jason realmente envolve."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["down-to-earth__down-to-earth-clean.jpg"]
+    },
+    {
+      "titulo": "Voe até Bobcat Bay",
+      "texto": [
+        "Entre no hidroavião com Lucia e voe até o marcador no extremo noroeste de Mariana County. Pouse na água perto do barco que está esperando. Os contrabandistas jogam um pacote no mar; Lucia controla o avião enquanto você o pesca com a vara."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["down-to-earth__down-to-earth-fly.jpg"]
+    },
+    {
+      "titulo": "Resolva a situação com os contrabandistas",
+      "texto": [
+        "Os contrabandistas não receberam como esperavam e você não trouxe dinheiro, então a coisa vira tiroteio. Elimine-os. Atirar nos braços e pernas os mantém vivos e rende reputação Professional; matar rende uma reputação mais violenta. As duas abordagens funcionam."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Faça as entregas",
+      "texto": [
+        "Voe até os três pontos marcados e pouse na água em cada um; Lucia solta os pacotes por você. Depois da segunda entrega, a guarda costeira desconfia, então Lucia joga o terceiro pacote com o avião ainda no ar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["down-to-earth__down-to-earth-drops.jpg"]
+    },
+    {
+      "titulo": "Corra para casa",
+      "texto": [
+        "Lucia percebe que tem 30 ligações perdidas do oficial de condicional, que está a caminho da casa de Jason. Pouse no cais e volte correndo. Esconda as drogas na máquina de lavar embaixo da casa enquanto Lucia enrola o oficial na frente, depois vá apoiá-la. Ela inventa uma desculpa e ele vai embora.",
+        "Depois da cena, Lucia ensina Jason a meditar no terraço. Isso libera o primeiro dos 18 Meditation Spots do jogo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["down-to-earth__down-to-earth-hurry.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

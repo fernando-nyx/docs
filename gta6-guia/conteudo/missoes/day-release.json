@@ -1,0 +1,116 @@
+{
+  "slug": "day-release",
+  "ordem": 27,
+  "nome": "Day Release",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Mattia Tauro",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Kat e Mattia levam Jason e Lucia para um dia de festa: iate, corrida de jet ski e uma noite em Vice City que termina na boate Nine1Nine e numa fuga pela piscina.",
+  "objetivos": [
+    "Encontre Kat e Mattia no Rusty Anchor",
+    "Pilote até o iate",
+    "Apostem corrida de jet ski",
+    "Acerte as garrafas de champanhe",
+    "Ache Mattia",
+    "Siga Mattia até o Huxley Motel",
+    "Curta a festa no Nine1Nine",
+    "Ache Jason"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Kat e Mattia no Rusty Anchor",
+      "texto": [
+        "Depois de Down to Earth, Kat e Mattia ligam convidando Jason e Lucia para sair. Vá ao Rusty Anchor e peça uma bebida ao barman nos fundos para iniciar a cena. Burim, capanga de Mattia, tira a tornozeleira de Lucia, e você pode escolher se aperta a mão de Mattia (não faz diferença)."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "day-release__day-release-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Pilote até o iate",
+      "texto": [
+        "Entre na lancha atrás do bar e siga para o iate na costa de Vice City. É uma viagem longa e a primeira vez que a história te leva tão ao norte, então aproveite a conversa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "day-release__day-release-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Apostem corrida de jet ski",
+      "texto": [
+        "Depois da cena no iate, escolha se Lucia vai na garupa de Jason (melhora a relação) ou se você vai sozinho. Depois, corra contra Mattia de jet ski, usando as rampas pelo caminho. Ganhar ou perder não importa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "day-release__day-release-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Acerte as garrafas de champanhe",
+      "texto": [
+        "De volta ao iate, você controla Lucia e atira em garrafas de champanhe no ar, usando a câmera lenta para ajudar. Acertar as três rende um comentário de Jason, mas não tem outro efeito.",
+        "Lucia então vai ver Kat, que está grávida e deixa ela escolher um dos vestidos dela para usar pelo resto da noite."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "day-release__day-release-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Ache Mattia",
+      "texto": [
+        "Mattia está na sala no meio do convés mais baixo, dois andares abaixo de onde você começa. Desça a escada, dê a volta pelo iate até a próxima escada e entre na sala."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "day-release__day-release-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Siga Mattia até o Huxley Motel",
+      "texto": [
+        "A festa vai para Vice City à noite e você assume o volante de um esportivo. Acompanhe Mattia; o objetivo vira uma corrida até o Huxley Motel, a linha rosa no minimapa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Curta a festa no Nine1Nine",
+      "texto": [
+        "Entre na boate Nine1Nine; dá para andar de mãos dadas, o que às vezes melhora a relação. Fale com Mattia na mesa dele e depois dance com Jason usando Lucia, empurrando o analógico esquerdo na direção dele e seguindo o comando na tela."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "day-release__day-release-7.jpg"
+      ]
+    },
+    {
+      "titulo": "Ache Jason",
+      "texto": [
+        "A festa segue para um apartamento de hotel. Com Lucia, entre pela porta da direita no fim do corredor, onde Mattia espia. O barulho chamou a segurança, então o grupo foge pulando da sacada na piscina; dê as mãos nessa cena para outro bônus na relação. Depois, você volta para Key Lento controlando Jason."
+      ],
+      "dicas": [
+        "Não perca os óculos de sol grátis de Lucia: enquanto procura Mattia, vá ao convés do meio e fale com o casal junto ao guarda-corpo perto da escada que desce. Não dá para pegá-los depois.",
+        "O vestido escolhido é só estético: Lucia o usa pelo resto da noite, então não há escolha errada."
+      ],
+      "lista": [],
+      "imagens": [
+        "day-release__day-release-8.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "catch-a-bigger-fish",
+  "ordem": 18,
+  "nome": "Catch a Bigger Fish",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Cal Hampton",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Cal desafia Jason a pescar em Gambit Bay um stoplight parrotfish maior que o dele, com mais de 2 lbs.",
+  "objetivos": [
+    "Aceite o desafio de Cal",
+    "Arrume um barco",
+    "Ancore e pesque",
+    "Mande a pescaria para Cal"
+  ],
+  "passos": [
+    {
+      "titulo": "Aceite o desafio de Cal",
+      "texto": [
+        "Depois de terminar Feng Shui, Cal manda uma mensagem desafiando Jason a superar a pescaria dele: um stoplight parrotfish com mais de 2 lbs, pescado num ponto marcado em Gambit Bay, Mariana County."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["catch-a-bigger-fish__big-fish-1.jpg"]
+    },
+    {
+      "titulo": "Arrume um barco",
+      "texto": [
+        "Você precisa de um barco para chegar ao ponto de pesca. No Capítulo 1, dá para usar o que fica atracado na casa de Jason; depois ele não está mais disponível, então pegue qualquer barco que encontrar. O cais ao lado do Rusty Anchor costuma ter alguns barcos de pesca para pegar emprestado."
+      ],
+      "dicas": [
+        "O desafio continua ativo depois do Capítulo 1, então dá para voltar e fazer depois se você perdeu."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Ancore e pesque",
+      "texto": [
+        "Navegue até o ponto marcado, abra o menu do veículo e escolha Anchor para o barco ficar parado. Selecione a vara de pesca no espaço inferior direito da roda de armas; a isca padrão Small Saltwater Lure basta. Lance, espere o peixe morder e recolha a linha."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Mande a pescaria para Cal",
+      "texto": [
+        "Continue pescando até fisgar um stoplight parrotfish com mais de 2 lbs e envie para Cal para provar que você venceu e concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["catch-a-bigger-fish__big-fish-2.jpg"]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Complete Feng Shui no Capítulo 1. Depois disso, Cal manda uma mensagem para Jason desafiando-o para um torneio de pesca em Gambit Bay."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["1 desbloqueio"],
+  "trofeus": []
+}

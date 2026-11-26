@@ -1,0 +1,65 @@
+{
+  "slug": "steal-the-scooter",
+  "ordem": 9,
+  "nome": "Steal the Scooter",
+  "capitulo": 1,
+  "tipo": "perdivel",
+  "quem_passa": "Shirley",
+  "personagem": "Jason",
+  "conta_100": "Não",
+  "recompensa": "",
+  "resumo": "Shirley convence Jason a roubar a scooter de mobilidade da vizinha Peggy e levá-la até a varanda dela.",
+  "aviso": "Missão perdível: some de vez quando você começa Tourist Trap.",
+  "objetivos": [
+    "Fale com Shirley",
+    "Roube a scooter de Peggy",
+    "Entregue a scooter para Shirley"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Shirley",
+      "texto": [
+        "Mais ou menos um dia depois de Get Shirley's Rum, você vê Shirley discutindo com a vizinha Peggy, que anda numa scooter de mobilidade. Depois Shirley chama Jason de novo: ela acha que roubar a scooter de Peggy pode tirá-la da depressão. Aceite ajudar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "steal-the-scooter__steal-scooter-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Roube a scooter de Peggy",
+      "texto": [
+        "A casa de Peggy fica atrás da de Shirley, do outro lado da água. Atravesse nadando ou dê a volta pela estrada. A scooter está na entrada da garagem, ao lado da escada.",
+        "Peggy sai gritando, mas enxerga tão mal que não reconhece Jason. Você pode inventar uma desculpa ou simplesmente ignorá-la e sair dirigindo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "steal-the-scooter__steal-scooter-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Entregue a scooter para Shirley",
+      "texto": [
+        "Volte pela estrada até a casa de Shirley. Peggy corre atrás de você, mas cai no meio do caminho. Shirley abre a porta da varanda: entre com a scooter para terminar a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "steal-the-scooter__steal-scooter-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Complete Get Shirley's Rum e espere cerca de um dia no jogo até Shirley chamar Jason de novo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "swamped",
+  "ordem": 32,
+  "nome": "Swamped",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason leva Brian a um encontro no acampamento dos Kingfishers que se revela uma emboscada, e depois persegue de helicóptero e barco os sequestradores de Lori.",
+  "objetivos": [
+    "Dirija até o acampamento dos Kingfishers",
+    "Inspecione o chiqueiro",
+    "Fuja com Brian",
+    "Resgate Lori"
+  ],
+  "passos": [
+    {
+      "titulo": "Dirija até o acampamento dos Kingfishers",
+      "texto": [
+        "Com Day Release, Clear Skies e Building a Life concluídas, entre na sala dos fundos da Brian's Marina para começar a missão. Entre na caminhonete de Brian e leve-o até o acampamento dos Kingfishers, no noroeste de Mariana County. Na entrada, você fala com um dos membros da gangue; depois desça e siga Brian a pé."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["swamped__swamped-1.jpg"]
+    },
+    {
+      "titulo": "Inspecione o chiqueiro",
+      "texto": [
+        "Brian te leva até um chiqueiro. Espere ele terminar de falar com Doug e inspecione o cercado: os porcos estão comendo o corpo de Donnie. Os Kingfishers já o mataram, e o encontro é uma emboscada para acabar com vocês também."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["swamped__swamped-2.jpg"]
+    },
+    {
+      "titulo": "Fuja com Brian",
+      "texto": [
+        "Enfrente os Kingfishers e siga Brian, que aparece como um ponto verde no minimapa. A gangue sequestrou Lori e está levando-a embora de barco."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Resgate Lori",
+      "texto": [
+        "Entre no helicóptero do lado esquerdo da área e persiga o barco. Depois da perseguição, atire do helicóptero para eliminar os inimigos no chão e proteger Lori. Não importa o que você faça, um dos Kingfishers consegue colocá-la em outro barco, e a perseguição continua na água.",
+        "Encoste bem ao lado do barco de Lori e segure o botão indicado para pular para ele. Seja rápido e fique bem perto: se estiver longe demais, o pulo não aparece, e os tiros inimigos acabam destruindo seu motor e forçando o reinício do checkpoint. A bordo, martele o botão no QTE para derrubar o último inimigo."
+      ],
+      "dicas": [
+        "De volta em casa, conte a Lucia sobre a aposentadoria de Brian quando tiver a opção. Isso melhora a relação; ficar quieto não rende nada."
+      ],
+      "lista": [],
+      "imagens": ["swamped__swamped-4.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

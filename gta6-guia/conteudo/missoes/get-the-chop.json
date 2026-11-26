@@ -1,0 +1,30 @@
+{
+  "slug": "get-the-chop",
+  "ordem": 16,
+  "nome": "Get The Chop",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason dá um trato no visual com um corte de cabelo novo no salão Barnacle Beauties antes da volta de Lucia.",
+  "objetivos": [
+    "Faça um corte de cabelo novo"
+  ],
+  "passos": [
+    {
+      "titulo": "Faça um corte de cabelo novo",
+      "texto": [
+        "Entre no salão Barnacle Beauties, ao lado da joalheria de Buy Lucia a Necklace. Fale com o cabeleireiro e pague por qualquer corte novo. Também dá para mudar a cor do cabelo e aparar ou estilizar a barba."
+      ],
+      "dicas": [
+        "Ao contrário das roupas, os cortes de cabelo não ficam desbloqueados. Se quiser voltar a um visual antigo depois, vai ter que pagar de novo."
+      ],
+      "lista": [],
+      "imagens": ["get-the-chop__hairstyle-cut.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

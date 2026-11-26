@@ -1,0 +1,38 @@
+{
+  "slug": "building-a-life",
+  "ordem": 30,
+  "nome": "Building a Life",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval, Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "De volta em casa, Jason ajuda Lucia a montar uma mesa de centro, numa missão curta e tranquila.",
+  "objetivos": [
+    "Ajude a montar a mesa de centro",
+    "Pegue o tampo de vidro"
+  ],
+  "passos": [
+    {
+      "titulo": "Ajude a montar a mesa de centro",
+      "texto": [
+        "Começa assim que Clear Skies termina, na casa de Jason, onde Lucia está apanhando para montar uma mesa de centro. Quando a conversa acabar, interaja com o lado esquerdo da mesa e ajude a colocar os parafusos. Jason percebe que as peças foram montadas na ordem errada, então você precisa desparafusar tudo de novo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["building-a-life__building-a-life-1.jpg"]
+    },
+    {
+      "titulo": "Pegue o tampo de vidro",
+      "texto": [
+        "Pegue o tampo de vidro na caixa de papelão atrás de Lucia e coloque-o na mesa. Depois, assista à cena, em que Jason também ensina Lucia a segurar uma arma."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["building-a-life__building-a-life-2.jpg", "building-a-life__buiilding-a-life-3.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

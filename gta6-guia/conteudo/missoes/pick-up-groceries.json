@@ -1,0 +1,38 @@
+{
+  "slug": "pick-up-groceries",
+  "ordem": 13,
+  "nome": "Pick Up Groceries",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Antes de Lucia voltar para casa, Jason compra mantimentos num mercado de Key Lento e os leva para casa.",
+  "objetivos": [
+    "Compre alguns mantimentos",
+    "Leve as compras para casa"
+  ],
+  "passos": [
+    {
+      "titulo": "Compre alguns mantimentos",
+      "texto": [
+        "Antes de Lucia chegar, abasteça a casa. Entre no mercado marcado em Key Lento e pegue os produtos destacados com marcadores rosa (também aparecem como pontos rosa no minimapa). Quaisquer três itens servem. Cada produto é pago na hora em que você o tira da prateleira, então não precisa passar no caixa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["pick-up-groceries__groceries-1.jpg"]
+    },
+    {
+      "titulo": "Leve as compras para casa",
+      "texto": [
+        "Coloque as compras no porta-malas, feche-o e volte para a casa de Jason. Tire as sacolas e leve para dentro: uma cena curta mostra Jason guardando tudo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["pick-up-groceries__groceries-2.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

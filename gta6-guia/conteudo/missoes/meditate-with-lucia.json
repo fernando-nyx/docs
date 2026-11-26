@@ -1,0 +1,62 @@
+{
+  "slug": "meditate-with-lucia",
+  "ordem": 23,
+  "nome": "Meditate with Lucia",
+  "capitulo": 1,
+  "tipo": "perdivel",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Não",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Na manhã seguinte a Down to Earth, Lucia chama Jason para meditar com ela na varanda de casa.",
+  "aviso": "Missão perdível: só fica disponível no Capítulo 1, na manhã seguinte a Down to Earth, e não pode ser feita depois.",
+  "objetivos": [
+    "Fale com Lucia na cozinha",
+    "Siga Lucia até a varanda",
+    "Aceite e medite"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Lucia na cozinha",
+      "texto": [
+        "Esta atividade não tem marcador de missão normal. Ela aparece na manhã seguinte a Down to Earth: com Jason, fale com Lucia na cozinha da casa. Ela diz que quer meditar e vai para a varanda com o equipamento de treino."
+      ],
+      "dicas": [
+        "Meditate with Lucia é perdível: só está disponível no Capítulo 1 e não dá para fazer depois."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Siga Lucia até a varanda",
+      "texto": [
+        "Siga Lucia para fora. Ao chegar à varanda, uma notificação de missão opcional aparece no canto superior direito da tela, com um ícone de porta rosa em fundo preto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["meditate-with-lucia__meditate-with-lucia-1.jpg"]
+    },
+    {
+      "titulo": "Aceite e medite",
+      "texto": [
+        "Foque em Lucia e escolha Accept: ela ensina Jason a meditar, e a atividade é concluída."
+      ],
+      "dicas": [
+        "Esta meditação soma +1 no contador de 18 meditações do troféu/conquista Positive Mental Attitude. Ela não é necessária para os 100%, que exigem só 15 das 18 meditações."
+      ],
+      "lista": [],
+      "imagens": ["meditate-with-lucia__meditate-with-lucia-2.jpg"]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Fale com Lucia na cozinha da casa de Jason na manhã seguinte a Down to Earth e siga-a até a varanda. Só fica disponível no Capítulo 1."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["1 desbloqueio"],
+  "trofeus": []
+}

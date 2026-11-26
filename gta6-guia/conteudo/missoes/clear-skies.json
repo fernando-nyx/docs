@@ -1,0 +1,72 @@
+{
+  "slug": "clear-skies",
+  "ordem": 29,
+  "nome": "Clear Skies",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder, Donnie",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason escolta de hidroavião o avião de Pilot Pete até o pântano, mas a negociação de Donnie é atacada pela gangue de motoqueiros Final Chapter e ele precisa resgatar o amigo.",
+  "objetivos": [
+    "Fale com Brian em Southwind",
+    "Decole e intercepte Pilot Pete",
+    "Observe a negociação",
+    "Resgate Donnie",
+    "Segure os Final Chapter e fuja"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Brian em Southwind",
+      "texto": [
+        "Depois de Down to Earth, Brian liga com um trabalho para Jason e Donnie em Southwind. Vá até o hidroavião; Donnie te manda falar com Brian, que está sentado no tiki bar subindo a rua."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clear-skies__clear-skies-1.jpg"]
+    },
+    {
+      "titulo": "Decole e intercepte Pilot Pete",
+      "texto": [
+        "Taxie o avião pela beira da estrada até a água e decole dali; decolar da estrada é possível, mas mais arriscado. Voe até o ponto de interceptação a sudeste, onde surge outro avião. Voe bem em cima do avião de Pilot Pete para esconder a assinatura de radar dele e escolte-o até a pista no pântano."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clear-skies__clear-skies-2.jpg"]
+    },
+    {
+      "titulo": "Observe a negociação",
+      "texto": [
+        "Quando Pete pousar, voe até a próxima pista, no noroeste do pântano, pouse e siga Donnie a pé até o contato dele dos Devil's Dozen. Um grupo da gangue de motoqueiros Final Chapter aparece, agarra Donnie e abre fogo. Fique na cobertura, ajuste a mira e saia só para atirar."
+      ],
+      "dicas": [
+        "Os motoqueiros estacionam várias motos diferentes aqui, então é um bom lugar para escanear veículos novos com o app WAiNK."
+      ],
+      "lista": [],
+      "imagens": ["clear-skies__clear-skies-3.jpg"]
+    },
+    {
+      "titulo": "Resgate Donnie",
+      "texto": [
+        "Abra caminho até o próximo prédio ao longo da pista, limpe os motoqueiros lá dentro e solte Donnie da cadeira. Ele te leva de volta para fora, onde chegam mais inimigos: elimine-os. Se Donnie morrer, a missão falha e você volta ao checkpoint."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clear-skies__clear-skies-4.jpg"]
+    },
+    {
+      "titulo": "Segure os Final Chapter e fuja",
+      "texto": [
+        "Enquanto Donnie entra no hidroavião, um grupo grande de motoqueiros chega. Segure-os para ele conseguir escapar. Depois, pegue uma moto e vá atrás dele, ignorando os inimigos que continuam vindo. Chegue ao ponto de encontro a leste de Watson Bay e entre no avião. A cena leva direto para Building a Life."
+      ],
+      "dicas": [
+        "Depois do tiroteio, reviste os corpos: se você ainda não tem shotgun, dá para pegar uma Shrewsbury Hobo de um deles."
+      ],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

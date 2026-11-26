@@ -1,0 +1,59 @@
+{
+  "slug": "clock-out",
+  "ordem": 28,
+  "nome": "Clock Out",
+  "capitulo": 1,
+  "tipo": "secundaria",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Lucia sai mais cedo do trabalho e pede carona: Jason a busca no Key Lento Community Center e a leva para casa.",
+  "aviso": "Só aparece no dia seguinte a Day Release: recusar a ligação pula a missão, e você precisa buscar Lucia antes das 16h.",
+  "objetivos": [
+    "Aceite a ligação de Lucia",
+    "Busque Lucia",
+    "Leve-a para casa"
+  ],
+  "passos": [
+    {
+      "titulo": "Aceite a ligação de Lucia",
+      "texto": [
+        "Em algum momento do dia seguinte a Day Release, Lucia liga para Jason: ela saiu mais cedo do trabalho e quer carona. Aceite para começar esta missão opcional. Você precisa buscá-la antes das 16h ou ela falha; o horário aparece no minimapa, no celular e no mapa.",
+        "A ligação nem sempre acontece e talvez exija a relação no nível Crazy in Love (3 de 4), então não se preocupe se ela nunca vier."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Busque Lucia",
+      "texto": [
+        "Lucia está no Key Lento Community Center, onde trabalha. Chegue de veículo (qualquer carro roubado serve): se você aparecer a pé, ela faz piada e se recusa a voltar andando."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clock-out__clock-out-drive.jpg"]
+    },
+    {
+      "titulo": "Leve-a para casa",
+      "texto": [
+        "Leve Lucia de volta à casa de Jason. Ela desce sozinha e a relação de vocês melhora."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["clock-out__clock-out-home.jpg"]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Aceite a ligação de Lucia durante o dia seguinte a Day Release, quando ela sai mais cedo do turno. Recusar pula a missão, e é preciso buscá-la antes das 16h. Pode ser que só apareça com a relação em Crazy in Love (3/4)."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": ["1 desbloqueio", "Melhora na relação com Lucia"],
+  "trofeus": []
+}
