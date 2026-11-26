@@ -161,3 +161,23 @@ a.iconbtn { display: grid; place-items: center; text-decoration: none; }
 .terms li { margin: 8px 0; color: #e7dcf7; font-size: 14px; }
 .nudge { display: block; width: 100%; text-align: left; background: rgba(255, 210, 74, .1); border: 1px solid rgba(255, 210, 74, .4); color: #ffe9b0; border-radius: 12px; padding: 12px; font: 14px Inter; margin-bottom: 14px; cursor: pointer; }
 .lockline { font-size: 18px; }
+
+/* missões */
+.mrow { align-items: center; }
+.mrow .chkbox { cursor: pointer; }
+.mlink { display: flex; gap: 10px; align-items: center; text-decoration: none; color: inherit; }
+.thumb { width: 72px; height: 41px; object-fit: cover; border-radius: 8px; flex: none; background: var(--card2); }
+.mtag { display: inline-block; font: 800 10px Inter; letter-spacing: .6px; text-transform: uppercase; padding: 2px 6px; border-radius: 6px; background: var(--card2); color: var(--cyan); border: 1px solid var(--line); vertical-align: 1px; }
+.mtag.warn { color: #2a1600; background: var(--gold); border-color: var(--gold); }
+.mission .cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 16px; border: 1px solid var(--line); margin-top: 6px; cursor: zoom-in; }
+.mtitle { margin: 12px 0 4px; }
+.mtitle h1 { font-family: Bungee, sans-serif; font-weight: 400; font-size: 24px; margin: 6px 0 0; }
+.lead { font-size: 16px; color: #f0e6ff; }
+.objs { padding-left: 22px; } .objs li { margin: 5px 0; }
+.step { margin-bottom: 8px; }
+.step .sec-t .num { margin-right: 8px; }
+.shot { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 12px; border: 1px solid var(--line); margin: 6px 0; cursor: zoom-in; background: var(--card2); }
+.tip { background: rgba(25, 227, 255, .08); border-left: 3px solid var(--cyan); padding: 9px 11px; border-radius: 0 10px 10px 0; margin: 8px 0; font-size: 14px; color: #d8f7ff; }
+.mnav { display: flex; justify-content: space-between; gap: 8px; margin-top: 14px; }
+.mnav .btn { max-width: 48%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.zoomed { max-width: 100%; max-height: 90vh; border-radius: 12px; }

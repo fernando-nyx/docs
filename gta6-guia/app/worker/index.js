@@ -9,9 +9,11 @@
  *   POST /api/terms               { version } — registra o aceite do termo
  *   POST /api/password            { current, next }
  *   GET  /api/content/:lang/:mod  conteúdo do módulo (só se a compra liberou)
+ *   GET  /api/missions/:lang      índice das missões · GET /api/missions/:lang/:slug  passo a passo
  *   GET  /api/progress  · PUT /api/progress { data }
  */
 import CONTENT_PT from './content/pt.json';
+import MISSOES_PT from './content/missoes-pt.json';
 
 const CONTENT = { pt: CONTENT_PT };
 const TERMS_VERSION = '2026-11-26';
@@ -110,7 +112,7 @@ async function grantsFor(env, user) {
   return set;
 }
 // Módulos do principal; os demais são liberados pelo bump de mesmo nome.
-const MODULE_GRANT = { inicio: 'principal', cem: 'principal', dinheiro: 'dinheiro', platina: 'platina', garagem: 'garagem' };
+const MODULE_GRANT = { missoes: 'principal', inicio: 'principal', cem: 'principal', dinheiro: 'dinheiro', platina: 'platina', garagem: 'garagem' };
 const canSee = (grants, mod) => grants.has('tudo') || grants.has(MODULE_GRANT[mod]);
 
 // ---------- Sellyo ----------
@@ -284,6 +286,16 @@ async function api(req, env, url) {
       env.DB.prepare('DELETE FROM sessions WHERE user_id = ? AND id <> ?').bind(user.id, user.sid),
     ]);
     return json({ ok: true });
+  }
+
+  const mm = path.match(/^\/api\/missions\/([a-z]{2})(?:\/([a-z0-9-]+))?$/);
+  if (mm && method === 'GET') {
+    const grants = await grantsFor(env, user);
+    if (!canSee(grants, 'missoes')) return json({ error: 'LOCKED' }, 403);
+    const data = MISSOES_PT; // um idioma por enquanto
+    if (!mm[2]) return json(data.index, 200, { 'cache-control': 'private, max-age=300' });
+    const m = data.detail[mm[2]];
+    return m ? json(m, 200, { 'cache-control': 'private, max-age=300' }) : json({ error: 'NOT_FOUND' }, 404);
   }
 
   const cm = path.match(/^\/api\/content\/([a-z]{2})\/([a-z]+)$/);

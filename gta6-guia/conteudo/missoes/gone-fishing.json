@@ -1,0 +1,109 @@
+{
+  "slug": "gone-fishing",
+  "ordem": 2,
+  "nome": "Gone Fishing",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Cal Hampton",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Cal recolhem no mar os pacotes de droga largados pelo avião de Donnie e depois precisam resgatar o piloto, capturado pela gangue Kingfishers num acampamento no pântano.",
+  "objetivos": [
+    "Siga o avião e recolha os pacotes",
+    "Observe a negociação no pântano",
+    "Procure Donnie no acampamento",
+    "Entre no barraco e solte Donnie",
+    "Vá até o avião",
+    "Fuja no hidroavião",
+    "Leve Cal para casa",
+    "Vá para sua primeira casa"
+  ],
+  "passos": [
+    {
+      "titulo": "Siga o avião e recolha os pacotes",
+      "texto": [
+        "A missão começa com Jason e o amigo Cal num barco. Donnie, o piloto, joga pacotes de droga do avião no mar. Pilote atrás do avião e reduza a velocidade ao lado de cada pacote para Cal pescá-lo da água."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishing-boat.jpg"]
+    },
+    {
+      "titulo": "Observe a negociação no pântano",
+      "texto": [
+        "Com os pacotes a bordo, siga a rota rosa no minimapa até o pântano. Equipe o binóculo (espaço inferior direito da roda de armas), dê zoom e observe o encontro no cais. Donnie está negociando com a gangue Kingfishers, mas a coisa dá errado e ele vira prisioneiro; cabe a você tirá-lo de lá."
+      ],
+      "dicas": [
+        "O binóculo também serve para estudar animais. Estudar 100 das 255 espécies conta para os 100%, então escaneie todo animal novo que encontrar."
+      ],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishing-deal.jpg"]
+    },
+    {
+      "titulo": "Procure Donnie no acampamento",
+      "texto": [
+        "Vá até o cais ali perto, onde Jason desce para procurar Donnie sozinho. Dá para limpar o acampamento todo na furtividade, chegando por trás dos inimigos e dando um mata-leão. Fique agachado e avance até o fundo do acampamento, onde Donnie está preso num barraco. Aperte o analógico esquerdo agachado para se mover mais rápido sem fazer barulho.",
+        "O barraco fica no canto mais distante do acampamento e há patrulhas por perto, então cuidado se for na furtividade. Se preferir, também dá para entrar atirando.",
+        "Para achar o lugar com mais facilidade, use a grande turbina como referência; o jogo sugere segurar o analógico direito para focar nela."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishing-search-for-donnie.jpg", "gone-fishing__gone-fishin-shack.jpg", "gone-fishing__gone-fishin-turbine.jpg"]
+    },
+    {
+      "titulo": "Entre no barraco e solte Donnie",
+      "texto": [
+        "Espere o guarda próximo se afastar e entre no barraco pela porta da frente. Solte Donnie lá dentro. Em seguida, um brutamontes invade o barraco: derrube-o na mão, bloqueando os golpes dele. Depois, pegue o Zombix (item de cura) e equipe uma arma."
+      ],
+      "dicas": [
+        "Zombix é o item de cura do GTA 6. Você carrega até cinco e pode comprar mais em lojas de conveniência."
+      ],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishin-untie.jpg"]
+    },
+    {
+      "titulo": "Vá até o avião",
+      "texto": [
+        "Agora é sair na bala. No caminho para o avião, entre no trailer próximo e pegue o dinheiro que Donnie diz estar lá dentro. Há um QTE no trailer, então fique esperto.",
+        "Elimine o inimigo e pegue o dinheiro. Esse objetivo é opcional e perdível, e aumenta sua reputação Professional. Conseguindo ou não, siga para o avião e fuja."
+      ],
+      "dicas": [
+        "O GTA 6 tem sistema de reputação. Atirar nos membros dos inimigos os incapacita e rende reputação Hardened; furtividade rende Professional; matar rende Psychopath. Matar policiais e civis pode te deixar Irredeemable e, nos dois piores níveis, a polícia pode atirar assim que te vir."
+      ],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishin-escape-to-plane.jpg", "gone-fishing__gone-fishin-optional-money-location.jpg", "gone-fishing__gone-fishin-optional-money.jpg", "gone-fishing__gone-fishin-plane.jpg"]
+    },
+    {
+      "titulo": "Fuja no hidroavião",
+      "texto": [
+        "Continue abrindo caminho à bala até o hidroavião. Entre, decole e voe até o marcador rosa na Brian's Marina. Reduza, pouse na água e taxie até a marina.",
+        "Uma cena apresenta Brian, o chefe de Jason. Ele comanda um esquema de contrabando de drogas e também tem imóveis; Jason é o faz-tudo dele, cobrando aluguel dos inquilinos e ajudando no contrabando."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishing-escape.jpg", "gone-fishing__gone-fishin-land-plane.jpg"]
+    },
+    {
+      "titulo": "Leve Cal para casa",
+      "texto": [
+        "Depois da cena com Brian, entre no carro e leve Cal para casa. É a primeira vez que você dirige um carro no jogo, um bom momento para sentir a nova física de direção.",
+        "Ao deixar Cal, rola uma cena e a última tarefa é chegar à sua casa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishin-get-in-car.jpg", "gone-fishing__gone-fishin-drive-to-cal.jpg"]
+    },
+    {
+      "titulo": "Vá para sua primeira casa",
+      "texto": [
+        "Dirija até a casa de Jason, nas Keys, e entre. Lá, Lucia liga para avisar que vai sair da prisão antes do previsto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gone-fishing__gone-fishin-drive-to-jason.jpg", "gone-fishing__gone-fishin-enter-house.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": ["Troféu oculto (Bronze, 5G)"]
+}

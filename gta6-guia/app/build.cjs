@@ -121,6 +121,30 @@ for (const m of MODULES) {
 }
 const dir = path.join(__dirname, 'worker', 'content');
 fs.mkdirSync(dir, { recursive: true });
+
+// Missões passo a passo: conteudo/missoes/*.json → worker/content/missoes-pt.json (índice + detalhes).
+const MDIR = path.join(__dirname, '..', 'conteudo', 'missoes');
+const missions = fs.existsSync(MDIR)
+  ? fs.readdirSync(MDIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(MDIR, f), 'utf8')))
+      .sort((a, b) => a.ordem - b.ordem)
+  : [];
+const IMGDIR = path.join(__dirname, 'public', 'img', 'm');
+const imgUrl = (slug, file) => {
+  const webp = file.replace(/\.(jpe?g|png|webp|avif)$/i, '') + '.webp';
+  return fs.existsSync(path.join(IMGDIR, webp)) ? `/img/m/${webp}` : null;
+};
+for (const m of missions) {
+  m.id = 'missoes-' + m.slug;
+  for (const p of m.passos || []) p.imagens = (p.imagens || []).map((f) => imgUrl(m.slug, f)).filter(Boolean);
+  m.capa = (m.passos || []).flatMap((p) => p.imagens)[0] || null;
+}
+fs.writeFileSync(path.join(dir, 'missoes-pt.json'), JSON.stringify({
+  index: missions.map((m) => ({ slug: m.slug, id: m.id, ordem: m.ordem, nome: m.nome, capitulo: m.capitulo, tipo: m.tipo, personagem: m.personagem, capa: m.capa })),
+  detail: Object.fromEntries(missions.map((m) => [m.slug, m])),
+}));
+out.modules.splice(1, 0, { id: 'missoes', icon: '🎯', bump: null, total: missions.length, sections: [] });
+console.log('missões:', missions.length);
+
 fs.writeFileSync(path.join(dir, 'pt.json'), JSON.stringify(out));
 console.log('fonte:', path.relative(__dirname, BASE));
 for (const m of out.modules) console.log(m.id.padEnd(10), 'seções:', String(m.sections.length).padStart(3), ' itens marcáveis:', m.total);

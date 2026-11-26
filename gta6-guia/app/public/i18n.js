@@ -51,7 +51,15 @@ window.I18N = {
       ],
       accept: 'Li e aceito',
     },
+    ms: {
+      prologue: 'Prólogo', chapter: 'Capítulo', chapterL: 'Capítulo', others: 'Outras',
+      optional: 'Opcional', missable: 'Perdível', side: 'Secundária',
+      giver: 'Quem passa', character: 'Você joga com', counts: 'Conta pro 100%', reward: 'Recompensa',
+      objectives: 'Objetivos', walkthrough: 'Passo a passo', rewards: 'Recompensas', trophies: 'Troféus',
+      markDone: 'Marcar missão como concluída', isDone: 'Missão concluída',
+    },
     modules: {
+      missoes: { t: 'Missões passo a passo', d: 'Cada missão com objetivos, passo a passo com imagens e dicas.' },
       inicio: { t: 'Começo & História', d: 'Primeiros passos, saves, as missões em ordem e o que você perde em cada capítulo.' },
       cem: { t: 'Checklist 100%', d: 'Checklist dos 100% e os colecionáveis item por item.' },
       dinheiro: { t: 'Rota do Dinheiro', d: 'Os métodos mais rápidos, cofres, códigos e como não perder a grana no Cap. 1.' },

@@ -1,0 +1,75 @@
+{
+  "slug": "prologue",
+  "ordem": 1,
+  "nome": "Prologue",
+  "capitulo": 0,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia começa presa em Hamlet Correctional e, durante uma conversa com a conselheira, revive em flashback o assalto a uma loja de Payday Loan que a levou para a cadeia.",
+  "objetivos": [
+    "Fale com suas colegas de cela",
+    "Siga o guarda da prisão",
+    "Assalte a loja de Payday Loan",
+    "Despiste a polícia",
+    "Volte para a cafeteria"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com suas colegas de cela",
+      "texto": [
+        "O jogo abre com Lucia na cela de Hamlet Correctional, olhando pela janela. Vire-se, mire o olhar em uma das colegas de cela e aperte o botão indicado para conversar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["prologue__gta-vi-prologue.jpg"]
+    },
+    {
+      "titulo": "Siga o guarda da prisão",
+      "texto": [
+        "Logo depois, o guarda CO Wilson abre a cela para levar Lucia à sala da conselheira. Ele para na área comum para atender o telefone e depois segue até a porta no canto direito. Acompanhe-o pelo corredor até a sala, onde uma cena apresenta Stefanie.",
+        "As perguntas da conselheira disparam um flashback do crime que colocou Lucia atrás das grades, e você assume o controle."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["prologue__gta-vi-prologue-prison-guard.jpg"]
+    },
+    {
+      "titulo": "Assalte a loja de Payday Loan",
+      "texto": [
+        "No flashback, Lucia sai de uma cafeteria e decide assaltar uma loja de Payday Loan para conseguir dinheiro rápido. Dentro da loja, aponte a arma para o atendente, ameace-o e pegue o dinheiro que ele deixa no balcão.",
+        "Um cliente tenta imobilizar Lucia: complete o QTE para se soltar dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["prologue__gta-vi-prologue-robbery.jpg"]
+    },
+    {
+      "titulo": "Despiste a polícia",
+      "texto": [
+        "Fuja da loja com a polícia na sua cola. O círculo piscando em azul e vermelho no minimapa mostra a área de busca. Os policiais são implacáveis e tentam te derrubar com tasers; no fim, ou você é pega ou a tela corta para preto e uma cena começa."
+      ],
+      "dicas": [
+        "Não dá para escapar de verdade aqui. A perseguição é roteirizada e, depois de um tempo, o jogo volta sozinho para a sala da conselheira, então não perca tempo procurando uma saída."
+      ],
+      "lista": [],
+      "imagens": ["prologue__prologue-lose-cops.jpg"]
+    },
+    {
+      "titulo": "Volte para a cafeteria",
+      "texto": [
+        "Quando você volta a controlar Lucia, a perseguição já acabou e ela precisa retornar à cafeteria, marcada com um ponto no minimapa e na bússola. Ao se aproximar, a polícia a prende; isso é inevitável.",
+        "As cenas finais mostram por que Lucia voltou mesmo correndo perigo: ela tinha deixado o filho bebê, Tommy, na cafeteria. Os funcionários já tinham denunciado o abandono, Tommy vai para o serviço de proteção à criança e Lucia acaba presa. O objetivo dela agora é sair da prisão e reencontrar o filho. A missão termina aqui e a história segue direto para Gone Fishing."
+      ],
+      "dicas": [
+        "Se Lucia ficar sem vida em qualquer momento do prólogo, a cena da prisão muda: em vez de ir para a viatura, ela é algemada e levada numa ambulância."
+      ],
+      "lista": [],
+      "imagens": ["prologue__gta-vi-prologue-arrest.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

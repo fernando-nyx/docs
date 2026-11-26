@@ -1,0 +1,63 @@
+{
+  "slug": "lab-fees",
+  "ordem": 5,
+  "nome": "Lab Fees",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "$600 (chega pela caixa de correio)",
+  "resumo": "Jason vai cobrar o aluguel de uma loja de presentes que esconde um laboratório de ácido e, sem dinheiro do inquilino, leva o ácido como pagamento para o depósito de Brian.",
+  "objetivos": [
+    "Fale com o atendente",
+    "Entre no laboratório e pegue o ácido",
+    "Ligue para Brian",
+    "Guarde o ácido no depósito de Brian"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com o atendente",
+      "texto": [
+        "Brian quer o aluguel de uma loja de presentes que, na verdade, é fachada para um laboratório de ácido. Ao chegar ao marcador, a loja está trancada: ligue para Brian pelo celular para liberar a entrada e começar a missão de fato. Fale com o homem do caixa, que admite não ter o dinheiro.",
+        "Ele tenta te ameaçar com um taco. Aperte Y/Triângulo para tomar o taco e ameaçá-lo de volta; ele então oferece o ácido da sala dos fundos como pagamento."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["lab-fees__lab-fees-clerk.jpg", "lab-fees__lab-fees-grab-bat.jpg"]
+    },
+    {
+      "titulo": "Entre no laboratório e pegue o ácido",
+      "texto": [
+        "Use o teclado numérico da porta no canto da loja. O código é 0420: o atendente te fala, e ele também está anotado num bloco de notas na mesma sala.",
+        "Pegue o ácido, esvazie o caixa se quiser e saia da loja."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["lab-fees__lab-fees-keypad.jpg", "lab-fees__lab-fees-code.jpg", "lab-fees__lab-fees-acid.jpg"]
+    },
+    {
+      "titulo": "Ligue para Brian",
+      "texto": [
+        "Ligue de novo para Brian. Ele manda deixar o ácido no depósito dele, mais ao sul."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["lab-fees__lab-fees-call-brian.jpg"]
+    },
+    {
+      "titulo": "Guarde o ácido no depósito de Brian",
+      "texto": [
+        "O Brian's Lockup aparece com um ícone verde no mapa. O código da porta é 7700. Entre e coloque o ácido no esconderijo para concluir a missão.",
+        "Como você ainda não tem conta bancária, a recompensa de $600 não cai na hora: ela chega depois na caixa de correio em frente à casa de Jason, então lembre de conferir."
+      ],
+      "dicas": [
+        "Receptadores como Brian compram drogas roubadas, joias e notas marcadas. Mais receptadores são liberados ao longo da história, todos com ícone verde no mapa. Os itens roubados vão numa bolsa, que pode ser guardada no porta-malas do carro."
+      ],
+      "lista": [],
+      "imagens": ["lab-fees__lab-fees-drop-off-location.jpg", "lab-fees__lab-fees-drop-off.jpg"]
+    }
+  ],
+  "recompensas": ["$600 na caixa de correio da casa de Jason"],
+  "trofeus": []
+}

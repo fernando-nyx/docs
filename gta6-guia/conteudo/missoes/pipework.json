@@ -1,0 +1,73 @@
+{
+  "slug": "pipework",
+  "ordem": 6,
+  "nome": "Pipework",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder, Mandy",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "Macizo Cigar",
+  "resumo": "Jason vai cobrar o aluguel de Mandy, uma inquilina de Brian, que só aceita pagar depois que ele desentupir a pia da cozinha.",
+  "objetivos": [
+    "Encontre Mandy",
+    "Siga Mandy",
+    "Pegue o desentupidor",
+    "Conserte a pia",
+    "Extra: Mandy e o vizinho"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Mandy",
+      "texto": [
+        "Brian manda Jason cobrar o aluguel de Mandy, uma das inquilinas dele. Fale com ela na frente da casa. Ela se recusa a pagar até que a pia entupida seja consertada."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["pipework__pipework-meet-mandy-.jpg"]
+    },
+    {
+      "titulo": "Siga Mandy",
+      "texto": [
+        "Mandy leva Jason para dentro, mas em vez da cozinha vai direto para o quarto. Você pode deixá-la falar ou interromper para perguntar onde está o desentupidor."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["pipework__pipework-follow-mandy-.jpg"]
+    },
+    {
+      "titulo": "Pegue o desentupidor",
+      "texto": [
+        "O desentupidor está no chão do banheiro, do outro lado do corredor, em frente ao quarto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["pipework__pipework-plunger-.jpg"]
+    },
+    {
+      "titulo": "Conserte a pia",
+      "texto": [
+        "Vá até a cozinha e interaja com a pia. Use o desentupidor com o analógico direito e depois a chave no cano.",
+        "Mandy aparece de lingerie e tenta transformar a cobrança num encontro, convencida de que ela e Jason foram feitos um para o outro. Não importa como a conversa vá, o resultado é o mesmo: ela oferece um charuto pelo conserto, Jason recusa as investidas e ela joga a caixa de charutos na rua, irritada."
+      ],
+      "dicas": [
+        "Na saída, pegue a caixa de charutos na rua para ganhar o Macizo Cigar."
+      ],
+      "lista": [],
+      "imagens": ["pipework__pipework-sink-location-.jpg", "pipework__pipework-fix-the-sink-.jpg", "pipework__pipework-mandy-underwear.jpg"]
+    },
+    {
+      "titulo": "Extra: Mandy e o vizinho",
+      "texto": [
+        "Isto não faz parte da missão. Algum tempo depois de Pipework, passe de novo pela casa de Mandy e você pode encontrá-la no meio de uma briga aos gritos com o vizinho. Intervenha para acalmar a situação e Mandy convida Jason para conversar: ela deixa claro que já superou e está cuidando melhor da própria vida. Depois vai tomar banho; você pode bater na porta do banheiro, mas Jason não pode entrar."
+      ],
+      "dicas": [
+        "Não existe opção de romance com Mandy no GTA 6."
+      ],
+      "lista": [],
+      "imagens": ["pipework__pipework-mandy-follow-up-romance.jpg"]
+    }
+  ],
+  "recompensas": ["Macizo Cigar (caixa jogada na rua)"],
+  "trofeus": []
+}

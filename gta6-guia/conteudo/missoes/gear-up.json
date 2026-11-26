@@ -1,0 +1,49 @@
+{
+  "slug": "gear-up",
+  "ordem": 3,
+  "nome": "Gear Up",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason vai até a Ammu-Nation comprar uma arma longa e, na saída, é emboscado por membros da gangue Kingfishers.",
+  "objetivos": [
+    "Vá até a Ammu-Nation",
+    "Compre uma arma longa com Andrew",
+    "Sobreviva à emboscada dos Kingfishers"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até a Ammu-Nation",
+      "texto": [
+        "Jason precisa de uma arma longa, então vá até a Ammu-Nation perto da casa dele. O carro estacionado na frente da casa te leva até lá."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gear-up__gear-up-ammunation.jpg"]
+    },
+    {
+      "titulo": "Compre uma arma longa com Andrew",
+      "texto": [
+        "Entre na loja e fale com o atendente. Você pode escolher entre uma shotgun e um tactical rifle, mas nesse ponto provavelmente só terá dinheiro para a shotgun.",
+        "Se tiver juntado um pouco mais de grana, o tactical rifle custa mais, porém entrega uma arma precisa logo no começo do jogo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gear-up__gear-up-clerk.jpg", "gear-up__gear-up-weapon-2.jpg", "gear-up__gear-up-weapon-1.jpg"]
+    },
+    {
+      "titulo": "Sobreviva à emboscada dos Kingfishers",
+      "texto": [
+        "Saia da loja pronto para brigar: três membros da gangue Kingfishers chegam numa caminhonete atirando. Se você os matar, recebe uma ligação que encerra a missão. Se morrer, renasce em casa e a missão termina do mesmo jeito. Os dois resultados valem e não têm consequências."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["gear-up__gear-up-encounter.jpg"]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

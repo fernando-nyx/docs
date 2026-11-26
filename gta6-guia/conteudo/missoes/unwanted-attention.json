@@ -1,0 +1,96 @@
+{
+  "slug": "unwanted-attention",
+  "ordem": 4,
+  "nome": "Unwanted Attention",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Cal Hampton",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "$150",
+  "resumo": "Jason invade o pátio de apreensão da polícia em Hamlet para recuperar um Imponte Phoenix com um pagamento de Brian no porta-malas, foge da polícia e entrega o carro repintado.",
+  "objetivos": [
+    "Encontre Cal",
+    "Dirija até o pátio de apreensão em Hamlet",
+    "Ache o Phoenix no pátio",
+    "Despiste a polícia",
+    "Repinte o Phoenix",
+    "Entregue o carro",
+    "Mude o visual"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Cal",
+      "texto": [
+        "Fale com Cal na praia ao norte de Key Lento. Brian tem um pagamento a receber que está no porta-malas de um Imponte Phoenix, e o carro foi parar no pátio de apreensão da polícia em Hamlet."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["unwanted-attention__unwanted-attention-meet-cal.jpg"]
+    },
+    {
+      "titulo": "Dirija até o pátio de apreensão em Hamlet",
+      "texto": [
+        "Hamlet é uma cidadezinha a noroeste: siga o marcador com Cal. No caminho, Cal instala no seu celular um app de rádio da polícia. Ele funciona passivamente a partir de agora: sempre que cometer um crime ou for perseguido, você ouve a conversa no rádio policial."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["unwanted-attention__unwanted-attention-drive-hamlet.jpg"]
+    },
+    {
+      "titulo": "Ache o Phoenix no pátio",
+      "texto": [
+        "Pule a cerca do pátio, escale os contêineres no canto do fundo e desça depois da cerca seguinte. A área tem guardas. Atenção: se você nocautear os guardas, a polícia percebe que eles pararam de responder e manda uma patrulha; então vá totalmente furtivo ou esteja pronto para pegar o carro e sair rápido.",
+        "O carro certo é o esportivo vermelho no fundo do pátio, preso a um guincho. Entre no guincho, solte o carro e depois pule no Phoenix."
+      ],
+      "dicas": [
+        "Use o app WAiNK do celular para escanear veículos próximos. Escanear 200 dos 277 veículos base conta para os 100%, então escaneie todo carro novo que vir.",
+        "Há outra entrada no pátio: o elevador no fundo do terreno leva até o terraço, de onde dá para escanear os carros estacionados lá de cima."
+      ],
+      "lista": [],
+      "imagens": ["unwanted-attention__unwanted-attention-inpound.jpg", "unwanted-attention__unwanted-attention-phoenix.jpg"]
+    },
+    {
+      "titulo": "Despiste a polícia",
+      "texto": [
+        "Dirija até o portão e espere ele abrir. Essa parte é roteirizada: a polícia sempre te vê, seja por um guarda, seja pela patrulha checando os guardas. Se um guarda tentar te arrancar do carro, martele o botão indicado para se soltar.",
+        "Com o portão aberto, saia e escape da área de busca piscando no minimapa sem destruir o carro. Virar algumas esquinas ou sair da estrada e depois acelerar numa reta funciona bem."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["unwanted-attention__unwanted-attention-lose-cops.jpg"]
+    },
+    {
+      "titulo": "Repinte o Phoenix",
+      "texto": [
+        "Depois de despistar a polícia, o Pay 'n' Spray de Hamlet aparece marcado. Entre e repinte o carro. A cor escolhida não faz diferença: você vai entregar o carro de qualquer jeito."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["unwanted-attention__unwanted-attention-spray.jpg", "unwanted-attention__unwanted-attention-repair.jpg"]
+    },
+    {
+      "titulo": "Entregue o carro",
+      "texto": [
+        "Estacione o carro na garagem de Brian, ali perto. Não esqueça de pegar os $150 que Brian deixou para você na sala dos fundos."
+      ],
+      "dicas": [
+        "Depois de uma perseguição, o contorno de \"calor\" continua no mapa e a polícia lembra da sua roupa e do seu carro. Repintar o carro ou trocar de veículo deixa você muito mais difícil de reconhecer."
+      ],
+      "lista": [],
+      "imagens": ["unwanted-attention__unwanted-attention-car-drop-off.jpg", "unwanted-attention__unwanted-attention-payment.jpg"]
+    },
+    {
+      "titulo": "Mude o visual",
+      "texto": [
+        "Abra a roda de itens e alterne o chapéu e os óculos: quando os ícones passam de vermelho para branco, aquele visual não é conhecido pela polícia. Depois, entre na loja de armas ao lado e compre uma das roupas com o dinheiro da garagem. Roupa nova te deixa irreconhecível.",
+        "Depois de fugir da polícia, ícones vermelhos no canto superior direito mostram o quanto sua roupa, chapéu e veículo são reconhecíveis. Você também pode guardar roupas extras no porta-malas, comprar roupas pelo caminho ou simplesmente se abaixar no volante enquanto dirige para ficar escondido."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": ["unwanted-attention__unwanted-attention-change-clothes.jpg"]
+    }
+  ],
+  "recompensas": ["$150 deixados por Brian na garagem"],
+  "trofeus": []
+}

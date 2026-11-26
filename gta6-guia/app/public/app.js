@@ -72,6 +72,10 @@
   }
   // Sem o conteúdo carregado, conta pelos ids marcados com o prefixo do módulo.
   const modStat = (m) => {
+    if (m.id === 'missoes') {
+      const n = Object.keys(done).filter((k) => k.startsWith('missoes-')).length;
+      return { n, total: m.total, pct: m.total ? Math.round((n / m.total) * 100) : 0 };
+    }
     if (MODS[m.id]) return stat(MODS[m.id]._ids || (MODS[m.id]._ids = idsOf(MODS[m.id])));
     const n = Object.keys(done).filter((k) => k.startsWith(m.id + '-')).length;
     return { n, total: m.total, pct: m.total ? Math.round((n / m.total) * 100) : 0 };
@@ -136,7 +140,7 @@
           ${url ? `<span class="btn gold">🔒 ${t.get}</span>` : '<span class="lockline">🔒</span>'}</div></a>`;
       }
       const s = modStat(m);
-      return `<a class="mod" href="#/m/${m.id}"><div class="ic">${m.icon}</div><div style="flex:1">
+      return `<a class="mod" href="${m.id === 'missoes' ? '#/missoes' : '#/m/' + m.id}"><div class="ic">${m.icon}</div><div style="flex:1">
         <h3>${info.t}</h3><p>${info.d}</p>
         <div class="bar"><i style="width:${s.pct}%"></i></div>
         <div class="meta">${s.n}/${s.total} ${t.done} · ${s.pct}%</div></div></a>`;
@@ -214,7 +218,7 @@
     const ql = q.toLowerCase();
     const out = [];
     if (ql.length >= 2) {
-      const open = ME.modules.filter((m) => m.access);
+      const open = ME.modules.filter((m) => m.access && m.id !== 'missoes');
       await Promise.all(open.map((m) => loadModule(m.id).catch(() => null)));
       for (const om of open) {
         const m = MODS[om.id];
@@ -225,12 +229,103 @@
         }
       }
     }
-    const list = out.slice(0, 80).map((r) => `<a class="res" href="#/m/${r.m.id}/${r.s.id}"><small>${r.m.icon} ${t.modules[r.m.id].t}${r.s.title ? ' › ' + esc(plain(r.s.title)) : ''}</small>
-      <div>${renderBlock({ type: 'p', text: r.tx.length > 220 ? r.tx.slice(0, 220) + '…' : r.tx }, q).replace(/^<p>|<\/p>$/g, '')}</div></a>`).join('');
+    if (ql.length >= 2 && ME.modules.find((m) => m.id === 'missoes' && m.access)) {
+      const idx = await missionIndex().catch(() => []);
+      for (const x of idx) if (x.nome.toLowerCase().includes(ql)) out.unshift({ mission: x });
+    }
+    const list = out.slice(0, 80).map((r) => (r.mission
+      ? `<a class="res" href="#/missao/${r.mission.slug}"><small>🎯 ${t.modules.missoes.t}</small><div><b>#${r.mission.ordem} ${esc(r.mission.nome)}</b></div></a>`
+      : `<a class="res" href="#/m/${r.m.id}/${r.s.id}"><small>${r.m.icon} ${t.modules[r.m.id].t}${r.s.title ? ' › ' + esc(plain(r.s.title)) : ''}</small>
+      <div>${renderBlock({ type: 'p', text: r.tx.length > 220 ? r.tx.slice(0, 220) + '…' : r.tx }, q).replace(/^<p>|<\/p>$/g, '')}</div></a>`)).join('');
     return `${topbar(true)}
       <form class="search" style="margin-top:8px" onsubmit="location.hash='#/busca/'+encodeURIComponent(this.q.value);return false">
         <span>🔎</span><input name="q" type="search" value="${esc(q)}" placeholder="${esc(t.search)}"></form>
       <h2 class="sec-t">${t.searchTitle} (${out.length})</h2>${list || `<p>${t.noResults}</p>`}`;
+  }
+
+  // ---- missões ----
+  let MINDEX = null;
+  const MDET = {};
+  async function missionIndex() {
+    if (MINDEX) return MINDEX;
+    try { MINDEX = await api(`/missions/${lang}`); store.set('mindex:' + lang, MINDEX); } catch (e) {
+      MINDEX = store.get('mindex:' + lang, null); if (!MINDEX) throw e;
+    }
+    return MINDEX;
+  }
+  async function missionDetail(slug) {
+    if (MDET[slug]) return MDET[slug];
+    try { MDET[slug] = await api(`/missions/${lang}/${slug}`); store.set('mis:' + slug, MDET[slug]); } catch (e) {
+      MDET[slug] = store.get('mis:' + slug, null); if (!MDET[slug]) throw e;
+    }
+    return MDET[slug];
+  }
+  const capLabel = (c) => (c === 0 || c === '0' ? T().ms.prologue : `${T().ms.chapter} ${c}`);
+  const typeTag = (tp) => {
+    const ms = T().ms;
+    if (tp === 'perdivel') return `<span class="mtag warn">${ms.missable}</span>`;
+    if (tp === 'opcional') return `<span class="mtag">${ms.optional}</span>`;
+    if (tp === 'secundaria') return `<span class="mtag">${ms.side}</span>`;
+    return '';
+  };
+
+  function missionsList(list) {
+    const t = T();
+    const m = ME.modules.find((x) => x.id === 'missoes');
+    const s = modStat(m);
+    const groups = [];
+    for (const x of list) {
+      const key = String(x.capitulo ?? '');
+      let g = groups.find((y) => y.key === key);
+      if (!g) groups.push((g = { key, items: [] }));
+      g.items.push(x);
+    }
+    const body = groups.map((g) => `<section class="sec"><h2 class="sec-t">${g.key === '' ? t.ms.others : capLabel(g.key)}</h2><div class="cards">
+      ${g.items.map((x) => `<div class="item mrow ${done[x.id] ? 'on' : ''}">
+        <div class="box chkbox" data-id="${x.id}" role="checkbox" aria-checked="${!!done[x.id]}"></div>
+        <a class="ib mlink" href="#/missao/${x.slug}">
+          ${x.capa ? `<img class="thumb" src="${x.capa}" alt="" loading="lazy">` : ''}
+          <div><div class="ttl"><span class="num">${x.ordem}</span>${esc(x.nome)}</div>
+          <div class="kv">${typeTag(x.tipo)} ${esc(x.personagem || '')}</div></div></a></div>`).join('')}
+    </div></section>`).join('');
+    return `${topbar(true)}
+      <div class="mhead"><div style="font-size:30px">🎯</div><h1>${t.modules.missoes.t}</h1>
+        <div class="muted">${t.modules.missoes.d}</div>
+        <div class="bar"><i id="mbar" style="width:${s.pct}%"></i></div>
+        <div class="meta" id="mmeta">${s.n}/${s.total} ${t.done} · ${s.pct}%</div>
+        <div class="chips"><button class="chip ${pendingOnly ? '' : 'on'}" onclick="VICE.pending(false)">${t.all}</button>
+          <button class="chip ${pendingOnly ? 'on' : ''}" onclick="VICE.pending(true)">${t.pending}</button></div></div>
+      <div id="body" class="${pendingOnly ? 'hidden-done' : ''}">${body}</div>`;
+  }
+
+  function missionView(m, list) {
+    const t = T(); const ms = t.ms;
+    const i = list.findIndex((x) => x.slug === m.slug);
+    const prev = list[i - 1], next = list[i + 1];
+    const facts = [
+      [ms.chapterL, m.capitulo === undefined || m.capitulo === null ? '' : capLabel(m.capitulo)],
+      [ms.giver, m.quem_passa], [ms.character, m.personagem], [ms.counts, m.conta_100], [ms.reward, m.recompensa],
+    ].filter(([, v]) => v);
+    const steps = (m.passos || []).map((p, n) => `<section class="step"><h3 class="sec-t"><span class="num">${n + 1}</span>${md(p.titulo)}</h3>
+      ${(p.imagens || []).map((src) => `<img class="shot" src="${src}" alt="${esc(p.titulo)}" loading="lazy" onclick="VICE.zoom(this.src)">`).join('')}
+      ${(p.texto || []).map((x) => `<p>${md(x)}</p>`).join('')}
+      ${(p.lista || []).length ? `<ul>${p.lista.map((x) => `<li>${md(x)}</li>`).join('')}</ul>` : ''}
+      ${(p.dicas || []).map((x) => `<div class="tip">💡 ${md(x)}</div>`).join('')}</section>`).join('');
+    return `${topbar(true)}
+      <article class="mission">
+        ${m.capa ? `<img class="cover" src="${m.capa}" alt="" onclick="VICE.zoom(this.src)">` : ''}
+        <div class="mtitle"><span class="num">#${m.ordem}</span> ${typeTag(m.tipo)}<h1>${esc(m.nome)}</h1></div>
+        ${m.aviso ? `<div class="note">⚠️ ${md(m.aviso)}</div>` : ''}
+        ${m.resumo ? `<p class="lead">${md(m.resumo)}</p>` : ''}
+        <div class="dl">${facts.map(([k, v]) => `<div>${k}</div><div>${md(String(v))}</div>`).join('')}</div>
+        ${(m.objetivos || []).length ? `<h2 class="sec-t">${ms.objectives}</h2><ol class="objs">${m.objetivos.map((x) => `<li>${md(x)}</li>`).join('')}</ol>` : ''}
+        ${steps ? `<h2 class="sec-t">${ms.walkthrough}</h2>${steps}` : ''}
+        ${(m.recompensas || []).length ? `<h2 class="sec-t">${ms.rewards}</h2><ul>${m.recompensas.map((x) => `<li>${md(x)}</li>`).join('')}</ul>` : ''}
+        ${(m.trofeus || []).length ? `<h2 class="sec-t">${ms.trophies}</h2><ul>${m.trofeus.map((x) => `<li>${md(x)}</li>`).join('')}</ul>` : ''}
+        <button class="btn ${done[m.id] ? 'ghost' : 'primary'} big" onclick="VICE.toggleMission('${m.id}')">${done[m.id] ? '✓ ' + ms.isDone : ms.markDone}</button>
+        <nav class="mnav">${prev ? `<a class="btn ghost" href="#/missao/${prev.slug}">← ${esc(prev.nome)}</a>` : '<span></span>'}
+          ${next ? `<a class="btn ghost" href="#/missao/${next.slug}">${esc(next.nome)} →</a>` : ''}</nav>
+      </article>`;
   }
 
   // ---- diálogos ----
@@ -316,6 +411,12 @@
         const el = b && document.getElementById(b);
         if (el) el.scrollIntoView(); else window.scrollTo(0, 0);
       } catch (e) { if (e.status === 403) { location.hash = '#/locked/' + a; } else app.innerHTML = `${topbar(true)}<p class="foot">${T().netError}</p>`; }
+    } else if (view === 'missoes' || view === 'missao') {
+      try {
+        const list = await missionIndex();
+        if (view === 'missoes') { app.innerHTML = missionsList(list); window.scrollTo(0, 0); }
+        else { app.innerHTML = missionView(await missionDetail(a), list); window.scrollTo(0, 0); }
+      } catch (e) { if (e.status === 403) location.hash = '#/locked/missoes'; else app.innerHTML = `${topbar(true)}<p class="foot">${T().netError}</p>`; }
     } else if (view === 'busca') {
       app.innerHTML = await searchView(decodeURIComponent(a || '')); window.scrollTo(0, 0);
     } else if (view === 'locked') {
@@ -326,6 +427,16 @@
   }
 
   document.addEventListener('click', (e) => {
+    const cb = e.target.closest('.chkbox');
+    if (cb) {
+      const id = cb.dataset.id;
+      if (done[id]) delete done[id]; else done[id] = 1;
+      saveDone();
+      cb.closest('.item').classList.toggle('on', !!done[id]);
+      const m = ME.modules.find((x) => x.id === 'missoes'); const s = modStat(m);
+      if ($('#mbar')) { $('#mbar').style.width = s.pct + '%'; $('#mmeta').textContent = `${s.n}/${s.total} ${T().done} · ${s.pct}%`; }
+      return;
+    }
     const it = e.target.closest('.item.chk');
     if (!it) return;
     const id = it.dataset.id;
@@ -350,6 +461,12 @@
       saveDone(); route();
     },
     account: accountDialog,
+    toggleMission(id) { if (done[id]) delete done[id]; else done[id] = 1; saveDone(); route(); },
+    zoom(src) {
+      const el = $('#modal');
+      el.innerHTML = `<img class="zoomed" src="${src}" alt="">`; el.hidden = false;
+      el.onclick = () => { el.hidden = true; el.onclick = null; };
+    },
   };
 
   window.addEventListener('hashchange', route);
