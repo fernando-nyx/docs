@@ -20,7 +20,7 @@
       "binding": "DB",
       "database_name": "vice-detonado",
       // Preencha com o id que o `npx wrangler d1 create vice-detonado` mostrar.
-      "database_id": "REEMPLAZAR_CON_TU_DATABASE_ID",
+      "database_id": "e89e7d6d-d91e-40cb-9e4b-bbffe8cf0ecc",
       "migrations_dir": "migrations"
     }
   ],
