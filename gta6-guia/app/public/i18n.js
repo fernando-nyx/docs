@@ -28,6 +28,8 @@ window.I18N = {
     password: 'Senha',
     enter: 'Entrar',
     loginError: 'E-mail ou senha incorretos.',
+    tooMany: 'Muitos acessos nesta conta hoje. Tente de novo amanhã.',
+    kicked: 'Sua conta foi aberta em outro aparelho. O acesso vale para até 2 aparelhos. Entre de novo.',
     netError: 'Sem conexão. Tente de novo.',
     logout: 'Sair',
     account: 'Conta',

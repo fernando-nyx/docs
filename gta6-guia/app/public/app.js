@@ -369,7 +369,7 @@
       <div class="row"><button type="button" class="btn ghost" id="out">${t.logout}</button><span class="spacer"></span>
         <button type="button" class="btn ghost" id="cx">${t.cancel}</button><button class="btn primary">${t.save}</button></div></form>`, (el) => {
       $('#cx', el).onclick = closeDialog;
-      $('#out', el).onclick = async () => { await api('/logout', { method: 'POST' }).catch(() => {}); ME = null; closeDialog(); location.hash = '#/'; route(); };
+      $('#out', el).onclick = async () => { await api('/logout', { method: 'POST' }).catch(() => {}); ME = null; store.set('logged', false); closeDialog(); location.hash = '#/'; route(); };
       $('form', el).onsubmit = async (e) => {
         e.preventDefault();
         const f = e.target;
@@ -385,16 +385,21 @@
   async function route() {
     const app = $('#app');
     if (!ME) {
-      try { ME = await api('/me'); await pullProgress(); } catch (e) {
+      try { ME = await api('/me'); store.set('logged', true); await pullProgress(); } catch (e) {
         if (e.status === 401) {
+          const kicked = store.get('logged', false);
           app.innerHTML = loginView();
+          if (kicked) { $('#err').textContent = T().kicked; store.set('logged', false); }
           $('#login').onsubmit = async (ev) => {
             ev.preventDefault();
             const f = ev.target;
             try {
               ME = await api('/login', { method: 'POST', body: { email: f.email.value, password: f.password.value } });
+              store.set('logged', true);
               await pullProgress(); route();
-            } catch (err) { $('#err').textContent = err.status === 401 ? T().loginError : T().netError; }
+            } catch (err) {
+              $('#err').textContent = err.status === 401 ? T().loginError : err.status === 429 ? T().tooMany : T().netError;
+            }
           };
           return;
         }

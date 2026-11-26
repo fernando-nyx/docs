@@ -78,11 +78,39 @@ function getCookie(req, name) {
 function sessionCookie(env, token, expires) {
   return `${cookieName(env)}=${token}; Path=/; HttpOnly; SameSite=Lax; Expires=${expires.toUTCString()}${isDev(env) ? '' : '; Secure'}`;
 }
-async function createSession(env, userId) {
+// Aparelho em poucas palavras, a partir do User-Agent (só para referência).
+function deviceLabel(req) {
+  const ua = req.headers.get('user-agent') || '';
+  const os = /iPhone|iPad/.test(ua) ? 'iOS' : /Android/.test(ua) ? 'Android' : /Windows/.test(ua) ? 'Windows' : /Mac OS/.test(ua) ? 'Mac' : 'Outro';
+  const br = /Edg\//.test(ua) ? 'Edge' : /Chrome\//.test(ua) ? 'Chrome' : /Safari\//.test(ua) ? 'Safari' : /Firefox\//.test(ua) ? 'Firefox' : '';
+  return `${os} ${br}`.trim().slice(0, 40);
+}
+
+/**
+ * Limite de aparelhos (contra conta compartilhada/revendida):
+ *  - no máximo MAX_DEVICES sessões abertas por conta; entrar num aparelho novo derruba o mais antigo;
+ *  - no máximo MAX_LOGINS_DAY logins em 24h; passou disso, só no dia seguinte.
+ */
+async function createSession(env, userId, req) {
+  const maxDevices = Math.max(1, Number(env.MAX_DEVICES) || 2);
   const token = randomToken();
   const expires = new Date(Date.now() + SESSION_DAYS * 86400000);
-  await env.DB.prepare('INSERT INTO sessions (id, user_id, expires_at) VALUES (?, ?, ?)').bind(await sha256(token), userId, expires.toISOString()).run();
+  await env.DB.batch([
+    env.DB.prepare('INSERT INTO sessions (id, user_id, expires_at, device) VALUES (?, ?, ?, ?)')
+      .bind(await sha256(token), userId, expires.toISOString(), deviceLabel(req)),
+    // mantém só as N mais recentes
+    env.DB.prepare(`DELETE FROM sessions WHERE user_id = ?1 AND id NOT IN
+      (SELECT id FROM sessions WHERE user_id = ?1 ORDER BY created_at DESC, rowid DESC LIMIT ?2)`).bind(userId, maxDevices),
+    env.DB.prepare('INSERT INTO logins (user_id) VALUES (?)').bind(userId),
+    env.DB.prepare("DELETE FROM logins WHERE at < strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-2 days')"),
+  ]);
   return sessionCookie(env, token, expires);
+}
+async function tooManyLogins(env, userId) {
+  const max = Math.max(1, Number(env.MAX_LOGINS_DAY) || 5);
+  const r = await env.DB.prepare("SELECT COUNT(*) AS n FROM logins WHERE user_id = ? AND at > strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-1 day')")
+    .bind(userId).first();
+  return (r?.n || 0) >= max;
 }
 async function loadUser(req, env) {
   const token = getCookie(req, cookieName(env));
@@ -254,7 +282,8 @@ async function api(req, env, url) {
     const u = await env.DB.prepare('SELECT id, password_hash FROM users WHERE email = ?').bind(email).first();
     const ok = await verifyPassword(pw, u?.password_hash || DUMMY_HASH);
     if (!u || !ok) return json({ error: 'INVALID_CREDENTIALS' }, 401);
-    const cookie = await createSession(env, u.id);
+    if (await tooManyLogins(env, u.id)) return json({ error: 'TOO_MANY_LOGINS' }, 429);
+    const cookie = await createSession(env, u.id, req);
     const full = await env.DB.prepare('SELECT * FROM users WHERE id = ?').bind(u.id).first();
     return json(await me(full, env), 200, { 'set-cookie': cookie });
   }

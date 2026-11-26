@@ -27,6 +27,9 @@
     "APP_ENV": "production",
     // Senha inicial de quem compra (informe no e-mail de entrega da Sellyo).
     "DEFAULT_PASSWORD": "12345678",
+    // Limite de aparelhos por conta (entrar num novo derruba o mais antigo) e de logins por 24h.
+    "MAX_DEVICES": "2",
+    "MAX_LOGINS_DAY": "5",
     // Links de checkout mostrados nos módulos trancados (opcional).
     "CHECKOUT_URL": "",
     "BUMP_URL_DINHEIRO": "",
