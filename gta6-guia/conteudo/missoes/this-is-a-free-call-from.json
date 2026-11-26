@@ -1,0 +1,94 @@
+{
+  "slug": "this-is-a-free-call-from",
+  "ordem": 92,
+  "nome": "Pick Up Shayna",
+  "capitulo": 3,
+  "tipo": "perdivel",
+  "quem_passa": "Shayna",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "Até cerca de $6.500 em objetos e drogas para vender",
+  "resumo": "Lucia busca a amiga Shayna na saída da prisão, leva-a até a casa do namorado Raph em Southside e precisa lidar com uma gangue que aparece por lá.",
+  "aviso": "A missão tem tempo limitado e some se você não buscar Shayna logo depois que ela mandar mensagem.",
+  "objetivos": [
+    "Busque Shayna",
+    "Dirija até a casa de Raph",
+    "Lide com a gangue",
+    "Divida a bolsa"
+  ],
+  "passos": [
+    {
+      "titulo": "Busque Shayna",
+      "texto": [
+        "Dirija por Hamlet ou perto dele com Lucia e Shayna, uma amiga da prisão prestes a ser solta, manda mensagem pedindo carona. Vá até a prisão buscá-la."
+      ],
+      "dicas": [
+        "A missão fica disponível só por tempo limitado: se quiser fazê-la, vá assim que aparecer marcada no mapa. Ela pode surgir no Capítulo 3 ou no Capítulo 4; se não aparecer no 3, pode aparecer no 4."
+      ],
+      "lista": [],
+      "imagens": [
+        "this-is-a-free-call-from__shayna-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Dirija até a casa de Raph",
+      "texto": [
+        "Leve Shayna até a casa do namorado dela, Raph, em Southside, e entre atrás dela. Enquanto ela discute com ele, ande pela casa e pegue cerca de $1.500 em objetos de valor, por exemplo na mesa da cozinha e no quarto à direita.",
+        "Shayna aponta uma arma para Raph e você precisa escolher o que dizer."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "this-is-a-free-call-from__shayna-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha: acalmá-la",
+      "texto": [
+        "É a melhor escolha para começar."
+      ],
+      "dicas": [],
+      "lista": [
+        "A situação continua e uma gangue chega"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: mandar atirar",
+      "texto": [
+        "Raph morre na hora."
+      ],
+      "dicas": [],
+      "lista": [
+        "Você perde a chance de resolver na conversa"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Lide com a gangue",
+      "texto": [
+        "Alguns membros de gangue entram e atiram em Raph. Você pode convencê-los a ir embora em paz, deixando drogas que valem cerca de $1.200, ou matar os três na hora."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "this-is-a-free-call-from__shayna-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Divida a bolsa",
+      "texto": [
+        "Se você eliminou a gangue, Shayna fica com metade das drogas e deixa a outra metade com você, valendo uns $5.000 na venda: o maior pagamento possível. Saia rápido antes que a polícia veja você para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "this-is-a-free-call-from__shayna-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "Até cerca de $6.500 em objetos roubados e drogas para vender"
+  ],
+  "trofeus": []
+}

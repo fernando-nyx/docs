@@ -1,0 +1,60 @@
+{
+  "slug": "ambulance-chaser",
+  "ordem": 40,
+  "nome": "Ambulance Chaser",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia persegue um grupo de viciados que fugiu com a ambulância da fuga e depois a destrói para apagar as pistas.",
+  "aviso": "Some se não for feita antes de Slam Dunk, quando a polícia encontra a ambulância.",
+  "objetivos": [
+    "Encontre a ambulância",
+    "Pare a ambulância",
+    "Destrua a ambulância"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre a ambulância",
+      "texto": [
+        "A missão aparece assim que você sai do quarto do motel pela primeira vez depois de What's in the Bag?. A ambulância está escondida num celeiro logo a leste do Starlet Motel: entre pela escada dos fundos. Um grupo de viciados a encontrou e sai dirigindo com ela."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ambulance-chaser__ambulance-chaser1.jpg"
+      ]
+    },
+    {
+      "titulo": "Pare a ambulância",
+      "texto": [
+        "Suba no quadriciclo (ATV) do celeiro e persiga a ambulância, ficando perto e evitando batidas. Ela acaba parando sozinha ao bater numa árvore mais ao sul."
+      ],
+      "dicas": [
+        "Para pará-la antes, use o Combat Focus: os pneus ficam destacados em amarelo."
+      ],
+      "lista": [],
+      "imagens": [
+        "ambulance-chaser__ambulance-chaser-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Destrua a ambulância",
+      "texto": [
+        "Pegue o galão vermelho no chão atrás da ambulância, despeje o combustível nela e use a opção de incendiar (ou jogue o galão na traseira e atire nele). A explosão chama a polícia, então saia da área imediatamente."
+      ],
+      "dicas": [
+        "Esta missão é perdível: se você não fizer antes de Slam Dunk, a polícia encontra a ambulância e o objetivo some. Falhar em parar os viciados ou destruir a ambulância também prejudica a relação de Jason e Lucia e pode aumentar o aluguel do motel.",
+        "O jeito mais rápido de destruir a ambulância é se afastar e atirar num dos cilindros de oxigênio na traseira."
+      ],
+      "lista": [],
+      "imagens": [
+        "ambulance-chaser__ambulance-chaser-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

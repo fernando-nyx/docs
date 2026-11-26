@@ -1,0 +1,47 @@
+{
+  "slug": "race-against-yago",
+  "ordem": 82,
+  "nome": "Race Against Yago",
+  "capitulo": 3,
+  "tipo": "perdivel",
+  "quem_passa": "Yago",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "Prêmio conforme a colocação (até $3.800)",
+  "resumo": "Jason vai a um encontro de rachas em Salton e disputa a Freeway Run contra Yago.",
+  "aviso": "A missão some se a ampulheta de tempo limitado zerar antes de você ir ao encontro em Salton.",
+  "objetivos": [
+    "Chegue ao encontro de rachas",
+    "Escolha a Freeway Run"
+  ],
+  "passos": [
+    {
+      "titulo": "Chegue ao encontro de rachas",
+      "texto": [
+        "A missão aparece alguns dias de jogo depois de Bumper to Bumper, numa mensagem de Yago para Jason, marcada em Vice City com uma ampulheta de tempo limitado. Ela fica pouco tempo disponível, então vá ao encontro em Salton assim que receber a mensagem."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "race-against-yago__race-yago-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha a Freeway Run",
+      "texto": [
+        "Fale com Santiago e escolha a segunda corrida, Freeway Run. Alugue um carro e termine a corrida; o prêmio depende da colocação, chegando a $3.800 pela vitória."
+      ],
+      "dicas": [
+        "Race Against Yago é perdível: se a ampulheta zerar, a missão some. Ela não afeta troféus."
+      ],
+      "lista": [],
+      "imagens": [
+        "race-against-yago__race-yago-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "Prêmio conforme a colocação ($3.800 em primeiro lugar)"
+  ],
+  "trofeus": []
+}

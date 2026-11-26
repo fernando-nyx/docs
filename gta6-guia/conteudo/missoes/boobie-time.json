@@ -1,0 +1,96 @@
+{
+  "slug": "boobie-time",
+  "ordem": 75,
+  "nome": "Boobie Time",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Boobie Ike",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Jason serve de motorista para Boobie nas coletas, recupera uma bolsa de dinheiro roubada no rio e conhece Yasmani.",
+  "objetivos": [
+    "Leve Boobie pela cidade",
+    "Faça as coletas",
+    "Vá até o clube",
+    "Recupere a bolsa de dinheiro",
+    "Volte para Boobie",
+    "Conheça Yasmani"
+  ],
+  "passos": [
+    {
+      "titulo": "Leve Boobie pela cidade",
+      "texto": [
+        "Boobie precisa de motorista para uns serviços. Siga-o para fora do clube e assuma o volante do carro dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "boobie-time__boobie-time-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Faça as coletas",
+      "texto": [
+        "A primeira parada fica a poucos quarteirões ao sul: espere Boobie conversar com os homens no estacionamento. Segure R3 (analógico direito) para a câmera mostrar o interior do carro durante a coleta.",
+        "A segunda é logo a sudoeste; buzine e espere ele falar com o homem na escada."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "boobie-time__boobie-time-3.jpg",
+        "boobie-time__boobie-time-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá até o clube",
+      "texto": [
+        "Dirija para o sul até o centro e pare ao lado do prédio à beira do rio."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "boobie-time__boobie-time-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Recupere a bolsa de dinheiro",
+      "texto": [
+        "Enquanto vocês estão dentro do futuro clube, ladrões levam a bolsa do carro. Jason vai atrás deles de Seashark. Persiga-os rio abaixo; no fim eles ficam rodando num beco sem saída atirando, o que facilita acertá-los. Derrubados, passe por cima da bolsa para pegá-la."
+      ],
+      "dicas": [
+        "Se derrubar o ladrão de longe, use o Focus para localizar a bolsa na água. Matar os ladrões aqui não pesa muito no perfil Professional: o que importa é recuperar o dinheiro de Boobie."
+      ],
+      "lista": [],
+      "imagens": [
+        "boobie-time__boobie-time-8.jpg"
+      ]
+    },
+    {
+      "titulo": "Volte para Boobie",
+      "texto": [
+        "Suba o rio de volta, desça do Seashark e entre de novo no carro de Boobie."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "boobie-time__boobie-time-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Conheça Yasmani",
+      "texto": [
+        "Atravesse o rio até a tabacaria e entre com Boobie, que apresenta Yasmani. Ele vira ponto de venda de mercadorias e paga mais por joias e notas marcadas que os outros receptadores."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "boobie-time__boobie-time-7.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio (Yasmani como receptador)"
+  ],
+  "trofeus": []
+}

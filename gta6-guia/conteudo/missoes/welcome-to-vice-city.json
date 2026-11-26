@@ -1,0 +1,83 @@
+{
+  "slug": "welcome-to-vice-city",
+  "ordem": 63,
+  "nome": "Welcome to Vice City",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Recém-chegados a Vice City, Jason e Lucia encontram Dre'Quan no Jack of Hearts, conhecem Boobie Ike e se instalam no apartamento que ele cede.",
+  "objetivos": [
+    "Vá ao Jack of Hearts",
+    "Entre no Jack of Hearts",
+    "Jogue dinheiro para as dançarinas",
+    "Siga Dre'Quan",
+    "Vá ao apartamento"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá ao Jack of Hearts",
+      "texto": [
+        "O Capítulo 3 começa logo após Checking Out, com Jason e Lucia entrando em Vice City pela rodovia. Depois de um trecho curto, Jason liga para Dre'Quan, que marca um encontro no Jack of Hearts, o clube de striptease em Crosstown onde ele toca uma gravadora."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "welcome-to-vice-city__welcome-to-vice-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Entre no Jack of Hearts",
+      "texto": [
+        "O carro para na frente do clube automaticamente. Fale com o segurança na porta e depois dê a volta até a entrada do outro lado do prédio, onde Dre'Quan sai para receber vocês. Siga-o pelo clube até ele parar na escada."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "welcome-to-vice-city__welcome-to-vice-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Jogue dinheiro para as dançarinas",
+      "texto": [
+        "Dre'Quan oferece dinheiro para jogar nas dançarinas. Se aceitar, vá até uma dançarina, foque nela e jogue o dinheiro.",
+        "Você também pode recusar: a missão fica mais curta, já que Lucia pega o dinheiro e sai sozinha enquanto Dre'Quan leva Jason direto para cima."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "welcome-to-vice-city__welcome-to-vice-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Siga Dre'Quan",
+      "texto": [
+        "Depois, volte até Dre'Quan na escada e siga-o para conhecer o chefe dele, Boobie Ike, que deixa o casal ficar no apartamento dele ali perto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "welcome-to-vice-city__welcome-to-vice-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá ao apartamento",
+      "texto": [
+        "Terminada a conversa, volte ao carro e dirija até o apartamento. Estacione na vaga coberta: seus carros ficam guardados ali pelo resto do capítulo. Dê a volta até a frente do prédio (nas próximas vezes dá para usar a porta em frente às vagas), suba ao segundo andar e entre na primeira porta à sua frente para concluir a missão."
+      ],
+      "dicas": [
+        "Esta missão desbloqueia o troféu/conquista T**s Ass Drug Money, por concluir o Capítulo 2. Depois, Moses manda mensagem: os Pay 'n' Sprays agora compram e registram carros com rastreador padrão. Por exemplo, o Ubermacht '85 Sentinel em que vocês chegaram vale cerca de $1.760."
+      ],
+      "lista": [],
+      "imagens": [
+        "welcome-to-vice-city__welcome-to-vice-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": [
+    "T**s Ass Drug Money (troféu oculto, Bronze / 20G): concluir o Capítulo 2"
+  ]
+}

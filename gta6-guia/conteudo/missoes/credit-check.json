@@ -1,0 +1,98 @@
+{
+  "slug": "credit-check",
+  "ordem": 80,
+  "nome": "Credit Check",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$6.000 + 2 desbloqueios",
+  "resumo": "Teste de Raul: Jason e Lucia assaltam três agências da Fleeca roubando notas marcadas, fogem da polícia e voltam ao apartamento em Bayside.",
+  "objetivos": [
+    "Conheça a equipe",
+    "Assalte a Fleeca de Washington Beach",
+    "Assalte o segundo banco",
+    "Assalte o último banco",
+    "Fuja e se reagrupe",
+    "Abra a porta"
+  ],
+  "passos": [
+    {
+      "titulo": "Conheça a equipe",
+      "texto": [
+        "Raul chama vocês para conhecer a equipe: vá com Jason e Lucia ao marcador perto da oficina Vice Vinyl e use o interfone.",
+        "Depois de falar com Raul, suba até Andrea e escolha um dos dois pares de máscaras na mesa. Depois fale com Karim do outro lado da sala e pegue o Dye Pack Jammer na mesa; a partir daí você pode roubar notas marcadas de bancos e lojas Payday Loans. Pegue bombas adesivas na mesa ao lado de Karim se precisar."
+      ],
+      "dicas": [
+        "Raul está testando se vocês trabalham com profissionalismo: evite matar civis e não fique enrolando, ou uma resposta policial grande pode fazer ele cancelar o serviço."
+      ],
+      "lista": [],
+      "imagens": [
+        "credit-check__credit-check-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte a Fleeca de Washington Beach",
+      "texto": [
+        "Saia do prédio, onde Felipe deixou um carro pronto, e dirija até a Fleeca de Washington Beach. Equipe a máscara pelo inventário antes de entrar. Ameace os seguranças primeiro, depois esvazie as quatro gavetas de dinheiro marcadas atrás do balcão e vá embora."
+      ],
+      "dicas": [
+        "Se um segurança sacar a arma, tire a arma da mão dele ou atire no joelho em vez de matá-lo, para proteger o perfil Professional."
+      ],
+      "lista": [],
+      "imagens": [
+        "credit-check__credit-check-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte o segundo banco",
+      "texto": [
+        "Karim marca a próxima agência da Fleeca; fique longe da zona de busca policial em volta do primeiro banco. Aqui o jogo ensina a mandar o parceiro esperar no carro para uma fuga rápida. Entre sozinho de máscara, abra a porta dos fundos (Snap Gun ou na força, o alarme está desligado), ameace o caixa para conseguir o código do cofre e saqueie a gaveta. Exploda a porta interna, depois abra o cofrinho com o código ou outra carga e volte correndo para o carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "credit-check__credit-check-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte o último banco",
+      "texto": [
+        "A última e maior agência fica mais ao sul. Estacione virado para a rua para sair limpo e ponha a máscara de novo. Se a bolsa de um personagem estiver cheia, troque para o outro: saquear com uma bolsa só é mais rápido. Ameace logo os vários seguranças e pegue as notas marcadas das quatro gavetas."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "credit-check__credit-check-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja e se reagrupe",
+      "texto": [
+        "O alarme dispara e a segurança sai dos fundos. Abra caminho à bala; esqueça o cofre, a polícia já está a caminho. Separe-se do parceiro para dividir a polícia, despiste-a e volte ao apartamento de Bayside."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "credit-check__credit-check-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Abra a porta",
+      "texto": [
+        "Depois de uma cena curta, atenda a porta para terminar. Você conhece um personagem novo que cuida do dinheiro que acabou de roubar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "credit-check__credit-check-7.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$6.000",
+    "2 desbloqueios (incluindo o Dye Pack Jammer)"
+  ],
+  "trofeus": []
+}

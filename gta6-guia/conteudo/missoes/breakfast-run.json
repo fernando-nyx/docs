@@ -1,0 +1,70 @@
+{
+  "slug": "breakfast-run",
+  "ordem": 53,
+  "nome": "Breakfast Run",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval e Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Com Jason recuperado, o casal sai numa onda de assaltos por Port Gellhorn, começando pelo Hank's Waffles, e depois foge da polícia.",
+  "objetivos": [
+    "Vá ao Hank's Waffles",
+    "Assalte a lanchonete",
+    "Assalte a loja de bebidas e o brechó",
+    "Despiste a polícia"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá ao Hank's Waffles",
+      "texto": [
+        "Depois de Slam Dunk, espere a ligação de Jason (cerca de meio dia; concluir outras missões principais pendentes ajuda). O ícone do motel fica rosa: volte ao quarto. Uma cena mostra o tempo passando até Jason se recuperar totalmente, e o casal decide fazer uma sequência de assaltos. Primeiro, dirija até o Hank's Waffles."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "breakfast-run__breakfast-run-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte a lanchonete",
+      "texto": [
+        "Saque a arma, mire nos funcionários e ameace-os. Eles abrem o caixa e deixam o dinheiro no balcão: pegue. Um cronômetro de um minuto aparece no canto inferior direito, tempo de sobra. Saia, e você chega automaticamente na próxima loja."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "breakfast-run__breakfast-run-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte a loja de bebidas e o brechó",
+      "texto": [
+        "Repita o processo na loja de bebidas e no brechó: ameace o atendente, pegue o dinheiro e volte ao carro. Jason e Lucia ainda assaltam mais alguns lugares, um posto de gasolina e outra loja de bebidas."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "breakfast-run__breakfast-run-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Despiste a polícia",
+      "texto": [
+        "De volta ao carro, você está com nível de procurado de duas estrelas. Trilhas de terra são o jeito mais fácil de fugir. Uma cena leva vocês de volta ao Starlet Motel, onde Jason e Lucia passam a noite juntos. Na manhã seguinte, Vicki aparece para buscar o laptop, e a história segue direto para Coffee Break."
+      ],
+      "dicas": [
+        "Esta missão desbloqueia o troféu/conquista Trust e torna Jason jogável de novo."
+      ],
+      "lista": [],
+      "imagens": [
+        "breakfast-run__breakfast-run-5.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": [
+    "Trust"
+  ]
+}

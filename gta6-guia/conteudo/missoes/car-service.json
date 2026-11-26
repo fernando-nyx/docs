@@ -1,0 +1,69 @@
+{
+  "slug": "car-service",
+  "ordem": 72,
+  "nome": "Car Service",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$3.000 + 2 desbloqueios",
+  "resumo": "Lucia invade um desmanche para roubar um Schafter V12 a pedido de Raul e entrega o carro na Leonida Auto World, onde conhece Randy.",
+  "objetivos": [
+    "Pegue o equipamento",
+    "Entre no desmanche",
+    "Roube o Schafter V12",
+    "Entregue na Leonida Auto World"
+  ],
+  "passos": [
+    {
+      "titulo": "Pegue o equipamento",
+      "texto": [
+        "Raul quer mais um carro roubado. Perto do início, o porta-malas de um carro tem granadas de luz e uma pistola Klose K17 com silenciador, muito útil se você quiser ficar escondido."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Entre no desmanche",
+      "texto": [
+        "O jeito fácil é subir na van branca do lado norte e andar pelo telhado de metal em volta do pátio. Fique de olho nos dois homens carregando a van no meio e nos dois guardas dos portões; se começar tiroteio, chegam mais membros da gangue de carro."
+      ],
+      "dicas": [
+        "Geralmente há um cachorro perto de um dos guardas do portão. Não atire nele a menos que ele ataque: ferir cães pesa bastante contra o seu perfil criminal."
+      ],
+      "lista": [],
+      "imagens": [
+        "car-service__car-service-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Roube o Schafter V12",
+      "texto": [
+        "O carro está no meio da área coberta, ao lado da salinha. Entre e saia antes de a polícia chegar; se for visto, despiste a polícia primeiro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "car-service__car-service-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Entregue na Leonida Auto World",
+      "texto": [
+        "Dirija até a Leonida Auto World, no extremo noroeste de Vice City. Ao entrar no estacionamento rola a cena final. Depois disso Randy vira ponto de entrega de veículos: ele aceita carros com rastreador padrão e os itens da lista de pedidos dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "car-service__car-service-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$3.000",
+    "2 desbloqueios (incluindo Randy como ponto de entrega de veículos)"
+  ],
+  "trofeus": []
+}

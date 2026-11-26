@@ -1,0 +1,85 @@
+{
+  "slug": "yasmanis-jewelry-jobs",
+  "ordem": 76,
+  "nome": "Yasmani's Jewelry Jobs",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Yasmani",
+  "personagem": "Jason e Lucia",
+  "conta_100": "",
+  "recompensa": "$20.000 + 2 desbloqueios",
+  "resumo": "Você assalta três joalherias para pegar peças específicas dos cofres e vende tudo para Yasmani.",
+  "objetivos": [
+    "Planeje a ordem",
+    "Assalte a Casa de Empeño",
+    "Assalte a Richardson Jewelry",
+    "Assalte a Donovan Banks & Co.",
+    "Venda para Yasmani"
+  ],
+  "passos": [
+    {
+      "titulo": "Planeje a ordem",
+      "texto": [
+        "Yasmani quer uma joia específica do cofre de cada uma das três lojas. A ordem é livre, mas entregue o primeiro item logo: ele dá a Snap Gun, que abre portas sem disparar alarme e facilita muito as outras duas."
+      ],
+      "dicas": [
+        "Cuidado com o que você roubou: se morrer ou for preso, perde tudo."
+      ],
+      "lista": [],
+      "imagens": [
+        "yasmanis-jewelry-jobs__yasmanis-jewelry-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte a Casa de Empeño",
+      "texto": [
+        "Alvo: uma corrente com crânio de búfalo (Yasmani paga $6.300). Faça esta primeiro: não tem porta dos fundos para a Snap Gun e é a menor loja, então entrar e sair no barulho é rápido. O cofre fica no escritoriozinho dos fundos (código 1680) e a caixa de segurança à esquerda dele permite destruir as gravações, para a polícia não ter sua descrição se você fugir a tempo. Quebre as vitrines para levar joias extras."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "yasmanis-jewelry-jobs__yasmanis-jewelry-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte a Richardson Jewelry",
+      "texto": [
+        "Alvo: um anel de diamante (pelo menos $9.000). Use a Snap Gun na porta dos fundos para entrar sem alertar a frente da loja. Desative a segurança no painel à direita da porta da sala central e apague as gravações na caixa embaixo do monitor de segurança. O cofre fica no canto nordeste da sala central (código 6815)."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "yasmanis-jewelry-jobs__yasmanis-jewelry-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte a Donovan Banks & Co.",
+      "texto": [
+        "Alvo: um colar de ametista ($4.700). A porta dos fundos também abre com a Snap Gun. Gravações e sistema de segurança se resolvem no escritoriozinho dos fundos. O cofre fica no meio do corredor comprido dos fundos (código 0104)."
+      ],
+      "dicas": [
+        "Na Richardson e na Donovan Banks você pode sair quieto depois do cofre ou ir até a frente da loja e limpar as vitrines para ganhar mais."
+      ],
+      "lista": [],
+      "imagens": [
+        "yasmanis-jewelry-jobs__yasmanis-jewelry-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Venda para Yasmani",
+      "texto": [
+        "Depois de saquear as três lojas, volte à loja de Yasmani para vender tudo e concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "yasmanis-jewelry-jobs__yasmanis-jewelry-5.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$20.000 pelos itens pedidos",
+    "2 desbloqueios (incluindo a Snap Gun)"
+  ],
+  "trofeus": []
+}

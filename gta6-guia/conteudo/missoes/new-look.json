@@ -1,0 +1,34 @@
+{
+  "slug": "new-look",
+  "ordem": 47,
+  "nome": "New Look",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia muda o visual comprando um corte de cabelo no Pearl House Hair Salon, em Port Gellhorn.",
+  "objetivos": [
+    "Mude o cabelo"
+  ],
+  "passos": [
+    {
+      "titulo": "Mude o cabelo",
+      "texto": [
+        "Leva cerca de um minuto. Vá ao Pearl House Hair Salon em Port Gellhorn, fale com a cabeleireira e compre qualquer penteado para concluir a missão. Se estiver sem dinheiro, assalte alguém ou o caixa de uma loja antes.",
+        "Nesta fase você também tem acesso às Pawn Shops, onde dá para vender colecionáveis. Algumas cartas podem render algumas centenas de dólares e cobrir os cerca de $150 do novo visual."
+      ],
+      "dicas": [
+        "Leve uns $150. Lucia também pode fazer o Wavy Topknot sozinha em qualquer espelho de casa, desde que o cabelo esteja comprido o bastante."
+      ],
+      "lista": [],
+      "imagens": [
+        "new-look__new-look-1.jpg",
+        "new-look__new-look-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

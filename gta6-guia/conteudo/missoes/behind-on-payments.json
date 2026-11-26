@@ -1,0 +1,47 @@
+{
+  "slug": "behind-on-payments",
+  "ordem": 51,
+  "nome": "Behind on Payments",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Linda",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Junte os $900 do aluguel e pague Linda na recepção do Starlet Motel, recuperando o colar de Lucia se ele ficou como garantia.",
+  "objetivos": [
+    "Consiga $900",
+    "Pague Linda"
+  ],
+  "passos": [
+    {
+      "titulo": "Consiga $900",
+      "texto": [
+        "Depois de Overnight Charges, você deve $900 a Linda pelo quarto. Fazendo as outras missões do Capítulo 2 primeiro, você junta o suficiente. Depois de Moses, também dá para vender carros roubados, ou assaltar pessoas e caixas de lojas se quiser pagar logo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "behind-on-payments__behind-on-payments-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Pague Linda",
+      "texto": [
+        "Com o dinheiro, fale com Linda na recepção do Starlet Motel para pagar o quarto. Se ela estava com o colar de Lucia como garantia, você o recebe de volta. Não demore: Linda pode aumentar o aluguel se você enrolar, e ele pode chegar a $1.500."
+      ],
+      "dicas": [
+        "O aluguel é $900 se você falou com Linda logo de cara, ou $1.080 se foi às compras primeiro e ela veio até o quarto."
+      ],
+      "lista": [],
+      "imagens": [
+        "behind-on-payments__behind-on-payments-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "Colar de Lucia de volta (se estava como garantia)",
+    "1 desbloqueio"
+  ],
+  "trofeus": []
+}

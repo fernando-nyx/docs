@@ -1,0 +1,102 @@
+{
+  "slug": "making-gainz",
+  "ordem": 107,
+  "nome": "Making Gainz",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia se aproxima de Nate e treina por semanas na Ajax Gym até ganhar acesso ao Trauma Floor e começar a conquistar a confiança da equipe de Kordell.",
+  "objetivos": [
+    "Vá até a sala de planejamento",
+    "Encontre Nate na Ajax Gym",
+    "Treine com Nate",
+    "Entre em forma",
+    "Encontre Jason e Raul",
+    "Conquiste a confiança da equipe no Trauma Floor"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até a sala de planejamento",
+      "texto": [
+        "Alguns dias (no jogo) depois de Heavy Lifting, Raul chama Lucia para o próximo passo do plano. Vá à sala de planejamento só com Lucia para começar."
+      ],
+      "dicas": [
+        "A partir daqui, Jason e Lucia não podem ser vistos juntos em público até VCIA Takedown: só dá para ficarem juntos no quarto do Y Hotel. Se você curte as atividades de casal, faça-as antes de começar Making Gainz ou jogue as próximas missões da história em sequência."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre Nate na Ajax Gym",
+      "texto": [
+        "Depois da cena, você chega à Ajax Gym. Suba para a área principal de treino e encontre Nate perto dos bancos de supino. Fale com ele algumas vezes até ele finalmente dar atenção a Lucia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Treine com Nate",
+      "texto": [
+        "Use o supino atrás do qual ele está, depois siga-o até o rack de agachamento e por fim para fora, na área do levantamento terra, completando cada exercício. Quando Nate sair com Kordell, use a bicicleta livre do outro lado da piscina."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Entre em forma",
+      "texto": [
+        "Vem uma longa montagem com Lucia treinando ao lado de Nate por várias semanas, intercalada com cenas de Jason e Dre'Quan. Continue completando os treinos e conversando com Nate. Em certo momento, Nate oferece esteroides."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: recusar os esteroides",
+      "texto": [
+        "É a resposta padrão."
+      ],
+      "dicas": [],
+      "lista": [
+        "O corpo de Lucia continua igual"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: aceitar os esteroides",
+      "texto": [
+        "Você precisa escolher essa opção ativamente."
+      ],
+      "dicas": [],
+      "lista": [
+        "Muda o físico de Lucia pelo resto do jogo"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre Jason e Raul",
+      "texto": [
+        "Terminada a montagem, e depois que Nate mostra a Lucia o Trauma Floor (a área de treino particular de Kordell), saia da academia e encontre Jason no lado norte do prédio. Com Jason, dirija até a sala de planejamento e use o interfone para entrar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Conquiste a confiança da equipe no Trauma Floor",
+      "texto": [
+        "De volta à academia com Lucia, troque de roupa no armário à direita do Trauma Floor e fale com Nate. Depois treine perto dos fisiculturistas: primeiro perto de Raina, depois de Nate e Francisco, e por último no levantamento terra no palco onde Kordell está. Quando Kordell vier conversar, responda como quiser, fale com o resto da equipe e saia da academia para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

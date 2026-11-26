@@ -1,0 +1,38 @@
+{
+  "slug": "tyrone",
+  "ordem": 69,
+  "nome": "Tyrone",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Tyrone",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason volta ao apartamento de Tyrone, que oferece mais trabalho e pede ajuda para descobrir a origem da Kitty Litter.",
+  "objetivos": [
+    "Vá ao apartamento de Tyrone",
+    "Fale com Tyrone"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá ao apartamento de Tyrone",
+      "texto": [
+        "Um tempo depois de Dealer's Choice, Tyrone, o fornecedor de Boobie, avisa Jason que tem mais serviço. Missão só com Jason: dirija até o apartamento de Tyrone (o mesmo que você visitou com Dre'Quan) e bata na porta. Leva um instante, mas deixam você entrar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Fale com Tyrone",
+      "texto": [
+        "A recepção de Tyrone muda conforme você vendeu o produto puro ou batizado em Dealer's Choice, mas a conversa acontece de qualquer jeito. Ele compra o que Jason conseguir na rua, menos Kitty Litter, uma droga sintética nova de origem desconhecida. A mulher que faz o cabelo de Tyrone fala de alguém que pode saber de onde ela vem, e a missão emenda direto em Here, Kitty Kitty."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

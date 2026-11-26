@@ -1,0 +1,34 @@
+{
+  "slug": "overnight-charges",
+  "ordem": 42,
+  "nome": "Overnight Charges",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Linda",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia vai à recepção do Starlet Motel falar com Linda, a gerente, que exige o pagamento do quarto na hora.",
+  "objetivos": [
+    "Fale com Linda, a gerente"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Linda, a gerente",
+      "texto": [
+        "Saia do quarto e entre na recepção à esquerda. Linda, a gerente, não é nada simpática e exige que o quarto seja pago agora.",
+        "Se Jason comprou o colar para Lucia na missão opcional Buy Lucia a Necklace, Lucia o entrega automaticamente como garantia. Isso basta para Linda por enquanto e a missão termina na hora; você recebe o colar de volta quando pagar em dinheiro mais tarde."
+      ],
+      "dicas": [
+        "Examine o mapa na parede da recepção para revelar toda a região de Port Gellhorn no seu mapa.",
+        "Linda quer o aluguel mais 10%, $900 no total. Você começa o Capítulo 2 com só $146, então ela fica com o colar até você pagar. Antes de sair, examine o panfleto que marca a missão opcional Check Out McKittrick Farm e olhe os cartazes de desaparecidos na parede para adicionar Gellhorn's Missing Tourists ao mapa."
+      ],
+      "lista": [],
+      "imagens": [
+        "overnight-charges__overnight-charges-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

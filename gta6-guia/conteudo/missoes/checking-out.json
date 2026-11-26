@@ -1,0 +1,81 @@
+{
+  "slug": "checking-out",
+  "ordem": 62,
+  "nome": "Checking Out",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval e Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Os policiais corruptos encontram o casal no Starlet Motel; Jason e Lucia lutam, fogem numa perseguição de moto e carro e partem para Vice City.",
+  "objetivos": [
+    "Comece a missão",
+    "Reúna-se com Lucia",
+    "Defenda-se e siga Jason",
+    "Pule para o carro de Jason",
+    "Escape da perseguição"
+  ],
+  "passos": [
+    {
+      "titulo": "Comece a missão",
+      "texto": [
+        "Com $15.000 e todas as missões principais disponíveis concluídas, seu parceiro liga sobre uma matéria que Cal enviou. O motel fica marcado: volte ao quarto e interaja com a porta do banheiro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "checking-out__checking-out-0.jpg"
+      ]
+    },
+    {
+      "titulo": "Reúna-se com Lucia",
+      "texto": [
+        "Pegue a espingarda em cima da cama. Os policiais corruptos encontraram vocês: lute contra eles e vá até o refeitório do motel, onde Lucia está."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "checking-out__checking-out-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Defenda-se e siga Jason",
+      "texto": [
+        "O jogo passa para Lucia: continue atirando. Jason vai para a estrada e rouba um carro. Atire no motoqueiro que vem na direção de Lucia, pegue a moto dele e siga Jason (ponto rosa no minimapa), tentando não bater."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "checking-out__checking-out-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Pule para o carro de Jason",
+      "texto": [
+        "Depois de seguir Jason por um tempo, aparece a opção de pular para o carro dele. Encoste a moto no carro e segure Quadrado no PlayStation ou B no Xbox para saltar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "checking-out__checking-out-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Escape da perseguição",
+      "texto": [
+        "Com Lucia já no carro, Jason dirige enquanto você atira nas viaturas que perseguem vocês; mire nos pneus para se livrar da polícia e dos policiais corruptos com facilidade. Depois de uma cena, vocês entram em Vice City e o Capítulo 3 começa com Welcome to Vice City."
+      ],
+      "dicas": [
+        "Se você morrer durante a perseguição de moto, um bug pode fazer Jason sumir como objetivo e deixar você preso numa área de busca policial impossível de escapar. Se acontecer, reinicie a missão.",
+        "Dá para fugir sem Lucia, mas deixá-la para trás prejudica a relação dos dois. Jason pode estar com pouco Zombix e Adrenaline se você jogou pouco com ele, então é uma boa hora para usar as granadas que tiver."
+      ],
+      "lista": [],
+      "imagens": [
+        "checking-out__checking-out-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

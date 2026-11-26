@@ -1,0 +1,96 @@
+{
+  "slug": "slam-dunk",
+  "ordem": 52,
+  "nome": "Slam Dunk",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Dunk",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$1.700 (+ cerca de $1.000 saqueando Bill)",
+  "resumo": "Lucia e Dunk sequestram o Doctor Bill atrás de analgésicos, escapam de uma emboscada dos Kolts e sobrevivem a um tiroteio numa pista de pouso.",
+  "objetivos": [
+    "Encontre Dunk no trailer",
+    "Pegue o Doctor Bill",
+    "Vá até as docas",
+    "Recupere o Doctor Bill",
+    "Sobreviva ao encontro",
+    "Leve Dunk de volta ao trailer"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Dunk no trailer",
+      "texto": [
+        "Depois das outras missões do Capítulo 2 e das duas ligações de Dunk em Got Pills?, a missão fica marcada no trailer dele em Port Gellhorn. Siga Dunk até um ponto atrás de uma caçamba e espere o Doctor Bill aparecer na loja de conveniência."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "slam-dunk__slam-dunk-opening.jpeg"
+      ]
+    },
+    {
+      "titulo": "Pegue o Doctor Bill",
+      "texto": [
+        "O tempo avança até a tarde e Bill chega. Na loja, ele finge não conhecer Dunk. Siga-o até o carro, onde Dunk saca uma arma e o obriga a entrar. Bill explica que está aposentado e sem acesso a receitas, mas que negociava com a gangue Kolts."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "slam-dunk__slam-dunk-dr-bill.jpeg"
+      ]
+    },
+    {
+      "titulo": "Vá até as docas",
+      "texto": [
+        "Dirija até as docas onde os Kolts esperam. Eles liberam o portão: siga devagar atrás do homem que anda na frente do carro. A gangue desconfia da visita surpresa e abre fogo, então dê ré rápido, saia do complexo e despiste os Kolts."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "slam-dunk__slam-dunk-docks.jpeg"
+      ]
+    },
+    {
+      "titulo": "Recupere o Doctor Bill",
+      "texto": [
+        "Bill liga para Declan, seu contato nos Kolts, e depois pula do carro e se nocauteia tentando fugir. Vá buscá-lo; ele é colocado no porta-malas automaticamente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Sobreviva ao encontro",
+      "texto": [
+        "Dirija até o ponto de encontro na pista de pouso a sudoeste de Port Gellhorn. Os Kolts matam Bill assim que vocês chegam e apontam as armas para você. Elimine todos, inclusive os que estão dentro dos prédios; fique na cobertura e se cure com Zombix se precisar. Depois entre no prédio principal no meio da área, onde Dunk pega os comprimidos."
+      ],
+      "dicas": [
+        "Saqueie o corpo de Bill antes de sair para ganhar cerca de $1.000 extras."
+      ],
+      "lista": [],
+      "imagens": [
+        "slam-dunk__slam-dunk-meeting.jpeg"
+      ]
+    },
+    {
+      "titulo": "Leve Dunk de volta ao trailer",
+      "texto": [
+        "Leve Dunk para casa. Lucia então entrega os analgésicos para Jason no motel. Dunk agora trabalha como receptador, e quando liga no dia seguinte manda $1.700 e marca dois locais de assalto no mapa."
+      ],
+      "dicas": [
+        "Ao escolher um carro para fugir, pense no valor e no custo de registro de cada um: Imponte '82 Runner ($780 / $6.400), Declasse '98 Burrito ($925 / $8.000, melhor vender) e Bravado '95 Bison 900 ($900 / $7.400). A polícia chega logo, então não demore."
+      ],
+      "lista": [],
+      "imagens": [
+        "slam-dunk__slam-dunk-ending.jpeg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$1.700 enviados por Dunk no dia seguinte",
+    "Cerca de $1.000 saqueando o corpo de Bill",
+    "Dois locais de assalto marcados no mapa"
+  ],
+  "trofeus": []
+}

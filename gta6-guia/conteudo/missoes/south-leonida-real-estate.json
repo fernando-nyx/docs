@@ -1,0 +1,95 @@
+{
+  "slug": "south-leonida-real-estate",
+  "ordem": 91,
+  "nome": "South Leonida Real Estate",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Mia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$2.000 (pagos dias depois)",
+  "resumo": "Mia é levada pela gangue M7; Lucia segue os sequestradores, ajuda Mia a mostrar imóveis ao chefe Terro e enfrenta Viper para salvá-la.",
+  "objetivos": [
+    "Vá até a casa",
+    "Siga os sequestradores",
+    "Vasculhe o prédio",
+    "Mostre os imóveis a Terro",
+    "Lide com Viper",
+    "Salve Mia"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até a casa",
+      "texto": [
+        "A missão aparece depois de Mami Knows Best, quando Mia volta a procurar Lucia (pode levar vários dias de jogo); comece pelo bilhete na porta do escritório dela em Hamlet.",
+        "Mia pede para Lucia encontrá-la na casa de novo. Dirija até lá a partir do escritório, entre para procurá-la e saia de volta."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "south-leonida-real-estate__south-leonida-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Siga os sequestradores",
+      "texto": [
+        "Mia é levada pela M7. Pule no carro dela e siga o veículo dos sequestradores à distância: se o marcador acima dele começar a encher de amarelo, você está perto demais. Se perdê-los, sem problema: Mia liga para Lucia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "south-leonida-real-estate__south-leonida-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Vasculhe o prédio",
+      "texto": [
+        "O carro para num beco bloqueado por uma van. Continue a pé e entre pela porta do lado sul do beco."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "south-leonida-real-estate__south-leonida-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Mostre os imóveis a Terro",
+      "texto": [
+        "Mia se safa na conversa oferecendo encontrar uma nova sede para o chefe da M7, Terro. Leve o grupo com cuidado a cada imóvel que ela sugerir e depois siga Mia no tour da última casa até o quintal."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "south-leonida-real-estate__south-leonida-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Lide com Viper",
+      "texto": [
+        "Viper, o tenente de Terro, aparece com sua turma e abre fogo. Você só tem a pistola inicial, então pegue armas dos inimigos caídos. Limpe o quintal e depois a frente da casa. O membro da gangue à esquerda carrega um fuzil Kozlov Hind, e há um kit de trauma na suíte principal se precisar se curar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "south-leonida-real-estate__south-leonida-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Salve Mia",
+      "texto": [
+        "Volte correndo para dentro, onde Viper mantém Mia refém. Enquanto ele fala, saque a pistola e atire nele para encerrar a missão. Se esperar, Mia reage contra Viper e abre uma brecha para você atirar."
+      ],
+      "dicas": [
+        "A comissão de $2.000 de Mia demora bastante, mas chega depois de muitos dias de jogo."
+      ],
+      "lista": [],
+      "imagens": [
+        "south-leonida-real-estate__south-leonida-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$2.000 de Mia (enviados muitos dias de jogo depois)"
+  ],
+  "trofeus": []
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "childs-play",
+  "ordem": 116,
+  "nome": "Child's Play",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Andrés de León",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Lucia ajudam Andrés a resgatar o filho Rafa dos sequestradores numa pedreira, com infiltração silenciosa, tiroteio e perseguição.",
+  "objetivos": [
+    "Encontre Andrés",
+    "Dirija até o local da troca",
+    "Encontre Rafa",
+    "Resgate Rafa",
+    "Proteja Andrés",
+    "Fuja com Rafa",
+    "Persiga os sequestradores",
+    "Salve Rafa e resolva com Gustavo"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Andrés",
+      "texto": [
+        "Depois de Fresh Evidence, Andrés pede ajuda a Jason para recuperar o filho, Rafa, das mãos dos sequestradores. Vá ao Megamundo HQ, em Downtown, com Jason ou Lucia."
+      ],
+      "dicas": [
+        "O mapa dá a impressão de que a missão tem prazo, mas não tem: você só será obrigado a jogá-la quando terminar todas as outras missões de Jason e Lucia antes de Power Play. Fazer antes não muda nada na história."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Dirija até o local da troca",
+      "texto": [
+        "Depois da cena você já está num carro. Dirija até a pedreira ao sul do VCIA e siga até o ponto de encontro, onde Lucia desce."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre Rafa",
+      "texto": [
+        "Com Lucia, use o binóculo para observar e marcar os inimigos. Rafa está na sala do andar de cima do prédio bem à frente, abaixo da fileira de luzes vermelhas na passarela."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Resgate Rafa",
+      "texto": [
+        "Lucia tem uma pistola com silenciador para eliminar os guardas sem barulho. Vá pela direita ao se aproximar dos prédios, suba a escada e a escada de mão no meio das estruturas metálicas e depois a escada da direita até o nível de Rafa. Deixe passar os dois guardas que descem, cuide dos dois na quina da passarela, entre pela porta da esquerda e elimine o último guarda para chegar a Rafa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Proteja Andrés",
+      "texto": [
+        "De volta a Jason, os sequestradores sacam as armas. Atire no grupo à frente e recue para os carros, atento a mais inimigos saindo do prédio à direita. Troque para Lucia quando pedir."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Fuja com Rafa",
+      "texto": [
+        "Lucia carrega Rafa, então a mira dela fica pior. Vá para o norte pela passarela até a escada de mão, cubra Rafa enquanto ele desce, pegue-o de novo e vá para o chão. Quando Lucia for agarrada, martele o comando para se soltar e atire no homem que segura Rafa. Avance para o sudeste enquanto Rafa dirige uma empilhadeira para a frente e, quando os outros chegarem, leve-o até Gustavo na porta."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Persiga os sequestradores",
+      "texto": [
+        "Gustavo foge com Rafa: persiga-o, trocando para Lucia para atirar do carro. Quando o carro capotar, proteja Andrés, depois suba numa moto e continue a perseguição, usando Lucia na garupa para atirar nos atiradores do caminhão e das motos ao lado. Quando Jason avistar um helicóptero à frente, atire no piloto ou nos atiradores."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Salve Rafa e resolva com Gustavo",
+      "texto": [
+        "Andrés tira Gustavo da pista. Corra até o SUV nos trilhos do trem, martele o comando para cortar o cinto de Rafa e puxe-o para fora. Depois persiga Gustavo até a rodovia, onde ele não consegue roubar um carro, e lide com ele para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": [
+    "Troféu oculto (Bronze, 15G)"
+  ]
+}

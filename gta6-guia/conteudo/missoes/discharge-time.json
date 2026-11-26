@@ -1,0 +1,64 @@
+{
+  "slug": "discharge-time",
+  "ordem": 38,
+  "nome": "Discharge Time",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia tira Jason do Vice City Hospital numa cadeira de rodas enquanto policiais corruptos e mascarados atacam, e o casal foge numa ambulância.",
+  "objetivos": [
+    "Encontre o quarto de Jason",
+    "Defenda-se",
+    "Rasteje até a arma",
+    "Defenda a ambulância"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre o quarto de Jason",
+      "texto": [
+        "Lucia corre ao Vice City Hospital para ver Jason. Do início, vá para a esquerda e suba as escadas até o segundo andar. Dá para pedir informação na recepção ou simplesmente seguir a linha rosa no chão pela porta da esquerda. Jason está no quarto 203."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "discharge-time__discharge-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Defenda-se",
+      "texto": [
+        "Lucia coloca Jason numa cadeira de rodas e tenta tirá-lo dali, mas os policiais corruptos e os mascarados que destruíram a casa mandam reforços. Enquanto Lucia empurra a cadeira, você controla Jason e atira nos atacantes."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "discharge-time__discharge-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Rasteje até a arma",
+      "texto": [
+        "Lucia deixa Jason sozinho por um momento para achar um veículo de fuga, e um inimigo entra com uma espingarda. Tome a arma dele e use nos reforços; cada tiro empurra a cadeira para trás. Depois, um inimigo atira nos botijões de gás e Jason cai no chão. Rasteje até a arma, e Lucia chega atropelando o inimigo com uma ambulância."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "discharge-time__discharge-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Defenda a ambulância",
+      "texto": [
+        "Com Jason na traseira da ambulância, atire nas viaturas que perseguem vocês. Depois de alguns minutos, uma cena mostra o casal fugindo para o oeste, até Kelly County, e acordando no dia seguinte num motel. Isso encerra o Capítulo 1, e a história segue direto para o Capítulo 2 com What's in the Bag?."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

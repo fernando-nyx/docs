@@ -1,0 +1,106 @@
+{
+  "slug": "afternoon-delight",
+  "ordem": 61,
+  "nome": "Afternoon Delight",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Vicki",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$10.000 via BuckMe",
+  "resumo": "A pedido de Vicki, Jason e Lucia assaltam o cofre do Delights, o clube de striptease de Frankie Delight, e fogem dos motoqueiros da segurança.",
+  "objetivos": [
+    "Encontre um jeito de chegar aos bastidores",
+    "Assalte o cofre do Delights",
+    "Fuja dos motoqueiros",
+    "(Opcional) Compre roupas novas",
+    "Encontre Vicki"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre um jeito de chegar aos bastidores",
+      "texto": [
+        "Algum tempo depois de Coffee Break, Vicki liga para os dois propondo roubar o clube do chefe dela. Se você for sozinho ao início, o parceiro é chamado automaticamente. É noite das mulheres, então o segurança só deixa Lucia entrar; com Jason, espere os dois seguranças dos fundos se afastarem, pule a cerca e entre pela porta aberta. Você cai no camarim dos dançarinos, onde o dançarino principal, Mario, quer que Jason entre no show.",
+        "Jason participa da coreografia? Veja as duas escolhas abaixo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "afternoon-delight__afternoon-delight-1.jpg",
+        "afternoon-delight__afternoon-delight-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha: ajudar no show",
+      "texto": [
+        "Jason dança no palco com Mario e Lucky enquanto Lucia entra no escritório dos fundos, mas ela é pega pela segurança e Jason precisa salvá-la. Afeta só esta missão."
+      ],
+      "dicas": [],
+      "lista": [
+        "Cenas e diálogos extras",
+        "Objetivo extra de comprar roupas novas para Jason depois"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: não ajudar",
+      "texto": [
+        "Os dançarinos desistem e Frankie sobe ao palco no lugar deles. Jason atira para o teto e o assalto começa na hora. Afeta só esta missão."
+      ],
+      "dicas": [],
+      "lista": [
+        "Mais rápido, pula algumas cenas",
+        "Os motoqueiros perseguem com mais agressividade"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Assalte o cofre do Delights",
+      "texto": [
+        "Seja qual for a escolha, você acaba roubando o cofre do escritório dos fundos. O código é 2008. Abrir o cofre alerta toda a equipe de segurança."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "afternoon-delight__afternoon-delight-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja dos motoqueiros",
+      "texto": [
+        "Saia do clube na base do tiro e fuja dos motoqueiros que te perseguem; a fuga é fácil. Se Jason dançou, você aparece numa loja de roupas para comprar algo para ele vestir e depois dirige até Vicki. Se não dançou, vai direto para as docas entregar a bolsa a ela. Vicki manda $10.000 pelo BuckMe no dia seguinte."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "afternoon-delight__afternoon-delight-4.jpg"
+      ]
+    },
+    {
+      "titulo": "(Opcional) Compre roupas novas",
+      "texto": [
+        "Se você ajudou no show, ganha um objetivo extra de comprar roupas novas para Jason. Vasculhando bem os cabides dá para montar um visual bem estiloso."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "afternoon-delight__afternoon-delight-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre Vicki",
+      "texto": [
+        "Se você ajudou e comprou as roupas de Jason, depois disso vá se reunir com Vicki."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "afternoon-delight__afternoon-delight-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$10.000 enviados por Vicki pelo BuckMe no dia seguinte"
+  ],
+  "trofeus": []
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "get-your-wheels",
+  "ordem": 68,
+  "nome": "Get Your Wheels",
+  "capitulo": 3,
+  "tipo": "opcional",
+  "quem_passa": "",
+  "personagem": "",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Os carros de Jason e Lucia foram apreendidos depois da fuga do Capítulo 2: recupere um deles pelo Scooter Bros ou registre um carro novo.",
+  "objetivos": [
+    "Consiga um veículo para Vice City"
+  ],
+  "passos": [
+    {
+      "titulo": "Consiga um veículo para Vice City",
+      "texto": [
+        "Depois da fuga no fim do Capítulo 2, a polícia reconheceu os carros de Jason e Lucia e mandou apreendê-los. Você conclui a missão de um destes dois jeitos:"
+      ],
+      "dicas": [
+        "Recuperar o carro de um dos personagens já conclui a missão, mas os dois carros foram apreendidos, então dá para recuperar ambos se quiser."
+      ],
+      "lista": [
+        "Recuperar um carro apreendido: use o app Scooter Bros e pague a taxa de retirada e entrega, cerca de $700 a $900.",
+        "Registrar um carro novo: leve qualquer veículo a um Pay 'n' Spray e registre. Você precisa de uma vaga livre de veículo registrado, então talvez tenha que comprar outra garagem antes."
+      ],
+      "imagens": [
+        "get-your-wheels__get-your-wheels-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "how-do-i-look",
+  "ordem": 48,
+  "nome": "How Do I Look?",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia compra roupas novas na loja Bargain World, no sul de Port Gellhorn.",
+  "objetivos": [
+    "Compre uma roupa nova"
+  ],
+  "passos": [
+    {
+      "titulo": "Compre uma roupa nova",
+      "texto": [
+        "Vá à loja de roupas Bargain World no sul de Port Gellhorn e compre uma blusa e uma calça ou bermuda. Qualquer peça serve, e as opções são muitas.",
+        "As roupas aqui são baratas, então você não precisa de muito dinheiro: duas peças bastam para concluir."
+      ],
+      "dicas": [
+        "O jeito mais barato é o Bargain World Ensemble do manequim, por $46."
+      ],
+      "lista": [],
+      "imagens": [
+        "how-do-i-look__how-do-i-look-1.jpg",
+        "how-do-i-look__how-do-i-look-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

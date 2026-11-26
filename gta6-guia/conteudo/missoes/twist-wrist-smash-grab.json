@@ -1,0 +1,72 @@
+{
+  "slug": "twist-wrist-smash-grab",
+  "ordem": 56,
+  "nome": "Twist Wrist, Smash, Grab",
+  "capitulo": 2,
+  "tipo": "opcional",
+  "quem_passa": "Billy",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$2.000",
+  "resumo": "Billy chama você para assaltar um carro-forte de moto: persiga o veículo, exploda as portas traseiras e fuja com a bolsa.",
+  "objetivos": [
+    "Encontre Billy",
+    "Pare o carro-forte",
+    "Exploda as portas traseiras",
+    "Siga Billy"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Billy",
+      "texto": [
+        "Algumas horas no jogo depois de Thrillbillies, Billy manda mensagem e a missão é marcada em Port Gellhorn. Interaja com o banco no marcador e Billy chega com uma moto Highwayman Sanchez para você. Ele quer ajuda para roubar um carro-forte."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Pare o carro-forte",
+      "texto": [
+        "Siga Billy de moto até uma cena mostrar o carro-forte. Com o resto da turma, persiga-o até ele bater sozinho numa árvore. Não precisa atirar: concentre-se em pilotar e não cair da moto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Exploda as portas traseiras",
+      "texto": [
+        "Vá até a traseira do carro-forte batido, plante uma carga explosiva e detone. O segurança sai e vai embora: nocauteie-o ou deixe-o ir. Pegue a bolsa atrás do veículo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Siga Billy",
+      "texto": [
+        "Volte para a moto e fique perto de Billy enquanto ele sobe uma montanha para reencontrar a turma."
+      ],
+      "dicas": [
+        "A Highwayman Sanchez é ótima para saltos fora de estrada. Guarde-a numa garagem depois da missão e registre-a na oficina de Moses para ficar com ela."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Conclua Thrillbillies e espere algumas horas no jogo pela mensagem de Billy."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [
+    "$2.000",
+    "Moto Highwayman Sanchez (registre na oficina de Moses para ficar com ela)"
+  ],
+  "trofeus": []
+}

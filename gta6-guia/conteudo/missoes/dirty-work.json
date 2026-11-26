@@ -1,0 +1,68 @@
+{
+  "slug": "dirty-work",
+  "ordem": 112,
+  "nome": "Dirty Work",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Andrea",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Para ganhar Raina, Andrea arma um flagra: Jason marca um encontro com ela num motel e Lucia tira fotos pela janela.",
+  "objetivos": [
+    "Encontre Andrea",
+    "Vá até o Velvet Palm Motel",
+    "Encontro de Jason",
+    "Tire as fotos",
+    "Reagrupe e fale com Nate"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Andrea",
+      "texto": [
+        "Com Too Much Baggage e Cash Injections concluídas, Lucia já tem Cisco e Nate do lado dela, mas ainda não conquistou Raina. Andrea tem um plano: vá à sala de planejamento com Jason ou Lucia para começar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Vá até o Velvet Palm Motel",
+      "texto": [
+        "Dirija até o Velvet Palm Motel em Tequesta. Com Lucia, escolha um ponto de observação: os contêineres que Jason aponta dão visão direta para as janelas do motel."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontro de Jason",
+      "texto": [
+        "Jason finge contratar Raina como dominatrix. Aperte o botão sempre que ele aparecer para resistir a ela, até Jason conseguir abrir uma janela."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Tire as fotos",
+      "texto": [
+        "De volta a Lucia, fotografe Raina e Jason pela janela. Depois de algumas fotos, Lucia vai embora sozinha."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Reagrupe e fale com Nate",
+      "texto": [
+        "Com Jason, contorne o prédio para encontrar Lucia no beco. No dia seguinte, Lucia está na academia: suba, saia para a piscina e fale com Nate numa das espreguiçadeiras para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

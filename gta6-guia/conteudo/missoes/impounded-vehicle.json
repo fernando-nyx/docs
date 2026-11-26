@@ -1,0 +1,32 @@
+{
+  "slug": "impounded-vehicle",
+  "ordem": 59,
+  "nome": "Impounded Vehicle",
+  "capitulo": 2,
+  "tipo": "opcional",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "O carro de Lucia foi rebocado: invada o pátio de apreensão perto da delegacia de Port Gellhorn, pegue-o de volta e fuja da polícia.",
+  "objetivos": [
+    "Roube o carro de Lucia do pátio de apreensão"
+  ],
+  "passos": [
+    {
+      "titulo": "Roube o carro de Lucia do pátio de apreensão",
+      "texto": [
+        "O veículo pessoal de Lucia é apreendido automaticamente depois de Breakfast Run. Ele aparece como um ícone de carro verde no mapa de Port Gellhorn, perto da delegacia. Atravesse a cerca com um carro: os dois policiais do local te veem e você fica com duas estrelas. Entre no carro de Lucia e fuja."
+      ],
+      "dicas": [
+        "Funciona como tutorial de veículos apreendidos. Se você deixar seu veículo pessoal numa área de busca policial depois de um crime, ele é rebocado. Mais tarde dá para recuperá-lo na hora pelo app Scooter Bros pagando uma taxa, ou de graça com créditos diários se comprar o plano premium de $12.500."
+      ],
+      "lista": [],
+      "imagens": [
+        "impounded-vehicle__impound-car-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "here-kitty-kitty",
+  "ordem": 70,
+  "nome": "Here, Kitty Kitty",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Tyrone",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Jason segue a pista de Charles, que pode saber a origem da Kitty Litter, persegue o sujeito por um acampamento em La Perle e revista o corpo dele.",
+  "objetivos": [
+    "Vá ao apartamento de Charles",
+    "Vá ao acampamento em La Perle",
+    "Persiga Charles",
+    "Reviste Charles"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá ao apartamento de Charles",
+      "texto": [
+        "A missão começa logo após Tyrone: ao sair do apartamento, Dook manda uma foto de Charles e o endereço dele em Rockridge. Chegando lá, você tem duas formas de descobrir onde ele está: subornar o vizinho ou invadir o apartamento e procurar pistas."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "here-kitty-kitty__here-kitty-3.jpg",
+        "here-kitty-kitty__here-kitty-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Opção: subornar o vizinho",
+      "texto": [
+        "Pague $20 ao homem perto da porta (precisa ter o dinheiro em mãos). Ele manda você falar com o amigo de Charles que trabalha na loja do térreo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Opção: invadir",
+      "texto": [
+        "O apartamento está vazio. Examine o recibo da Aline's Thrift Store no quarto e Tyrone passa um endereço."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Vá ao acampamento em La Perle",
+      "texto": [
+        "Seja qual for a escolha, vá ao acampamento de sem-teto na borda noroeste de La Perle e arrombe a porta do térreo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "here-kitty-kitty__here-kitty-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Persiga Charles",
+      "texto": [
+        "Charles foge assim que vê você. Siga-o pelas escadas do outro lado; se algum morador atacar, derrube no corpo a corpo em vez de atirar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "here-kitty-kitty__here-kitty-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Reviste Charles",
+      "texto": [
+        "No último andar, Charles pula o muro. Desça as escadas e reviste o corpo dele para achar um saco de Kitty Litter e concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "here-kitty-kitty__here-kitty-5.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio"
+  ],
+  "trofeus": []
+}

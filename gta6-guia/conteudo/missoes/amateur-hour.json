@@ -1,0 +1,70 @@
+{
+  "slug": "amateur-hour",
+  "ordem": 111,
+  "nome": "Amateur Hour",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Francisco \"Cisco\" Delgado",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia ajuda Cisco a cobrar um diretor de filmes pornô que deve dinheiro a ele, perseguindo o trailer do cara pela cidade.",
+  "objetivos": [
+    "Fale com Francisco",
+    "Troque de roupa e vá até o carro de Cisco",
+    "Espere o Coochie Camper",
+    "Pare o trailer",
+    "Pegue o dinheiro e volte"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Francisco",
+      "texto": [
+        "Depois do primeiro treino com a equipe, volte à Ajax Gym com Lucia. No Trauma Floor, fale com Francisco, que está fazendo levantamento terra no palco. Cisco quer ajuda com um diretor pornô que deve dinheiro a ele, e Lucia vê aí a chance de ganhá-lo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Troque de roupa e vá até o carro de Cisco",
+      "texto": [
+        "Troque de roupa no armário de Lucia e siga Cisco pela porta dos fundos do Trauma Floor até o carro dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Espere o Coochie Camper",
+      "texto": [
+        "Dirija um pouco ao norte até o ponto de encontro em Washington Island e estacione no lugar marcado. Sente-se no banco próximo enquanto Cisco se esconde e espere o trailer aparecer."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Pare o trailer",
+      "texto": [
+        "Volte ao carro de Cisco e persiga o trailer. Cisco abre fogo e você também pode atirar."
+      ],
+      "dicas": [
+        "Mire nos pneus: estourados, o trailer para quase na hora."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Pegue o dinheiro e volte",
+      "texto": [
+        "Quando o trailer para, Judd desce e Cisco recupera o dinheiro. Leve Cisco de volta aos fundos da Ajax Gym e estacione na vaga dele para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "tie-up-loose-ends",
+  "ordem": 123,
+  "nome": "Tie Up Loose Ends",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Etapa de espera depois de VCIA Takedown: você aguarda notícias sobre a venda do HD até a história seguir com Sunset.",
+  "objetivos": [
+    "Espere Raul",
+    "Atenda a outra ligação",
+    "Enquanto espera"
+  ],
+  "passos": [
+    {
+      "titulo": "Espere Raul",
+      "texto": [
+        "Tie Up Loose Ends não é uma missão comum com marcador: é o período de espera logo depois de VCIA Takedown. Raul está com o HD e deveria dar notícias sobre a venda, então o jogo só pede que você espere a mensagem dele. Não há marcador no mapa, mas ela aparece na lista da história do mapa como missão principal obrigatória, com ícone rosa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Atenda a outra ligação",
+      "texto": [
+        "A ligação de Raul nunca vem, por mais que você espere. Quem faz a história andar é Valentina: ela liga com novidades sobre a venda do HD e diz que você pode retornar para acelerar as coisas. Ligue de volta pelo celular de Jason ou de Lucia, ou selecione o objetivo no mapa para discar automaticamente. Passado mais um tempo, deixam um bilhete para você na recepção do Y Hotel; pegá-lo inicia Sunset, o que conclui Tie Up Loose Ends."
+      ],
+      "dicas": [
+        "Retornar a ligação de Valentina não é obrigatório, mas faz Sunset aparecer bem antes. Sem a ligação, a história só avança depois de uma espera maior enquanto você faz outras atividades."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Enquanto espera",
+      "texto": [
+        "Você está livre para fazer o que quiser nesse meio-tempo. O serviço opcional de banco de Yasmani, That's Where the Money Is..., fica disponível agora e é um bom jeito de ganhar dinheiro extra, mas não é necessário para avançar."
+      ],
+      "dicas": [
+        "Tie Up Loose Ends não é perdível: é uma etapa obrigatória da história e sempre termina quando Sunset começa."
+      ],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

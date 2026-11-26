@@ -1,0 +1,34 @@
+{
+  "slug": "take-care-of-jason",
+  "ordem": 41,
+  "nome": "Play Nurse",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Missão contínua do Capítulo 2: volte ao quarto do Starlet Motel no fim de cada dia para cuidar de Jason enquanto ele se recupera.",
+  "objetivos": [
+    "Visite Jason regularmente"
+  ],
+  "passos": [
+    {
+      "titulo": "Visite Jason regularmente",
+      "texto": [
+        "Esta missão não tem marcador próprio no mapa: ela fica na lista de missões principais em Mapa > História. Dura todo o Capítulo 2 e não dá para concluí-la de uma vez. Volte ao quarto de Jason no Starlet Motel no fim de cada dia para ver se ele precisa de algo. De tempos em tempos rola uma cena de Lucia cuidando dele, o que melhora a relação dos dois."
+      ],
+      "dicas": [
+        "Não tem como perder esta. Voltar ao motel é obrigatório em vários momentos do capítulo (o ícone do motel fica rosa quando é preciso), e a missão termina sozinha depois de Breakfast Run.",
+        "Entre uma visita e outra, use os pesos e kettlebells perto da piscina do motel para treinar a força de Lucia e aumentar a barra de vida."
+      ],
+      "lista": [],
+      "imagens": [
+        "take-care-of-jason__play-nurse-1.jpg",
+        "take-care-of-jason__play-nurse-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

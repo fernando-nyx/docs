@@ -1,0 +1,132 @@
+{
+  "slug": "safe-word",
+  "ordem": 89,
+  "nome": "Safe Word",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Nicole Park",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$1.500 + 1 desbloqueio",
+  "resumo": "Para Lucia treinar arrombamento de cofre, Jason se infiltra na gravação de um filme na mansão de Gil em Peacock Estates e os dois arrancam o cofre dele com um guincho.",
+  "objetivos": [
+    "Fale com Nicole",
+    "Entre escondido no set",
+    "Faça sua parte",
+    "Encontre o cofre",
+    "Arranque o cofre",
+    "Entregue o cofre a Felipe",
+    "Treine o arrombamento"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Nicole",
+      "texto": [
+        "Depois de Company Property, volte ao complexo de Raul em Stockyard e fale com Nicole. Ela sabe qual cofre o banco usa e quer que Lucia treine num modelo menor, que um pornógrafo chamado Gil guarda na mansão. Pegue o caminhão grande estacionado lá fora e dirija até Peacock Estates, no extremo sul da cidade."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "safe-word__safe-word-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Entre escondido no set",
+      "texto": [
+        "Você passa para Jason. Agache, passe pelo portão da frente e siga pelo lado direito da casa até o arco. Uma mulher sai de uma porta e para você, então é preciso se misturar: siga a assistente de Gil até o quintal, onde rola uma gravação."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "safe-word__safe-word-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Faça sua parte",
+      "texto": [
+        "Depois da maquiagem, vá até a piscina, pegue a peneira e mexa para frente e para trás até mandarem parar. Siga as indicações: olhe para Samantha na espreguiçadeira, pegue o bronzeador e passe nas costas de Sasha. Quando Rodney entrar em cena, bata nele algumas vezes, pare e deixe ele bater em você, e por fim soque até nocauteá-lo.",
+        "Depois disso, o jogo pergunta se Jason participa mais da gravação."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "safe-word__safe-word-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha: participar",
+      "texto": [
+        "Jason fica na cena mais um pouco."
+      ],
+      "dicas": [],
+      "lista": [
+        "Lucia não vai gostar nada disso"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: não participar",
+      "texto": [
+        "Jason sai e vai atrás do cofre."
+      ],
+      "dicas": [],
+      "lista": [
+        "É a escolha certa se você não quer irritar Lucia"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre o cofre",
+      "texto": [
+        "Corra em volta da casa até a porta por onde não dava para passar antes. Lá dentro, passe pela primeira porta dupla e depois pelas portas fechadas do lado direito do corredor, até o escritório de Gil. Abra a gaveta do lado esquerdo da mesa para achar o controle que revela o cofre."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "safe-word__safe-word-7.jpg"
+      ]
+    },
+    {
+      "titulo": "Arranque o cofre",
+      "texto": [
+        "Lucia encosta o caminhão de ré na casa. Abra a janela, prenda o guincho no cofre e, com Lucia, segure o botão até o cofre ser arrastado para fora da casa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "safe-word__safe-word-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Entregue o cofre a Felipe",
+      "texto": [
+        "Dirija para o oeste até a garagem de Felipe com o cofre sendo arrastado atrás. Vire para os lados para balançar o cofre contra os carros que perseguem você, inclusive a polícia. Desvie dos ciclistas que Jason avisa e das lápides no cemitério: acertá-los dá perfil criminal Psycho. Entre na garagem para deixar o cofre."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "safe-word__safe-word-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Treine o arrombamento",
+      "texto": [
+        "De volta ao complexo de Raul, você pode treinar no cofre quantas vezes quiser, e vale a pena: a mecânica é a mesma do grande assalto no fim do capítulo. Primeiro, a furadeira: mantenha-a na posição certa, deixe o medidor da direita estável e ajuste conforme o da esquerda sobe, sem deixar a luz da furadeira ficar vermelha.",
+        "Depois, guie o cabo pela porta sem encostar no próprio cabo nem nas paredes e enganche o anel dourado no final. Por fim, segure os gatilhos e martele o botão para segurar a porta enquanto Nicole fura e digita a combinação. Saia do treino quando terminar para concluir a missão."
+      ],
+      "dicas": [
+        "Você também pode dizer a Nicole que vai treinar depois e voltar antes do assalto. Se falhar numa etapa, ela reinicia para você tentar de novo, e a opção Simplified Mini Games nas configurações facilita o minigame.",
+        "Abrir o cofre de treino dá a Kalinga .50 de Gil, uma pistola variante, e $1.500 que estão lá dentro."
+      ],
+      "lista": [],
+      "imagens": [
+        "safe-word__safe-word-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$1.500 (dentro do cofre de treino)",
+    "1 desbloqueio (Kalinga .50 de Gil)"
+  ],
+  "trofeus": []
+}

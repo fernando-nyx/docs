@@ -1,0 +1,48 @@
+{
+  "slug": "fully-catered",
+  "ordem": 121,
+  "nome": "Fully Catered",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Você rouba um caminhão de catering da Plane & Simple no aeroporto e depois ajuda Raul a encher as bolsas com dinheiro falso para o golpe.",
+  "objetivos": [
+    "Roube um caminhão de catering da Plane & Simple",
+    "Entregue o caminhão",
+    "Encha as bolsas com dinheiro falso"
+  ],
+  "passos": [
+    {
+      "titulo": "Roube um caminhão de catering da Plane & Simple",
+      "texto": [
+        "A área é restrita e qualquer funcionário que te veja denuncia invasão, então vá com calma se quiser passar despercebido. Contorne o prédio pela direita, onde ficam os caminhões, sem ser visto, e escale a parte mais baixa para chegar ao telhado. Atravesse o telhado até os caminhões de catering e desça do lado esquerdo do caminhão do meio, onde normalmente não há funcionários. Arrombe o caminhão: com o Slim Jim é rapidinho."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Entregue o caminhão",
+      "texto": [
+        "Saia do aeroporto com o caminhão e leve-o até o ponto de entrega marcado em Rockridge."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encha as bolsas com dinheiro falso",
+      "texto": [
+        "De volta à sala de planejamento, Raul conversa com Jason enquanto os dois enchem bolsas com dinheiro falso, que será trocado pelo dinheiro de verdade dos fisiculturistas em VCIA Takedown. Pegue maços da pilha e coloque nas bolsas algumas vezes para terminar a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "taking-liberties",
+  "ordem": 128,
+  "nome": "Taking Liberties",
+  "capitulo": 5,
+  "tipo": "principal",
+  "quem_passa": "Giorgio Gallo",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Giorgio explica o que pode oferecer a Jason e Lucia, mas a conversa é interrompida por um visitante enviado pela máfia albanesa.",
+  "objetivos": [
+    "Encontre Giorgio",
+    "Siga Giorgio até o escritório"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Giorgio",
+      "texto": [
+        "Vá até a sala marcada ao lado da academia, onde Giorgio relaxa no spa. Ele explica o que pode oferecer a Jason e Lucia em troca da ajuda deles, mas a conversa é cortada por um visitante inesperado enviado pela máfia albanesa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Siga Giorgio até o escritório",
+      "texto": [
+        "Quando Giorgio sair do spa, siga-o até o escritório. Quem espera vocês na mesa é uma participação surpresa de um rosto conhecido da série. A missão termina depois da cena.",
+        "Em seguida você pode circular livremente pela cobertura, e duas novas missões ficam disponíveis: Doggie Bag, com Vinny, e VC Baby, com Mattia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

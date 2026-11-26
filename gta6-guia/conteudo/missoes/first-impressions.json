@@ -1,0 +1,94 @@
+{
+  "slug": "first-impressions",
+  "ordem": 77,
+  "nome": "First Impressions",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$3.000",
+  "resumo": "Jason e Lucia buscam Raul em Ocean Beach, enfrentam a polícia numa fuga até Rialto Islands e trocam de veículo para deixá-lo em Bayside.",
+  "objetivos": [
+    "Abra a garagem",
+    "Busque Raul",
+    "Segure a polícia",
+    "Fuja para Rialto Islands",
+    "Troque de veículo",
+    "Deixe Raul"
+  ],
+  "passos": [
+    {
+      "titulo": "Abra a garagem",
+      "texto": [
+        "Na garagem em Waxman Island, use o painel na parede e digite o código 2404. O jogo passa para Lucia: entre no carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "first-impressions__first-impressions-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Busque Raul",
+      "texto": [
+        "Dirija até o ponto de encontro no lado sul de Ocean Beach. Assim que Raul entra, a polícia aparece."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "first-impressions__first-impressions-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Segure a polícia",
+      "texto": [
+        "Com Jason, atire de volta enquanto Lucia dirige. Depois que o carro bate, mantenha os policiais longe dele, então volte para Lucia: dê ré até a rua e siga em frente."
+      ],
+      "dicas": [
+        "Para manter o perfil Professional ou Hardened, mire em pneus e motores para inutilizar as viaturas e atire nas pernas dos policiais em vez de matá-los. Atirar nos motoristas também funciona, mas puxa seu perfil para Violent. Fique de olho na vida de Jason e se cure pelo inventário se precisar."
+      ],
+      "lista": [],
+      "imagens": [
+        "first-impressions__first-impressions-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja para Rialto Islands",
+      "texto": [
+        "Vá em direção a Rialto Islands, entre as duas metades da cidade, enquanto Jason e Raul atiram. Concentre-se em desviar das viaturas. Saltar a ponte parcialmente levantada despista a polícia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "first-impressions__first-impressions-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Troque de veículo",
+      "texto": [
+        "Entre no estacionamento marcado, saia rápido e pegue a van estacionada ali perto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "first-impressions__first-impressions-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Deixe Raul",
+      "texto": [
+        "Leve Raul até o ponto de entrega em Bayside. Ele desce e a missão termina."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "first-impressions__first-impressions-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$3.000"
+  ],
+  "trofeus": []
+}

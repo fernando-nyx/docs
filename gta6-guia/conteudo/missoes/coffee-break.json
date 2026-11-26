@@ -1,0 +1,60 @@
+{
+  "slug": "coffee-break",
+  "ordem": 54,
+  "nome": "Coffee Break",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval e Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Numa pausa para o café no motel, Jason e Lucia decidem dar um golpe maior para se mudar para Vice City, e você passa a alternar livremente entre os dois.",
+  "objetivos": [
+    "Vá à cozinha do motel com Lucia",
+    "Compre um café para Lucia",
+    "Interaja com seu parceiro"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá à cozinha do motel com Lucia",
+      "texto": [
+        "Começa logo após Breakfast Run, com o casal do lado de fora do Starlet Motel. A cozinha fica em frente, no canto sul do motel. No caminho, vocês encontram Wyman, que sugere conhecer o Mud Club para corridas na terra. Wyman é o homem que você pode ter ajudado a consertar o carro num encontro aleatório em frente ao motel."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "coffee-break__coffee-break-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Compre um café para Lucia",
+      "texto": [
+        "Lucia se senta a uma mesa. Use a máquina de café para comprar um café por $2. Na cena seguinte, o casal decide continuar trabalhando junto e fazer algo maior para se mudar para Vice City e ficar com Dre'Quan, amigo de escola de Jason. Não importa qual plano você escolhe: todos os serviços seguintes aparecem no mapa de uma vez, e você decide a ordem."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "coffee-break__coffee-break-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Interaja com seu parceiro",
+      "texto": [
+        "Volte ao carro e segure direcional para a direita para abrir o menu do parceiro. A partir de agora você alterna livremente entre Jason e Lucia e pode dar ordens ao parceiro quando ele estiver com você.",
+        "Os quatro serviços liberados podem ser feitos em qualquer ordem: Thrillbillies, Hit Avery Pawn, Hit Kingpin Bowling e Impounded Vehicle."
+      ],
+      "dicas": [
+        "Sua conta BuckMe sobe para Silver: agora cabe até $100.000, a meta da Family Savings também sobe para $100.000 e as corridas do RydeMe ficam 20% mais baratas. Se você guardou os primeiros $5.000 no Capítulo 1, ainda ganha $2.000 de juros."
+      ],
+      "lista": [],
+      "imagens": [
+        "coffee-break__coffee-break-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "Conta BuckMe Silver (limite de $100.000, RydeMe 20% mais barato)",
+    "$2.000 de juros se você guardou $5.000 no Capítulo 1"
+  ],
+  "trofeus": []
+}

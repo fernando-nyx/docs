@@ -1,0 +1,44 @@
+{
+  "slug": "heist-planning",
+  "ordem": 85,
+  "nome": "Heist Planning",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "",
+  "personagem": "",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Não é uma missão jogável: é a entrada que acompanha seu progresso nas missões de preparação para The Cartel Heist.",
+  "objetivos": [
+    "Entenda o Heist Planning",
+    "Conclua a preparação"
+  ],
+  "passos": [
+    {
+      "titulo": "O que é o Heist Planning",
+      "texto": [
+        "Heist Planning não tem objetivos próprios: é uma entrada na lista de missões que acompanha seu progresso rumo a The Cartel Heist. O cartão no jogo diz apenas \"Complete prep work\" e explica que Raul está montando uma equipe para roubar o Sinfrontera National Bank e que você precisa seguir o plano dele e se preparar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "heist-planning__safe-word-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Conclua a preparação",
+      "texto": [
+        "Ela aparece depois de Sinfrontera National Bank e Security Expert e fica na lista enquanto você faz as missões de preparação do roubo: Company Property, Safe Word, The Missing Link e Hidden Charges. Com toda a preparação feita, Raul entra em contato para começar The Cartel Heist."
+      ],
+      "dicas": [
+        "Não há nada a fazer no Heist Planning em si: jogue as missões de preparação conforme aparecem no mapa e ele é concluído no caminho."
+      ],
+      "lista": [],
+      "imagens": [
+        "heist-planning__credit-check-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "too-much-baggage",
+  "ordem": 108,
+  "nome": "Too Much Baggage",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Andrea",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason se infiltra como carregador de bagagem no Vice City International Airport para mapear o local e plantar uma escuta para Karim.",
+  "objetivos": [
+    "Vá até o aeroporto",
+    "Ande com Omar",
+    "Engate o rebocador de bagagens",
+    "Carregue as malas",
+    "Plante a escuta",
+    "Aceite o emprego"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até o aeroporto",
+      "texto": [
+        "Depois de Making Gainz, Raul decide que Jason vai ajudar a sondar o Vice City International Airport. Dirija até lá, fale com o segurança, estacione dentro do pátio e vá a pé até o escritório próximo para encontrar Andrea."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Ande com Omar",
+      "texto": [
+        "Omar, chefe dos carregadores, leva Jason para dentro do aeroporto. Em primeira pessoa, olhe para cada quadrado branco destacado pelos óculos até ele ficar verde: são pontos de interesse para Karim."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Engate o rebocador de bagagens",
+      "texto": [
+        "Siga Omar, suba no rebocador e dê ré até os dois reboques para engatá-los. Depois dirija até o avião na parte sul do aeroporto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Carregue as malas",
+      "texto": [
+        "Jogue as malas para Omar empilhar no reboque. Segure o botão para encher a barra de força e solte um pouco antes de ela chegar à faixa do meio, porque a barra ainda anda um pouco depois que você solta."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Plante a escuta",
+      "texto": [
+        "Invente uma desculpa para sair de perto de Omar, saia do galpão e siga o muro para o sul até a última porta dupla à esquerda. Lá dentro, siga a parede da esquerda até o corredor e passe pela porta azul até a sala de segurança; entre no banheiro à direita e coloque o dispositivo atrás do vaso."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Aceite o emprego",
+      "texto": [
+        "Saia do banheiro e volte até Omar. Quando ele puxar conversa, foque nele e diga que quer o emprego para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

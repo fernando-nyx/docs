@@ -1,0 +1,55 @@
+{
+  "slug": "hit-avery-pawn",
+  "ordem": 57,
+  "nome": "Hit Avery Pawn",
+  "capitulo": 2,
+  "tipo": "opcional",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Assalte a loja de penhores de Port Gellhorn, quebre as vitrines e o cofre, despiste a polícia e venda o produto do roubo para Dunk.",
+  "objetivos": [
+    "Assalte a loja de penhores",
+    "Despiste a polícia",
+    "Venda os itens roubados"
+  ],
+  "passos": [
+    {
+      "titulo": "Assalte a loja de penhores",
+      "texto": [
+        "É um dos quatro serviços marcados depois de Coffee Break. Vá à loja de penhores em Port Gellhorn, saque a arma, ameace os funcionários e quebre as vitrines para pegar as joias. Ameaçando-os, eles podem passar o código do cofre dos fundos (pode ser aleatório; um código registrado foi 6943).",
+        "Assim que você quebra uma vitrine ou porta, a polícia é chamada e você fica com duas estrelas. Seja rápido se quiser sair antes de ela chegar, mesmo levando menos coisa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hit-avery-pawn__avery-pawn-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Despiste a polícia",
+      "texto": [
+        "Saia da área de busca policial. Uma moto rápida funciona bem para costurar o trânsito, assim como sair da estrada."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hit-avery-pawn__avery-pawn-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Venda os itens roubados",
+      "texto": [
+        "Leve a bolsa até o trailer de Dunk em Port Gellhorn para vender o saque. Não é obrigatório para concluir a missão, mas é assim que as joias e o que saiu do cofre viram dinheiro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hit-avery-pawn__avery-pawn-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "meet-the-heders",
+  "ordem": 65,
+  "nome": "Meet the Heders",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Depois de um jantar com Brian e Lori Heder, Lucia rouba um carro de um contêiner nas docas, persegue a gangue que o leva e o entrega num depósito.",
+  "objetivos": [
+    "Jante no bar da cobertura",
+    "Fale com Brian",
+    "Leve a van até as docas",
+    "Encontre o contêiner SCOOP",
+    "Persiga o contêiner",
+    "Despiste a polícia e chegue ao depósito"
+  ],
+  "passos": [
+    {
+      "titulo": "Jante no bar da cobertura",
+      "texto": [
+        "Quando Lucia estiver pronta, dirija até o restaurante no lado leste de Vice City e pegue o elevador até Brian e Lori no bar. Dá para pegar duas bebidas no balcão e entregar uma para Lucia antes de seguir todos até a mesa.",
+        "Antes de sair, Jason pode apressar Lucia, mas insistir demais prejudica a relação dos dois."
+      ],
+      "dicas": [
+        "Quando o garçom chegar, peça o Surf and Turf que Lucia quer para ganhar um pequeno bônus de relação."
+      ],
+      "lista": [],
+      "imagens": [
+        "meet-the-heders__meet-heders-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Fale com Brian",
+      "texto": [
+        "Depois que as mulheres saem da mesa, junte-se a Brian no parapeito; você pode aceitar ou recusar o charuto. Quando aparecer a opção, troque para Lucia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "meet-the-heders__meet-heders-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Leve a van até as docas",
+      "texto": [
+        "Com Lucia, atravesse a ponte e encontre a van branca no estacionamento à direita. Abrir as portas traseiras a coloca disfarçada e ao volante. Dirija para o sul até o portão das docas, espere liberarem a entrada e estacione."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "meet-the-heders__meet-heders-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre o contêiner SCOOP",
+      "texto": [
+        "Procure os contêineres amarelos com a marca SCOOP. O certo fica no topo da pilha do meio. Corte o cadeado com a nova ferramenta de corte (cut-off tool), mantendo a barra móvel dentro da seção marcada para cortar mais rápido."
+      ],
+      "dicas": [
+        "Os outros contêineres SCOOP também podem ser abertos: o primeiro tem um charuto e $600 em caixinhas."
+      ],
+      "lista": [],
+      "imagens": [
+        "meet-the-heders__meet-heders-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Persiga o contêiner",
+      "texto": [
+        "Uma gangue leva o contêiner num reboque. Suba numa das motos próximas, alcance o caminhão desviando dos tiros que vêm da traseira e pule para o reboque quando estiver perto. Entre no carro e segure o botão até ele sair arrebentando de ré."
+      ],
+      "dicas": [
+        "Se você perder o caminhão, ele vai parar num complexo dos Guardia Brothers em Salton. Ainda dá para pegar o carro lá, mas espere muita resistência."
+      ],
+      "lista": [],
+      "imagens": [
+        "meet-the-heders__meet-heders-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Despiste a polícia e chegue ao depósito",
+      "texto": [
+        "O carro é muito rápido: fique na rodovia e evite batidas até a polícia desistir. Depois dirija até o depósito no canto noroeste da cidade e entre. A partir daqui, Jason e Lucia ficam com a ferramenta de corte. É também a primeira vez que a história apresenta o nitro nos carros (dá para instalar antes manualmente, mas é caro); segure o analógico esquerdo (L3) dirigindo para ativar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "meet-the-heders__meet-heders-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Conclua Dealer's Choice e deixe Cal examinar o HD no apartamento de Bayside. Um ou dois dias depois Brian entra em contato; comece a missão pela sacola de roupas no quarto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [
+    "Ferramenta de corte (cut-off tool) para Jason e Lucia",
+    "1 desbloqueio"
+  ],
+  "trofeus": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "daily-driver",
+  "ordem": 50,
+  "nome": "Daily Driver",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Moses",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$1.250 (+$500 se o carro estiver inteiro)",
+  "resumo": "Moses encomenda um '82 Canis Crawler estacionado perto do antigo prédio do Traders' Union, e Lucia precisa entregá-lo na oficina.",
+  "objetivos": [
+    "Encontre o '82 Crawler",
+    "Entregue o carro para Moses"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre o '82 Crawler",
+      "texto": [
+        "Pouco depois de Moses, ele manda por mensagem a foto do carro que quer: um '82 Canis Crawler estacionado perto do antigo prédio do Traders' Union. É o jipe branco no meio da área de busca. Há alguns inimigos por perto: elimine-os ou corra até o carro e saia dirigindo.",
+        "Na dúvida sobre qual é o carro, confira a foto anexada na mensagem do celular."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "daily-driver__daily-driver-1.jpg",
+        "daily-driver__daily-driver-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Entregue o carro para Moses",
+      "texto": [
+        "Leve o Crawler até a oficina de Moses em Port Gellhorn, ali perto, e entre com ele na garagem para a cena final. Você recebe $1.250, mais $500 se o carro estiver em bom estado."
+      ],
+      "dicas": [
+        "Logo depois, Moses te dá a Port Gellhorn Garage para guardar veículos, e você desbloqueia o app Vice City Real Estate, que permite comprar mais garagens."
+      ],
+      "lista": [],
+      "imagens": [
+        "daily-driver__daily-driver-3.jpg",
+        "daily-driver__daily-driver-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$1.250 pela entrega",
+    "+$500 se o Crawler estiver em bom estado",
+    "Port Gellhorn Garage e app Vice City Real Estate (logo depois)"
+  ],
+  "trofeus": []
+}

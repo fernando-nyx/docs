@@ -1,0 +1,82 @@
+{
+  "slug": "steal-the-zorrusso-for-randy",
+  "ordem": 81,
+  "nome": "Clonin' Keys, Makin' Gs",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Randy",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$21.250 + bônus de $10.000 + 3 desbloqueios",
+  "resumo": "A pedido de Randy, você clona a chave de um Zorrusso com rastreador avançado nos Hathaway Apartments e leva o carro até o showroom dele.",
+  "objetivos": [
+    "Entre na garagem",
+    "Instale o Key Cloner",
+    "Roube o Zorrusso",
+    "Leve o carro até Randy",
+    "Wish List de Randy"
+  ],
+  "passos": [
+    {
+      "titulo": "Entre na garagem",
+      "texto": [
+        "O carro está no estacionamento murado dos Hathaway Apartments, em Ocean Beach. Pule o muro para entrar; Jason ou Lucia liga para Randy automaticamente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "steal-the-zorrusso-for-randy__zorusso-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Instale o Key Cloner",
+      "texto": [
+        "Randy explica que o carro tem rastreador avançado e manda o Key Cloner. Abra o celular e escolha instalar o key_cloner_v1.6.9; ele fica instalado para os dois personagens."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Roube o Zorrusso",
+      "texto": [
+        "O Zorrusso está no térreo, do lado leste. Use a porta e depois o Key Cloner: como no Slim Jim, empurre na direção certa quando o indicador ficar rosa para clonar a chave."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "steal-the-zorrusso-for-randy__zorusso-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Leve o carro até Randy",
+      "texto": [
+        "Vá ao showroom de Randy. O ícone vermelho acima do minimapa é o rastreador avançado: se você dirigir devagar demais, a barra enche e sua posição vai para a polícia. Perto do showroom o ícone fica cinza e o rastreador desliga. Contorne o pátio e entre na garagem. Se o rastreador disparar, você ganha 2 estrelas de procurado, mas a polícia vai para onde ele disparou: mudar de distrito limpa o nível, desde que ninguém esteja na sua cola."
+      ],
+      "dicas": [
+        "Entregue o carro sem danos para ganhar um bônus de $10.000; senão Randy só tira sarro da sua direção."
+      ],
+      "lista": [],
+      "imagens": [
+        "steal-the-zorrusso-for-randy__zorusso-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Wish List de Randy",
+      "texto": [
+        "Siga Randy até o quadro, onde ele explica a Wish List de carros raros. As localizações começam desconhecidas: ache você mesmo ou peça dicas a Randy, uma por vez. As entregas são opcionais, mas necessárias para o troféu Supply & Demand."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "steal-the-zorrusso-for-randy__zorusso-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$21.250",
+    "Bônus de $10.000 se o carro chegar em bom estado",
+    "3 desbloqueios (incluindo o Key Cloner e a Wish List de Randy)"
+  ],
+  "trofeus": []
+}

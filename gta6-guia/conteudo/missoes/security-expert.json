@@ -1,0 +1,69 @@
+{
+  "slug": "security-expert",
+  "ordem": 84,
+  "nome": "Security Expert",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Lucia entram escondidos numa casa em Waning Sands, sequestram a especialista em segurança Nicole Park e a levam à sala de planejamento.",
+  "objetivos": [
+    "Dirija até Waning Sands",
+    "Entre escondido na casa",
+    "Carregue Nicole para fora",
+    "Leve-a à sala de planejamento"
+  ],
+  "passos": [
+    {
+      "titulo": "Dirija até Waning Sands",
+      "texto": [
+        "A missão começa assim que Sinfrontera National Bank termina e leva você a Waning Sands atrás de Nicole Park. Siga para o sul pelo bairro até a casa marcada, passe devagar na frente dela, como Jason pede, e estacione por perto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "security-expert__security-expert-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Entre escondido na casa",
+      "texto": [
+        "Vá a pé até a casa atrás de Jason, que mostra o caminho pelos fundos. Espere o segurança sair pela porta dos fundos e se afastar, então entre enquanto Jason vigia. Atravesse o corredor até os quartos e abra a porta fechada do quarto no canto nordeste."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "security-expert__security-expert-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Carregue Nicole para fora",
+      "texto": [
+        "Depois da cena, Nicole está desacordada: pegue-a no colo. Siga Jason pela porta dos fundos e pela lateral da casa até a frente, abra o porta-malas do carro e coloque-a lá dentro."
+      ],
+      "dicas": [
+        "Dá para entrar no barulho também: dois seguranças vigiam a frente, outro fica nos fundos e pelo menos mais um chega de carro, e o tiroteio atrai a polícia. De qualquer forma, pegue o relógio colecionável no quarto antes de levar Nicole e saia num carro com espaço para três.",
+        "Fique colado em Jason enquanto carrega Nicole e os seguranças não vão perceber vocês."
+      ],
+      "lista": [],
+      "imagens": [
+        "security-expert__security-expert-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Leve-a à sala de planejamento",
+      "texto": [
+        "Saia da área rápido antes de os seguranças reagirem e dirija até a sala de planejamento em Stockyard para concluir. Lá, Raul diz a Nicole que sabe que ela anda roubando do La Polilla Negra, e ela aceita entrar na equipe."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "security-expert__security-expert-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

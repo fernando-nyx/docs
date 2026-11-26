@@ -1,0 +1,106 @@
+{
+  "slug": "top-billing",
+  "ordem": 74,
+  "nome": "Top Billing",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Dre'Quan Priest",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Depois de as Real Dimez serem expulsas do Jack of Hearts, Lucia vai atrás de Roxy numa festa e tira ela de lá com ajuda de Jason.",
+  "objetivos": [
+    "Vá para os bastidores",
+    "Encontre as Dimez",
+    "Siga Roxy",
+    "Pare no Peewees",
+    "Passe por Jacki",
+    "Lide com Kamal",
+    "Corte a energia"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá para os bastidores",
+      "texto": [
+        "Você entra no Jack of Hearts automaticamente. Encontre Dre'Quan nos bastidores, no corredor à direita da escada usada em missões anteriores."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "top-billing__top-billing-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre as Dimez",
+      "texto": [
+        "Depois da cena, você controla Lucia. Pergunte ao recepcionista na porta: as Dimez foram expulsas. No estacionamento, Bae-Luxe e Roxy estão discutindo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "top-billing__top-billing-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Siga Roxy",
+      "texto": [
+        "Roxy arranca com o carro. Entre no carro com as outras e siga Roxy até um trem passar e cortar o caminho."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "top-billing__top-billing-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Pare no Peewees",
+      "texto": [
+        "Dre'Quan sugere comer alguma coisa. Entre no Peewees e faça o pedido do grupo no balcão; quando decidirem ir atrás de Roxy, volte ao carro de Bae-Luxe.",
+        "Durante a refeição, um homem pede comida ou dinheiro na mesa: dê batata frita, dinheiro ou nada. Só muda o diálogo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "top-billing__top-billing-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Passe por Jacki",
+      "texto": [
+        "Dirija até a festa numa casa ao sul, perto da VCIA, e entre pelos fundos. Jacki bloqueia a porta do quarto onde Roxy está. Vá até a cozinha, do outro lado da casa, onde o cachorro dela arranha a porta, e solte o bicho no quintal: Jacki sai para cuidar dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "top-billing__top-billing-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Lide com Kamal",
+      "texto": [
+        "Lá dentro, Roxy conversa com Kamal. Quando ele se levantar, derrube-o com um golpe corpo a corpo para convencer Roxy a vir com você.",
+        "Se perder o momento de deter Kamal, você terá que arrombar o quarto e resolver com ele lá dentro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "top-billing__top-billing-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Corte a energia",
+      "texto": [
+        "O controle passa para Jason do lado de fora. Abra a caixa de energia verde na esquina da calçada, olhe o lado esquerdo dela e vire a chave para apagar a casa. Depois, com Lucia, siga Roxy para fora para terminar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "top-billing__top-billing-7.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio"
+  ],
+  "trofeus": []
+}

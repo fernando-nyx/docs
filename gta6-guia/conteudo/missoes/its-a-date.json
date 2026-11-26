@@ -1,0 +1,42 @@
+{
+  "slug": "its-a-date",
+  "ordem": 104,
+  "nome": "It's a Date!",
+  "capitulo": 4,
+  "tipo": "secundaria",
+  "quem_passa": "",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Um encontro rápido de Jason e Lucia no Courtyard Bar: chegue juntos, peça uma bebida e saia.",
+  "objetivos": [
+    "Vá até o Courtyard Bar",
+    "Compre uma bebida"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até o Courtyard Bar",
+      "texto": [
+        "Logo depois de Heavy Lifting, um encontro de Jason e Lucia aparece no mapa, no Courtyard Bar em Stockyard, Vice City. Vá até lá com os dois juntos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Compre uma bebida",
+      "texto": [
+        "Entre na área do bar e compre uma bebida. Se quiser, fique um pouco e dance. O encontro termina assim que você sai do bar e volta para a rua."
+      ],
+      "dicas": [
+        "É uma das missões mais curtas do jogo e pular não tem consequência, mas é um jeito fácil e rápido de melhorar a relação de Jason e Lucia."
+      ],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [
+    "Melhora na relação de Jason e Lucia"
+  ],
+  "trofeus": []
+}

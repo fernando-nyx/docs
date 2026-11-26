@@ -1,0 +1,70 @@
+{
+  "slug": "caught-slipping",
+  "ordem": 78,
+  "nome": "Caught Slipping",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Jason e Lucia pegam dois ladrões que invadiram o apartamento em Bayside e depois vão até o depósito que Jason alugou na Big House Storage.",
+  "objetivos": [
+    "Pegue o primeiro ladrão",
+    "Reviste a bolsa",
+    "Pegue o segundo ladrão",
+    "Vá até a Big House Storage"
+  ],
+  "passos": [
+    {
+      "titulo": "Pegue o primeiro ladrão",
+      "texto": [
+        "A missão começa quando você volta ao apartamento de Bayside durante o Capítulo 3 e encontra a porta emperrada: arrombe e surpreenda dois ladrões mexendo nas suas coisas.",
+        "Com Jason, persiga o primeiro ladrão pela obra ao lado. Saque uma arma e use o Focus para mirar rápido nas pernas e pará-lo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "caught-slipping__caught-slipping-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Reviste a bolsa",
+      "texto": [
+        "Corra até o ladrão e confira a bolsa dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "caught-slipping__caught-slipping-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Pegue o segundo ladrão",
+      "texto": [
+        "O jogo passa para Lucia, atrás do outro ladrão. Mesmo truque: Focus e tiro na perna, depois reviste a bolsa que ele deixa cair.",
+        "Se perder o alvo, o jogo troca para o outro personagem. O ladrão de Lucia corre até um carro estacionado: ameace-o e ele larga a bolsa enquanto foge."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "caught-slipping__caught-slipping-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá até a Big House Storage",
+      "texto": [
+        "Jason e Lucia se reencontram na frente do apartamento. Dirija para o sul até o prédio da Big House Storage, siga Jason para dentro e pegue o elevador até o depósito que ele comprou para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "caught-slipping__caught-slipping-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio (depósito na Big House Storage)"
+  ],
+  "trofeus": []
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "recalibration",
+  "ordem": 35,
+  "nome": "Recalibration",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Para animar Cal, que está de luto, Jason compra cerveja, sai para pescar com ele e prepara o peixe na grelha antes de levar Lucia para casa.",
+  "objetivos": [
+    "Compre um fardo de cerveja para Cal",
+    "Fale com Cal",
+    "Vá pescar",
+    "Grelhe o peixe",
+    "Leve Lucia para casa"
+  ],
+  "passos": [
+    {
+      "titulo": "Compre um fardo de cerveja para Cal",
+      "texto": [
+        "Durante ou depois de Don Gone e Donnie's Lost Drugs, Lucia liga, e a missão começa quando você chega em casa. Vá até a loja de bebidas marcada e pegue qualquer fardo de cerveja na geladeira: ele é pago automaticamente assim que você o pega."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "recalibration__recalib-beer.jpg"
+      ]
+    },
+    {
+      "titulo": "Fale com Cal",
+      "texto": [
+        "Dirija até a casa de Cal e encontre-o na espreguiçadeira à beira da água, nos fundos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "recalibration__recalib-talk-to-cal.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá pescar",
+      "texto": [
+        "Pegue o barco até o ponto de pesca marcado, a uns dois minutos dali. Lance a isca, gire o analógico direito no sentido horário e aperte o botão quando um peixe morder. Depois, empurre o analógico esquerdo para o lado oposto ao que o peixe está nadando e gire o analógico direito rápido para puxá-lo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "recalibration__recalib-fishing.jpg"
+      ]
+    },
+    {
+      "titulo": "Grelhe o peixe",
+      "texto": [
+        "Volte de barco ao píer de Cal, siga-o e use a grelha à direita dele. Asse os três pedaços de peixe por igual, virando até os dois lados ficarem prontos; Cal coloca cada um no pão quando estiver no ponto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "recalibration__recalib-grill.jpg"
+      ]
+    },
+    {
+      "titulo": "Leve Lucia para casa",
+      "texto": [
+        "Lucia diz que está sem fome e se afasta. Siga-a até a frente da casa, onde ela culpa uma insolação, e leve-a para casa de carro para ver mais uma cena.",
+        "Atenção: a próxima missão, Tourist Trap, é o ponto sem volta do Capítulo 1. Depois que ela começa, você entra numa sequência de missões que vai até o Capítulo 2 sem exploração livre, fica muito tempo sem jogar com Jason, perde todo o dinheiro vivo que estiver carregando e a casa de Key Lento some para sempre. Antes de começar, termine o que ainda quiser fazer com Jason, deposite pelo menos $5.000 na Family Savings e faça um save manual em outro slot."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "recalibration__recalib-lucia.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

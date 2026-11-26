@@ -1,0 +1,82 @@
+{
+  "slug": "delivery-method",
+  "ordem": 119,
+  "nome": "Delivery Method",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Andrea",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Disfarçado de entregador de comida, Jason entra no escritório de segurança do aeroporto e hackeia o banco de dados para facilitar a entrada de Lucia no dia do golpe.",
+  "objetivos": [
+    "Encontre Andrea",
+    "Entregue a comida",
+    "Hackeie o computador da recepção",
+    "Acione o alarme de incêndio",
+    "Hackeie o banco de dados da segurança",
+    "Saia do aeroporto"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Andrea",
+      "texto": [
+        "Depois de Power Play, Andrea tem um plano para ajudar Lucia a passar pela segurança do aeroporto no dia do golpe, quando ela vai se passar pela avaliadora de vinhos. Vá à sala de planejamento com Jason para encontrá-la."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Entregue a comida",
+      "texto": [
+        "Andrea coloca Jason dentro do aeroporto disfarçado de entregador. Pilote a moto para o sul até o portão de segurança e, quando o guarda liberar, vire à direita e entre no escritório da TSS."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Hackeie o computador da recepção",
+      "texto": [
+        "Fale com a recepcionista. Assim que ela sair da mesa, passe para trás do balcão e conecte o pendrive no computador dela. Quando o hack terminar, interaja de novo para tirar o pendrive."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Acione o alarme de incêndio",
+      "texto": [
+        "Para subir, você precisa de todo mundo fora do prédio: puxe o alarme de incêndio atrás da recepção e espere os funcionários evacuarem."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Hackeie o banco de dados da segurança",
+      "texto": [
+        "Suba a escada até o segundo andar, onde fica o Airport Security Department. O computador com acesso ao banco de dados está na sala do fundo, à esquerda: conecte o pendrive, espere o hack terminar e retire-o."
+      ],
+      "dicas": [
+        "Seja rápido: se demorar demais, alguém volta ao prédio, e você é pego e denunciado por invasão."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Saia do aeroporto",
+      "texto": [
+        "Se você foi rápido, todos ainda estão no ponto de encontro do outro lado do estacionamento. Volte para a moto e saia do aeroporto para concluir a missão."
+      ],
+      "dicas": [
+        "Entrar e sair sem ser pego rende um bônus Professional no seu Criminal Profile."
+      ],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

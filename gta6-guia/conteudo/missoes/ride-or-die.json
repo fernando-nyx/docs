@@ -1,0 +1,93 @@
+{
+  "slug": "ride-or-die",
+  "ordem": 86,
+  "nome": "Ride or Die",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Dre'Quan Priest",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason ajuda Dre'Quan a se vingar de DWNPLY: consegue um par de tênis para entrar no camarote VIP, pega a chave do carro dele e leva o carro até a Stockyard Speedshop.",
+  "objetivos": [
+    "Encontre Dre'Quan no Jack of Hearts",
+    "Consiga um par de tênis DWNPLY",
+    "Entre no camarote VIP",
+    "Pegue a chave de DWNPLY",
+    "Encontre o carro",
+    "Entregue na Speedshop"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Dre'Quan no Jack of Hearts",
+      "texto": [
+        "Cerca de um dia depois de Credit Check, Dre'Quan manda mensagem para Jason marcando no Jack of Hearts, em Crosstown. Vá sozinho com Jason e sente na mureta do lado de fora do clube até ele sair. Ele quer se vingar de DWNPLY, e o plano é roubar o carro dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ride-or-die__ride-or-die-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Consiga um par de tênis DWNPLY",
+      "texto": [
+        "Dirija até a loja Eris na orla de Downtown e entre com Dre'Quan. No andar de cima, à direita do DJ, um homem com uma bolsa oferece os tênis por $1.580. Você pode pagar ou tentar pechinchar: ele recusa e vai embora. Siga-o para fora, pegue uma bola de basquete no expositor à direita e jogue nele para ele largar a bolsa; aí é só pegar."
+      ],
+      "dicas": [
+        "O truque da bola de basquete garante os tênis de graça e economiza $1.580.",
+        "Há outros pares na loja: um casal tem um, e escolher envergonhá-los rende os tênis deles (tentar enganá-los faz o casal ir embora). Se ficar sem tênis, dá para subornar o segurança com $250, e Jason pede para DWNPLY autografar um porta-copos. Há uma carta colecionável Vice City Narcos na sala dos funcionários, no primeiro andar."
+      ],
+      "lista": [],
+      "imagens": [
+        "ride-or-die__ride-or-die-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Entre no camarote VIP",
+      "texto": [
+        "Volte até Dre'Quan, que espera logo depois da porta, e siga-o escada acima. Quando o segurança barrar, olhe para ele e escolha Show Shoes para entrar sem pagar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ride-or-die__ride-or-die-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Pegue a chave de DWNPLY",
+      "texto": [
+        "DWNPLY está sentado com um grupo à esquerda do bar. Vá até ele e Jason entrega os tênis. Enquanto ele autografa, segure o botão para alcançar a chave; ele para e pergunta para quem é o autógrafo: responder \"For Me\" deixa a assinatura curta demais e você perde a primeira janela, mas ganha mais duas chances. Continue segurando até Jason pegar a chave."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ride-or-die__ride-or-die-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre o carro",
+      "texto": [
+        "Desça correndo atrás de Dre'Quan até o estacionamento. Use o botão da buzina do alarme e siga o som até o lado leste do estacionamento, onde o carro está numa das vagas VIP iluminadas. Entre e espere Dre'Quan."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ride-or-die__ride-or-die-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Entregue na Speedshop",
+      "texto": [
+        "Assim que você sai do estacionamento, um membro da gangue pula no capô: jogue o carro para a esquerda e para a direita para derrubá-lo. Se o guarda-costas de DWNPLY e a gangue Cash City vierem atrás, saia da área vermelha do mapa para despistá-los e dirija até a Stockyard Speedshop para terminar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ride-or-die__ride-or-die-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

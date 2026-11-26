@@ -1,0 +1,35 @@
+{
+  "slug": "pick-up-a-gun",
+  "ordem": 45,
+  "nome": "Pick Up a Gun",
+  "capitulo": 2,
+  "tipo": "opcional",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Missão opcional curta: vá à Ammu-Nation de Port Gellhorn e compre uma arma ou recupere uma das suas no armário de armas.",
+  "objetivos": [
+    "Pegue uma arma"
+  ],
+  "passos": [
+    {
+      "titulo": "Pegue uma arma",
+      "texto": [
+        "Esta missão opcional curta aparece depois de Girls' Trip. Entre na Ammu-Nation de Port Gellhorn e compre uma arma ou use o armário verde de armas para pegar de volta uma que você já tem.",
+        "Com a Ultimate Edition, você também pode trocar a variante de algumas armas suas por uma versão única amarela/dourada."
+      ],
+      "dicas": [
+        "Missões opcionais aparecem no mapa como ícones pretos com letras rosa. Você precisa completar 100 missões opcionais para os 100%, então faça sempre que surgirem.",
+        "A arma nova mais barata na Gellhorn Outfitters é a Scorpio Nipper .38, por $495, mas recuperar suas armas antigas no Weapons Locker não custa nada."
+      ],
+      "lista": [],
+      "imagens": [
+        "pick-up-a-gun__pick-up-gun-1.jpg",
+        "pick-up-a-gun__pick-up-gun-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

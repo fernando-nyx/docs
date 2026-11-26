@@ -1,0 +1,70 @@
+{
+  "slug": "team-building",
+  "ordem": 120,
+  "nome": "Team Building",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Kordell Grant",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Kordell leva Lucia a uma luta clandestina numa jaula e depois a um bar onde ela dá de cara com Raul.",
+  "objetivos": [
+    "Encontre Kordell na Ajax Gym",
+    "Vá até o galpão",
+    "Vença a luta na jaula",
+    "Dirija até Riverbank",
+    "Siga Kordell até o bar"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Kordell na Ajax Gym",
+      "texto": [
+        "Depois de Power Play, Kordell chama Lucia na Ajax Gym. Fale com ele, siga-o para fora e entre no carro dele no beco."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Vá até o galpão",
+      "texto": [
+        "Dirija até o galpão indicado por Kordell. Lá, contorne o prédio pela esquerda e entre pela porta."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Vença a luta na jaula",
+      "texto": [
+        "Assim que entra, Lucia é arrastada para uma luta clandestina numa jaula. Nocauteie o primeiro oponente e depois o segundo que entra. Quando um terceiro tenta se juntar, Kordell pula na jaula para ajudar: terminem juntos com os lutadores que restarem."
+      ],
+      "dicas": [
+        "Bloqueie e desvie com o comando mostrado na tela e contra-ataque no corpo a corpo: acertar o tempo das esquivas deixa essas lutas bem mais fáceis."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Dirija até Riverbank",
+      "texto": [
+        "Do lado de fora, depois que Arlo for embora, entre de novo no carro de Kordell e dirija até o Riverbank Waterside Bar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Siga Kordell até o bar",
+      "texto": [
+        "Siga Kordell para dentro do bar. Ele leva Lucia para conhecer Raul, que Cisco vinha seguindo, e a missão termina depois de um impasse tenso."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

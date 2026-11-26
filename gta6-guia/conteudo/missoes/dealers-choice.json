@@ -1,0 +1,115 @@
+{
+  "slug": "dealers-choice",
+  "ordem": 64,
+  "nome": "Dealer's Choice",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Dre'Quan Priest",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Para pagar o favor do apartamento a Boobie, Jason acompanha Dre'Quan numa entrega de drogas e escolhe se leva produto puro ou batizado.",
+  "objetivos": [
+    "Encontre Dre'Quan no estúdio",
+    "Dirija até o ponto de coleta",
+    "Escolha qual produto levar",
+    "Faça a negociação",
+    "Resolva o confronto",
+    "Leve Dre'Quan até Southside"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Dre'Quan no estúdio",
+      "texto": [
+        "Volte ao Jack of Hearts. Suba a escada, passe pela porta no topo até o estúdio e entre na cabine de gravação onde Dre'Quan espera. Aguarde ele terminar de gravar; quando perguntar qual refrão você prefere, responda como quiser (se pular a sessão pedindo para ver Boobie, você perde essa escolha). Depois siga-o até Boobie, que avisa Jason que o apartamento vem com um favor."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dealers-choice__dealers-choice-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Dirija até o ponto de coleta",
+      "texto": [
+        "Entre no carro de Dre'Quan e dirija até um apartamento próximo. Siga-o até o quarto no segundo andar, onde ele conversa com Tyrone, o traficante; você pode interromper se não quiser esperar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dealers-choice__dealers-choice-0.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha qual produto levar",
+      "texto": [
+        "Produto batizado (Cut) ou puro (Pure)? Veja as duas escolhas abaixo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dealers-choice__dealers-choice-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha: batizado (Cut)",
+      "texto": [
+        "Tyrone dá a entender que dá para lucrar um pouco mais com o produto batizado, mas os compradores percebem e sacam as armas. Foque no comprador para responder: ofereça pela metade do preço para resolver em paz, ou escolha Take It or Leave It (o padrão se você demorar) e comece um tiroteio. Afeta só esta missão."
+      ],
+      "dicas": [],
+      "lista": [
+        "Reações diferentes durante a negociação"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: puro (Pure)",
+      "texto": [
+        "Os compradores testam e pagam sem problema. Afeta só esta missão.",
+        "Siga Dre'Quan de volta ao carro; ele faz um desvio e, no parque grande, você tem um tutorial rápido de devolver uma bola de futebol americano para umas crianças."
+      ],
+      "dicas": [],
+      "lista": [
+        "Negociação tranquila"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Faça a negociação",
+      "texto": [
+        "Dirija até o local da negociação, um pouco ao sul, perto do Jack of Hearts. Siga Dre'Quan até o grupo perto dos carros e entregue a bolsa quando aparecer a opção. O comprador demora para conferir o produto; você pode pedir pressa. No fim, pegue de volta a mochila com o dinheiro: resolver tudo em paz dá bônus de reputação Professional."
+      ],
+      "dicas": [
+        "Se a negociação com o produto batizado virar tiroteio, pegue primeiro a bolsa de dinheiro na traseira do carro (há um fuzil FRA no porta-malas) e fuja rápido: se demorar, a polícia chega com duas estrelas. Se você pegou o dinheiro, recebe do mesmo jeito depois."
+      ],
+      "lista": [],
+      "imagens": [
+        "dealers-choice__dealers-choice-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Resolva o confronto",
+      "texto": [
+        "Na volta, um homem para vocês e insiste que a bolsa é dele. Ele ataca seja lá o que você disser, então nocauteie-o no corpo a corpo e entre no carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dealers-choice__dealers-choice-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Leve Dre'Quan até Southside",
+      "texto": [
+        "Leve Dre'Quan até uma loja em Southside. No meio do caminho, uma cena assume: no apartamento, Cal chega e tenta desbloquear o HD sem sucesso, mas comenta que Brian tinha um contato muito habilidoso em Vice City que pode ajudar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dealers-choice__dealers-choice-2.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

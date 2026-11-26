@@ -1,0 +1,124 @@
+{
+  "slug": "close-surveillance",
+  "ordem": 118,
+  "nome": "Close Surveillance",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Com um drone espião, Jason segue Nate e Cisco até o apartamento de Omar e instala câmeras para descobrir como a equipe de Kordell vai usar o infiltrado no aeroporto.",
+  "objetivos": [
+    "Encontre Karim",
+    "Ache os fisiculturistas no The Calique",
+    "Escute a conversa",
+    "Siga o carro deles",
+    "Entre no apartamento de Omar",
+    "Instale as câmeras",
+    "Acompanhe o interrogatório",
+    "Tire o drone de lá",
+    "O HD",
+    "Deixe Lucia"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Karim",
+      "texto": [
+        "Depois de Power Play, Karim tem um plano para achar o infiltrado da equipe de Kordell no aeroporto. Com Jason, suba ao último andar do estacionamento marcado em Ocean Beach e encontre-o na van. Francisco e Nate estão em movimento: Karim cuida do microfone e Jason pilota o drone espião."
+      ],
+      "dicas": [
+        "O drone voa como um helicóptero e mantém a altura sozinho: use os gatilhos para subir e descer."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Ache os fisiculturistas no The Calique",
+      "texto": [
+        "Leve o drone até o The Calique, um bar de terraço ali perto, e passe perto dos quadrados brancos para vasculhar o telhado. Nate e Francisco estão sentados sob a pequena cobertura branca no lado norte do prédio."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Escute a conversa",
+      "texto": [
+        "Chegue perto o bastante para encher a barra na parte de baixo da tela, para Karim ouvir o que dizem, mas sem deixar que vejam o drone. Quando eles descerem de elevador, voe até o beco à direita para achar o carro de Cisco."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Siga o carro deles",
+      "texto": [
+        "Siga o carro mantendo a barra de escuta no verde, mas fique alto e não desça ao nível da rua. Eles param num lugar onde Nate pega equipamento e depois seguem para um prédio de apartamentos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Entre no apartamento de Omar",
+      "texto": [
+        "O homem com quem vão se encontrar é Omar, chefe dos carregadores do aeroporto, no apartamento 405. Suba até a terceira sacada que Karim indica e entre pela porta aberta."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Instale as câmeras",
+      "texto": [
+        "Vá rápido aos pontos marcados e instale as câmeras. Comece pelas duas da sala, ao lado da TV e na estante da parede oposta. Omar anda pelo apartamento, então fique de olho no indicador de percepção e fique num cômodo diferente do dele. Quando ele sair da cozinha, coloque câmeras na quina da bancada, em cima da geladeira e na prateleira perto da porta de entrada. Quando ele abrir a porta do quarto, entre e coloque a última na prateleira à direita da cama."
+      ],
+      "dicas": [
+        "Se Omar vier na sua direção, esconda o drone e espere ele sair do cômodo antes de se mexer."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Acompanhe o interrogatório",
+      "texto": [
+        "Nate e Cisco chegam e dão uma prensa em Omar. Alterne entre as câmeras para segui-los pelo apartamento enquanto o obrigam a trabalhar para eles: ele vai descobrir quanto dinheiro passa pelo cofre do aeroporto e carregá-lo no avião deles no dia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Tire o drone de lá",
+      "texto": [
+        "Karim acaba transmitindo sem querer pelo alto-falante do drone: saia voando do apartamento antes que o encontrem. Na rua, volte até a van, marcada com um quadrado verde."
+      ],
+      "dicas": [
+        "Levar o drone de volta à van rende um bônus Professional no seu Criminal Profile."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "O HD",
+      "texto": [
+        "Na van, Lucia se junta a Jason e Karim, que descriptografou parte das imagens do HD: elas mostram uma figura pública muito poderosa. O plano agora é leiloar o HD a quem pagar mais, com Valentina e Abe cuidando da negociação, enquanto Jason e Lucia continuam trabalhando nos fisiculturistas."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Deixe Lucia",
+      "texto": [
+        "Entre no carro com Lucia e leve-a até o beco perto da Ajax Gym para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

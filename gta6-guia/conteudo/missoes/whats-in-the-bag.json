@@ -1,0 +1,48 @@
+{
+  "slug": "whats-in-the-bag",
+  "ordem": 39,
+  "nome": "What's in the Bag?",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Escondidos num motel em Port Gellhorn, Lucia examina o que havia na bolsa do armário: uma pequena estátua e um HD externo.",
+  "objetivos": [
+    "Acorde no motel",
+    "Olhe dentro da bolsa"
+  ],
+  "passos": [
+    {
+      "titulo": "Acorde no motel",
+      "texto": [
+        "O Capítulo 2 começa logo após Discharge Time. Lucia se hospedou com Jason, ferido, num quarto de motel em Port Gellhorn para se esconderem enquanto ele se recupera. No noticiário, o capitão Méndez, o policial corrupto do Visitor Center, culpa os dois pelo ataque."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "whats-in-the-bag__whats-in-bag-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Olhe dentro da bolsa",
+      "texto": [
+        "Com Lucia, examine o conteúdo da bolsa. Primeiro uma pequena estátua de mulher: vire-a e leia o bilhete embaixo, que diz \"From my collection. She reminded me of someone.\" Depois olhe o HD, que o casal não consegue verificar porque não tem computador.",
+        "Depois da cena, você ainda pode inspecionar os dois itens no esconderijo embaixo da banheira, no banheiro."
+      ],
+      "dicas": [
+        "O Capítulo 2 é jogado quase todo com Lucia enquanto Jason se recupera. O troféu/conquista Paradise Lost, por concluir o Capítulo 1, desbloqueia durante esta missão curta."
+      ],
+      "lista": [],
+      "imagens": [
+        "whats-in-the-bag__whats-in-bag-2.jpg",
+        "whats-in-the-bag__whats-in-bag-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": [
+    "Paradise Lost: concluir o Capítulo 1 (desbloqueia nesta missão)"
+  ]
+}

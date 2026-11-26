@@ -1,0 +1,30 @@
+{
+  "slug": "send-more-money-to-lorena",
+  "ordem": 73,
+  "nome": "Send More Money to Lorena",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "",
+  "personagem": "",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Abra o celular e envie mais dinheiro para Lorena.",
+  "objetivos": [
+    "Envie o dinheiro para Lorena"
+  ],
+  "passos": [
+    {
+      "titulo": "Envie o dinheiro para Lorena",
+      "texto": [
+        "Igualzinho à vez anterior, com o mesmo valor: abra o celular e mande o dinheiro para Lorena para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "send-more-money-to-lorena__send-money-lorena-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "the-missing-link",
+  "ordem": 88,
+  "nome": "The Missing Link",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Andrea",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Lucia e Andrea sequestram Monty, executor do La Polilla Negra, numa rinha de galo em Watson Bay, e Jason ajuda Raul a interrogá-lo sobre um tanque de jacaré.",
+  "objetivos": [
+    "Encontre Andrea em Watson Bay",
+    "Chegue até Monty",
+    "Nocauteie Monty",
+    "Abra caminho para fora",
+    "Dirija até Vice City",
+    "Interrogue Monty",
+    "Decida o destino de Monty"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Andrea em Watson Bay",
+      "texto": [
+        "Depois de Company Property, vá sozinho com Lucia ao Sloppy Molly's, em Watson Bay. Andrea marcou um encontro com Monty, executor graúdo do La Polilla Negra, numa rinha de galo ilegal. Depois que Lucia trocar de roupa, siga Andrea pela rua até o galpão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-missing-link__missing-link-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Chegue até Monty",
+      "texto": [
+        "Espere lá dentro enquanto Andrea manda mensagem para o contato. Quando indicado, vá até ela na porta norte, ao lado do segurança de terno branco, e siga-a até os fundos para conhecer Monty. Entre na sala dos fundos quando ele pedir: ele quer fotos para as redes sociais do cartel, então alterne as poses para a esquerda e para a direita e tire as fotos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-missing-link__missing-link-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Nocauteie Monty",
+      "texto": [
+        "Depois das fotos, o encontro vira briga. Bata em Monty até ele apagar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-missing-link__missing-link-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Abra caminho para fora",
+      "texto": [
+        "Atire até atravessar o prédio para Andrea conseguir carregar Monty para fora. Vigie portas e cantos e, no salão grande onde rolava a rinha, cuidado com mais atiradores entrando de carro pela garagem à direita."
+      ],
+      "dicas": [
+        "Mate o primeiro inimigo e volte à sala das fotos antes de seguir: a pistola de Monty está no chão. É uma variante de arma que só dá para pegar assim."
+      ],
+      "lista": [],
+      "imagens": [
+        "the-missing-link__missing-link-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Dirija até Vice City",
+      "texto": [
+        "Lucia e Andrea jogam Monty num carro lá fora: entre e vá até o marcador em Vice City. Ignore a gangue na sua cola; você os perde logo depois de sair de Hamlet. Mais ou menos no meio do caminho, o jogo pede para trocar para Jason."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-missing-link__missing-link-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Interrogue Monty",
+      "texto": [
+        "Com Jason, encontre Lucia e Andrea na frente do prédio, tire Monty do porta-malas e leve-o sob a mira até o quintal. Derrube-o quando Raul mandar e use a carregadeira para balançar Monty sobre o tanque do jacaré, subindo ou descendo conforme Raul faz as perguntas. Não mergulhe ele de vez na água, senão ele morre."
+      ],
+      "dicas": [
+        "Passar por todas as perguntas sem matar Monty rende bônus de Professional."
+      ],
+      "lista": [],
+      "imagens": [
+        "the-missing-link__missing-link-7.jpg"
+      ]
+    },
+    {
+      "titulo": "Decida o destino de Monty",
+      "texto": [
+        "Quando Raul conseguir o que precisa, escolha: deixar Monty em terra firme ou soltá-lo no tanque para o jacaré. A missão termina de qualquer jeito."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-missing-link__missing-link-8.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio (pistola variante de Monty, se você pegar)"
+  ],
+  "trofeus": []
+}

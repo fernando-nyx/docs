@@ -1,0 +1,194 @@
+{
+  "slug": "vcia-takedown",
+  "ordem": 122,
+  "nome": "VCIA Takedown",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "O grande golpe no cofre do Vice City International Airport: Lucia entra disfarçada com a equipe de Kordell, Jason age por fora, e tudo desanda numa fuga pela pista, pela rodovia e dentro do avião.",
+  "objetivos": [
+    "Siga Nate",
+    "Vá até o terminal de cargas",
+    "Cuide de Janice",
+    "Siga o gerente do cofre",
+    "Chegue ao terminal de rede",
+    "Abra o cofre",
+    "Esconda Omar",
+    "Carregue o avião",
+    "Enfrente a polícia",
+    "Persiga o avião",
+    "Persiga o caminhão",
+    "Lute com Raina",
+    "Pare o caminhão",
+    "Encontre Raul",
+    "Defenda Andrea",
+    "Entre na van",
+    "Pouse o avião"
+  ],
+  "passos": [
+    {
+      "titulo": "Siga Nate",
+      "texto": [
+        "O golpe começa com Lucia dentro do aeroporto. Fique perto de Nate enquanto ele atravessa o terminal."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Vá até o terminal de cargas",
+      "texto": [
+        "O controle passa para Jason, ao volante do caminhão de catering roubado com a equipe a bordo. Dirija pelo pátio do aeroporto até o terminal de cargas."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Cuide de Janice",
+      "texto": [
+        "De volta a Lucia, continue seguindo Nate enquanto ele acompanha a sommelière. Depois que Nate derrama uma bebida em Janice, siga-a até o banheiro, chegue por trás e nocauteie-a. Lucia a esconde numa das cabines automaticamente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Siga o gerente do cofre",
+      "texto": [
+        "Depois de um encontro rápido com Raul disfarçado, fique atrás de Nate enquanto ele empurra a caixa de vinho atrás do gerente do cofre. No elevador o gerente pergunta sobre o vinho, e você pode responder."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Chegue ao terminal de rede",
+      "texto": [
+        "Agora você controla Jason no telhado do aeroporto, com um cronômetro de 5 minutos. Vá até o marcador no meio do telhado. Há guardas patrulhando, inclusive nas plataformas elevadas: elimine-os em silêncio com a pistola com silenciador ou chegue por trás e nocauteie. O terminal fica dentro da área cercada no nível de cima: interaja com ele para continuar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Abra o cofre",
+      "texto": [
+        "Com Lucia, siga o gerente para dentro e inspecione a caixa de vinho. Quando Kordell der o sinal, nocauteie o gerente, volte correndo pelo corredor e aperte os dois botões para abrir as grades do cofre. Depois que Lucia amarrar os guardas, volte ao cofre, pegue as bolsas e siga Francisco de volta ao elevador."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Esconda Omar",
+      "texto": [
+        "Troque para Jason, nocauteie Omar, pegue-o e jogue-o no contêiner marcado antes que alguém veja."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Carregue o avião",
+      "texto": [
+        "Lucia dirige o carrinho de bagagens com a equipe de Kordell até o avião no terminal sul. Tire as bolsas do carrinho uma a uma e coloque na rampa da esteira."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Enfrente a polícia",
+      "texto": [
+        "Tudo dá errado e a polícia toma a pista. Com Jason, abra caminho até o avião, atento a policiais surgindo de trás de contêineres e veículos. Quando ele chega perto, o jogo passa para Lucia, que precisa segurar a polícia ao redor dela."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Persiga o avião",
+      "texto": [
+        "Jason pula num caminhão e corre atrás do avião. Encoste do lado direito, perto do trem de pouso, para Lucia pular e subir a bordo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Persiga o caminhão",
+      "texto": [
+        "Em seguida, persiga com Jason o caminhão de fuga enquanto viaturas entram na perseguição. Não largue dele até ele chegar à rodovia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Lute com Raina",
+      "texto": [
+        "Dentro do avião, Lucia precisa vencer Raina na mão. Ela cai bem mais fácil que o grandalhão que Jason enfrentou em Headliners: é só continuar acertando socos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Pare o caminhão",
+      "texto": [
+        "De volta a Jason, continue atrás do caminhão. Quando um homem na caçamba começar a jogar coisas em você, use o Focus para acertá-lo rápido. Depois que o caminhão bater, corra até ele e confira: Omar sai rastejando dos destroços."
+      ],
+      "dicas": [
+        "Atire na perna de Omar ou nocauteie-o em vez de matá-lo para ganhar o bônus Professional."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre Raul",
+      "texto": [
+        "Com Lucia, avance até a frente do avião. Todos os atiradores a bordo são da gangue que Raul contratou, então pode atirar à vontade, mas cuidado com os que se escondem entre as poltronas. Quando Kordell te agarrar, siga os comandos na tela para revidar e depois atire nele enquanto ele é puxado para a porta aberta, jogando-o para fora do avião."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Defenda Andrea",
+      "texto": [
+        "Uma última vez com Jason, segure os agentes da NOOSE enquanto Andrea coloca as bolsas na van. Dá para pegar a LMG-6 de Francisco no chão para ajudar, e ela fica com você."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Entre na van",
+      "texto": [
+        "Quando Andrea avisar que as bolsas estão carregadas, pule na van."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Pouse o avião",
+      "texto": [
+        "A última parte coloca você na cabine com Lucia e Raul. Segure os controles e puxe para trás para manter o avião estável até ele cair na Vice City Bay. Depois das cenas finais, Raul manda todos ficarem na moita enquanto ele, Valentina e Abe vendem o HD. A história continua depois com Sunset."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [
+    "LMG-6 de Francisco (se você pegar)"
+  ],
+  "trofeus": [
+    "Troféu oculto (Bronze, 25G)"
+  ]
+}

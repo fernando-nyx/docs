@@ -1,0 +1,66 @@
+{
+  "slug": "hit-kingpin-bowling",
+  "ordem": 58,
+  "nome": "Hit Kingpin Bowling",
+  "capitulo": 2,
+  "tipo": "opcional",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Invada o boliche dominado pelos Kolts com seu parceiro, saqueie os três itens de valor (incluindo o cofre) e fuja da polícia.",
+  "objetivos": [
+    "Prepare-se para o serviço",
+    "Assalte o complexo",
+    "Fuja do complexo"
+  ],
+  "passos": [
+    {
+      "titulo": "Prepare-se para o serviço",
+      "texto": [
+        "É um dos quatro serviços marcados depois de Coffee Break. O local está cheio de membros dos Kolts, então chame seu parceiro (segure direcional para a direita e peça para se encontrarem). Leve cinco Zombix de uma loja de conveniência, recarregue o colete na Ammu-Nation e compre bombas adesivas lá também: elas são necessárias para o cofre."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hit-kingpin-bowling__kingpin-bowling-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalte o complexo",
+      "texto": [
+        "Entre no boliche na base do tiro. Para o troféu/conquista Let's Go Bowling, saqueie os três itens de valor:"
+      ],
+      "dicas": [],
+      "lista": [
+        "Luxury Watch: colecionável na sala sudeste.",
+        "Gutterball Moreland 850: espingarda única na mesa de sinuca do canto nordeste.",
+        "O cofre: no escritório pequeno do canto nordeste. Exploda com uma bomba adesiva."
+      ],
+      "imagens": [
+        "hit-kingpin-bowling__kingpin-bowling-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja do complexo",
+      "texto": [
+        "Saia do boliche, pegue um veículo e escape das duas estrelas de procurado. O troféu desbloqueia logo depois da fuga."
+      ],
+      "dicas": [
+        "O troféu não é perdível. Se faltar algum item, o boliche volta a ter saque algumas semanas depois no tempo do jogo (durante o Capítulo 3): pegue o que faltou e o troféu ainda desbloqueia."
+      ],
+      "lista": [],
+      "imagens": [
+        "hit-kingpin-bowling__kingpin-bowling-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "Luxury Watch (colecionável)",
+    "Espingarda única Gutterball Moreland 850",
+    "Conteúdo do cofre"
+  ],
+  "trofeus": [
+    "Let's Go Bowling: saqueie os três itens de valor do boliche"
+  ]
+}

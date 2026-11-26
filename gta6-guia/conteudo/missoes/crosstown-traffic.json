@@ -1,0 +1,93 @@
+{
+  "slug": "crosstown-traffic",
+  "ordem": 79,
+  "nome": "Crosstown Traffic",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$3.000",
+  "resumo": "Jason segue barcos da gangue pelo rio enquanto Lucia pressiona um dos irmãos Guardia no metrô; no fim, os dois sequestram um barco e escapam da perseguição.",
+  "objetivos": [
+    "Siga os barcos",
+    "Pegue o metrô",
+    "Confronte o irmão Guardia",
+    "Sequestre o barco",
+    "Pare o trem",
+    "Defenda o barco"
+  ],
+  "passos": [
+    {
+      "titulo": "Siga os barcos",
+      "texto": [
+        "A missão pode ser iniciada com Lucia no Courtyard Bar, em Stockyard, ou com Jason no estaleiro de La Perle; qualquer um inicia para os dois.",
+        "Depois da cena de abertura, Jason segue os barcos rio abaixo de moto. Fique nas trilhas de terra da margem para acompanhar o ritmo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "crosstown-traffic__crosstown-traffic-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Pegue o metrô",
+      "texto": [
+        "No ponto de entrega, o jogo passa para Lucia, que perde o trem por pouco. Pegue um dos veículos estacionados depois das catracas (patinete elétrico ou bicicleta, por exemplo) ou corra por baixo dos trilhos elevados indicados no minimapa até a próxima estação, suba a escada e embarque no último vagão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "crosstown-traffic__crosstown-traffic-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Confronte o irmão Guardia",
+      "texto": [
+        "Vá até a frente do vagão e intimide o membro da gangue. Com ele no chão, pressione e pegue o celular dele para obrigá-lo a fazer a ligação."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "crosstown-traffic__crosstown-traffic-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Sequestre o barco",
+      "texto": [
+        "Com Jason, derrube os dois atiradores no cais e volte para a moto. Siga o caminho (Karim manda virar à direita na ponte) até um salto deixar você em um dos barcos. Atire primeiro na tripulação do barco mais próximo, depois no atirador do barco-alvo, e pule para ele quando estiver perto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "crosstown-traffic__crosstown-traffic-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Pare o trem",
+      "texto": [
+        "De volta com Lucia, mais membros da gangue atacam no vagão: derrube-os no corpo a corpo e aperte o botão de parada de emergência no fundo do trem antes da próxima estação."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "crosstown-traffic__crosstown-traffic-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Defenda o barco",
+      "texto": [
+        "Lucia salta para o barco enquanto Jason pilota. Abra os bancos traseiros para pegar um fuzil de assalto e colete; a munição aqui é infinita. Derrube os pilotos dos Seasharks e barcos que perseguem vocês, depois a Guarda Costeira. Atire no piloto do helicóptero pelo para-brisa para derrubá-lo na hora. A perseguição acaba quando Karim joga contêineres de uma ponte para bloquear os perseguidores."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "crosstown-traffic__crosstown-traffic-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$3.000"
+  ],
+  "trofeus": []
+}

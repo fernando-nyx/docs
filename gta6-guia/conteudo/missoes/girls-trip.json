@@ -1,0 +1,93 @@
+{
+  "slug": "girls-trip",
+  "ordem": 44,
+  "nome": "Girls' Trip",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Vicki",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Em busca de analgésicos para Jason, Lucia se junta a Vicki, passa no Delights e caça o traficante Dunk, que está encrencado com a gangue Kolts.",
+  "objetivos": [
+    "Pergunte pelo motel",
+    "Confronte Vicki",
+    "Vá ao Delights",
+    "Encontre Dunk",
+    "Resolva as coisas com os Kolts no lava-rápido",
+    "Leve Dunk para casa"
+  ],
+  "passos": [
+    {
+      "titulo": "Pergunte pelo motel",
+      "texto": [
+        "Depois de Overnight Charges e Just Moved In, aparece uma área de busca no Starlet Motel. Fale com Zach, que fica espiando pelas janelas entre o seu quarto e a recepção: ele manda você procurar Vicki no Quarto 10. Bata na porta e pague $50 por uns comprimidos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "girls-trip__girls-trip-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Confronte Vicki",
+      "texto": [
+        "Leve os comprimidos para Jason, que percebe que são só Zombix comuns, de farmácia. Volte ao Quarto 10 para confrontar Vicki. Lucia a acalma e Vicki aceita ajudar a conseguir analgésicos de verdade com um conhecido."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "girls-trip__girls-trip-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá ao Delights",
+      "texto": [
+        "Dirija o carro de Vicki até Port Gellhorn, a oeste do motel, e pare no clube de striptease Delights, onde ela trabalha. Siga-a para dentro para conhecer o chefe dela, Frankie Delight, que entrega o pagamento, e volte para o carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "girls-trip__girls-trip-3.jpg",
+        "girls-trip__girls-trip-frankie.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre Dunk",
+      "texto": [
+        "Dunk, o fornecedor de Vicki, deve ter analgésicos, mas não está no trailer. Tente o estaleiro, onde os amigos dele dizem que ele foi vender no lava-rápido."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "girls-trip__girls-trip-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Resolva as coisas com os Kolts no lava-rápido",
+      "texto": [
+        "No lava-rápido, Dunk está encrencado com a gangue Kolts e foge pela porta de enrolar, deixando você para lidar com eles. Escolha \"Defuse\" duas vezes para acalmar a situação sem briga e ganhar reputação Professional, ou provoque e lute. Depois, levante a porta e persiga o carro de Dunk até ele bater numa fazenda."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "girls-trip__girls-trip-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Leve Dunk para casa",
+      "texto": [
+        "Enquanto Vicki se entende com os guardas florestais, leve Dunk de volta ao trailer. Ele está sem analgésicos, mas diz que consegue mais com o fornecedor dele, \"Doctor Bill with the Pill\"."
+      ],
+      "dicas": [
+        "Depois desta missão, o Capítulo 2 se abre: roube um carro e leve para Moses primeiro, porque ter seu próprio veículo facilita muito andar por Port Gellhorn."
+      ],
+      "lista": [],
+      "imagens": [
+        "girls-trip__girls-trip-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

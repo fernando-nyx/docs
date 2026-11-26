@@ -1,0 +1,78 @@
+{
+  "slug": "cash-injections",
+  "ordem": 110,
+  "nome": "Cash Injections",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Nate",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia dá cobertura a Nate numa venda de Synthol que dá errado, recupera o carro roubado dele e foge da área.",
+  "objetivos": [
+    "Ligue para Nate",
+    "Ajude na venda de Synthol",
+    "Proteja Nate",
+    "Persiga o carro de Nate",
+    "Recupere o carro",
+    "Fuja"
+  ],
+  "passos": [
+    {
+      "titulo": "Ligue para Nate",
+      "texto": [
+        "Depois de Amateur Hour, Nate manda mensagem pedindo para Lucia ligar para saírem juntos. Ligue você mesmo ou espere cerca de um dia até ele ligar. Depois vá à academia Muscle Beach, em Ocean Beach, para encontrá-lo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Ajude na venda de Synthol",
+      "texto": [
+        "Nate quer reforço enquanto vende Synthol. Siga-o da praia até o carro, entre e dirija alguns quarteirões ao norte até o beco onde a venda acontece. Quando ele pedir, abra o porta-malas para pegar a bolsa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Proteja Nate",
+      "texto": [
+        "Os compradores se viram contra vocês: aperte o comando na tela para tirar a arma da mão do cara ao seu lado e elimine os inimigos ao redor de Nate, enquanto um deles foge no carro de Nate."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Persiga o carro de Nate",
+      "texto": [
+        "Pule no carro deixado no beco e siga o ladrão. Aqui não dá para pará-lo atirando no motorista, então só fique colado nele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Recupere o carro",
+      "texto": [
+        "O carro para no beco de um motel e vários atiradores descem. Limpe a área até chegar ao carro de Nate no estacionamento, atento a inimigos no andar de cima do motel e saindo pelas portas laterais."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Fuja",
+      "texto": [
+        "Saia da área imediatamente; se a polícia te vir, despiste-a antes. Nate então oferece um sorvete a Lucia: dirija até a sorveteria no norte de Vice Beach para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "watch-it",
+  "ordem": 109,
+  "nome": "Watch It",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Dre'Quan Priest",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason acompanha Dre'Quan numa troca de relógio que vira briga e tiroteio, e depois o ajuda a se arrumar para conhecer Royce Jones, dono da boate VYB.",
+  "objetivos": [
+    "Encontre Dre'Quan na loja",
+    "Encontre o vendedor de Crowex",
+    "Abra caminho na porrada e na bala",
+    "Escolha uma roupa na Nola",
+    "Encontre Royce Jones"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Dre'Quan na loja",
+      "texto": [
+        "Depois de Making Gainz, Dre'Quan quer a ajuda de Jason para impressionar o dono de uma boate. Vá até a loja marcada, suba e espere Dre'Quan terminar com o vendedor; depois siga-o de volta ao carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre o vendedor de Crowex",
+      "texto": [
+        "Dirija para o sul até o estacionamento do Cruda, suba as rampas até o último andar e pare ao lado do carro marcado, onde estão os caras que venderam o relógio a Dre'Quan."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Abra caminho na porrada e na bala",
+      "texto": [
+        "O encontro vira briga: ajude Dre'Quan a nocautear os dois. Em seguida chega um carro cheio de atiradores que já chega atirando, e depois mais inimigos pela escada. Derrube todos, volte ao carro e saia antes que a polícia apareça."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha uma roupa na Nola",
+      "texto": [
+        "Dre'Quan quer roupa nova: dirija até a Nola, perto do extremo sul de Ocean Beach. Escolha uma das duas roupas nos manequins; ele paga e fica com a outra."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre Royce Jones",
+      "texto": [
+        "Dirija para o norte até o hotel Doight d'Or e siga Dre'Quan pelo prédio até os fundos. A missão termina depois da conversa com Royce Jones, dono da boate VYB."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

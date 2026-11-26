@@ -1,0 +1,32 @@
+{
+  "slug": "prepare-for-vice-city",
+  "ordem": 60,
+  "nome": "Prepare for Vice City",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Objetivo contínuo do fim do Capítulo 2: junte pelo menos $15.000 para liberar a missão final do capítulo, Checking Out.",
+  "objetivos": [
+    "Junte pelo menos $15.000"
+  ],
+  "passos": [
+    {
+      "titulo": "Junte pelo menos $15.000",
+      "texto": [
+        "É um objetivo contínuo perto do fim do Capítulo 2. Chegar a $15.000 é obrigatório para liberar a última missão do capítulo, Checking Out. Ganhe o dinheiro como quiser, mas o mais fácil é fazer os outros serviços marcados no mapa: Thrillbillies e Twist Wrist, Smash, Grab para Billy, Hit Avery Pawn, Hit Kingpin Bowling, Impounded Vehicle, Veteran Hunted e Afternoon Delight."
+      ],
+      "dicas": [
+        "Deposite o dinheiro no BuckMe ao longo do caminho para não perdê-lo se morrer. Um tempo depois de chegar a $15.000 e concluir as outras missões principais, seu quarto no motel é marcado como próximo objetivo."
+      ],
+      "lista": [],
+      "imagens": [
+        "prepare-for-vice-city__prepare-for-vice-city_copy.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

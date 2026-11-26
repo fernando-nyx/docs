@@ -1,0 +1,88 @@
+{
+  "slug": "power-play",
+  "ordem": 115,
+  "nome": "Power Play",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Kordell Grant",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia participa do assalto a um carro-forte com a equipe de Kordell enquanto Jason entra escondido na base deles para fotografar os planos do golpe.",
+  "objetivos": [
+    "Encontre Kordell",
+    "Entre escondido no prédio",
+    "Fotografe os planos do golpe",
+    "Bloqueie a rua",
+    "Dê cobertura à gangue",
+    "Fuja a pé",
+    "Roube um carro e despiste a polícia"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Kordell",
+      "texto": [
+        "Depois de Child's Play, Lucia é chamada para ajudar a equipe de Kordell num roubo. Vá até a base deles em Salton, fale com a recepcionista e siga pelo corredor da esquerda até a sala onde a equipe espera."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Entre escondido no prédio",
+      "texto": [
+        "O jogo passa para Jason, que precisa entrar sem ser visto. Suba a escada do lado direito do prédio, atravesse o telhado e desça para o nível de baixo do outro lado, onde há uma porta aberta. Desça até o térreo e abra a porta da direita com a Snap Gun para chegar à sala de planejamento."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Fotografe os planos do golpe",
+      "texto": [
+        "Dá para fotografar várias coisas na sala, como as camisas na arara, as bolsas perto do portão da garagem e o quadro branco. O que importa é o quadro: olhe para ele, vire-o e fotografe o verso, onde estão os planos reais."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Bloqueie a rua",
+      "texto": [
+        "De volta a Lucia, pegue os cones do caminhão e coloque-os em linha atravessando a rua para parar o trânsito; depois siga Kordell e os outros."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Dê cobertura à gangue",
+      "texto": [
+        "Quando Kordell chutar a caixa na beira da rua, pegue um fuzil de assalto dela. Enquanto a equipe rouba o carro-forte, segure a polícia que chega por todos os lados do cruzamento."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Fuja a pé",
+      "texto": [
+        "Siga Kordell por baixo do viaduto e para dentro da obra, subindo pelos andares do prédio de olho nas laterais abertas, onde aparecem policiais. Limpe o terraço e a sacada à frente, suba mais um andar e pule para a rodovia. Continue avançando entre os carros batidos, atento a inimigos à frente e à direita."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Roube um carro e despiste a polícia",
+      "texto": [
+        "Quando Kordell e Nate mandarem pegar um carro, não pegue um virado para você, porque esse sentido está bloqueado: corra até o fim da área e pegue o carro pequeno virado para a pista. A equipe atira em quem vier logo atrás, então só se preocupe em dirigir: pegue a primeira à direita na rodovia para fugir do bloqueio e você deve despistar a polícia rápido."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

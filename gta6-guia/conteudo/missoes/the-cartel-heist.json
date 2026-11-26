@@ -1,0 +1,184 @@
+{
+  "slug": "the-cartel-heist",
+  "ordem": 95,
+  "nome": "The Cartel Heist",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$150.000 (assalto perfeito) ou $100.000",
+  "resumo": "O grande assalto do Capítulo 3: a equipe de Raul explode as torres de celular, domina o Sinfrontera National Bank, arromba o cofre do cartel e foge da polícia.",
+  "objetivos": [
+    "Exploda as torres de celular",
+    "Domine o saguão",
+    "Desça até o andar do cofre",
+    "Limpe o prédio e a cobertura",
+    "Arrombe o cofre",
+    "Assalto perfeito ou fuga de emergência",
+    "Segure a polícia (se Felipe não aparecer)",
+    "Encha a rua de fumaça",
+    "Tire Nicole de lá",
+    "Defenda o ônibus",
+    "Fuja pela rodovia"
+  ],
+  "passos": [
+    {
+      "titulo": "Exploda as torres de celular",
+      "texto": [
+        "Com Hidden Charges e o resto do Capítulo 3 concluídos, Raul chama a equipe à sala de planejamento em Stockyard. Depois da reunião, entre no carro preto lá fora com Lucia e Nicole e dirija até o centro, em direção às torres que você preparou. Estacione no ponto marcado à beira da rua e detone as cargas."
+      ],
+      "dicas": [
+        "Antes da reunião, leve suas próprias armas com modificações: se você perdeu equipamento em Company Property, as armas da equipe podem vir sem mods. Treine o cofre com Nicole antes, se ainda não treinou."
+      ],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Domine o saguão",
+      "texto": [
+        "Dirija para o sul até o Sinfrontera National Bank: o relógio começa a correr e, com as três torres derrubadas, você tem quase 11 minutos antes de a polícia ficar livre. Entre no saguão, espere o sinal de Karim e nocauteie um dos seguranças marcados. Ameace cada cliente e funcionário marcado para ir para o meio do salão, incluindo os das salas laterais. Resolva primeiro quem Karim avisar que está indo para a porta."
+      ],
+      "dicas": [
+        "Se um segurança sacar a arma, atire na arma em vez de matá-lo para manter o perfil Professional."
+      ],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Desça até o andar do cofre",
+      "texto": [
+        "O jogo passa para Lucia. Pegue o elevador aberto com Raul e Nicole e, no andar do cofre, ameace Lex até ele entrar na sala de segurança. Mantenha a pressão até ele abrir a porta para o caminhão e só nocauteie quando ele for para a parede: se nocautear ou matar antes de ele desativar a segurança, o alarme dispara e você sai com menos dinheiro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Limpe o prédio e a cobertura",
+      "texto": [
+        "De volta a Jason lá em cima, derrube os seguranças do La Polilla Negra que saem dos elevadores e do andar superior. Vá ao segundo andar e pegue o elevador até a cobertura. Os seguranças lá estão olhando o helicóptero no começo, então você atira primeiro. Limpe a cobertura, suba a escada de mão até o nível superior e garanta o terminal reserva."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-13.jpg"
+      ]
+    },
+    {
+      "titulo": "Arrombe o cofre",
+      "texto": [
+        "Com Lucia, abra o cofre com as mesmas três etapas treinadas em Safe Word. Desta vez as duas barras da furadeira se mexem, então ajuste as duas o tempo todo. Com a câmera do cabo, o caminho fica atrás de uma curva bem fechada para a direita: siga até o gancho dourado no final. Depois segure a porta firme enquanto Nicole fura até abrir. Entre correndo e ensaque primeiro os maços grandes de notas, que valem muito mais que o dinheiro solto pela sala."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Assalto perfeito ou fuga de emergência",
+      "texto": [
+        "O que vem depois depende da sua velocidade. O cofre tem 10 maços grandes de notas, cada um valendo $1.000.000 e suficiente para encher uma bolsa em menos de quatro segundos. Ensaque os 10 antes de o alarme disparar e Felipe traz o caminhão de fuga; se faltar um só, ele não aparece. O resultado afeta a fuga e a equipe."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-12.jpg"
+      ]
+    },
+    {
+      "titulo": "Se pegou os 10 maços: assalto perfeito",
+      "texto": [
+        "Felipe encosta o caminhão de ré na doca de carga e Jason e Andrea descem ao subsolo. Pegue as três bolsas em frente ao cofre, siga a equipe até o caminhão e assista à fuga limpa enquanto a polícia passa correndo. A missão pula direto para a cena final."
+      ],
+      "dicas": [],
+      "lista": [
+        "Recompensa: primeiro pagamento de $150.000",
+        "Nada de tiroteio com a polícia e a NOOSE"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Se não pegou: Felipe não aparece",
+      "texto": [
+        "Karim e Raul passam para um plano de emergência e você precisa sair do banco lutando: siga os passos abaixo."
+      ],
+      "dicas": [
+        "Um assalto perfeito é difícil. Exige boa preparação (toda a carga salva em Company Property e todas as torres explodidas em Hidden Charges), combates rápidos com headshots usando o Combat Focus e um arrombamento limpo. Se der errado, você pode reiniciar a missão ou carregar um save de antes dela."
+      ],
+      "lista": [
+        "Recompensa: primeiro pagamento de $100.000",
+        "Fuga longa com muito combate"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Segure a polícia (se Felipe não aparecer)",
+      "texto": [
+        "Com Jason, segure o segundo andar contra os policiais que invadem o saguão e a SWAT que arromba o seu andar. Troque a escopeta por uma arma de alcance maior. Depois, com Lucia, cubra o lado esquerdo do prédio. Quando indicado, reagrupe com Raul no meio do salão. Um caminhão da SWAT entra de ré no saguão e joga uma granada de luz: fique na cobertura até enxergar de novo e acabe com os inimigos que sobraram."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-7.jpg"
+      ]
+    },
+    {
+      "titulo": "Encha a rua de fumaça",
+      "texto": [
+        "Corra até a traseira do caminhão da SWAT: Lucia sobe e joga para Jason um lança-granadas de fumaça. Saia e dispare fumaça nas viaturas em frente ao banco; depois, com Lucia, corra pela porta da frente até o ônibus."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-8.jpg"
+      ]
+    },
+    {
+      "titulo": "Tire Nicole de lá",
+      "texto": [
+        "Com Jason, atire nos inimigos que entram pela frente e ajude Nicole a levantar. Siga-a pela porta por onde os inimigos vieram, vire logo à direita para a escada e desça até o subsolo, atento a uma granada de luz no patamar. Continue descendo, pegue a porta à esquerda quando Nicole indicar para chegar à doca de entregas e siga pela rampa de saída. Entre no veículo Brigade da SWAT no topo da rampa e arranque quando Nicole entrar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-9.jpg"
+      ]
+    },
+    {
+      "titulo": "Defenda o ônibus",
+      "texto": [
+        "Com Lucia no ônibus, atire nos veículos perseguidores pela traseira e ouça Raul, que avisa quando há carros chegando pelos lados. Depois que um caminhão arranca o teto, Raul entrega um lança-granadas com munição infinita (uma LMG, se você perdeu carga em Company Property): use no resto da perseguição. Em seguida um helicóptero vem atrás. É mais fácil acertá-lo com uma granada quando ele fica bem atrás do ônibus, ou troque de arma e use o Focus para atirar no piloto."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-10.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja pela rodovia",
+      "texto": [
+        "De volta a Jason no caminhão blindado, alcance o ônibus tirando viaturas do caminho na batida e encoste do lado esquerdo dele para pular. Dirija o ônibus pela rodovia e mantenha-se à esquerda quando Raul mandar. Depois da cena final, você pode ficar livre por aí ou seguir direto para Ocean Beach, a primeira missão do Capítulo 4."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "the-cartel-heist__cartel-heist-11.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$150.000 (assalto perfeito) ou $100.000 (fuga de emergência)"
+  ],
+  "trofeus": [
+    "Troféu oculto (Bronze, 25G)"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "bricked-up",
+  "ordem": 94,
+  "nome": "Bricked Up",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Boobie Ike",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "$3.500 (só se pegar os tijolos de Boobie)",
+  "resumo": "Boobie manda Jason e Lucia buscar tijolos de cocaína com a gangue San4San, mas o capitão Méndez e seus policiais corruptos invadem o prédio e os dois precisam fugir.",
+  "objetivos": [
+    "De volta ao apartamento",
+    "Vá aos Venture Apartments",
+    "Pergunte por Raymond",
+    "Escape da batida",
+    "Saia pela janela",
+    "Despiste a polícia"
+  ],
+  "passos": [
+    {
+      "titulo": "De volta ao apartamento",
+      "texto": [
+        "Com Hidden Charges e as outras missões principais restantes do Capítulo 3 feitas, Boobie entra em contato e você o encontra dormindo no apartamento de Jason e Lucia em Bayside. Enquanto morarem lá, trabalham para ele, e ele manda os dois buscar uns tijolos de cocaína que a gangue San4San deve a ele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "bricked-up__bricked-up-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá aos Venture Apartments",
+      "texto": [
+        "Dirija até os Venture Apartments, em Rockridge. Lucia sugere estacionar longe da vista: deixe o carro fora da área vermelha do mapa, senão ele é apreendido durante a missão. Vá a pé até a entrada da frente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "bricked-up__bricked-up-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Pergunte por Raymond",
+      "texto": [
+        "No saguão, vire à direita e fale com o homem perto do elevador. Lá em cima, siga pelo corredor e bata na porta vermelha com a portinhola no meio."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "bricked-up__bricked-up-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Escape da batida",
+      "texto": [
+        "O capitão Méndez e seus policiais corruptos invadem o prédio, e você precisa sair lutando só com as pistolas, então pegue as armas longas que os policiais derrubarem. Antes de sair da primeira sala, pegue a bolsa vermelha perto da ponta da mesa: são os tijolos de Boobie. Volte pelo corredor em direção aos elevadores, de olho nas portas laterais e na sala grande antes deles, e desça pela escada no fim do corredor ou pelo elevador; se ele parar, martele o botão para forçar as portas."
+      ],
+      "dicas": [
+        "Pegar a bolsa vermelha rende bônus de Professional e $3.500 de Boobie no final. No terceiro andar, que está escuro, uma arma da polícia com lanterna facilita muito ver os inimigos."
+      ],
+      "lista": [],
+      "imagens": [
+        "bricked-up__bricked-up-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Saia pela janela",
+      "texto": [
+        "Desça lutando pelo terceiro e segundo andares. No fim do último corredor, Raymond indica o apartamento à esquerda dele. Lucia sai pela janela: ajude-a a descer, depois, com Lucia, corra até o estacionamento ao sul, pegue um carro e volte para baixo da janela para buscar Jason."
+      ],
+      "dicas": [
+        "Não abandone o parceiro, porque isso prejudica o relacionamento. Para uma fuga mais difícil, suba para o telhado: um helicóptero da polícia pousa lá e, com bom timing, dá para roubá-lo. Leve colete e Adrenaline; não há recompensa extra por isso."
+      ],
+      "lista": [],
+      "imagens": [
+        "bricked-up__bricked-up-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Despiste a polícia",
+      "texto": [
+        "Um helicóptero da polícia está na sua cola desde o início, então demora: afaste-se o máximo possível do prédio e cuidado com as barreiras. Quando estiver livre, dirija até o Jack of Hearts, onde Boobie espera no carro na frente. No caminho, fique fora da área de busca da polícia; pode trocar de carro se quiser."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "bricked-up__bricked-up-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "$3.500 (só se você levar os tijolos de Boobie na fuga)"
+  ],
+  "trofeus": []
+}

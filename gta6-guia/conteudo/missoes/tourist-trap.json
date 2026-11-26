@@ -1,0 +1,103 @@
+{
+  "slug": "tourist-trap",
+  "ordem": 36,
+  "nome": "Tourist Trap",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos e Mattia Tauro",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Lucia aceitam um serviço simples de Mattia: pegar uma bolsa num armário do Visitor Center. É uma armadilha, e o casal precisa fugir de policiais corruptos.",
+  "aviso": "É o ponto sem volta do Capítulo 1: ao iniciá-la você perde o dinheiro vivo, a casa de Key Lento e só volta a jogar com Jason muito depois.",
+  "objetivos": [
+    "Aceite o serviço de Mattia",
+    "Pegue a bolsa no armário",
+    "Volte para o carro",
+    "Siga o policial",
+    "Pegue a bolsa",
+    "Fuja com Jason",
+    "Fuja para o mar aberto"
+  ],
+  "passos": [
+    {
+      "titulo": "Aceite o serviço de Mattia",
+      "texto": [
+        "Quando estiver pronto para seguir, fale com Lucia, que está recolhendo lixo na praia no sul de Key Lento. Na cena, o casal aceita um serviço de Mattia que pode render trabalhos bem pagos. Ele os deixa no Visitor Center com uma tarefa aparentemente simples: buscar uma bolsa num armário."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "tourist-trap__tourist-trap-accept.jpg"
+      ]
+    },
+    {
+      "titulo": "Pegue a bolsa no armário",
+      "texto": [
+        "Suba a rampa e siga o longo caminho até os armários no final, depois pegue a bolsa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "tourist-trap__tourist-trap-pick-up.jpg"
+      ]
+    },
+    {
+      "titulo": "Volte para o carro",
+      "texto": [
+        "Na volta, a polícia aparece e prende os dois. Era uma armadilha para quem viesse buscar a bolsa, que se torna peça-chave da história."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Siga o policial",
+      "texto": [
+        "Vocês são levados para dentro do prédio para interrogatório. O capitão Méndez chega desesperado atrás da bolsa. Ele é corrupto, e os homens dele matam os policiais honestos no meio do caos."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "tourist-trap__tourist-trap-captured.jpg"
+      ]
+    },
+    {
+      "titulo": "Pegue a bolsa",
+      "texto": [
+        "Jason se solta das algemas e vai atrás da bolsa, mas um dos policiais corruptos atira nele e o deixa gravemente ferido. O jogo passa para Lucia: atire no agressor."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "tourist-trap__tourist-trap-take-cover.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja com Jason",
+      "texto": [
+        "Com Lucia, abra caminho a tiros pelos policiais e siga Jason até o barco nas docas. Matar policiais aqui não afeta seu perfil criminal, porque faz parte da história. Nas docas, arraste Jason até o barco enquanto segura os policiais com a pistola na outra mão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "tourist-trap__tourist-trap-help-jason.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja para o mar aberto",
+      "texto": [
+        "Pilote o barco mar adentro seguindo o marcador rosa e depois até a casa de Cal. Jason desmaia por causa dos ferimentos e Lucia o entrega a Cal, que o leva ao Vice City Hospital para uma cirurgia de emergência. Home Sweet Home começa logo em seguida."
+      ],
+      "dicas": [
+        "Lucia começa a missão com vida e Focus básicos, então jogue com cuidado. Ao sair da sala de interrogatório, pegue a espingarda Moreland 850 do policial caído."
+      ],
+      "lista": [],
+      "imagens": [
+        "tourist-trap__tourist-trap-boat.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

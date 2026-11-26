@@ -1,0 +1,65 @@
+{
+  "slug": "thrillbillies",
+  "ordem": 55,
+  "nome": "Thrillbillies",
+  "capitulo": 2,
+  "tipo": "opcional",
+  "quem_passa": "Billy",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "Até $2.500, conforme a posição na corrida",
+  "resumo": "No Thrillbilly Mud Club, você compra roupas, aluga uma moto de trilha e disputa uma corrida contra a turma de Billy.",
+  "objetivos": [
+    "Compre roupas novas na barraca de souvenirs",
+    "Alugue uma moto na Roostere's Rentals",
+    "Vença um membro da turma de Billy"
+  ],
+  "passos": [
+    {
+      "titulo": "Compre roupas novas na barraca de souvenirs",
+      "texto": [
+        "Durante Coffee Break, Wyman fala das corridas na terra do Thrillbilly Mud Club, e a missão é marcada em seguida. Na entrada do clube, entre na loja de souvenirs e compre roupas para Jason e Lucia. Ao sair, uma cena apresenta Billy e sua turma de pilotos de motocross: Ricky, Brittney e Wyman."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "thrillbillies__thrillbillies-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Alugue uma moto na Roostere's Rentals",
+      "texto": [
+        "Billy quer que você corra com a turma dele. Alugue uma Manchez ou uma Sanchez: a Sanchez é mais cara, mas mais rápida, e você recupera o valor com uma colocação melhor."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "thrillbillies__thrillbillies-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Vença um membro da turma de Billy",
+      "texto": [
+        "Vá até a largada e corra contra outros 13 pilotos. Não precisa vencer, só não chegar em último para impressionar Billy. O primeiro lugar paga $2.500 e as posições abaixo pagam menos (cerca de $625 pelo terceiro). Evite bater em carros para não ser arremessado da moto. Depois da corrida, Billy diz que vai entrar em contato com mais trabalho; mais tarde ele chama você para Twist Wrist, Smash, Grab."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "thrillbillies__thrillbillies-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Como liberar",
+      "texto": [
+        "Conclua Coffee Break e fale com Wyman em frente ao motel, que indica o Thrillbilly Mud Club."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [
+    "Até $2.500 conforme a colocação na corrida"
+  ],
+  "trofeus": []
+}

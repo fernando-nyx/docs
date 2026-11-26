@@ -1,0 +1,69 @@
+{
+  "slug": "moses",
+  "ordem": 46,
+  "nome": "Moses",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Moses",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia leva um carro até a oficina de Moses, aprende a identificar rastreadores com o WAiNK, ganha uma Slim Jim e registra seu primeiro veículo pessoal.",
+  "objetivos": [
+    "Leve um carro para Moses",
+    "Escaneie os veículos com o WAiNK",
+    "Pegue a Slim Jim",
+    "Registre seu novo veículo"
+  ],
+  "passos": [
+    {
+      "titulo": "Leve um carro para Moses",
+      "texto": [
+        "Depois de Girls' Trip, entre com qualquer carro na oficina de Moses em Port Gellhorn para conhecê-lo. Se o carro não tiver rastreador, você poderá registrá-lo no fim da missão; se tiver, Moses manda você buscar um veículo sem rastreador depois."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "moses__moses-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Escaneie os veículos com o WAiNK",
+      "texto": [
+        "Siga Moses até o pátio atrás da oficina, onde há três veículos. Segure o botão para abrir o app WAiNK e escaneie os carros: o canto inferior direito mostra se o carro não tem rastreador, tem rastreador padrão ou rastreador avançado."
+      ],
+      "dicas": [
+        "Carros baratos costumam não ter rastreador; os intermediários têm rastreador padrão, que avisa a polícia de onde você roubou; e os supercarros têm rastreador avançado, que chama a polícia se você dirigir devagar demais. Rastreadores avançados exigem o Key Cloner, que você ganha no Capítulo 3."
+      ],
+      "lista": [],
+      "imagens": [
+        "moses__moses-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Pegue a Slim Jim",
+      "texto": [
+        "Pegue a Slim Jim ao lado de Moses: com ela você arromba carros trancados sem disparar o alarme. Teste no Montagne XL interagindo com a porta e inclinando o analógico direito até a barra passar de branca para rosa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Registre seu novo veículo",
+      "texto": [
+        "Volte à oficina com Moses, que agora oferece registrar carros roubados. Se você não trouxe um carro sem rastreador, roube um na avenida principal que corta Port Gellhorn (ele não aceita carros pegos muito perto da oficina). Pinte com uma cor nova e escolha Register: esse vira o veículo pessoal de Lucia."
+      ],
+      "dicas": [
+        "A partir daqui você pode vender carros roubados sem rastreador para Moses, o jeito mais rápido de ganhar dinheiro nesta fase. A oficina fecha por um ou dois minutos depois de cada venda.",
+        "Escolha carros estacionados sozinhos no fundo de estacionamentos, longe de ruas movimentadas: se alguém te vir levando um carro da rua, chama a polícia."
+      ],
+      "lista": [],
+      "imagens": [
+        "moses__moses-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

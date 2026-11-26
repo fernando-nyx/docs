@@ -1,0 +1,67 @@
+{
+  "slug": "sinfrontera-national-bank",
+  "ordem": 83,
+  "nome": "Sinfrontera National Bank",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Raul Bautista",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Lucia sondam o Sinfrontera National Bank, onde o cartel La Polilla Negra lava dinheiro, e anotam a segurança do local.",
+  "objetivos": [
+    "Vá ao banco",
+    "Espere com Jason",
+    "Identifique a segurança",
+    "Encontre Raul e Andrea"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá ao banco",
+      "texto": [
+        "Depois de Credit Check, Raul chama vocês ao Sinfrontera National Bank, em Tequesta, onde o cartel La Polilla Negra lava seu dinheiro. Suba a escadaria principal e entre pela porta da frente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "sinfrontera-national-bank__snb-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Espere com Jason",
+      "texto": [
+        "Aqui você controla Lucia. Fique com Jason, vá até a mesa próxima e interaja com ela para os dois se apoiarem e se misturarem aos clientes.",
+        "Não vá em direção aos elevadores ou outras áreas restritas, senão um segurança para você para interrogar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "sinfrontera-national-bank__snb-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Identifique a segurança",
+      "texto": [
+        "Ative o Focus para destacar os pontos de interesse e segure o botão de inspecionar em cada um: as câmeras acima do balcão, o homem de terno rosa logo atrás de Jason, os dois seguranças ao lado dos elevadores e o painel de segurança entre os dois elevadores."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "sinfrontera-national-bank__snb-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre Raul e Andrea",
+      "texto": [
+        "Com tudo verificado, Raul chama vocês lá em cima. Junte-se a ele e Andrea e sente na cadeira para encerrar a missão. O próximo passo é encontrar Nicole Park, a especialista em segurança do banco."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "sinfrontera-national-bank__snb-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

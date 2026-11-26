@@ -1,0 +1,44 @@
+{
+  "slug": "just-moved-in",
+  "ordem": 43,
+  "nome": "Just Moved In",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval e Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia compra suprimentos na loja de conveniência em frente ao motel e os leva para o quarto.",
+  "objetivos": [
+    "Compre suprimentos",
+    "Volte para o motel"
+  ],
+  "passos": [
+    {
+      "titulo": "Compre suprimentos",
+      "texto": [
+        "Vá ao posto do outro lado da rua do Starlet Motel e entre na loja de conveniência Alpha. Oito itens ficam marcados no minimapa: refrigerante, barras de proteína, frutas, sopa, gaze, bandanas, máquina de cortar cabelo e uma nécessaire de maquiagem. Cada item é pago assim que você o tira da prateleira, então não precisa falar com o atendente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "just-moved-in__just-moved-in-front-store.jpg"
+      ]
+    },
+    {
+      "titulo": "Volte para o motel",
+      "texto": [
+        "Com tudo em mãos, leve as compras de volta para o quarto."
+      ],
+      "dicas": [
+        "As compras saem por $55, e cuidar de Jason assim melhora a relação dele com Lucia."
+      ],
+      "lista": [],
+      "imagens": [
+        "just-moved-in__just-moved-in-shop.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

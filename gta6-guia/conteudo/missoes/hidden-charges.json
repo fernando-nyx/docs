@@ -1,0 +1,96 @@
+{
+  "slug": "hidden-charges",
+  "ordem": 93,
+  "nome": "Hidden Charges",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Karim",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Jason e Lucia instalam explosivos em torres de celular no centro de Vice City para cortar as comunicações de emergência do banco durante o assalto.",
+  "objetivos": [
+    "Encontre Karim na sala de planejamento",
+    "Dirija até a garagem",
+    "Torre Leste",
+    "Torre Sul",
+    "Torre Oeste",
+    "Fuja"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Karim na sala de planejamento",
+      "texto": [
+        "A missão aparece no mapa como \"Prepping the Explosives\" depois de Company Property, mas Karim só chama você depois de Cooties e da maioria das outras missões principais. Na sala de planejamento em Stockyard, ele explica: explodir torres de celular importantes em Vice City cria uma distração e corta as comunicações de emergência do banco. Jason e Lucia também contam a Raul sobre Tomas e o HD, e ele promete ajudar depois do serviço."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hidden-charges__hidden-charges-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Dirija até a garagem",
+      "texto": [
+        "Entre na van que Karim está enchendo de explosivos e dirija até o marcador no centro. Estacione dentro da garagem marcada no beco."
+      ],
+      "dicas": [
+        "Dá para plantar as cargas com um só personagem ou dividir entre Jason e Lucia. Usar os dois é mais rápido, porque você não precisa voltar à van toda vez, e ainda melhora o relacionamento deles. Cuidado: se morrer ou for preso carregando uma carga, ela se perde de vez."
+      ],
+      "lista": [],
+      "imagens": [
+        "hidden-charges__hidden-charges-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Torre Leste",
+      "texto": [
+        "Você tem até três cargas: uma a menos para cada caixa de carga perdida em Company Property. As torres podem ser feitas em qualquer ordem, mas a Leste fica bem acima da van. Vá até a frente do prédio a oeste (o que tem heliponto no mapa) e pegue o elevador até a cobertura. Suba a escada até o heliponto, atravesse a passarela até o telhado seguinte, suba até a torre e plante a carga."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hidden-charges__hidden-charges-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Torre Sul",
+      "texto": [
+        "Troque para o outro personagem, que já está perto da torre Sul. Passe pela piscina até o elevador, suba até a cobertura, suba a escada de mão e plante a carga na torre."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hidden-charges__hidden-charges-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Torre Oeste",
+      "texto": [
+        "Se ainda tiver a terceira carga, escolha quem vai instalá-la: trocar de personagem coloca você de volta na van, o que é um pouco mais rápido. Pegue a bolsa e vá ao prédio do lado norte. É uma obra e os operários denunciam você por invasão na hora, então seja rápido: o elevador fica lá dentro, à esquerda. Na cobertura, contorne o lado oposto da torre cinza, suba a escada de mão e plante a carga na caixa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "hidden-charges__hidden-charges-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja",
+      "texto": [
+        "Saia da área depois de instalar a última carga. Pegue um paraquedas na caixa da cobertura se não tiver, pule e plane para longe, depois saia da área de busca da polícia para concluir a missão."
+      ],
+      "dicas": [
+        "Cada carga instalada dá mais tempo durante The Cartel Heist."
+      ],
+      "lista": [],
+      "imagens": [
+        "hidden-charges__hidden-charges-6.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio"
+  ],
+  "trofeus": []
+}

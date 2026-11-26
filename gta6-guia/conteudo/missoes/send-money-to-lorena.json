@@ -1,0 +1,30 @@
+{
+  "slug": "send-money-to-lorena",
+  "ordem": 71,
+  "nome": "Send Money to Lorena",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "",
+  "personagem": "",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Abra o celular e envie o dinheiro para Lorena.",
+  "objetivos": [
+    "Envie o dinheiro para Lorena"
+  ],
+  "passos": [
+    {
+      "titulo": "Envie o dinheiro para Lorena",
+      "texto": [
+        "Não precisa ir a lugar nenhum: abra o celular e mande o dinheiro para Lorena para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "send-money-to-lorena__send-money-lorena-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

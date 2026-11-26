@@ -1,0 +1,45 @@
+{
+  "slug": "home-sweet-home",
+  "ordem": 37,
+  "nome": "Home Sweet Home",
+  "capitulo": 1,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia volta à casa de Jason para buscar as coisas dele, enfrenta dois ladrões no meio de um incêndio e precisa escapar de uma caçada policial em Key Lento.",
+  "objetivos": [
+    "Pegue o esconderijo de Jason",
+    "Fuja da área"
+  ],
+  "passos": [
+    {
+      "titulo": "Pegue o esconderijo de Jason",
+      "texto": [
+        "Começa logo após Tourist Trap, com Lucia de volta à casa de Jason para pegar algumas coisas antes de saírem da cidade. Entre: dois ladrões reviraram tudo e puseram fogo na casa. Derrube os dois. Não dá tempo de alcançar o dinheiro, então saia correndo pela porta da frente antes da explosão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "home-sweet-home__sweet-home-stash.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja da área",
+      "texto": [
+        "Começa uma caçada policial. Fique agachado e avance pelo escuro até a estrada principal que corta o meio de Key Lento. De lá, roube um carro e saia da área de busca ou continue a pé, longe da vista da polícia. Perto da borda da área de busca, uma cena inicia a próxima missão: Discharge Time."
+      ],
+      "dicas": [
+        "Antes de sair, pegue a foto de Tomás na prateleirinha à esquerda da porta da frente. Se você ligar para Andy e chegar ao carro dela sem ser visto, Lucia desbloqueia a Andy's Jacket, que pode ser perdida."
+      ],
+      "lista": [],
+      "imagens": [
+        "home-sweet-home__sweet-home-escape.jpg",
+        "home-sweet-home__sweet-home-escape-car.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "cooties",
+  "ordem": 90,
+  "nome": "Cooties",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Dre'Quan Priest",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Lucia participa da gravação do clipe de \"Cooties\", das Dimez, destruindo o carro roubado de DWNPLY, e depois foge da turma dele.",
+  "objetivos": [
+    "Encontre Dre'Quan em Crosstown",
+    "Grave o clipe",
+    "Fuja da turma de DWNPLY",
+    "Entregue o carro"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Dre'Quan em Crosstown",
+      "texto": [
+        "Alguns dias de jogo depois de Ride or Die, Dre'Quan liga para gravar o clipe da música \"Cooties\", das Dimez, estrelando o carro roubado de DWNPLY. Vá até o marcador em Crosstown."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "cooties__cooties-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Grave o clipe",
+      "texto": [
+        "Quase toda a gravação é roteirizada, e você joga com Lucia. Nas partes de direção, segure o acelerador para manter o carro andando e use o analógico para driftar em círculo. Quando o carro parar, saia, tire o homem de cima de Roxy e brigue com o outro que vier para cima. Depois que as meninas quebram o carro, Lucia pega um taco e pode entrar na farra. Para terminar, agite a lata de spray e pinte a lateral do carro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "cooties__cooties-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Fuja da turma de DWNPLY",
+      "texto": [
+        "DWNPLY e os amigos aparecem. Arranque e siga até não sobrar nenhum carro na sua cola e você sair da área vermelha do mapa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "cooties__cooties-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Entregue o carro",
+      "texto": [
+        "Vá em direção ao estúdio: o carro está destruído demais para chegar, e a missão termina com uma cena quando ele quebra."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "cooties__cooties-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio"
+  ],
+  "trofeus": []
+}

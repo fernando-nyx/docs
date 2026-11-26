@@ -1,0 +1,70 @@
+{
+  "slug": "doggie-bag",
+  "ordem": 129,
+  "nome": "Doggie Bag",
+  "capitulo": 5,
+  "tipo": "principal",
+  "quem_passa": "Vinny Capsik",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia entra escondida num navio de cruzeiro, dopa o cachorro Rocco com um biscoito e o carrega até um helicóptero.",
+  "objetivos": [
+    "Embarque no navio",
+    "Pegue o elevador até o deque superior",
+    "Encontre Rocco",
+    "Dê o biscoito batizado a Rocco",
+    "Chegue à zona de pouso"
+  ],
+  "passos": [
+    {
+      "titulo": "Embarque no navio",
+      "texto": [
+        "Você controla Lucia do lado de fora de um navio de cruzeiro atracado e precisa entrar escondida. Passe pela garagem aberta à frente e pegue o corredor da esquerda para ficar longe do funcionário do lado direito das prateleiras. Use a Snap Gun para abrir em silêncio a porta azul Storage. Na sala seguinte dá para pegar um dinheiro; depois nocauteie o funcionário para passar para o outro lado. Espere do lado de fora até todos os guardas se afastarem da passarela de embarque e atravesse para dentro do navio."
+      ],
+      "dicas": [
+        "A pistola com silenciador de Lucia está com munição não letal, então um tiro na cabeça só desacorda os guardas."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Pegue o elevador até o deque superior",
+      "texto": [
+        "Suba até o deque mais alto, lidando com os guardas no caminho. Na próxima área grande, pegue o elevador até o deque superior."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre Rocco",
+      "texto": [
+        "Saia e siga pelo deque para o sudeste, nocauteando os guardas no caminho. As passarelas de baixo ficam um pouco mais longe das patrulhas, então descer pela escada facilita. Rocco está perto da piscina, nos fundos, com alguns guardas ao redor."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Dê o biscoito batizado a Rocco",
+      "texto": [
+        "Espere Rocco chegar perto, foque nele e dê o biscoito batizado. Quando ele dormir, pegue-o no colo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Chegue à zona de pouso",
+      "texto": [
+        "Carregue Rocco até a zona de pouso, no extremo sudeste do navio. Vá pela borda do deque até os fundos, nocauteando os guardas que atrapalharem, e pule no helicóptero para fugir e concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

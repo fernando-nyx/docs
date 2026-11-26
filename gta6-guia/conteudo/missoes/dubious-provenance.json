@@ -1,0 +1,141 @@
+{
+  "slug": "dubious-provenance",
+  "ordem": 66,
+  "nome": "Dubious Provenance",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval e Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "O casal tenta avaliar a estátua num antiquário de Capri, confia nela ao negociante Benedict Halifax e precisa caçá-lo quando ele some com a peça.",
+  "aviso": "O relógio Crowex só é oferecido na primeira conversa com Halifax, e se você nunca entregar a estátua as partes 2 e 3 somem no fim do Capítulo 3.",
+  "objetivos": [
+    "Vá ao antiquário em Capri",
+    "Encontre Evelyn e Halifax",
+    "Invada a Evelyn Andrews Antiques",
+    "Procure Halifax no motel",
+    "Vá à casa de Maryam",
+    "Persiga Halifax",
+    "Resolva a situação com Halifax"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá ao antiquário em Capri",
+      "texto": [
+        "Comece a missão interagindo com a bolsa no armário do apartamento de Bayside. Vá até Capri, no extremo oeste do mapa, de carro ou com um RideMe para ganhar tempo. Tente a porta da frente do antiquário e você sobe automaticamente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dubious-provenance__dubious-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre Evelyn e Halifax",
+      "texto": [
+        "A dona, Evelyn Andrews, se recusa a olhar a estátua: ou é uma falsificação incrível ou é roubada, e ela quer vocês fora dali. O colega dela, o negociante britânico de antiguidades Benedict Halifax, alcança vocês e se oferece para avaliá-la por fora, deixando o relógio valiosíssimo dele como garantia.",
+        "Você entrega a estátua a Halifax? Veja as duas escolhas abaixo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dubious-provenance__dubious-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha: aceitar",
+      "texto": [
+        "Halifax fica com a estátua e te dá o relógio dele, o Crowex Octane \"Bobby Ambrose\", que você pode usar pelo menu Acessórios > Relógios em um guarda-roupa. Afeta as partes 2 e 3."
+      ],
+      "dicas": [],
+      "lista": [
+        "Recompensa: Crowex Octane \"Bobby Ambrose\"",
+        "Segue para a parte 2"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: recusar",
+      "texto": [
+        "Você ganha um objetivo opcional de ligar para Halifax depois e entregar a estátua. Se nunca fizer isso, ele some no fim do Capítulo 3 e você não joga as partes 2 e 3.",
+        "Também aparece um objetivo opcional de explorar Capri juntos. Visitar qualquer loja ou sair da cidade o conclui, sem precisar fazer nada lá."
+      ],
+      "dicas": [
+        "O relógio Crowex é perdível: Halifax só o oferece na primeira vez."
+      ],
+      "lista": [
+        "O relógio Crowex é perdível",
+        "A história segue de qualquer jeito"
+      ],
+      "imagens": [
+        "dubious-provenance__dubious-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Invada a Evelyn Andrews Antiques",
+      "texto": [
+        "Halifax nunca dá retorno, então volte ao antiquário em Capri. O tempo passa até Evelyn sair. Dá para arrombar a porta da frente, mas há um jeito mais discreto.",
+        "Vá pelos fundos: suba a escada, pule no telhado mais baixo e entre pela janela acima do ar-condicionado. Abra a porta para Jason entrar e confira a gaveta da mesa no canto norte da sala."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dubious-provenance__dubious-provenance-part-2-2.jpg",
+        "dubious-provenance__dubious-provenance-part-2-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Procure Halifax no motel",
+      "texto": [
+        "Agora você tem o endereço do motel ao lado. Fale com um dos moradores, que indica um quarto no andar de cima, no lado oeste, e bata na porta: Halifax está no quarto 111 do Sweet Bay Inn. Depois da cena, escolha se confia nele. Confiar pausa a missão de novo até você voltar ao antiquário mais tarde; não confiar leva vocês ao antiquário com ele, onde ele nocauteia Evelyn e foge. Os dois caminhos levam à mesma perseguição."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dubious-provenance__dubious-provenance-part-2-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá à casa de Maryam",
+      "texto": [
+        "Depois de mais um sumiço de Halifax, Evelyn entra em contato com informações. Volte ao antiquário para falar com ela, e ela passa o endereço de uma casa no noroeste da cidade onde acha que ele está."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dubious-provenance__dubious-provenance-part3-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Persiga Halifax",
+      "texto": [
+        "Halifax foge de barco e Jason pula num Seashark para persegui-lo. Chegue perto e segure o botão para pular no barco dele. Ele bate e sai correndo, então nade até a margem e continue atrás. Quando ele rouba um carrinho de golfe, pegue a moto no quintal e siga. Ele joga spray de pimenta em Jason e o jogo passa para Lucia quando ele corre na frente do carro dela: saia do carro, use o Focus e atire na perna dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "dubious-provenance__dubious-provenance-part3-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Resolva a situação com Halifax",
+      "texto": [
+        "Vá até Halifax para ele parar de correr e ligue para Jason pelo celular de Lucia. Quando Jason chega, vocês recuperam a estátua e escolhem se atiram em Halifax ou o poupam: a escolha só afeta o perfil criminal."
+      ],
+      "dicas": [
+        "Depois, saqueie cerca de $2.500 em joias e dinheiro do contêiner de armazenamento e pegue o '32 Hustler estacionado ali para ficar ou vender."
+      ],
+      "lista": [],
+      "imagens": [
+        "dubious-provenance__dubious-provenance-part3-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "Relógio Crowex Octane \"Bobby Ambrose\" (se entregar a estátua na primeira oferta)",
+    "Cerca de $2.500 em joias e dinheiro no contêiner",
+    "Carro '32 Hustler"
+  ],
+  "trofeus": []
+}

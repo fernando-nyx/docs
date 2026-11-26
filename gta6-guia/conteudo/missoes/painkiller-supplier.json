@@ -1,0 +1,33 @@
+{
+  "slug": "painkiller-supplier",
+  "ordem": 49,
+  "nome": "Got Pills?",
+  "capitulo": 2,
+  "tipo": "principal",
+  "quem_passa": "Dunk",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Missão de espera: aguarde as duas ligações de Dunk sobre os analgésicos, que liberam Slam Dunk.",
+  "objetivos": [
+    "Espere a ligação de Dunk"
+  ],
+  "passos": [
+    {
+      "titulo": "Espere a ligação de Dunk",
+      "texto": [
+        "Esta missão não tem marcador no mapa: ela aparece na lista depois de Girls' Trip e se conclui sozinha. Dunk liga depois de alguns dias no jogo, e o melhor jeito de acelerar é fazer as outras missões disponíveis, como Pick Up a Gun, Moses, New Look, How Do I Look? e Ambulance Chaser.",
+        "Depois da primeira ligação, a missão muda para \"Dunk Will Be in Touch\" e você precisa esperar uma segunda ligação, que libera Slam Dunk. Você também pode tentar ligar para Dunk pelo celular antes que ele ligue: ele pode liberar Slam Dunk na hora."
+      ],
+      "dicas": [
+        "Três gatos vivem pelo Starlet Motel: elogie-os até se aproximarem, depois faça carinho e dê comida para ganhar um reforço de Focus, pontos de perfil criminal Professional e um pouco de progresso para o próximo nível de Focus."
+      ],
+      "lista": [],
+      "imagens": [
+        "painkiller-supplier__got-pills-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

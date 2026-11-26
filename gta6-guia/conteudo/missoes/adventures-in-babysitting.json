@@ -1,0 +1,112 @@
+{
+  "slug": "adventures-in-babysitting",
+  "ordem": 113,
+  "nome": "Adventures in Babysitting",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Andrés de León",
+  "personagem": "Jason",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason faz a segurança de Andrés de León numa noitada na The Vault até a boate ser invadida por atiradores da FAP e ele precisar tirar Andrés de lá vivo.",
+  "objetivos": [
+    "Vá até a casa de Andrés",
+    "Cuide de Andrés na boate",
+    "Festa no andar de cima",
+    "Encontre Andrés",
+    "Busque as drogas",
+    "Proteja Andrés",
+    "Fuja de carro",
+    "Chegue ao heliponto",
+    "Defenda o helicóptero"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá até a casa de Andrés",
+      "texto": [
+        "Algum tempo depois de Making Gainz, Jason é chamado de novo para a segurança de Andrés de León. Dirija até a casa dele em Starfish Island, siga Paulo até os fundos para encontrar Andrés e depois dirija até a boate The Vault."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Cuide de Andrés na boate",
+      "texto": [
+        "Siga Andrés para dentro e intervenha quando um bêbado o barra na entrada. Na primeira pista, peça um drinque para ele com o barman à esquerda (ele pediu sem limão, mas errar não faz diferença) e leve até ele perto da escada. Tire uma foto dele com os amigos e siga-o para cima."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Festa no andar de cima",
+      "texto": [
+        "Convide o grupo de garotas à direita para o camarote de Andrés, confirme o pedido com o barman e sente no lugar vago do sofá. Fale com a segurança de Donatello no outro camarote quando pedirem e volte até Andrés. Ele oferece drogas: aceitar não muda nada de forma duradoura; se recusar, ele batiza sua bebida mais tarde de qualquer jeito."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Encontre Andrés",
+      "texto": [
+        "Pegue a bebida que Andrés te entrega (não dá para recusar) e siga-o até a cabine do DJ, o escritório e de volta. Saia empurrando da cabine do DJ e procure-o na mesa: os amigos indicam o banheiro do outro lado da pista, onde ele está na última cabine."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Busque as drogas",
+      "texto": [
+        "Andrés manda você buscar as drogas lá fora. Desça pela escada principal, saia pela porta lá embaixo, vá até o carro que para no fim do beco à direita e volte correndo até Andrés no bar do canto sudeste."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Proteja Andrés",
+      "texto": [
+        "Atiradores da FAP invadem a boate, e a visão de Jason fica bem distorcida pelas drogas até você sair. Abra caminho pela pista com Andrés pegando armas dos inimigos caídos, cuidado com um carro cheio de atiradores no pé da escada e passe pela porta da direita. Quando um inimigo te derrubar, martele o comando na tela para impedir que ele esfaqueie Jason."
+      ],
+      "dicas": [
+        "Cuidado com os civis correndo durante o tiroteio se quiser manter uma boa nota no Criminal Profile."
+      ],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Fuja de carro",
+      "texto": [
+        "Lá fora, entre no carro com a segurança de Andrés e use a LMG pelo teto para destruir os veículos que perseguem vocês. Fique de olho na vida de Jason, porque ele toma muito dano ali em cima."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Chegue ao heliponto",
+      "texto": [
+        "Siga Paulo pela escada rolante e pelo prédio, ajude Andrés a atravessar os trilhos do trem e continue eliminando inimigos. Pegue o elevador, siga Paulo até o terraço, limpe o heliponto e empurre Andrés para dentro do helicóptero."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": []
+    },
+    {
+      "titulo": "Defenda o helicóptero",
+      "texto": [
+        "Troque para o fuzil de assalto, que tem munição infinita aqui, e atire nos helicópteros inimigos, mudando de lado quando pedir. Depois troque para o lança-foguetes: espere o quadrado em cada helicóptero ficar vermelho para travar a mira e dispare. De volta à casa, Andrés descobre que o filho dele, Rafa, foi levado."
+      ],
+      "dicas": [
+        "Mire no rotor de cauda dos helicópteros inimigos: dano suficiente ali os derruba mais rápido do que acertar pilotos ou atiradores."
+      ],
+      "lista": [],
+      "imagens": []
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

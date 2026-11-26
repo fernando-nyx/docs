@@ -1,0 +1,104 @@
+{
+  "slug": "mami-knows-best",
+  "ordem": 67,
+  "nome": "Mami Knows Best",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Mia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Lucia ajuda a mãe, Mia, a arrumar um imóvel à venda em Hamlet, enfrenta um jacaré e se vinga da gangue M7 da casa ao lado com uma escavadeira.",
+  "objetivos": [
+    "Encontre Mia em Peacock Bay",
+    "Explore a casa",
+    "Limpe o lixo do jardim da frente",
+    "Tire o colchão da piscina",
+    "Enfrente o jacaré",
+    "Destrua a propriedade da gangue",
+    "Dirija até o escritório de Mia"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Mia em Peacock Bay",
+      "texto": [
+        "Com Lucia, vá até Peacock Bay encontrar a mãe dela, Mia. Depois da conversa, entre no carro de Mia e dirija até o bairro marcado em Hamlet, onde fica o primeiro imóvel dela à venda."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "mami-knows-best__miami-knows-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Explore a casa",
+      "texto": [
+        "Siga Mia para dentro e passe pelos cômodos enquanto ela avalia o lugar. Não há como vender a casa nesse estado. Volte perto da entrada e ajude Mia a se levantar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "mami-knows-best__mami-knows-7.jpg"
+      ]
+    },
+    {
+      "titulo": "Limpe o lixo do jardim da frente",
+      "texto": [
+        "Pegue os entulhos do jardim da frente, leve até a caçamba azul e jogue dentro. Continue enquanto Mia fala ao telefone."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "mami-knows-best__mami-knows-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Tire o colchão da piscina",
+      "texto": [
+        "Depois da cena, volte à porta da frente e siga Mia até o quintal. Interaja com o colchão e aperte o botão repetidamente para ajudá-la a puxá-lo da piscina."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "mami-knows-best__mami-knows-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Enfrente o jacaré",
+      "texto": [
+        "Um jacaré salta e agarra a perna de Mia: atire rápido para salvá-la. Se demorar, Mia morre e a missão falha. Depois, uma cena mostra mãe e filha rindo juntas."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "mami-knows-best__mami-knows-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Destrua a propriedade da gangue",
+      "texto": [
+        "Membros da gangue M7, que moram ao lado, apontam armas para vocês e mandam ficarem longe. Quando vão embora, Mia sugere dar o troco: suba na escavadeira do outro lado da rua, leve-a até a casa e destrua o prédio e os carros na entrada. Feche a garra para agarrar os carros e arrebentá-los. Destruir a casa é opcional, mas todo dano feito aqui é permanente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "mami-knows-best__mami-knows-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Dirija até o escritório de Mia",
+      "texto": [
+        "Quando tiver causado estrago suficiente, volte ao carro de Mia e dirija até o escritório dela, ali perto, para concluir a missão."
+      ],
+      "dicas": [
+        "Logo depois da missão, Lucia liga para a tia Lorena, o que libera a opção de mandar $5.000 para ela pelo app BuckMe, de uma vez ou em parcelas menores."
+      ],
+      "lista": [],
+      "imagens": [
+        "mami-knows-best__mami-knows-5.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

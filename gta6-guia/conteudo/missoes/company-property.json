@@ -1,0 +1,96 @@
+{
+  "slug": "company-property",
+  "ordem": 87,
+  "nome": "Company Property",
+  "capitulo": 3,
+  "tipo": "principal",
+  "quem_passa": "Brian Heder",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Brian arranja uma entrega de armas com Pilot Pete; a IAA invade a pista, Jason foge de avião com Pete e Lucia protege a carga na caçamba da caminhonete.",
+  "objetivos": [
+    "Encontre Brian no Skeeter's",
+    "Carregue as armas",
+    "Enfrente a IAA",
+    "Decole",
+    "Proteja a carga",
+    "Faça um pouso forçado"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Brian no Skeeter's",
+      "texto": [
+        "Depois de Security Expert, vá ao Skeeter's, no sul de Hamlet. Raul pediu que Brian retribuísse um favor: ele combinou uma entrega de armas com seu antigo contato de contrabando, Pilot Pete. Fale com Brian no bar, siga-o para fora e entre na caminhonete dele."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "company-property__company-property-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Carregue as armas",
+      "texto": [
+        "Dirija até a pista de pouso ao sul de Hamlet e espere o avião de Pete. Ele entrega uma caixa para Jason e Lucia: leve até a traseira da caminhonete de Brian, depois pegue outra caixa do chão e carregue também."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "company-property__company-property-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Enfrente a IAA",
+      "texto": [
+        "Agentes da IAA e policiais invadem a pista. Lucia sai com Brian e você assume Jason. Siga Pete pela porta de garagem à direita até o hangar, onde há um fuzil de assalto e itens de cura em frente à porta. Enfrente os agentes que entrarem, depois siga Pete pelos fundos, pela estrada ao sul e até um telhado, de onde dá para atirar nos carros que descem a estrada."
+      ],
+      "dicas": [
+        "Não abandone Pete durante a fuga: deixá-lo para trás bloqueia permanentemente parte do conteúdo opcional mais adiante."
+      ],
+      "lista": [],
+      "imagens": [
+        "company-property__company-property-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Decole",
+      "texto": [
+        "Continue seguindo Pete pelas árvores e pela pista até o outro hangar, atento aos carros que vêm do outro lado. Jason pula no avião com Pete: saia do hangar, vire à esquerda na pista em velocidade máxima e puxe o manche o quanto antes."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "company-property__company-property-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Proteja a carga",
+      "texto": [
+        "O jogo passa para Lucia na caçamba da caminhonete de Brian, com uma LMG e munição infinita. Destrua os veículos antes que batam na caminhonete, porque cada pancada pode derrubar caixas da carga. Recarregue só quando não houver nada logo atrás."
+      ],
+      "dicas": [
+        "A carga que você salvar define quantos explosivos terá em Hidden Charges, e manter tudo ainda rende bônus de Professional."
+      ],
+      "lista": [],
+      "imagens": [
+        "company-property__company-property-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Faça um pouso forçado",
+      "texto": [
+        "Depois que Lucia entra no carro, siga o objetivo pela estrada até voltar para Jason. O avião está danificado demais para continuar, então mire no campo colorido à direita do rio e desça ali para encerrar a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "company-property__company-property-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio"
+  ],
+  "trofeus": []
+}
