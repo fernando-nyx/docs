@@ -16,7 +16,7 @@
     {
       "binding": "DB",
       "database_name": "vice-detonado",
-      // Preencha com o id que o `npx wrangler d1 create vice100` mostrar.
+      // Preencha com o id que o `npx wrangler d1 create vice-detonado` mostrar.
       "database_id": "REEMPLAZAR_CON_TU_DATABASE_ID",
       "migrations_dir": "migrations"
     }
