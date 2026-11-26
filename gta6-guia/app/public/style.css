@@ -184,3 +184,6 @@ a.iconbtn { display: grid; place-items: center; text-decoration: none; }
 .logo { min-width: 0; }
 .logo small { overflow: hidden; text-overflow: ellipsis; }
 @media (max-width: 360px) { .logo { font-size: 19px; } }
+/* nome do produto sempre numa linha */
+.logo { white-space: nowrap; font-size: clamp(16px, 5.4vw, 22px); }
+@media (max-width: 400px) { .lang { width: 56px; } .iconbtn { width: 34px; height: 34px; } .top { gap: 8px; } }
