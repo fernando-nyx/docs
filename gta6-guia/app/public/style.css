@@ -181,3 +181,6 @@ a.iconbtn { display: grid; place-items: center; text-decoration: none; }
 .mnav { display: flex; justify-content: space-between; gap: 8px; margin-top: 14px; }
 .mnav .btn { max-width: 48%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
 .zoomed { max-width: 100%; max-height: 90vh; border-radius: 12px; }
+.logo { min-width: 0; }
+.logo small { overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 360px) { .logo { font-size: 19px; } }

@@ -1,4 +1,4 @@
-# Concepção — Guia 100% não oficial (GTA 6)
+# Concepção — Vice Detonado (guia de GTA 6)
 
 > Etapa 5 do método (modelagem por adjacência). Base de conteúdo em `base/`.
 
@@ -60,7 +60,7 @@ Os bumps são liberados dentro do mesmo app (um código de acesso por bump). Ass
 
 ## Nome (opções; sem usar a marca)
 
-1. **Vice 100%: Guia de Bolso**
+1. **Vice Detonado** ✅ escolhido (BR). LATAM: "Vice al 100%" · EUA: "Vice Walkthrough"
 2. **Leonida 100%**
 3. **Checklist Vice: o guia não oficial**
 

@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "vice100-app",
+  "name": "vice-detonado",
   "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
 
@@ -15,7 +15,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "vice100",
+      "database_name": "vice-detonado",
       // Preencha com o id que o `npx wrangler d1 create vice100` mostrar.
       "database_id": "REEMPLAZAR_CON_TU_DATABASE_ID",
       "migrations_dir": "migrations"

@@ -1,4 +1,4 @@
-# App Vice 100%
+# App Vice Detonado
 
 Guia de bolso para GTA 6. Cloudflare Worker + D1 (o mesmo modelo do Prato Tranquilo).
 O app (HTML/CSS/JS puro em `public/`) instala na tela inicial e abre offline depois do primeiro acesso.
@@ -37,7 +37,7 @@ Depois mapeie os produtos de teste (passo 3 abaixo, com `--local`).
 
 ## Colocar no ar
 
-1. `npx wrangler d1 create vice100` e cole o `database_id` no `wrangler.jsonc`.
+1. `npx wrangler d1 create vice-detonado` e cole o `database_id` no `wrangler.jsonc`.
 2. `npm run db:migrate:remote` e `npm run deploy`.
 3. **Sellyo → Apps → Webhooks → Novo webhook:**
    - URL: `https://SEU-DOMINIO/api/webhooks/sellyo`

@@ -2,8 +2,8 @@
 // Para lançar um idioma novo: traduzir este bloco + gerar o conteúdo do idioma.
 window.I18N = {
   pt: {
-    brand: 'VICE 100%',
-    tagline: 'Guia de bolso',
+    brand: 'VICE DETONADO',
+    tagline: 'O detonado completo do GTA 6',
     overall: 'do seu guia concluído',
     items: 'itens',
     done: 'feitos',

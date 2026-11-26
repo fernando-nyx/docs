@@ -1,4 +1,4 @@
-# Copy — Página de vendas Vice 100%
+# Copy — Página de vendas Vice Detonado
 
 > Tom: agressivo, direto, falando a língua de quem joga. Blocos na ordem da página.
 > Os números do produto batem com o app atual: 135 missões, 556 imagens, mais de 700 itens marcáveis.
@@ -59,7 +59,7 @@ Quem fecha o GTA 6 rápido não joga melhor que você. **Joga organizado.**
 
 ## 4. Apresentação do produto
 
-# Vice 100%: o guia de bolso do GTA 6
+# Vice Detonado: o guia de bolso do GTA 6
 
 Tudo o que você precisa pra zerar, fechar os 100% e platinar, **num app só, em português, no seu celular.**
 
@@ -98,7 +98,7 @@ Marca no celular e continua de onde parou. Trocou de aparelho? Seu progresso vai
 
 ## 7. Comparação
 
-| | YouTube e sites | Vice 100% |
+| | YouTube e sites | Vice Detonado |
 |---|---|---|
 | Tempo pra achar uma resposta | 10 a 30 minutos | Segundos |
 | Idioma | Metade em inglês | Português |
@@ -141,7 +141,7 @@ Os 15 melhores supercarros e onde achar, garagens de graça, o tanque, o caça, 
 
 Uma hora perdida no YouTube por dia, numa semana, dá **7 horas jogadas fora.** Numa platina de 200 horas, dá pra perder **dias inteiros** procurando coisa.
 
-O Vice 100% custa menos que um lanche:
+O Vice Detonado custa menos que um lanche:
 
 **De R$ 19,90 por apenas**
 # R$ 5,90
@@ -198,6 +198,6 @@ Ou pode ter **tudo na palma da mão** e usar seu tempo pra fazer o que você com
 
 ## Rodapé (obrigatório)
 
-Vice 100% é um guia independente e não oficial, sem vínculo com a Rockstar Games ou a Take-Two Interactive. Grand Theft Auto e GTA são marcas registradas de seus respectivos donos, citadas apenas para identificar o jogo. Localizações podem ser aproximadas e o conteúdo pode mudar com atualizações do jogo.
+Vice Detonado é um guia independente e não oficial, sem vínculo com a Rockstar Games ou a Take-Two Interactive. Grand Theft Auto e GTA são marcas registradas de seus respectivos donos, citadas apenas para identificar o jogo. Localizações podem ser aproximadas e o conteúdo pode mudar com atualizações do jogo.
 
 [Termos de uso] · [Política de privacidade] · [Contato]

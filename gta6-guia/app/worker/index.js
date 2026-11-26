@@ -1,5 +1,5 @@
 /**
- * Vice 100% — API (Cloudflare Worker + D1). O resto do site é servido pelos assets em ./public.
+ * Vice Detonado — API (Cloudflare Worker + D1). O resto do site é servido pelos assets em ./public.
  *
  * Rotas:
  *   POST /api/webhooks/sellyo     venda aprovada / reembolso / chargeback (cria a conta e libera módulos)
