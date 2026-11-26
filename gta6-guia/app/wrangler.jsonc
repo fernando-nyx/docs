@@ -4,6 +4,9 @@
   "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
 
+  // Domínio do app (mesmo esquema do Prato Tranquilo). O domínio vicedetonado.com precisa estar na sua conta Cloudflare.
+  "routes": [{ "pattern": "app.vicedetonado.com", "custom_domain": true }],
+
   // O Worker responde /api/*; o resto (o app) vem de ./public.
   "assets": {
     "directory": "./public",
