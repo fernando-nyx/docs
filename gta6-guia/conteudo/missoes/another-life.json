@@ -1,0 +1,70 @@
+{
+  "slug": "another-life",
+  "ordem": 97,
+  "nome": "Another Life",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Lucia Caminos",
+  "personagem": "Lucia",
+  "conta_100": "Sim",
+  "recompensa": "Conta BuckMe Black (limite de $2.000.000)",
+  "resumo": "Um flashback da última manhã de Lucia com o filho Tomas, antes de ela ser presa.",
+  "objetivos": [
+    "Flashback",
+    "Veja como Tomas está",
+    "Acalme Tomas",
+    "Dance com Tomas"
+  ],
+  "passos": [
+    {
+      "titulo": "Flashback",
+      "texto": [
+        "A missão começa logo depois de Ocean Beach, quando o jogo passa para Lucia. É um flashback da última manhã dela com Tomas e das horas antes de ser presa. Comece pegando o telefone na mesa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "another-life__another-life-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Veja como Tomas está",
+      "texto": [
+        "Vá até o quarto no fim do corredor e tire Tomas do berço."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "another-life__another-life-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Acalme Tomas",
+      "texto": [
+        "Leve-o de volta à sala e interaja com as coisas por lá para acalmá-lo. Quando indicado, aumente o volume do rádio no balcão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "another-life__another-life-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Dance com Tomas",
+      "texto": [
+        "Siga as indicações para dançar pela sala com Tomas. Vêm mais algumas cenas, a missão termina e o troféu Vice City, Baby! é desbloqueado."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "another-life__another-life-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "Conta BuckMe Black (limite de $2.000.000)"
+  ],
+  "trofeus": [
+    "Vice City, Baby!"
+  ]
+}

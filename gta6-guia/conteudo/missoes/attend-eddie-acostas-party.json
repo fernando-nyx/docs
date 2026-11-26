@@ -1,0 +1,89 @@
+{
+  "slug": "attend-eddie-acostas-party",
+  "ordem": 99,
+  "nome": "Attend Eddie Acosta's Party",
+  "capitulo": 4,
+  "tipo": "secundaria",
+  "quem_passa": "Eddie Acosta",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "Nenhuma (pagar Eddie custa $50.000)",
+  "resumo": "Você vai sozinho à festa de Eddie Acosta em Heathcliff Heights e descobre que é um golpe: ele tranca você no terraço e exige um \"investimento\" em cripto.",
+  "objetivos": [
+    "Conheça Eddie",
+    "Vá até Heathcliff Heights",
+    "Encontre Eddie no elevador",
+    "Depois do terraço"
+  ],
+  "passos": [
+    {
+      "titulo": "Como você conhece Eddie",
+      "texto": [
+        "No começo do Capítulo 4, fale com Lucia na sacada do quarto no Y Hotel e aceite ir à piscina para começar Pool Day. No bar, um entusiasta de cripto chamado Eddie Acosta puxa conversa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "attend-eddie-acostas-party__pool-day-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá até Heathcliff Heights",
+      "texto": [
+        "Alguns dias depois de Pool Day, Eddie manda um convite por mensagem e o prédio aparece marcado no centro de Vice City. Vá com Jason ou com Lucia, mas sozinho. Você liga para Eddie automaticamente ao entrar no saguão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "attend-eddie-acostas-party__eddie-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre Eddie no elevador",
+      "texto": [
+        "Eddie sai do elevador e fica vendendo o projeto de cripto dele na subida. Assim que você pisa no terraço, ele tranca a porta: a festa é armação e ele exige um \"investimento\" de $50.000.",
+        "Você decide se paga ou não os $50.000."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "attend-eddie-acostas-party__eddie-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha: pagar",
+      "texto": [
+        "Ele destranca a porta e vem até você, mas tudo o que você recebe é um NFT sem valor no celular."
+      ],
+      "dicas": [],
+      "lista": [
+        "Custo: -$50.000"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Escolha: recusar",
+      "texto": [
+        "Recuse na conversa ou atire nele (a porta é à prova de balas). Para sair do terraço, pegue a bicicleta e passe em velocidade máxima pelos painéis solares para saltar até o telhado vizinho, depois desça de elevador."
+      ],
+      "dicas": [],
+      "lista": [
+        "Custo: nada"
+      ],
+      "imagens": []
+    },
+    {
+      "titulo": "Depois do terraço",
+      "texto": [
+        "Se você não atirou nele, Eddie aparece para conversar depois do salto e depois fica esperando a próxima vítima perto do elevador do saguão. Dá para confrontá-lo lá, e ele foge pela porta da frente. Se você atirou, ele foge na hora. Eddie só tem esta missão, e ela não conta para Strangers & Freaks."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "attend-eddie-acostas-party__eddie-3.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

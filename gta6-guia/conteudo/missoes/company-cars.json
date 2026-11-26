@@ -1,0 +1,72 @@
+{
+  "slug": "company-cars",
+  "ordem": 100,
+  "nome": "Company Cars",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Santino",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Jason e Lucia escolhem carros novos na Status Auto Imports, por conta de Valentina, e apostam corrida de volta ao Y Hotel.",
+  "objetivos": [
+    "Fale com Santino",
+    "Encontre o vendedor",
+    "Escolha dois carros",
+    "Corra de volta ao Y Hotel"
+  ],
+  "passos": [
+    {
+      "titulo": "Fale com Santino",
+      "texto": [
+        "Depois de Pool Day, desça ao saguão do Y Hotel e fale com Santino, o concierge. O marcador pode ainda mostrar um cadeado logo após Pool Day, mas a missão começa mesmo assim. Valentina arranjou carros novos para Jason e Lucia: diga a Santino que quer ir agora e o serviço de carro do hotel leva vocês direto à Status Auto Imports."
+      ],
+      "dicas": [
+        "O serviço de carro do hotel funciona como táxi grátis e pode ser chamado na frente do Y Hotel a qualquer momento."
+      ],
+      "lista": [],
+      "imagens": [
+        "company-cars__company-cars-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre o vendedor",
+      "texto": [
+        "Na concessionária, fale com o vendedor que está discutindo com outro homem ao lado do carro vermelho e depois siga Rob até os carros do outro lado do showroom."
+      ],
+      "dicas": [
+        "O showroom está cheio de carros de luxo que você pode escanear com o app WAiNK para sua coleção."
+      ],
+      "lista": [],
+      "imagens": [
+        "company-cars__company-cars-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Escolha dois carros",
+      "texto": [
+        "Escolha primeiro um carro para Jason, depois um para Lucia: sente no banco do motorista do que você quer e confirme. O Pfister Comet S2 tem os melhores atributos base se você quer algo rápido; a picape ou o SUV formam uma dupla mais equilibrada. Os dois carros ficam seus depois, então dá para melhorar, personalizar ou vender à vontade."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "company-cars__company-cars-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Corra de volta ao Y Hotel",
+      "texto": [
+        "Lá fora, vá atrás de Lucia até ela desafiar você para uma corrida de volta ao Y Hotel. Dano não importa, já que os carros são seus, mas Lucia vai zoar você por isso. Chegue ao hotel para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "company-cars__company-cars-4.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio (carros novos de Jason e Lucia)"
+  ],
+  "trofeus": []
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "party-hard",
+  "ordem": 102,
+  "nome": "Party Hard",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Valentina",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Lucia fazem a segurança do astro de novela Andrés de León na inauguração da Megamundo, enfrentam o ataque da FAP e resgatam Andrés de um helicóptero.",
+  "objetivos": [
+    "Busque Andrés",
+    "Faça um desvio",
+    "Entre na festa",
+    "O ataque",
+    "Lucia na escada",
+    "Vá atrás de Andrés",
+    "Limpe o andar da festa",
+    "Pule no helicóptero",
+    "Pouse no heliponto"
+  ],
+  "passos": [
+    {
+      "titulo": "Busque Andrés",
+      "texto": [
+        "Depois de Lawyer Up, Valentina oferece um trabalho de segurança para pagar o advogado: proteger o astro de novela Andrés de León na inauguração da sede da Megamundo Network. Encontre-a no VCIA e tire Andrés do aeroporto seguindo o carro da frente."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Faça um desvio",
+      "texto": [
+        "Andrés quer beber algo no caminho, então pare no ponto marcado em Little Cuba para pegar o pedido dele e depois dirija até os escritórios da Megamundo em Downtown."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Entre na festa",
+      "texto": [
+        "Siga Andrés para dentro do prédio e, depois da cena no saguão, siga Petra e os outros até o elevador. Lá em cima, vá à sala de reuniões marcada para ver como Andrés está."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-3.jpg"
+      ]
+    },
+    {
+      "titulo": "O ataque",
+      "texto": [
+        "Atiradores da FAP invadem o prédio e levam Andrés. Tire a arma da mão do atacante que ficou na sala e nocauteie-o, depois avance lutando pelo corredor, limpe o andar e pegue o rádio do corpo marcado."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Lucia na escada",
+      "texto": [
+        "Com Lucia, vá agachada pelo lado esquerdo da sala até a escada. Martele os comandos para se livrar do homem que ataca você, chute a arma dele para longe e, quando indicado, acerte-o com o sapato que está no chão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Vá atrás de Andrés",
+      "texto": [
+        "De volta a Jason, continue enfrentando os atacantes enquanto contorna o andar pela esquerda; inimigos saem dos escritórios. Suba a escada quando estiver limpo. Com Lucia, atire no homem do elevador, suba a escada até o buraco na parede e rasteje pelo duto até cair no andar da festa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-6.jpg"
+      ]
+    },
+    {
+      "titulo": "Limpe o andar da festa",
+      "texto": [
+        "Elimine todos os atiradores no andar da festa. A pistola com silenciador não tem munição extra, então faça cada tiro valer, e use o Focus sem mirar para destacar inimigos próximos. Se for visto ou disparar uma arma barulhenta, todos vêm atrás de você, e cuidado para não acertar os reféns lá embaixo. Com o andar limpo, desça, desamarre Valentina e veja como estão os Navarro, escondidos atrás da porta marcada."
+      ],
+      "dicas": [
+        "Derrube os inimigos um por vez, da cobertura, com a pistola silenciada: ser visto coloca o andar inteiro contra você."
+      ],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-7.jpg"
+      ]
+    },
+    {
+      "titulo": "Pule no helicóptero",
+      "texto": [
+        "Com Jason, corra até a cobertura e pule no helicóptero enquanto ele decola. Martele os comandos para brigar com os sequestradores, desvie dos ataques e chute-os para fora, depois puxe Andrés de volta para dentro."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-8.jpg"
+      ]
+    },
+    {
+      "titulo": "Pouse no heliponto",
+      "texto": [
+        "Assuma os controles, voe de volta à sede da Megamundo e pouse no heliponto da cobertura para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "party-hard__party-hard-9.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

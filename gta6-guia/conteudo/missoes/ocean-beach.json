@@ -1,0 +1,92 @@
+{
+  "slug": "ocean-beach",
+  "ordem": 96,
+  "nome": "Ocean Beach",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval e Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "1 desbloqueio",
+  "resumo": "Depois do assalto, Jason e Lucia deixam o apartamento de Bayside e se mudam para uma suíte no Y Hotel, onde Valentina os apresenta ao concierge Santino.",
+  "objetivos": [
+    "Saia do apartamento",
+    "Dirija até o Y Hotel",
+    "Encontre Valentina",
+    "Encontre o quarto 701",
+    "Explore a suíte",
+    "Comemore na sacada"
+  ],
+  "passos": [
+    {
+      "titulo": "Saia do apartamento",
+      "texto": [
+        "Depois de The Cartel Heist, você pode voltar direto ao apartamento de Bayside ou iniciar a missão na próxima vez que passar por lá. Jason e Lucia juntam as coisas e deixam o apartamento de vez."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ocean-beach__ocean-beach-0.jpg"
+      ]
+    },
+    {
+      "titulo": "Dirija até o Y Hotel",
+      "texto": [
+        "Vá até o Y Hotel, do lado de Vice Beach da cidade. O manobrista fica com o carro na entrada, então é só entrar."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ocean-beach__ocean-beach-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre Valentina",
+      "texto": [
+        "Valentina espera do lado direito do saguão. A suíte faz parte do esquema de lavagem de dinheiro dela: ela apresenta Santino, o concierge, e promete marcar um encontro com Abraham Gonzalez, advogado famoso de Vice City que pode ajudar Jason e Lucia a começar vida nova. Siga-a até o elevador."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ocean-beach__ocean-beach-2_copy.jpg"
+      ]
+    },
+    {
+      "titulo": "Encontre o quarto 701",
+      "texto": [
+        "Suba de elevador até o 7º andar, vire à esquerda e vá até o fim do corredor para chegar ao quarto 701."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ocean-beach__ocean-beach-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Explore a suíte",
+      "texto": [
+        "Explore o lugar novo enquanto Lucia abre cada cômodo. Quando ela abrir o quarto, interaja com o guarda-roupa: roupas novas ficam disponíveis a partir deste capítulo."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ocean-beach__ocean-beach-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Comemore na sacada",
+      "texto": [
+        "Siga Lucia até ela sair para a sacada e falar do champanhe. Volte para dentro, pegue duas taças no balcão e leve uma para ela para concluir a missão."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "ocean-beach__ocean-beach-5.jpg"
+      ]
+    }
+  ],
+  "recompensas": [
+    "1 desbloqueio (suíte no Y Hotel)"
+  ],
+  "trofeus": []
+}

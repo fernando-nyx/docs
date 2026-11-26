@@ -1,0 +1,78 @@
+{
+  "slug": "pool-day",
+  "ordem": 98,
+  "nome": "Pool Day",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Jason Duval e Lucia Caminos",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Lucia curtem a piscina do Y Hotel, onde conhecem Eddie Acosta, e depois caminham pela praia.",
+  "objetivos": [
+    "Encontre Lucia na sacada",
+    "Pegue um drinque para Lucia",
+    "Conheça Eddie Acosta",
+    "Observe as pessoas",
+    "Caminhe pela praia"
+  ],
+  "passos": [
+    {
+      "titulo": "Encontre Lucia na sacada",
+      "texto": [
+        "Pool Day começa logo depois de Another Life, quando você volta para Jason na suíte do Y Hotel. Ela não é marcada como missão normal: vá até a sacada falar com Lucia (se tentar sair da suíte, ela chama você de volta) e topa descer para a piscina."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "pool-day__pool-day-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Pegue um drinque para Lucia",
+      "texto": [
+        "Depois de se acomodar na cabana, levante e passe pela piscina à direita até o bar para pedir um Tequila Sunrise para Lucia."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "pool-day__pool-day-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Conheça Eddie Acosta",
+      "texto": [
+        "Na volta, um homem chamado Eddie Acosta para você e faz um convite para uma festa. Você pode aceitar ou recusar, mas é convidado de qualquer jeito, e a missão opcional Attend Eddie Acosta's Party aparece no mapa para depois."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "pool-day__pool-day-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Observe as pessoas",
+      "texto": [
+        "Leve o drinque para Lucia, sente com ela e observe o movimento. Olhe para o homem boiando no flamingo inflável e chute qual é a profissão dele, depois para o grupo à esquerda, onde um deles parece o Cal, e por fim para a mulher de chapéu grande sentada na borda da piscina, à direita."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "pool-day__pool-day-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Caminhe pela praia",
+      "texto": [
+        "Quando Lucia levantar, siga-a até a praia para encerrar a missão. Valentina liga logo depois e as duas próximas missões aparecem no mapa."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "pool-day__pool-day-5.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "lawyer-up",
+  "ordem": 101,
+  "nome": "Lawyer Up",
+  "capitulo": 4,
+  "tipo": "principal",
+  "quem_passa": "Valentina",
+  "personagem": "Jason e Lucia",
+  "conta_100": "Sim",
+  "recompensa": "",
+  "resumo": "Jason e Lucia conhecem o advogado Abe Gonzalez, que aceita cuidar dos problemas legais deles em troca de um favor.",
+  "objetivos": [
+    "Vá ao escritório de Abe",
+    "Conheça Sandy",
+    "Conheça Abe Gonzalez",
+    "Pague os honorários de Abe (mais tarde)"
+  ],
+  "passos": [
+    {
+      "titulo": "Vá ao escritório de Abe",
+      "texto": [
+        "Depois de Pool Day, Valentina liga dizendo que achou um advogado para Jason e Lucia. Dirija até o escritório de Abe Gonzalez em Downtown Vice City."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "lawyer-up__lawyer-up-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Conheça Sandy",
+      "texto": [
+        "Fale com a recepcionista e depois vá até os fundos do escritório conhecer Sandy, a assistente de Abe."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "lawyer-up__lawyer-up-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Conheça Abe Gonzalez",
+      "texto": [
+        "Suba até a sala de Abe. Ele aceita começar a trabalhar nos problemas legais dos dois em troca de um favor. Enquanto Jason está fora da sala, Abe diz a Lucia que a situação dela seria bem mais fácil de resolver se ela entregasse Jason, mas ela recusa. A missão termina depois da cena."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "lawyer-up__lawyer-up-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Pague os honorários de Abe (mais tarde)",
+      "texto": [
+        "Há uma tarefa ligada a Abe: depois de terminar Party Hard, ele entra em contato e você precisa pagar $75.000 para avançar com as novas identidades."
+      ],
+      "dicas": [],
+      "lista": [],
+      "imagens": [
+        "lawyer-up__pay-abe-1.jpg"
+      ]
+    }
+  ],
+  "recompensas": [],
+  "trofeus": []
+}
