@@ -1,8 +1,8 @@
 {
   "name": "Vice 100% — Guia de Bolso",
   "short_name": "Vice 100%",
-  "description": "Guia não oficial para GTA 6: checklist dos 100%, colecionáveis e perdíveis.",
-  "start_url": "./",
+  "description": "Checklist dos 100%, colecionáveis e perdíveis, no seu celular.",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#0d0618",
   "theme_color": "#0d0618",

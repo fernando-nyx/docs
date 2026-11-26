@@ -141,3 +141,23 @@ h3.sec-t { font-size: 15px; font-weight: 800; margin: 20px 0 8px; color: var(--c
 .err { color: #ff7aa8; font-size: 13px; min-height: 18px; margin-top: 6px; }
 .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ok); color: #062018; font-weight: 800; padding: 10px 16px; border-radius: 99px; z-index: 30; box-shadow: 0 6px 30px rgba(0, 0, 0, .5); }
 .fab { position: fixed; right: 16px; bottom: 16px; z-index: 6; }
+
+/* login, conta, termos */
+a.iconbtn { display: grid; place-items: center; text-decoration: none; }
+.muted { color: var(--muted); }
+.meta { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.hero-login { min-height: 170px; }
+.card-form, .dlg label { display: block; }
+.card-form { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
+.card-form h2 { margin: 0 0 4px; font-weight: 400; font-size: 22px; }
+.card-form p { margin: 0 0 14px; font-size: 14px; }
+.card-form label, .dlg label { font-weight: 700; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.card-form input, .dlg label input { display: block; width: 100%; margin-top: 6px; background: var(--bg2); border: 1px solid var(--line); color: var(--text); border-radius: 10px; padding: 12px; font: 600 16px Inter; text-transform: none; letter-spacing: 0; }
+.card-form input:focus, .dlg input:focus { outline: 2px solid var(--pink); border-color: transparent; }
+.btn.big { width: 100%; padding: 14px; font-size: 15px; margin-top: 8px; }
+.btn[disabled] { opacity: .6; }
+.dlg .spacer { flex: 1; }
+.terms ul { padding-left: 18px; margin: 10px 0 6px; max-height: 55vh; overflow: auto; }
+.terms li { margin: 8px 0; color: #e7dcf7; font-size: 14px; }
+.nudge { display: block; width: 100%; text-align: left; background: rgba(255, 210, 74, .1); border: 1px solid rgba(255, 210, 74, .4); color: #ffe9b0; border-radius: 12px; padding: 12px; font: 14px Inter; margin-bottom: 14px; cursor: pointer; }
+.lockline { font-size: 18px; }

@@ -1,9 +1,13 @@
-// Converte os arquivos de ../base/*.md em data/<lang>.json para o app.
-// Uso: node build.js   (gera data/pt.json)
+// Converte o conteúdo em markdown (../conteudo, versão para o cliente) em worker/content/<lang>.json.
+// Uso: node build.js
 const fs = require('fs');
 const path = require('path');
 
-const BASE = path.join(__dirname, '..', 'base');
+const FILES = ['01-historia-e-inicio.md', '02a-checklist-100-e-progress-database.md', '02b-colecionaveis-localizacoes.md',
+  '03-dinheiro-e-roubos.md', '04-carros-armas-segredos.md', '05-trofeus-platina.md'];
+const BASE = FILES.every((f) => fs.existsSync(path.join(__dirname, '..', 'conteudo', f)))
+  ? path.join(__dirname, '..', 'conteudo')
+  : path.join(__dirname, '..', 'base');
 
 // Módulos do app. "bump" = vendido como order bump (trancado até liberar com código).
 const MODULES = [
@@ -115,6 +119,8 @@ for (const m of MODULES) {
     k + (b.type === 'table' && b.check ? b.items.length : b.type === 'list' ? b.items.filter((x) => x.check).length : 0), 0), 0);
   out.modules.push({ id: m.id, icon: m.icon, bump: m.bump, total, sections });
 }
-fs.mkdirSync(path.join(__dirname, 'data'), { recursive: true });
-fs.writeFileSync(path.join(__dirname, 'data', 'pt.json'), JSON.stringify(out));
+const dir = path.join(__dirname, 'worker', 'content');
+fs.mkdirSync(dir, { recursive: true });
+fs.writeFileSync(path.join(dir, 'pt.json'), JSON.stringify(out));
+console.log('fonte:', path.relative(__dirname, BASE));
 for (const m of out.modules) console.log(m.id.padEnd(10), 'seções:', String(m.sections.length).padStart(3), ' itens marcáveis:', m.total);

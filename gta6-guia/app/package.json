@@ -1,0 +1,17 @@
+{
+  "name": "vice100-app",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "content": "node build.cjs",
+    "dev": "node build.cjs && wrangler dev --port 8787 --var APP_ENV:development",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
+    "deploy": "node build.cjs && wrangler deploy",
+    "sellyo:simulate": "node scripts/simulate-sellyo.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.40.0"
+  }
+}

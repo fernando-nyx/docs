@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vice100-app",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+
+  // O Worker responde /api/*; o resto (o app) vem de ./public.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "vice100",
+      // Preencha com o id que o `npx wrangler d1 create vice100` mostrar.
+      "database_id": "REEMPLAZAR_CON_TU_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+
+  // Variáveis não secretas. Segredo opcional: `npx wrangler secret put SELLYO_WEBHOOK_TOKEN`.
+  "vars": {
+    "APP_ENV": "production",
+    // Senha inicial de quem compra (informe no e-mail de entrega da Sellyo).
+    "DEFAULT_PASSWORD": "12345678",
+    // Links de checkout mostrados nos módulos trancados (opcional).
+    "CHECKOUT_URL": "",
+    "BUMP_URL_DINHEIRO": "",
+    "BUMP_URL_PLATINA": "",
+    "BUMP_URL_GARAGEM": ""
+  }
+}
