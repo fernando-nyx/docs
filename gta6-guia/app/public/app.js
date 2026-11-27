@@ -134,10 +134,8 @@
     const mods = ME.modules.map((m) => {
       const info = t.modules[m.id] || { t: m.id, d: '' };
       if (!m.access) {
-        const url = ME.bumpUrls[m.id] || ME.checkoutUrl;
         return `<a class="mod locked" href="#/locked/${m.id}"><div class="ic">${m.icon}</div><div style="flex:1">
-          <h3>${info.t}${t.locked ? `<span class="tag">${t.locked}</span>` : ''}</h3><p>${info.d}</p>
-          ${url ? `<span class="btn gold">🔒 ${t.get}</span>` : '<span class="lockline">🔒</span>'}</div></a>`;
+          <h3>${info.t}${t.locked ? `<span class="tag">${t.locked}</span>` : ''}<span class="lockline">🔒</span></h3><p>${info.d}</p></div></a>`;
       }
       const s = modStat(m);
       return `<a class="mod" href="${m.id === 'missoes' ? '#/missoes' : '#/m/' + m.id}"><div class="ic">${m.icon}</div><div style="flex:1">
@@ -153,8 +151,7 @@
       ${nudge}
       <form class="search" onsubmit="location.hash='#/busca/'+encodeURIComponent(this.q.value);return false">
         <span>🔎</span><input name="q" type="search" placeholder="${esc(t.search)}" autocomplete="off"></form>
-      <div class="grid">${mods}</div>
-      <p class="foot">${t.updated} ${new Date(ME.built).toLocaleDateString('pt-BR')}</p>`;
+      <div class="grid">${mods}</div>`;
   }
 
   function renderBlock(b, q) {
@@ -350,12 +347,41 @@
     });
   }
 
+  // Link do checkout da Sellyo: já preenchido com os dados da conta (name, email, phone) e com UTMs,
+  // para a venda chegar no webhook com utm_source=app e liberar na mesma conta.
+  // O checkout só lê o telefone certo com o código do país: +5511988887777 → (11) 98888-7777.
+  function intlPhone(v) {
+    const d = String(v || '').replace(/\D/g, '');
+    if (!d) return '';
+    if (String(v).trim().startsWith('+')) return '+' + d;
+    if (d.length === 10 || d.length === 11) return '+55' + d; // DDD + número, sem o país
+    return '+' + d; // já vem com o 55 (ou outro país)
+  }
+
+  function withUtm(url, id) {
+    if (!url) return '';
+    try {
+      const u = new URL(url);
+      const set = {
+        name: ME.user.name, email: ME.user.email, phone: intlPhone(ME.user.phone),
+        utm_source: 'app', utm_medium: 'modulo_trancado', utm_campaign: 'upsell_app', utm_content: id,
+      };
+      for (const [k, v] of Object.entries(set)) if (v && !u.searchParams.has(k)) u.searchParams.set(k, v);
+      return u.toString();
+    } catch { return url; }
+  }
+
   function lockedDialog(id) {
     const t = T();
     const m = ME.modules.find((x) => x.id === id);
-    const url = ME.bumpUrls[id] || ME.checkoutUrl;
-    dialog(`<div class="dlg"><h3>${m.icon} ${t.modules[id].t}</h3><p>${t.modules[id].d}</p><p>${t.lockedHint}</p>
-      <div class="row"><button class="btn ghost" id="cx">${t.cancel}</button>${url ? `<a class="btn gold" href="${esc(url)}" target="_blank" rel="noopener">${t.get}</a>` : ''}</div></div>`, (el) => {
+    const url = withUtm(ME.bumpUrls[id] || ME.checkoutUrl, id);
+    const info = t.modules[id];
+    // Com link de compra: texto de venda + botão; sem link: só a descrição e o aviso.
+    const body = url && info.pitch
+      ? `${info.hook ? `<p class="hook">${info.hook}</p>` : ''}${info.pitch.map((x) => `<p>${x}</p>`).join('')}<p class="hint">${t.buyHint.replace('{email}', esc(ME.user.email))}</p>`
+      : `<p>${info.d}</p><p>${url ? t.buyHint.replace('{email}', esc(ME.user.email)) : t.lockedHint}</p>`;
+    dialog(`<div class="dlg${url ? ' sell' : ''}"><h3>${m.icon} ${info.t}</h3>${body}
+      <div class="row"><button class="btn ghost" id="cx">${t.close}</button>${url ? `<a class="btn gold" href="${esc(url)}" target="_blank" rel="noopener">🔓 ${t.buy}</a>` : ''}</div></div>`, (el) => {
       $('#cx', el).onclick = () => { closeDialog(); location.hash = '#/'; };
     });
   }

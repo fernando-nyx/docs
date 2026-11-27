@@ -157,10 +157,17 @@ a.iconbtn { display: grid; place-items: center; text-decoration: none; }
 .btn.big { width: 100%; padding: 14px; font-size: 15px; margin-top: 8px; }
 .btn[disabled] { opacity: .6; }
 .dlg .spacer { flex: 1; }
+.dlg.sell .row { justify-content: space-between; }
+.dlg.sell .row .btn { padding: 12px 16px; font-size: 14px; }
+.dlg.sell .row .btn.gold { flex: 1; max-width: 220px; box-shadow: 0 6px 18px rgba(255, 163, 74, .35); }
+.dlg .hook { color: var(--text); font-weight: 800; font-size: 16px; }
+.dlg p b { color: var(--gold); }
+.dlg .hint { font-size: 12px; border-top: 1px solid var(--line); padding-top: 10px; margin-top: 4px; }
 .terms ul { padding-left: 18px; margin: 10px 0 6px; max-height: 55vh; overflow: auto; }
 .terms li { margin: 8px 0; color: #e7dcf7; font-size: 14px; }
 .nudge { display: block; width: 100%; text-align: left; background: rgba(255, 210, 74, .1); border: 1px solid rgba(255, 210, 74, .4); color: #ffe9b0; border-radius: 12px; padding: 12px; font: 14px Inter; margin-bottom: 14px; cursor: pointer; }
-.lockline { font-size: 18px; }
+.lockline { font-size: 14px; margin-left: 8px; vertical-align: 1px; }
+.mod p:last-child { margin-bottom: 0; }
 
 /* missões */
 .mrow { align-items: center; }
