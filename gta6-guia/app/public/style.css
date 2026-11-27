@@ -160,7 +160,8 @@ a.iconbtn { display: grid; place-items: center; text-decoration: none; }
 .terms ul { padding-left: 18px; margin: 10px 0 6px; max-height: 55vh; overflow: auto; }
 .terms li { margin: 8px 0; color: #e7dcf7; font-size: 14px; }
 .nudge { display: block; width: 100%; text-align: left; background: rgba(255, 210, 74, .1); border: 1px solid rgba(255, 210, 74, .4); color: #ffe9b0; border-radius: 12px; padding: 12px; font: 14px Inter; margin-bottom: 14px; cursor: pointer; }
-.lockline { font-size: 18px; }
+.lockline { font-size: 14px; margin-left: 8px; vertical-align: 1px; }
+.mod p:last-child { margin-bottom: 0; }
 
 /* missões */
 .mrow { align-items: center; }

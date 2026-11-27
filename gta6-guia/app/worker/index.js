@@ -14,6 +14,7 @@
  */
 import CONTENT_PT from './content/pt.json';
 import MISSOES_PT from './content/missoes-pt.json';
+import { accessEmail, cancelEmail, sendEmail, productTitle } from './emails.js';
 
 const CONTENT = { pt: CONTENT_PT };
 const TERMS_VERSION = '2026-11-26';
@@ -182,7 +183,44 @@ function redact(v, k = '') {
   return v;
 }
 
-async function sellyoWebhook(req, env, url) {
+// ---------- e-mails ----------
+// Espera os avisos dos bumps do mesmo pedido chegarem antes de montar o e-mail (o waitUntil aguenta até 30 s).
+const EMAIL_DELAY_MS = 8000;
+
+/** Um e-mail por pedido e tipo: o primeiro aviso do pedido reserva o envio; os seguintes (bumps) só atualizam a compra. */
+async function notifyBuyer(env, { kind, email, name, orderId, basePayment }) {
+  const type = kind === 'approved' ? 'access' : kind; // access | refunded | chargeback
+  const id = `${type}:${orderId || basePayment}`;
+  const claim = await env.DB.prepare("INSERT OR IGNORE INTO email_log (id, kind, to_email, status) VALUES (?, ?, ?, 'queued')")
+    .bind(id, type, email).run();
+  if (!claim.meta?.changes) return;
+  const done = (status, detail = '') =>
+    env.DB.prepare("UPDATE email_log SET status = ?, detail = ?, updated_at = strftime('%Y-%m-%dT%H:%M:%fZ','now') WHERE id = ?")
+      .bind(status, String(detail).slice(0, 500), id).run();
+
+  await new Promise((r) => setTimeout(r, Number(env.EMAIL_DELAY_MS ?? EMAIL_DELAY_MS)));
+  const user = (await env.DB.prepare('SELECT * FROM users WHERE email = ?').bind(email).first()) || { id: null, email, name: '' };
+  const grants = await grantsFor(env, user);
+  const who = user.name || name || '';
+
+  let msg;
+  if (type === 'access') {
+    if (!grants.size) return done('skipped', 'produto sem mapeamento em products.grants');
+    msg = accessEmail(env, { name: who, email, grants, isDefaultPassword: user.must_change_password !== 0 });
+  } else {
+    const { results } = await env.DB.prepare(
+      `SELECT pr.name, pr.grants FROM purchases pu LEFT JOIN products pr ON pr.external_id = pu.external_id
+        WHERE pu.status = ?1 AND pu.buyer_email = ?2
+          AND (pu.order_id = ?3 OR pu.transaction_id = ?4 OR pu.transaction_id LIKE ?4 || ':%')`,
+    ).bind(kind, email, orderId, basePayment).all();
+    const items = [...new Set(results.map((r) => productTitle(r.grants, r.name)).filter(Boolean))];
+    msg = cancelEmail(env, { name: who, kind, items, stillHasAccess: grants.size > 0 });
+  }
+  const r = await sendEmail(env, { to: email, ...msg, idempotencyKey: id });
+  await done(r.ok ? 'sent' : 'failed', r.ok ? r.id : r.error);
+}
+
+async function sellyoWebhook(req, env, url, ctx) {
   if (env.SELLYO_WEBHOOK_TOKEN && !sameText(url.searchParams.get('token') || '', env.SELLYO_WEBHOOK_TOKEN)) {
     return json({ ok: false, error: 'Token inválido' }, 401);
   }
@@ -242,6 +280,12 @@ async function sellyoWebhook(req, env, url) {
     if (!prod?.grants) unmapped.push(it.externalId);
   }
   const outcome = kind === 'approved' ? (unmapped.length ? 'unmapped_product' : 'granted') : kind === 'pending' ? 'recorded' : 'revoked';
+  if (kind !== 'pending') {
+    const job = notifyBuyer(env, { kind, email, name: p.customer?.name, orderId: p.order?.orderId || null, basePayment })
+      .catch((e) => console.error('email_error', e?.message));
+    if (ctx) ctx.waitUntil(job);
+    else await job;
+  }
   return log(outcome, [created ? 'conta criada' : '', unmapped.length ? 'sem mapeamento: ' + unmapped.join(', ') : ''].filter(Boolean).join(' · '));
 }
 
@@ -268,11 +312,20 @@ async function me(user, env) {
   };
 }
 
-async function api(req, env, url) {
+async function api(req, env, url, ctx) {
   const path = url.pathname;
   const method = req.method;
 
-  if (path === '/api/webhooks/sellyo' && method === 'POST') return sellyoWebhook(req, env, url);
+  if (path === '/api/webhooks/sellyo' && method === 'POST') return sellyoWebhook(req, env, url, ctx);
+
+  // Prévia dos e-mails, só no ambiente de desenvolvimento: /api/dev/email/acesso | reembolso | chargeback
+  const pv = path.match(/^\/api\/dev\/email\/(acesso|reembolso|chargeback)$/);
+  if (pv && method === 'GET' && isDev(env)) {
+    const m = pv[1] === 'acesso'
+      ? accessEmail(env, { name: 'Lucia Caminos', email: 'lucia@example.com', grants: new Set(['principal', 'dinheiro', 'platina']), isDefaultPassword: true })
+      : cancelEmail(env, { name: 'Lucia Caminos', kind: pv[1] === 'chargeback' ? 'chargeback' : 'refunded', items: ['Vice Detonado', 'Rota do Dinheiro'], stillHasAccess: false });
+    return new Response(m.html, { headers: { 'content-type': 'text/html; charset=utf-8' } });
+  }
 
   if (path === '/api/login' && method === 'POST') {
     const b = (await readJson(req)) || {};
@@ -358,11 +411,11 @@ async function api(req, env, url) {
 }
 
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
     const url = new URL(req.url);
     if (url.pathname.startsWith('/api/')) {
       try {
-        return await api(req, env, url);
+        return await api(req, env, url, ctx);
       } catch (e) {
         console.error('api_error', e?.message);
         return json({ error: 'INTERNAL' }, 500); // a Sellyo reenvia em caso de 5xx

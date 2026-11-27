@@ -136,8 +136,8 @@
       if (!m.access) {
         const url = ME.bumpUrls[m.id] || ME.checkoutUrl;
         return `<a class="mod locked" href="#/locked/${m.id}"><div class="ic">${m.icon}</div><div style="flex:1">
-          <h3>${info.t}${t.locked ? `<span class="tag">${t.locked}</span>` : ''}</h3><p>${info.d}</p>
-          ${url ? `<span class="btn gold">🔒 ${t.get}</span>` : '<span class="lockline">🔒</span>'}</div></a>`;
+          <h3>${info.t}${t.locked ? `<span class="tag">${t.locked}</span>` : ''}${url ? '' : '<span class="lockline">🔒</span>'}</h3><p>${info.d}</p>
+          ${url ? `<span class="btn gold">🔒 ${t.get}</span>` : ''}</div></a>`;
       }
       const s = modStat(m);
       return `<a class="mod" href="${m.id === 'missoes' ? '#/missoes' : '#/m/' + m.id}"><div class="ic">${m.icon}</div><div style="flex:1">
@@ -153,8 +153,7 @@
       ${nudge}
       <form class="search" onsubmit="location.hash='#/busca/'+encodeURIComponent(this.q.value);return false">
         <span>🔎</span><input name="q" type="search" placeholder="${esc(t.search)}" autocomplete="off"></form>
-      <div class="grid">${mods}</div>
-      <p class="foot">${t.updated} ${new Date(ME.built).toLocaleDateString('pt-BR')}</p>`;
+      <div class="grid">${mods}</div>`;
   }
 
   function renderBlock(b, q) {

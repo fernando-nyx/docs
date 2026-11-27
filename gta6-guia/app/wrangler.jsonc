@@ -37,6 +37,12 @@
     "CHECKOUT_URL": "",
     "BUMP_URL_DINHEIRO": "",
     "BUMP_URL_PLATINA": "",
-    "BUMP_URL_GARAGEM": ""
+    "BUMP_URL_GARAGEM": "",
+    // E-mails (Resend). A chave é segredo: `npx wrangler secret put RESEND_API_KEY`.
+    // O domínio do remetente precisa estar verificado em resend.com/domains.
+    "APP_URL": "https://app.vicedetonado.com",
+    "EMAIL_FROM": "Vice Detonado <acesso@vicedetonado.com>",
+    // Para onde vão as respostas dos clientes (vazio = sem "responda este e-mail").
+    "EMAIL_REPLY_TO": ""
   }
 }
