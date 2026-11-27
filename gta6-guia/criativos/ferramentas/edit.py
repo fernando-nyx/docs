@@ -9,6 +9,7 @@ os.makedirs(OUT, exist_ok=True); os.makedirs(ED + '/clips', exist_ok=True)
 W, H, FPS = 720, 1280, 30
 
 def src(name):
+    name = name.replace('v7f', 'v7')
     return f'{REC}/{name}.webm' if name.startswith(('app-', 'yt-')) else f'{BR}/{name}.mp4'
 
 # Como cada fonte entra no quadro vertical
@@ -16,7 +17,8 @@ FILL = 'scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280'
 MODE = {
     'v1': FILL + ',eq=brightness=0.05:contrast=1.08',
     'v8': 'crop=iw*0.84:ih*0.84:(iw-ow)/2:ih*0.03,' + FILL,          # esconde a marca d'água do canto
-    'v7': 'BLUR',                                                       # trailer horizontal: fundo desfocado
+    'v7': 'BLUR',
+    'v7f': 'crop=iw:ih*0.86:0:ih*0.07,' + FILL,                                                       # trailer horizontal: fundo desfocado
 }
 
 def clip(i, name, ss, dur):
@@ -99,35 +101,35 @@ def caps_from(n, groups):
 T1 = [(0.0, 'v6', 0.3), (1.95, 'yt-busca', 2.4), (3.35, 'v4', 10.0), (4.7, 'yt-busca', 3.7), (5.7, 'yt-scrub', 0.7),
       (6.9, 'yt-player', 1.0), (9.35, 'yt-scrub', 1.6), (10.9, 'yt-ingles', 0.9), (11.65, 'v1', 3.0),
       (14.9, 'app-home', 1.0), (17.2, 'app-lista', 1.2), (18.7, 'app-missao', 3.0), (20.3, 'app-missao', 5.2),
-      (21.2, 'v4', 16.0), (25.2, 'app-pct-c', 0.9)]
-C1 = caps_from(1, [(0, 'VOCÊ NÃO TÁ JOGANDO *GTA 6*'), (6, 'VOCÊ TÁ ASSISTINDO *YOUTUBE*'), (10, 'TRAVOU NUMA MISSÃO'),
+      (21.2, 'v6', 3.8), (22.5, 'v8', 17.4), (24.2, 'v2', 5.0), (25.2, 'app-pct-c', 0.9)]
+C1 = caps_from(1, [(0, 'VOCÊ NÃO TÁ JOGANDO *GTA VI*'), (6, 'VOCÊ TÁ ASSISTINDO *YOUTUBE*'), (10, 'TRAVOU NUMA MISSÃO'),
     (13, '*PAUSA.*'), (14, 'ABRE O VÍDEO...'), (17, '*38 MINUTOS*'), (21, 'PULA INTRO'), (23, 'PULA O *DEIXA O LIKE*'),
     (27, 'PULA O *PATROCINADOR*'), (30, 'NÃO É ESSE'), (33, 'ABRE OUTRO'), (35, 'EM *INGLÊS*'), (37, 'MEIA HORA DEPOIS...'),
     (40, 'O CONTROLE TÁ NO SOFÁ'), (45, 'E VOCÊ *NÃO ACHOU NADA*'), (50, 'AGORA IMAGINA ABRIR O CELULAR'), (55, 'E TÁ *TUDO ALI*'),
     (59, 'AS *135 MISSÕES*'), (62, '*PASSO A PASSO* COM IMAGEM'), (67, 'EM *PORTUGUÊS*'), (69, 'É O *VICE DETONADO*'),
-    (74, 'O DETONADO COMPLETO DO *GTA 6*'), (80, 'NO SEU CELULAR'), (83, 'TOCA NO BOTÃO'), (86, 'E PARA DE PERDER TEMPO'),
+    (74, 'O DETONADO COMPLETO DO *GTA VI*'), (80, 'NO SEU CELULAR'), (83, 'TOCA NO BOTÃO'), (86, 'E PARA DE PERDER TEMPO'),
     (91, 'PROCURANDO VÍDEO NO *YOUTUBE*')])
 
 # ---------------- CRIATIVO 2 — DESEJO ----------------
 T2 = [(0.0, 'v8', 3.6), (1.9, 'app-perdivel', 2.1), (4.4, 'v8', 10.4), (7.0, 'v1', 8.0), (8.8, 'v7', 6.3),
       (11.4, 'app-home', 1.0), (12.6, 'app-capitulo', 1.4), (15.6, 'app-checklist', 1.6), (18.0, 'app-filtro', 1.5),
-      (19.8, 'v4', 20.0), (22.6, 'app-pct-c', 0.9)]
-C2 = caps_from(2, [(0, 'TEM MISSÃO NO *GTA 6*'), (5, 'QUE *SOME PRA SEMPRE*'), (9, 'SE VOCÊ AVANÇAR O CAPÍTULO'),
+      (19.8, 'v7f', 2.2), (21.4, 'v8', 19.0), (22.6, 'app-pct-c', 0.9)]
+C2 = caps_from(2, [(0, 'TEM MISSÃO NO *GTA VI*'), (5, 'QUE *SOME PRA SEMPRE*'), (9, 'SE VOCÊ AVANÇAR O CAPÍTULO'),
     (14, 'NO FIM DO *CAPÍTULO 1*'), (20, 'O JOGO *ZERA SEU DINHEIRO*'), (25, 'QUEM DESCOBRE DEPOIS...'), (29, '*PERDE.*'),
     (30, 'QUEM QUER FECHAR OS *100%*'), (36, 'PRECISA *SABER ANTES*'), (39, 'COM O *VICE DETONADO*'), (44, 'VOCÊ SABE O QUE FAZER'),
     (49, 'EM CADA CAPÍTULO ANTES DE AVANÇAR'), (55, 'A *CHECKLIST DOS 100%*'), (60, '*ITEM POR ITEM*'), (63, 'E VOCÊ VÊ NA HORA'),
-    (68, 'O QUE *ESTÁ FALTANDO*'), (72, 'O DETONADO COMPLETO DO *GTA 6*'), (79, 'NO SEU CELULAR'), (82, 'TOCA NO BOTÃO'),
+    (68, 'O QUE *ESTÁ FALTANDO*'), (72, 'O DETONADO COMPLETO DO *GTA VI*'), (79, 'NO SEU CELULAR'), (82, 'TOCA NO BOTÃO'),
     (85, 'E PARA DE PERDER TEMPO'), (90, 'PROCURANDO VÍDEO NO *YOUTUBE*')])
 
 # ---------------- CRIATIVO 3 — RESULTADO ----------------
 T3 = [(0.0, 'v4', 5.0), (2.4, 'v1', 1.0), (4.2, 'app-lista', 0.9), (5.1, 'app-missao', 2.2), (7.7, 'app-checklist', 2.0),
       (9.6, 'app-busca', 0.9), (12.8, 'yt-scrub', 0.6), (13.95, 'yt-ingles', 0.8), (15.15, 'v1', 4.0),
       (16.45, 'app-pct-a', 0.7), (17.05, 'app-pct-b', 0.7), (17.65, 'app-pct-c', 0.7), (18.3, 'v2', 1.0), (22.3, 'app-pct-c', 0.9)]
-C3 = caps_from(3, [(0, 'É ASSIM QUE EU JOGO *GTA 6* AGORA'), (8, 'CELULAR DO LADO'), (11, 'CONTROLE NA MÃO'), (14, 'CHEGOU NUMA MISSÃO?'),
+C3 = caps_from(3, [(0, 'É ASSIM QUE EU JOGO *GTA VI* AGORA'), (8, 'CELULAR DO LADO'), (11, 'CONTROLE NA MÃO'), (14, 'CHEGOU NUMA MISSÃO?'),
     (17, '*ABRO*, VEJO O *PASSO A PASSO*'), (23, 'COM IMAGEM E *SIGO*'), (28, 'PEGUEI UM COLECIONÁVEL?'), (31, '*TOCO E MARCO*'),
     (34, 'NÃO SEI ONDE TÁ UMA COISA?'), (40, 'DIGITO NA *BUSCA*'), (42, 'E APARECE *NA HORA*'), (46, '*ZERO* VÍDEO NO YOUTUBE'),
     (50, '*ZERO* ABA EM INGLÊS'), (54, '*ZERO* PAUSA DE MEIA HORA'), (59, 'E A MINHA *PORCENTAGEM*'), (63, '*SÓ SOBE*'),
-    (65, 'É O *VICE DETONADO*'), (70, 'O DETONADO COMPLETO DO *GTA 6*'), (76, 'NO SEU CELULAR'), (79, 'TOCA NO BOTÃO'),
+    (65, 'É O *VICE DETONADO*'), (70, 'O DETONADO COMPLETO DO *GTA VI*'), (76, 'NO SEU CELULAR'), (79, 'TOCA NO BOTÃO'),
     (82, 'E PARA DE PERDER TEMPO'), (87, 'PROCURANDO VÍDEO NO *YOUTUBE*')])
 
 which = sys.argv[1:] or ['1', '2', '3']
