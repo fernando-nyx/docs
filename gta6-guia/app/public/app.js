@@ -136,7 +136,7 @@
       if (!m.access) {
         const url = ME.bumpUrls[m.id] || ME.checkoutUrl;
         return `<a class="mod locked" href="#/locked/${m.id}"><div class="ic">${m.icon}</div><div style="flex:1">
-          <h3>${info.t}<span class="tag">${t.locked}</span></h3><p>${info.d}</p>
+          <h3>${info.t}${t.locked ? `<span class="tag">${t.locked}</span>` : ''}</h3><p>${info.d}</p>
           ${url ? `<span class="btn gold">🔒 ${t.get}</span>` : '<span class="lockline">🔒</span>'}</div></a>`;
       }
       const s = modStat(m);
