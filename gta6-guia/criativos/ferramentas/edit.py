@@ -101,7 +101,7 @@ def caps_from(n, groups):
 T1 = [(0.0, 'v6', 0.3), (1.95, 'yt-busca', 2.4), (3.35, 'v4', 10.0), (4.7, 'yt-busca', 3.7), (5.7, 'yt-scrub', 0.7),
       (6.9, 'yt-player', 1.0), (9.35, 'yt-scrub', 1.6), (10.9, 'yt-ingles', 0.9), (11.65, 'v1', 3.0),
       (14.9, 'app-home', 1.0), (17.2, 'app-lista', 1.2), (18.7, 'app-missao', 3.0), (20.3, 'app-missao', 5.2),
-      (21.2, 'v6', 3.8), (22.5, 'v8', 17.4), (24.2, 'v2', 5.0), (25.2, 'app-pct-c', 0.9)]
+      (21.2, 'v14', 0.5), (22.5, 'v8', 17.4), (24.2, 'v9', 11.5), (25.2, 'app-pct-c', 0.9)]
 C1 = caps_from(1, [(0, 'VOCÊ NÃO TÁ JOGANDO *GTA VI*'), (6, 'VOCÊ TÁ ASSISTINDO *YOUTUBE*'), (10, 'TRAVOU NUMA MISSÃO'),
     (13, '*PAUSA.*'), (14, 'ABRE O VÍDEO...'), (17, '*38 MINUTOS*'), (21, 'PULA INTRO'), (23, 'PULA O *DEIXA O LIKE*'),
     (27, 'PULA O *PATROCINADOR*'), (30, 'NÃO É ESSE'), (33, 'ABRE OUTRO'), (35, 'EM *INGLÊS*'), (37, 'MEIA HORA DEPOIS...'),
@@ -124,7 +124,7 @@ C2 = caps_from(2, [(0, 'TEM MISSÃO NO *GTA VI*'), (5, 'QUE *SOME PRA SEMPRE*'),
 # ---------------- CRIATIVO 3 — RESULTADO ----------------
 T3 = [(0.0, 'v4', 5.0), (2.4, 'v1', 1.0), (4.2, 'app-lista', 0.9), (5.1, 'app-missao', 2.2), (7.7, 'app-checklist', 2.0),
       (9.6, 'app-busca', 0.9), (12.8, 'yt-scrub', 0.6), (13.95, 'yt-ingles', 0.8), (15.15, 'v1', 4.0),
-      (16.45, 'app-pct-a', 0.7), (17.05, 'app-pct-b', 0.7), (17.65, 'app-pct-c', 0.7), (18.3, 'v2', 1.0), (22.3, 'app-pct-c', 0.9)]
+      (16.45, 'app-pct-a', 0.7), (17.05, 'app-pct-b', 0.7), (17.65, 'app-pct-c', 0.7), (18.3, 'v14', 3.0), (20.0, 'v9', 1.5), (21.3, 'v13', 4.0), (22.3, 'app-pct-c', 0.9)]
 C3 = caps_from(3, [(0, 'É ASSIM QUE EU JOGO *GTA VI* AGORA'), (8, 'CELULAR DO LADO'), (11, 'CONTROLE NA MÃO'), (14, 'CHEGOU NUMA MISSÃO?'),
     (17, '*ABRO*, VEJO O *PASSO A PASSO*'), (23, 'COM IMAGEM E *SIGO*'), (28, 'PEGUEI UM COLECIONÁVEL?'), (31, '*TOCO E MARCO*'),
     (34, 'NÃO SEI ONDE TÁ UMA COISA?'), (40, 'DIGITO NA *BUSCA*'), (42, 'E APARECE *NA HORA*'), (46, '*ZERO* VÍDEO NO YOUTUBE'),
