@@ -35,9 +35,9 @@
     "MAX_LOGINS_DAY": "5",
     // Links de checkout mostrados nos módulos trancados (opcional).
     "CHECKOUT_URL": "",
-    "BUMP_URL_DINHEIRO": "",
-    "BUMP_URL_PLATINA": "",
-    "BUMP_URL_GARAGEM": "",
+    "BUMP_URL_DINHEIRO": "https://pay.sellyo.com.br/p/hiexk9vxgg5",
+    "BUMP_URL_PLATINA": "https://pay.sellyo.com.br/p/7h851xt12js",
+    "BUMP_URL_GARAGEM": "https://pay.sellyo.com.br/p/a6a5xyxyxp1",
     // E-mails (Resend). A chave é segredo: `npx wrangler secret put RESEND_API_KEY`.
     // O domínio do remetente precisa estar verificado em resend.com/domains.
     "APP_URL": "https://app.vicedetonado.com",

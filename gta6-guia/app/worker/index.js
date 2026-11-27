@@ -248,12 +248,18 @@ async function sellyoWebhook(req, env, url, ctx) {
 
   let user = await env.DB.prepare('SELECT id FROM users WHERE email = ?').bind(email).first();
   let created = false;
+  const buyerName = String(p.customer?.name || '').trim().slice(0, 200);
+  const buyerPhone = String(p.customer?.phone || '').replace(/[^\d+]/g, '').slice(0, 20);
   if (!user && kind === 'approved') {
     const id = crypto.randomUUID();
-    await env.DB.prepare('INSERT INTO users (id, email, name, password_hash) VALUES (?, ?, ?, ?)')
-      .bind(id, email, String(p.customer?.name || '').slice(0, 200), await hashPassword(env.DEFAULT_PASSWORD || '12345678')).run();
+    await env.DB.prepare('INSERT INTO users (id, email, name, phone, password_hash) VALUES (?, ?, ?, ?, ?)')
+      .bind(id, email, buyerName, buyerPhone, await hashPassword(env.DEFAULT_PASSWORD || '12345678')).run();
     user = { id };
     created = true;
+  } else if (user && kind === 'approved' && (buyerName || buyerPhone)) {
+    // Completa nome/telefone que ainda estejam vazios (contas antigas ou compra sem telefone).
+    await env.DB.prepare(`UPDATE users SET name = CASE WHEN name = '' THEN ?1 ELSE name END,
+        phone = CASE WHEN phone = '' THEN ?2 ELSE phone END WHERE id = ?3`).bind(buyerName, buyerPhone, user.id).run();
   }
 
   const stmts = [];
@@ -301,6 +307,7 @@ async function me(user, env) {
     user: {
       email: user.email,
       name: user.name,
+      phone: user.phone || '',
       mustChangePassword: !!user.must_change_password,
       termsAccepted: user.terms_version === TERMS_VERSION,
     },
