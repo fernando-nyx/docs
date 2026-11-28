@@ -11,10 +11,12 @@
  *   GET  /api/content/:lang/:mod  conteúdo do módulo (só se a compra liberou)
  *   GET  /api/missions/:lang      índice das missões · GET /api/missions/:lang/:slug  passo a passo
  *   GET  /api/progress  · PUT /api/progress { data }
+ *   GET  /api/email/sair?e=&t=    descadastro dos e-mails de recuperação
+ * Agendador (cron a cada 5 min): envia os e-mails de recuperação de carrinho/Pix que estão na hora.
  */
 import CONTENT_PT from './content/pt.json';
 import MISSOES_PT from './content/missoes-pt.json';
-import { accessEmail, cancelEmail, sendEmail, productTitle } from './emails.js';
+import { accessEmail, cancelEmail, recoveryEmail, sendEmail, productTitle } from './emails.js';
 
 const CONTENT = { pt: CONTENT_PT };
 const TERMS_VERSION = '2026-11-26';
@@ -151,6 +153,7 @@ const EVENT_KIND = {
   sale_boleto_generated: 'pending',
   sale_refunded: 'refunded',
   sale_chargeback: 'chargeback',
+  sale_abandoned: 'abandoned',
 };
 
 /** Itens do aviso. A Sellyo costuma mandar um aviso por produto (bump = outro aviso, mesmo orderId);
@@ -220,6 +223,106 @@ async function notifyBuyer(env, { kind, email, name, orderId, basePayment }) {
   await done(r.ok ? 'sent' : 'failed', r.ok ? r.id : r.error);
 }
 
+// ---------- recuperação de vendas (e-mail) ----------
+// Primeiro e-mail: carrinho em 60 min, Pix em 15 min. Depois, 24 h e 48 h após o início (iguais para os dois).
+const REC_FIRST_MIN = { cart: 60, pix: 15 };
+const REC_LATER_H = [24, 48];
+const addMin = (iso, m) => new Date(Date.parse(iso) + m * 60000).toISOString();
+
+async function hmacTag(env, value) {
+  const secret = env.UNSUB_SECRET || env.SELLYO_WEBHOOK_TOKEN || env.RESEND_API_KEY || 'vice-detonado';
+  const key = await crypto.subtle.importKey('raw', enc.encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+  return b64url(new Uint8Array(await crypto.subtle.sign('HMAC', key, enc.encode(value)))).slice(0, 24);
+}
+async function unsubUrl(env, email) {
+  const base = String(env.APP_URL || 'https://app.vicedetonado.com').replace(/\/+$/, '');
+  return `${base}/api/email/sair?e=${encodeURIComponent(email)}&t=${await hmacTag(env, email)}`;
+}
+
+/** Link de volta ao checkout: o que vier no aviso da Sellyo; senão, o checkout do produto (pelos módulos que ele libera). */
+async function recoveryLink(env, p, externalId, kind) {
+  const fromPayload = [p.checkout?.url, p.checkoutUrl, p.checkout_url, p.cart?.checkoutUrl, p.cart?.url, p.links?.checkout, p.payment?.checkoutUrl]
+    .find((x) => typeof x === 'string' && /^https:\/\//.test(x));
+  let url = fromPayload;
+  if (!url) {
+    const prod = await env.DB.prepare('SELECT grants FROM products WHERE external_id = ?').bind(externalId).first();
+    const g = String(prod?.grants || '');
+    url = g.includes('dinheiro') ? env.BUMP_URL_DINHEIRO : g.includes('platina') ? env.BUMP_URL_PLATINA : g.includes('garagem') ? env.BUMP_URL_GARAGEM : env.CHECKOUT_URL;
+  }
+  if (!url) return '';
+  try {
+    const u = new URL(url);
+    const phone = String(p.customer?.phone || '').replace(/[^\d]/g, '');
+    const set = { name: p.customer?.name, email: p.customer?.email, phone, utm_source: 'email', utm_medium: 'recuperacao', utm_campaign: kind };
+    for (const [k, v] of Object.entries(set)) if (v && !u.searchParams.has(k)) u.searchParams.set(k, String(v));
+    return u.toString();
+  } catch { return url; }
+}
+
+/** Começa (ou atualiza) a sequência de recuperação de uma pessoa. */
+async function startRecovery(env, p, { kind, email, externalId }) {
+  if (await env.DB.prepare('SELECT 1 FROM email_optout WHERE email = ?').bind(email).first()) return 'optout';
+  // Já comprou esse produto? Nada a recuperar.
+  const owned = await env.DB.prepare("SELECT 1 FROM purchases WHERE buyer_email = ? AND external_id = ? AND status = 'approved'").bind(email, externalId).first();
+  if (owned) return 'ja comprou';
+  const id = `${kind}:${email}`;
+  const link = await recoveryLink(env, p, externalId, kind);
+  const pixCode = String(p.payment?.pix?.copyPaste || p.payment?.pix?.code || p.payment?.pix?.qrCode || p.payment?.pixCode || p.pix?.code || '').slice(0, 1000);
+  const t = now();
+  const cur = await env.DB.prepare('SELECT status, updated_at FROM recovery WHERE id = ?').bind(id).first();
+  if (cur?.status === 'active') {
+    // Sequência já em andamento: só atualiza o link/código (não recomeça para não repetir e-mails).
+    await env.DB.prepare("UPDATE recovery SET link = COALESCE(NULLIF(?, ''), link), pix_code = COALESCE(NULLIF(?, ''), pix_code), updated_at = ? WHERE id = ?")
+      .bind(link, pixCode, t, id).run();
+    return 'em andamento';
+  }
+  // Uma sequência encerrada há menos de 7 dias não recomeça (evita mandar a mesma série de novo).
+  if (cur && Date.now() - Date.parse(cur.updated_at) < 7 * 86400000) return 'recente';
+  await env.DB.batch([
+    env.DB.prepare(`INSERT INTO recovery (id, kind, email, name, external_id, link, pix_code, step, next_at, status, created_at, updated_at)
+       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, 0, ?8, 'active', ?9, ?9)
+       ON CONFLICT(id) DO UPDATE SET name = ?4, external_id = ?5, link = ?6, pix_code = ?7, step = 0, next_at = ?8, status = 'active', detail = '', created_at = ?9, updated_at = ?9`)
+      .bind(id, kind, email, String(p.customer?.name || '').slice(0, 200), externalId, link, pixCode, addMin(t, REC_FIRST_MIN[kind]), t),
+    // Quem gerou Pix sai da sequência de carrinho (fica só a do Pix).
+    ...(kind === 'pix' ? [env.DB.prepare("UPDATE recovery SET status = 'done', detail = 'virou pix', updated_at = ? WHERE id = ? AND status = 'active'").bind(t, `cart:${email}`)] : []),
+  ]);
+  return 'iniciada';
+}
+
+/** Compra aprovada: encerra as sequências dessa pessoa. */
+const stopRecovery = (env, email) =>
+  env.DB.prepare("UPDATE recovery SET status = 'bought', updated_at = ? WHERE email = ? AND status = 'active'").bind(now(), email).run();
+
+/** Agendador: envia os e-mails que estão na hora (até 50 por rodada). */
+async function runRecovery(env) {
+  const { results } = await env.DB.prepare("SELECT * FROM recovery WHERE status = 'active' AND next_at <= ? ORDER BY next_at LIMIT 50").bind(now()).all();
+  for (const r of results) {
+    const t = now();
+    const close = (status, detail = '') => env.DB.prepare('UPDATE recovery SET status = ?, detail = ?, updated_at = ? WHERE id = ?').bind(status, detail, t, r.id).run();
+    if (await env.DB.prepare('SELECT 1 FROM email_optout WHERE email = ?').bind(r.email).first()) { await close('optout'); continue; }
+    const bought = await env.DB.prepare("SELECT 1 FROM purchases WHERE buyer_email = ? AND status = 'approved' AND (external_id = ? OR updated_at >= ?)")
+      .bind(r.email, r.external_id, r.created_at).first();
+    if (bought) { await close('bought'); continue; }
+    if (!r.link) { await close('done', 'sem link de checkout'); continue; }
+    const step = r.step + 1;
+    const unsub = await unsubUrl(env, r.email);
+    const msg = recoveryEmail(env, { kind: r.kind, step, name: r.name, link: r.link, pixCode: r.pix_code, unsubUrl: unsub });
+    const res = await sendEmail(env, { to: r.email, ...msg, idempotencyKey: `rec:${r.id}:${r.created_at}:${step}`,
+      headers: { 'List-Unsubscribe': `<${unsub}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' } });
+    if (!res.ok) {
+      // Falhou: tenta de novo em 15 min; desiste depois de 3 dias do início.
+      const giveUp = Date.now() - Date.parse(r.created_at) > 3 * 86400000;
+      await env.DB.prepare('UPDATE recovery SET next_at = ?, status = ?, detail = ?, updated_at = ? WHERE id = ?')
+        .bind(addMin(t, 15), giveUp ? 'done' : 'active', `falha no e-mail ${step}: ${res.error}`, t, r.id).run();
+      continue;
+    }
+    const next = step <= REC_LATER_H.length ? addMin(r.created_at, REC_LATER_H[step - 1] * 60) : null;
+    await env.DB.prepare('UPDATE recovery SET step = ?, next_at = ?, status = ?, detail = ?, updated_at = ? WHERE id = ?')
+      .bind(step, next || t, next ? 'active' : 'done', `e-mail ${step} enviado`, t, r.id).run();
+  }
+  return results.length;
+}
+
 async function sellyoWebhook(req, env, url, ctx) {
   if (env.SELLYO_WEBHOOK_TOKEN && !sameText(url.searchParams.get('token') || '', env.SELLYO_WEBHOOK_TOKEN)) {
     return json({ ok: false, error: 'Token inválido' }, 401);
@@ -237,6 +340,12 @@ async function sellyoWebhook(req, env, url, ctx) {
   const dup = await env.DB.prepare('SELECT outcome FROM webhook_events WHERE id = ?').bind(eventId).first();
   if (dup) return json({ ok: true, outcome: 'duplicate' });
   if (kind === 'ignore') return log('ignored');
+  if (kind === 'abandoned') {
+    const email = normEmail(p.customer?.email);
+    const it = itemsOf(p)[0];
+    if (!validEmail(email) || !it) return log('ignored', 'abandono sem e-mail ou produto');
+    return log('recovery', await startRecovery(env, p, { kind: 'cart', email, externalId: it.externalId }));
+  }
   if (kind === 'approved' && p.subscription?.customerAccess?.hasAccess === false) return log('ignored', 'sem acesso');
 
   const email = normEmail(p.customer?.email);
@@ -285,6 +394,9 @@ async function sellyoWebhook(req, env, url, ctx) {
     const prod = await env.DB.prepare('SELECT grants FROM products WHERE external_id = ?').bind(it.externalId).first();
     if (!prod?.grants) unmapped.push(it.externalId);
   }
+  let recNote = '';
+  if (kind === 'approved') await stopRecovery(env, email);
+  else if (p.event === 'sale_pix_generated') recNote = 'recuperação: ' + (await startRecovery(env, p, { kind: 'pix', email, externalId: items[0].externalId }));
   const outcome = kind === 'approved' ? (unmapped.length ? 'unmapped_product' : 'granted') : kind === 'pending' ? 'recorded' : 'revoked';
   if (kind !== 'pending') {
     const job = notifyBuyer(env, { kind, email, name: p.customer?.name, orderId: p.order?.orderId || null, basePayment })
@@ -292,7 +404,7 @@ async function sellyoWebhook(req, env, url, ctx) {
     if (ctx) ctx.waitUntil(job);
     else await job;
   }
-  return log(outcome, [created ? 'conta criada' : '', unmapped.length ? 'sem mapeamento: ' + unmapped.join(', ') : ''].filter(Boolean).join(' · '));
+  return log(outcome, [created ? 'conta criada' : '', unmapped.length ? 'sem mapeamento: ' + unmapped.join(', ') : '', recNote].filter(Boolean).join(' · '));
 }
 
 // ---------- rotas da conta ----------
@@ -326,6 +438,30 @@ async function api(req, env, url, ctx) {
   if (path === '/api/webhooks/sellyo' && method === 'POST') return sellyoWebhook(req, env, url, ctx);
 
   // Prévia dos e-mails, só no ambiente de desenvolvimento: /api/dev/email/acesso | reembolso | chargeback
+  const rv = path.match(/^\/api\/dev\/email\/(carrinho|pix)-([123])$/);
+  if (rv && method === 'GET' && isDev(env)) {
+    const m = recoveryEmail(env, { kind: rv[1] === 'pix' ? 'pix' : 'cart', step: Number(rv[2]), name: 'Lucia Caminos', link: 'https://pay.sellyo.com.br/p/exemplo',
+      pixCode: rv[1] === 'pix' ? '00020126580014br.gov.bcb.pix0136exemplo-de-codigo-pix-copia-e-cola5204000053039865406' : '', unsubUrl: await unsubUrl(env, 'lucia@example.com') });
+    return new Response(m.html, { headers: { 'content-type': 'text/html; charset=utf-8' } });
+  }
+  if (path === '/api/dev/recovery/run' && method === 'POST' && isDev(env)) return json({ processed: await runRecovery(env) });
+
+  if (path === '/api/email/sair' && (method === 'GET' || method === 'POST')) {
+    const email = normEmail(url.searchParams.get('e'));
+    const ok = validEmail(email) && sameText(url.searchParams.get('t') || '', await hmacTag(env, email));
+    if (ok) {
+      await env.DB.batch([
+        env.DB.prepare('INSERT OR IGNORE INTO email_optout (email) VALUES (?)').bind(email),
+        env.DB.prepare("UPDATE recovery SET status = 'optout', updated_at = ? WHERE email = ? AND status = 'active'").bind(now(), email),
+      ]);
+    }
+    const msg = ok ? 'Pronto! Você não vai mais receber esses e-mails.' : 'Link inválido.';
+    return new Response(`<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vice Detonado</title>
+<body style="margin:0;min-height:100vh;display:grid;place-items:center;background:#0d0618;color:#f6eeff;font-family:Inter,system-ui,sans-serif;text-align:center;padding:24px">
+<div><h1 style="font-size:22px">${msg}</h1><p style="color:#b3a3d1">Se mudar de ideia, é só comprar quando quiser.</p></div></body></html>`,
+      { status: ok ? 200 : 400, headers: { 'content-type': 'text/html; charset=utf-8' } });
+  }
+
   const pv = path.match(/^\/api\/dev\/email\/(acesso|reembolso|chargeback)$/);
   if (pv && method === 'GET' && isDev(env)) {
     const m = pv[1] === 'acesso'
@@ -429,5 +565,9 @@ export default {
       }
     }
     return env.ASSETS.fetch(req);
+  },
+  // Cron (wrangler.jsonc → triggers): recuperação de carrinho/Pix por e-mail.
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(runRecovery(env).catch((e) => console.error('recovery_error', e?.message)));
   },
 };

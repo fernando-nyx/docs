@@ -5,7 +5,7 @@ const OUT = path.join(__dirname, '../../app/public/email/');
 (async () => {
   const b = await chromium.launch(process.env.CHROME ? { executablePath: process.env.CHROME } : {});
   const p = await b.newPage({ viewport: { width: 1200, height: 480 } });
-  for (const v of ['acesso', 'cancelado']) {
+  for (const v of ['acesso', 'cancelado', 'carrinho']) {
     await p.goto('file://' + path.join(__dirname, 'topo.html') + '?v=' + v);
     await p.evaluate(() => document.fonts.ready);
     await p.waitForTimeout(600);

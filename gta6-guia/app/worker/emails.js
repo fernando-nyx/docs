@@ -25,7 +25,7 @@ const host = (env) => appUrl(env).replace(/^https?:\/\//, '');
 const C = { bg: '#0d0618', card: '#1c1033', card2: '#25153f', line: '#3a2560', text: '#f6eeff', muted: '#b3a3d1', pink: '#ff2e88', cyan: '#19e3ff', gold: '#ffd24a', ok: '#3df5a6' };
 const FONT = "font-family:Inter,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;";
 
-function layout(env, { preheader, banner, bannerAlt, body }) {
+function layout(env, { preheader, banner, bannerAlt, body, footer }) {
   const url = appUrl(env);
   return `<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -44,7 +44,7 @@ function layout(env, { preheader, banner, bannerAlt, body }) {
     </td></tr>
     <tr><td align="center" style="padding:22px 16px 8px;${FONT}font-size:12px;line-height:1.6;color:${C.muted};">
       Vice Detonado · guia não oficial, sem vínculo com a Rockstar Games ou a Take-Two.<br>
-      Você recebeu este e-mail por causa de uma compra feita com este endereço.
+      ${footer || 'Você recebeu este e-mail por causa de uma compra feita com este endereço.'}
     </td></tr>
   </table>
 </td></tr></table>
@@ -181,7 +181,7 @@ export function cancelEmail(env, { name, kind, items, stillHasAccess }) {
 }
 
 /** Envia pelo Resend. Retorna { ok, id?, error? }. Sem RESEND_API_KEY (dev), só registra no console. */
-export async function sendEmail(env, { to, subject, html, text, idempotencyKey }) {
+export async function sendEmail(env, { to, subject, html, text, idempotencyKey, headers }) {
   if (!env.RESEND_API_KEY) {
     console.log('email (sem RESEND_API_KEY, não enviado):', to, subject);
     return { ok: false, error: 'sem RESEND_API_KEY' };
@@ -200,8 +200,65 @@ export async function sendEmail(env, { to, subject, html, text, idempotencyKey }
       html,
       text,
       ...(env.EMAIL_REPLY_TO ? { reply_to: env.EMAIL_REPLY_TO } : {}),
+      ...(headers ? { headers } : {}),
     }),
   });
   const body = await r.json().catch(() => ({}));
   return r.ok ? { ok: true, id: body.id } : { ok: false, error: `${r.status} ${body.message || body.name || ''}`.trim() };
+}
+
+/**
+ * Recuperação de venda. kind: 'cart' (carrinho abandonado) | 'pix' (Pix gerado e não pago).
+ * step: 1, 2 ou 3 (o 1º e-mail muda conforme o tipo; o 2º e o 3º são iguais para os dois).
+ */
+export function recoveryEmail(env, { kind, step, name, link, pixCode, unsubUrl }) {
+  const fn = firstName(name);
+  const hi = fn ? `${esc(fn)}, ` : '';
+  const benefits = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${C.card2}" style="background:${C.card2};border:1px solid ${C.line};border-radius:14px;margin:6px 0 4px;">${[
+    'As 135 missões passo a passo, com imagem',
+    'Checklist dos 100% e todos os colecionáveis',
+    'O que você perde em cada capítulo, antes de avançar',
+    'Busca instantânea: digitou, achou',
+    'Em português e funcionando até sem internet',
+  ].map((t, i, a) => `<tr><td style="padding:11px 16px;${i < a.length - 1 ? `border-bottom:1px solid ${C.line};` : ''}${FONT}font-size:15px;color:${C.text};"><span style="color:${C.ok};font-weight:900;">✓</span>&nbsp; ${t}</td></tr>`).join('')}</table>`;
+  const pixBox = pixCode
+    ? label('Pix copia e cola') + `<div style="background:${C.card2};border:1px solid ${C.line};border-radius:12px;padding:12px 14px;font-family:Menlo,Consolas,monospace;font-size:12px;line-height:1.5;color:${C.gold};word-break:break-all;">${esc(pixCode)}</div>` +
+      small('Copie o código e cole no app do seu banco, em Pix → Copia e cola.')
+    : '';
+  let subject, preheader, body, text;
+  if (step === 1 && kind === 'pix') {
+    subject = 'Seu Pix do Vice Detonado está esperando';
+    preheader = 'Assim que pagar, o acesso chega na hora.';
+    body = [h1(`${hi}seu Pix foi gerado 👀`), p('Mas o pagamento ainda não caiu por aqui. Assim que pagar, o acesso chega neste e-mail na hora e você já entra jogando.'),
+      pixBox, button(link, 'PAGAR AGORA →'), small('Se o código expirou, o botão acima gera um novo.')].join('\n');
+    text = `${fn ? fn + ', seu' : 'Seu'} Pix do Vice Detonado foi gerado, mas ainda não caiu.\nAssim que pagar, o acesso chega na hora.\n\n${pixCode ? 'Pix copia e cola: ' + pixCode + '\n\n' : ''}Pagar ou gerar um novo código: ${link}`;
+  } else if (step === 1) {
+    subject = `${fn ? fn + ', você' : 'Você'} esqueceu isso aqui 🎮`;
+    preheader = 'Seu detonado do GTA VI ficou no carrinho.';
+    body = [h1(`${hi}seu acesso ficou no carrinho`), p('Você começou a garantir o Vice Detonado e não finalizou. Se deu algum problema no pagamento, é só tentar de novo pelo botão abaixo.'),
+      button(link, 'FINALIZAR MINHA COMPRA →'), env.EMAIL_REPLY_TO ? small('Travou em alguma coisa? Responda este e-mail que a gente ajuda.') : ''].join('\n');
+    text = `${fn ? fn + ', você' : 'Você'} começou a garantir o Vice Detonado e não finalizou.\n\nFinalizar: ${link}`;
+  } else if (step === 2) {
+    subject = 'Quanto tempo você perdeu no YouTube ontem?';
+    preheader = 'Vídeo de 40 minutos pra achar uma missão não dá.';
+    body = [h1(`${hi}seja sincero 😅`), p('Quantas vezes você pausou o GTA VI ontem pra procurar alguma coisa?'),
+      p(`Vídeo de 38 minutos. Pula a intro. Pula o "deixa o like". Pula o patrocinador. Não é esse. Abre outro… em inglês.`, `color:${C.muted};`),
+      p('O Vice Detonado resolve isso num lugar só, no seu celular:'), benefits, button(link, 'QUERO PARAR DE PERDER TEMPO →')].join('\n');
+    text = `Quantas vezes você pausou o GTA VI ontem pra procurar alguma coisa?\n\nNo Vice Detonado está tudo num lugar só: as 135 missões passo a passo, o checklist dos 100% e todos os colecionáveis.\n\nGarantir: ${link}`;
+  } else {
+    subject = '⚠️ Tem missão no GTA VI que some pra sempre';
+    preheader = 'E o jogo zera seu dinheiro no fim do Capítulo 1.';
+    body = [h1(`${hi}um aviso antes de você avançar`),
+      p(`<b style="color:${C.gold};">→</b> Algumas missões somem pra sempre quando você muda de capítulo.<br><b style="color:${C.gold};">→</b> No fim do Capítulo 1, o jogo zera o dinheiro que você tem no bolso.`),
+      p('Quem descobre isso depois, perde. O Vice Detonado mostra, capítulo por capítulo, o que fazer ANTES de avançar, e você marca tudo pra ver na hora o que falta pros 100%.'),
+      p(`E tem <b>garantia de 7 dias</b>: se não curtir, devolvemos 100% do valor.`), button(link, 'GARANTIR MEU ACESSO →'),
+      small('Este é o último e-mail sobre isso. Bom jogo! 🌴')].join('\n');
+    text = `Algumas missões do GTA VI somem pra sempre quando você muda de capítulo, e no fim do Capítulo 1 o jogo zera seu dinheiro.\nO Vice Detonado te avisa antes. Garantia de 7 dias.\n\nGarantir: ${link}`;
+  }
+  const footer = `Você recebeu este e-mail porque começou uma compra do Vice Detonado com este endereço.<br><a href="${unsubUrl}" style="color:${C.muted};text-decoration:underline;">Não quero mais receber estes e-mails</a>`;
+  return {
+    subject,
+    html: layout(env, { preheader, banner: 'topo-carrinho.png', bannerAlt: 'Vice Detonado: seu acesso está esperando', body, footer }),
+    text: `${text}\n\nNão quer mais receber estes e-mails? ${unsubUrl}`,
+  };
 }

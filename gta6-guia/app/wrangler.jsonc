@@ -7,6 +7,9 @@
   // Domínio do app (mesmo esquema do Prato Tranquilo). O domínio vicedetonado.com precisa estar na sua conta Cloudflare.
   "routes": [{ "pattern": "app.vicedetonado.com", "custom_domain": true }],
 
+  // Agendador: a cada 5 min envia os e-mails de recuperação (carrinho abandonado / Pix gerado) que estão na hora.
+  "triggers": { "crons": ["*/5 * * * *"] },
+
   // O Worker responde /api/*; o resto (o app) vem de ./public.
   "assets": {
     "directory": "./public",
@@ -33,7 +36,7 @@
     // Limite de aparelhos por conta (entrar num novo derruba o mais antigo) e de logins por 24h.
     "MAX_DEVICES": "2",
     "MAX_LOGINS_DAY": "5",
-    // Links de checkout mostrados nos módulos trancados (opcional).
+    // Link do checkout do produto principal: usado nos módulos trancados e nos e-mails de recuperação.
     "CHECKOUT_URL": "",
     "BUMP_URL_DINHEIRO": "https://pay.sellyo.com.br/p/hiexk9vxgg5",
     "BUMP_URL_PLATINA": "https://pay.sellyo.com.br/p/7h851xt12js",
